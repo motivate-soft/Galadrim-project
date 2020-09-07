@@ -15,6 +15,11 @@ npx -p @storybook/cli sb init
 ```
 
 #### Run Project
+start with storybook
 ```
 npm run storybook
+```
+start without storybook
+```
+npm start
 ```
