@@ -69,6 +69,7 @@
 
   .title{
     font-size: 54px;
+    margin-top: 79px;
   }
 
   .blue-left-bottom-semi-circle {
@@ -338,7 +339,7 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: contain, auto, auto;
   .center-align{
-    height: calc(90vh);
+    height: calc(85vh);
     align-items: center;
     display: flex;
     .banner-title{
@@ -352,6 +353,7 @@
       height: 63px;
       width: 574px;
       color: $color-blue;
+      font-family: 'RobotoMono';
       font-size: 16px;
       font-weight: 500;
       letter-spacing: 0;

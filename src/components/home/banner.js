@@ -10,7 +10,7 @@ export default function Banner() {
                     <div className="col-md-6 center-align">
                         <div>
                             <h1 className="banner-title">Décomplexer <br/>l’informatique</h1>
-                            <p>Co-construire votre écosystème IT avec des solutions accessibles et sur mesure, en lien avec vos usages du quotidien.</p>
+                            <p className="banner-description mt-4 mb-4">Co-construire votre écosystème IT avec des solutions accessibles et sur mesure, en lien avec vos usages du quotidien.</p>
                             <button className="btn btn-danger btn-custom">Contactez-nous</button>
                         </div>
                     </div>

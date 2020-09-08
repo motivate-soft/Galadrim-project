@@ -5,9 +5,6 @@ import Cloud from '../../assets/home/images/cloud.png'
 import Workspace from '../../assets/home/images/modern-workplace.png'
 import Service from '../../assets/home/images/s-curit.png'
 import ServiceManage from '../../assets/home/images/service-manag.png'
-import BlueIllustration from '../../assets/Formes/illustration/bleu-mini.png'
-import GreenIllustration from '../../assets/Formes/illustration/vert-mini.png'
-import TopRightRound from '../../assets/Formes/angle-arrondi/saumon/4.png'
 
 
 const items = [
@@ -81,7 +78,7 @@ class Jobs extends React.Component {
                 <div className='position-absolute green-right-top-semi-circle'/>
                 <div className="container">
                     <div className="text-blue text-center w-75 mx-auto">
-                        <h1 className="font-weight-bold mx-auto mt-5 title">Nos expertises</h1>
+                        <h1 className="font-weight-bold mx-auto title">Nos expertises</h1>
                         <div className="subtitle-container">
                             <h5 className="roboto-font">Nous agrégeons les meilleures technologies IT pour qu’elles<br/> puissent vous être bénéfiques au quotidien.</h5>
                         </div>
