@@ -5,9 +5,26 @@
   font-style: normal;
   font-weight: 500;
   src: local("Gilroy"), local("Gilroy"),
-    url("../assets/Typo/gilroy/Gilroy-Regular.ttf") format("ttf"),
-    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("ttf"),
-    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("ttf");
+    url("../assets/Typo/gilroy/Gilroy-Regular.ttf") format("truetype"),
+    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype"),
+    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy Black";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gilroy"), local("Gilroy"),
+    url("../assets/Typo/gilroy/Gilroy-Black.ttf") format("truetype"),
+    url("../assets/Typo/gilroy/Gilroy-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Gilroy"), local("Gilroy"),
+    url("../assets/Typo/gilroy/Gilroy-Bold.ttf") format("truetype");
 }
 
 h1,
@@ -18,7 +35,8 @@ h5,
 h6,
 p,
 a {
-  font-family: "Gilroy";
+  font-family: "Gilroy Bold";
+  font-weight: 500;
 }
 
 .container {
@@ -63,12 +81,25 @@ a {
   background-color: $color-lightgray !important;
 }
 
+//link
+a{
+  //
+}
+a:focus {
+  outline: none;
+}
+
 //Button
 .btn {
   background: none;
   border: none;
   padding: 8px 30px;
   border-radius: 4px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .btn:hover {
@@ -79,5 +110,4 @@ a {
   border-radius: 6px;
   color: white;
   background-color: #ff5e4d;
-
 }
