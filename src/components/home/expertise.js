@@ -75,7 +75,6 @@ class Jobs extends React.Component {
         return (
             <div className="jobs-block">
                 <div className='position-absolute blue-left-bottom-semi-circle'/>
-                <div className='position-absolute green-right-top-semi-circle'/>
                 <div className="container">
                     <div className="text-blue text-center w-75 mx-auto">
                         <h1 className="font-weight-bold mx-auto title">Nos expertises</h1>
