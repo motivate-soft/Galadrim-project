@@ -32,9 +32,16 @@
   font-style: normal;
   font-weight: bold;
   src: local("Gilroy"), local("Gilroy"),
-  url("../assets/Typo/Roboto_Mono/RobotoMono-VariableFont_wght.ttf") format("truetype");
+  url("../assets/Typo/Roboto_Mono/static/RobotoMono-Medium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'RobotoRegular';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Gilroy"), local("Gilroy"),
+  url("../assets/Typo/Roboto_Mono/static/RobotoMono-Light.ttf") format("truetype");
+}
 
 @import "initial/functions";
 @import "initial/variables";
@@ -78,10 +85,14 @@ h3,
 h4,
 h5,
 h6,
-p,
+button,
 a {
   font-family: "Gilroy Bold";
   font-weight: 500;
+}
+
+p{
+  font-family: 'RobotoMono';
 }
 
 .container {
@@ -127,12 +138,17 @@ a {
 }
 
 .bold-font{
-  font-family: 'Gilroy Bold';
+  font-family: 'Gilroy Bold'!important;
 }
 
 .roboto-font{
-  font-family: RobotoMono;
+  font-family: 'RobotoMono'!important;
 }
+
+.roboto-regular{
+  font-family: 'RobotoRegular'!important;
+}
+
 
 img{
   max-width: 100%;
@@ -142,10 +158,37 @@ h4{
   font-size: 28px;
 }
 
+h3{
+  font-size: 36px;
+}
+
+h5{
+  font-size: 12px;
+}
+
+h6{
+  font-size: 9px;
+}
+
+p{
+  font-size: 16px;
+}
+
+button:focus{
+  outline: none;
+}
+
 .justify-space-between{
   justify-content: space-around;
 }
 
 .align-center{
   align-items: center;
+}
+
+.pick-item{
+  div{
+    width: 32px;
+    height: 7px;
+  }
 }

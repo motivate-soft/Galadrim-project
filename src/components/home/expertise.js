@@ -48,7 +48,7 @@ class Jobs extends React.Component {
     }
 
     handleMouseEnter = (id) => {
-        const { items } = this.state
+        const { items } = this.state;
         items.map((item, index) => {
             if (item.id === id) {
                 item.active = true
@@ -61,7 +61,7 @@ class Jobs extends React.Component {
     }
 
     handleMoustLeave = (id) => {
-        const { items } = this.state
+        const { items } = this.state;
         items.map((item, index) => {
             if (item.id === id) {
                 item.active = false

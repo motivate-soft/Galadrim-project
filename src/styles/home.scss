@@ -102,14 +102,14 @@
       display: -webkit-box;
       display: flex;
       -webkit-box-align: center;
-      min-height: 420px;
+      min-height: 380px;
       position: relative;
       box-sizing: border-box;
       color: #001b5d;
       background: white;
       background-clip: padding-box;
       border-radius: 1em;
-      box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1) !important;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
       transition: margin-top ease 0.8s, box-shadow ease 0.8s;
     }
 
@@ -369,4 +369,73 @@
   height: 120px;
   border-radius: 60px 0 0 60px;
   background-color: $color-green;
+}
+
+.red-right-top-semi-circle {
+  right: 0;
+  width: 60px;
+  height: 120px;
+  border-radius: 60px 0 0 60px;
+  background-color: $color-red;
+}
+
+.talk-section {
+  padding: 100px 0;
+  .bg-blue-half-rotate{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .card-body{
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+    background-color: #ffffff;
+    position: relative;
+    .news-letter{
+      .news-letter-input{
+        height: 50px;
+        border: 2px solid #ebebeb;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .news-letter-submit{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 50px;
+        width: 50px;
+        background: $color-green;
+        border: none;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        svg{
+          fill: white;
+        }
+      }
+    }
+    .image-square{
+      width: 54px;
+      height: 54px;
+      position: absolute;
+      z-index: -1;
+      left: -26px;
+      top: -26px;
+    }
+    .image-triangle{
+      width: 54px;
+      height: 54px;
+      position: absolute;
+      z-index: -1;
+      right: -40px;
+      bottom: -40px;
+    }
+  }
 }

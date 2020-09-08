@@ -6,6 +6,7 @@ import Header from '../components/header';
 import Banner from '../components/home/banner';
 import Expertise from "../components/home/expertise";
 import Trust from "../components/home/trust";
+import Talk from "../components/home/talks";
 
 
 //components
@@ -16,6 +17,7 @@ export default function Home() {
             <Banner/>
             <Expertise/>
             <Trust/>
+            <Talk/>
         </div>
     );
 }

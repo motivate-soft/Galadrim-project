@@ -10,8 +10,8 @@ export default function Card({ id, active, img, title, text, buttonText, onMouse
             <div className="card-body d-flex flex-column">
                 <img src={img} alt={title} className="mx-auto" />
                 <h5 className="mx-auto text-center font-weight-bold">{title}</h5>
-                <p className="mx-auto text-center">{text}</p>
-                <button className='btn'>{buttonText}</button>
+                <p className="mx-auto text-center roboto-font" style={{fontSize: '10px'}}>{text}</p>
+                <button className='btn btn-custom'>{buttonText}</button>
             </div>
         </div >
     )
