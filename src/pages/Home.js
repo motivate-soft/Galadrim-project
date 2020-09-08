@@ -1,8 +1,5 @@
 import React from 'react'
-
-import Header from '../components/layout/header';
-// import Banner from '../components/banner';
-// import TitleBar from '../components/titlebar';
+import Header from '../components/header';
 
 import '../styles/home.scss';
 
@@ -11,9 +8,6 @@ export default function Home() {
     return (
         <>
             <Header/>
-            {/* <Banner/>
-            <TitleBar/> */}
-            
         </>
     );
 }

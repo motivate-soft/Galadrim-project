@@ -123,3 +123,2436 @@ Compiling...
 Compiled successfully!
 Compiling...
 Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Failed to compile.
+
+./src/components/layout/header.js
+Error: ENOENT: no such file or directory, open '/root/dev/efisens/src/components/layout/header.js'
+Compiling...
+Failed to compile.
+
+./src/components/layout/header.js
+Error: ENOENT: no such file or directory, open '/root/dev/efisens/src/components/layout/header.js'
+Compiling...
+Failed to compile.
+
+./src/pages/Home.js
+Module not found: Can't resolve '../components/header' in '/root/dev/efisens/src/pages'
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/pages/Home.js
+Attempted import error: '../components/header' does not contain a default export (imported as 'Header').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (7:3)
+
+   5 | 		return (
+   6 | 
+>  7 | 		);
+     | 		^
+   8 | 	}
+   9 | }
+  10 |
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (7:3)
+
+   5 | 		return (
+   6 | 
+>  7 | 		);
+     | 		^
+   8 | 	}
+   9 | }
+  10 |
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (7:3)
+
+   5 | 		return (
+   6 | 
+>  7 | 		)
+     | 		^
+   8 | 	}
+   9 | }
+  10 |
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected ";" (13:8)
+
+  11 | }
+  12 | 
+> 13 | expert default Header
+     |        ^
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected ";" (13:8)
+
+  11 | }
+  12 | 
+> 13 | expert default Header;
+     |        ^
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected ";" (13:9)
+
+  11 | }
+  12 | 
+> 13 | expert  Header;
+     |         ^
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 3:1:  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+  Line 3:1:  'im' is not defined                                                    no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:8:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: '@material-ui/core' does not contain a default export (imported as 'Button').
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (3:16)
+
+  1 | import React from 'react';
+  2 | import ReactDOM from 'react-dom';
+> 3 | import {Button Grid} from '@material-ui/core';
+    |                ^
+  4 | 
+  5 | class Header extends React.Component {
+  6 | 	render() {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (3:16)
+
+  1 | import React from 'react';
+  2 | import ReactDOM from 'react-dom';
+> 3 | import {Button Grid} from '@material-ui/core';
+    |                ^
+  4 | 
+  5 | class Header extends React.Component {
+  6 | 	render() {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (3:16)
+
+  1 | import React from 'react';
+  2 | import ReactDOM from 'react-dom';
+> 3 | import {Button Grid} from '@material-ui/core';
+    |                ^
+  4 | 
+  5 | class Header extends React.Component {
+  6 | 	render() {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (3:16)
+
+  1 | import React from 'react';
+  2 | import ReactDOM from 'react-dom';
+> 3 | import {Button Grid} from '@material-ui/core';
+    |                ^
+  4 | 
+  5 | class Header extends React.Component {
+  6 | 	render() {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (3:16)
+
+  1 | import React from 'react';
+  2 | import ReactDOM from 'react-dom';
+> 3 | import {Button Grid} from '@material-ui/core';
+    |                ^
+  4 | 
+  5 | class Header extends React.Component {
+  6 | 	render() {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 15:8:  'FormRow' is not defined  react/jsx-no-undef
+  Line 18:8:  'FormRow' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'FormRow' is not exported from '@material-ui/core'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 15:8:  'FormRow' is not defined  react/jsx-no-undef
+  Line 18:8:  'FormRow' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <div> (24:4)
+
+  22 | 					</Grid>
+  23 | 				</Grid>
+> 24 | 			</>
+     | 			^
+  25 | 		)
+  26 | 	}
+  27 | }
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:  'ReactDOM' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 11:8:  'FormRow' is not defined  react/jsx-no-undef
+  Line 14:8:  'FormRow' is not defined  react/jsx-no-undef
+  Line 17:8:  'FormRow' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'FormRow' is not exported from '@material-ui/core'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'FormRow' is not exported from '@material-ui/core'.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+  Line 3:24:  'FormRow' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 2:8:   'ReactDOM' is defined but never used  no-unused-vars
+  Line 3:10:  'Button' is defined but never used    no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "{" (3:15)
+
+  1 | import React from 'react';
+  2 | import { makeStyles } from '@material-ui/core/styles';
+> 3 | import Paper, from '@material-ui/core/Paper';
+    |               ^
+  4 | import  from '@material-ui/core/Grid';
+  5 | 
+  6 | const useStyles = makeStyles((theme) => ({
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used    no-unused-vars
+  Line 3:31:  'Menu' is defined but never used      no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 27:73:  'handleClick' is not defined  no-undef
+  Line 32:18:  'anchorEl' is not defined     no-undef
+  Line 34:22:  'anchorEl' is not defined     no-undef
+  Line 35:17:  'handleClose' is not defined  no-undef
+  Line 37:27:  'handleClose' is not defined  no-undef
+  Line 38:27:  'handleClose' is not defined  no-undef
+  Line 39:27:  'handleClose' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 36:7:   'Link' is not defined            react/jsx-no-undef
+  Line 36:30:  'preventDefault' is not defined  no-undef
+  Line 39:7:   'Link' is not defined            react/jsx-no-undef
+  Line 39:30:  'preventDefault' is not defined  no-undef
+  Line 42:7:   'Link' is not defined            react/jsx-no-undef
+  Line 42:30:  'preventDefault' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 36:30:  'preventDefault' is not defined  no-undef
+  Line 39:30:  'preventDefault' is not defined  no-undef
+  Line 42:30:  'preventDefault' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 39:30:  'preventDefault' is not defined  no-undef
+  Line 42:30:  'preventDefault' is not defined  no-undef
+  Line 45:30:  'preventDefault' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 41:7:  'Typography' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <span> (58:7)
+
+  56 | 								<MenuItem onClick={handleClose}>Logout</MenuItem>
+  57 | 							</Menu>
+> 58 | 						</div>
+     | 						^
+  59 | 						<Link href="#" onClick={preventDefault} color="inherit">
+  60 | 							{'color="inherit"'}
+  61 | 						</Link>
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 41:7:  'Row' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'Row' is not exported from '@material-ui/core'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'Row' is not exported from '@material-ui/core'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 41:7:  'Row' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "jsxTagEnd" (62:14)
+
+  60 | 							<Link href="#" onClick={preventDefault} variant="body2">
+  61 | 								{'variant="body2"'}
+> 62 | 							</Link<Row>>
+     | 							      ^
+  63 | 					</Row>
+  64 | 				</Grid>
+  65 | 				<Grid item xs>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used                   no-unused-vars
+  Line 3:31:  'Menu' is defined but never used                     no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used                 no-unused-vars
+  Line 3:47:  'Link' is defined but never used                     no-unused-vars
+  Line 22:9:  'anchorEl' is assigned a value but never used        no-unused-vars
+  Line 24:8:  'handleClick' is assigned a value but never used     no-unused-vars
+  Line 28:8:  'handleClose' is assigned a value but never used     no-unused-vars
+  Line 32:8:  'preventDefault' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used    no-unused-vars
+  Line 3:31:  'Menu' is defined but never used      no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used  no-unused-vars
+  Line 3:47:  'Link' is defined but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used    no-unused-vars
+  Line 3:31:  'Menu' is defined but never used      no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used  no-unused-vars
+  Line 3:47:  'Link' is defined but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used    no-unused-vars
+  Line 3:31:  'Menu' is defined but never used      no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used  no-unused-vars
+  Line 3:47:  'Link' is defined but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Button' is defined but never used    no-unused-vars
+  Line 3:31:  'Menu' is defined but never used      no-unused-vars
+  Line 3:37:  'MenuItem' is defined but never used  no-unused-vars
+  Line 3:47:  'Link' is defined but never used      no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/logo.js
+Module not found: Can't resolve '../assets/home/images/logo.png' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/logo.js
+Module not found: Can't resolve '../assets/home/images/logo.png' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/logo.js
+Module not found: Can't resolve '../assets/home/images/logo.png' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Module not found: Can't resolve 'logo' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Module not found: Can't resolve 'logo' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Module not found: Can't resolve './components/logo' in '/root/dev/efisens/src/components'
+Compiling...
+Failed to compile.
+
+./src/components/logo.js
+Module not found: Can't resolve '../assets/home/images/logo.png' in '/root/dev/efisens/src/components'
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Module not found: Can't resolve '../components/n' in '/root/dev/efisens/src/components'
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 5:8:  'RestoreIcon' is defined but never used     no-unused-vars
+  Line 6:8:  'FavoriteIcon' is defined but never used    no-unused-vars
+  Line 7:8:  'LocationOnIcon' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 5:8:  'RestoreIcon' is defined but never used     no-unused-vars
+  Line 6:8:  'FavoriteIcon' is defined but never used    no-unused-vars
+  Line 7:8:  'LocationOnIcon' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <div> (29:5)
+
+  27 | 				<Grid item xs={8}>
+  28 | 					<div>
+> 29 | 				</Grid>
+     | 				^
+  30 | 				<Grid item xs>
+  31 | 					<Paper className={classes.paper}>item</Paper>
+  32 | 				</Grid>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (31:12)
+
+  29 | 						<nav>
+  30 | 							<ul>
+> 31 | 								<li<a></li>
+     | 								   ^
+  32 | 							</ul>
+  33 | 						</nav>
+  34 | 					</div>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <a> (31:21)
+
+  29 | 						<nav>
+  30 | 							<ul>
+> 31 | 								<li></li><a></li>
+     | 								            ^
+  32 | 							</ul>
+  33 | 						</nav>
+  34 | 					</div>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                           no-unused-vars
+  Line 31:13:  Anchors must have content and the content must be accessible by a screen reader  jsx-a11y/anchor-has-content
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (31:49)
+
+  29 | 						<nav>
+  30 | 							<ul>
+> 31 | 								<li><a href="https://naipostore.com"link</a></li>
+     | 								                                        ^
+  32 | 							</ul>
+  33 | 						</nav>
+  34 | 					</div>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 3:8:    'BottomNavigation' is defined but never used                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 4:8:    'BottomNavigationAction' is defined but never used                                                                                                                                                                                                                                                                                                                no-unused-vars
+  Line 12:9:   'classes' is assigned a value but never used                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 13:10:  'value' is assigned a value but never used                                                                                                                                                                                                                                                                                                                        no-unused-vars
+  Line 13:17:  'setValue' is assigned a value but never used                                                                                                                                                                                                                                                                                                                     no-unused-vars
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 26:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 27:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 31:7:   The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 31:15:  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                      no-script-url
+  Line 31:37:  Style prop value must be an object                                                                                                                                                                                                                                                                                                                                react/style-prop-object
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 3:8:    'BottomNavigation' is defined but never used                                                                                                                                                                                                                                                                                                                      no-unused-vars
+  Line 4:8:    'BottomNavigationAction' is defined but never used                                                                                                                                                                                                                                                                                                                no-unused-vars
+  Line 6:7:    'useStyles' is assigned a value but never used                                                                                                                                                                                                                                                                                                                    no-unused-vars
+  Line 23:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 24:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 25:11:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 29:7:   The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 29:15:  Script URL is a form of eval                                                                                                                                                                                                                                                                                                                                      no-script-url
+  Line 29:37:  Style prop value must be an object                                                                                                                                                                                                                                                                                                                                react/style-prop-object
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+Syntax error: Expected corresponding JSX closing tag for <Link> (23:32)
+
+  21 |         </button>
+  22 |         <div class="dropdown-content">
+> 23 |           <Link href="#">Link 1</a>
+     |                                ^
+  24 |           <Link href="#">Link 2</a>
+  25 |           <a href="#">Link 3</a>
+  26 |         </div>
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+  Line 23:12:  'Link' is not defined  react/jsx-no-undef
+  Line 24:12:  'Link' is not defined  react/jsx-no-undef
+  Line 28:8:   'Link' is not defined  react/jsx-no-undef
+  Line 29:8:   'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+  Line 22:12:  'Link' is not defined  react/jsx-no-undef
+  Line 23:12:  'Link' is not defined  react/jsx-no-undef
+  Line 24:12:  'Link' is not defined  react/jsx-no-undef
+  Line 27:8:   'Link' is not defined  react/jsx-no-undef
+  Line 28:8:   'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+  Line 18:12:  'Link' is not defined  react/jsx-no-undef
+  Line 19:12:  'Link' is not defined  react/jsx-no-undef
+  Line 20:12:  'Link' is not defined  react/jsx-no-undef
+  Line 23:8:   'Link' is not defined  react/jsx-no-undef
+  Line 24:8:   'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+Syntax error: Unexpected token (3:18)
+
+  1 | import React from 'react';
+  2 | // import { makeStyles } from '@material-ui/core/styles';
+> 3 | import Link from ReactDOM.Link;
+    |                  ^
+  4 | 
+  5 | 
+  6 |
+Compiling...
+Failed to compile.
+
+./src/components/navigation.js
+Syntax error: Unterminated string constant (3:20)
+
+  1 | import React from 'react';
+  2 | // import { makeStyles } from '@material-ui/core/styles';
+> 3 | import {Link} from 'react-router-dom;
+    |                    ^
+  4 | 
+  5 | 
+  6 |
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 25:18:  Script URL is a form of eval        no-script-url
+  Line 25:40:  Style prop value must be an object  react/style-prop-object
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/navigation.js
+  Line 25:18:  Script URL is a form of eval        no-script-url
+  Line 25:40:  Style prop value must be an object  react/style-prop-object
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:    'Navigation' is defined but never used                                                                                                                                                                                                                                                                                                                            no-unused-vars
+  Line 31:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 32:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 33:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 34:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 35:13:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 5:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 28:7:  'Center' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 28:7:  'Center' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'Center' is not exported from '@material-ui/core'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 29:8:   'Tabs' is not defined          react/jsx-no-undef
+  Line 30:15:  'value' is not defined         no-undef
+  Line 31:18:  'handleChange' is not defined  no-undef
+  Line 36:9:   'Tab' is not defined           react/jsx-no-undef
+  Line 37:9:   'Tab' is not defined           react/jsx-no-undef
+  Line 38:9:   'Tab' is not defined           react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier 'classes' has already been declared (21:8)
+
+  19 | 	const classes = useStyles();
+  20 | 
+> 21 | 	const classes = useStyles();
+     | 	      ^
+  22 | 	const [value, setValue] = React.useState(0);
+  23 | 
+  24 | 	const handleChange = (event, newValue) => {
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 35:8:  'Tabs' is not defined  react/jsx-no-undef
+  Line 42:9:  'Tab' is not defined   react/jsx-no-undef
+  Line 43:9:  'Tab' is not defined   react/jsx-no-undef
+  Line 44:9:  'Tab' is not defined   react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 35:8:  'Tabs' is not defined  react/jsx-no-undef
+  Line 42:9:  'Tab' is not defined   react/jsx-no-undef
+  Line 43:9:  'Tab' is not defined   react/jsx-no-undef
+  Line 44:9:  'Tab' is not defined   react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier 'Paper' has already been declared (3:23)
+
+  1 | import React from 'react';
+  2 | import { makeStyles } from '@material-ui/core/styles';
+> 3 | import { Paper, Grid, Paper } from '@material-ui/core';
+    |                       ^
+  4 | import Logo from '../components/logo';
+  5 | // import Navigation from '../components/navigation';
+  6 |
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "jsxTagEnd" (34:18)
+
+  32 | 				</Grid>
+  33 | 				<Grid item xs={8}>
+> 34 | 					<Navigation/</Navigation>>
+     | 					            ^
+  35 | 				</Grid>
+  36 | 				<Grid item xs>
+  37 | 					<Paper className={classes.paper}>item</Paper>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 34:7:  'Navigation' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 28:7:  'Navigation' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/styles/home.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/styles/home.scss)
+SassError: property "padding" must be followed by a ':'
+        on line 461 of /root/dev/efisens/src/styles/home.scss
+>>   padding 10px;
+
+   --^
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <div> (25:4)
+
+  23 | 			<React.Fragment>
+  24 | 				<div>
+> 25 | 			</React.Fragment>
+     | 			^
+  26 | 		);
+  27 | 	}
+  28 |
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:4)
+
+  22 | 		return (
+  23 | 			<div className="header"></div>
+> 24 | 			<React.Fragment>
+     | 			^
+  25 | 				<Grid item xs>
+  26 | 					<div className="brand-logo">
+  27 | 						<Logo />
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (24:5)
+
+  22 | 		return (
+  23 | 			<div className="header"></div>
+> 24 | 				<React.Fragment>
+     | 				^
+  25 | 					<Grid item xs>
+  26 | 						<div className="brand-logo">
+  27 | 							<Logo />
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:23:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:29:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "jsxTagEnd" (34:5)
+
+  32 | 				<Grid item xs>
+  33 | 					<Button>n</Button></Butto
+> 34 | 				</Grid>
+     | 				^
+  35 | 			</React.Fragment>
+  36 | 		);
+  37 | 	}
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:24:  'Tabs' is defined but never used  no-unused-vars
+  Line 3:30:  'Tab' is defined but never used   no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 40:21:  'DeleteIcon' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 41:21:  'DeleteIcon' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 41:21:  'DeleteIcon' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'DeleteIcon' is not exported from '@material-ui/core/Icon'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'DeleteIcon' is not exported from '@material-ui/core/Icon'.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier 'DeleteIcon' has already been declared (5:8)
+
+  3 | import { Button, Grid } from '@material-ui/core';
+  4 | import { DeleteIcon } from '@material-ui/core/Icon';
+> 5 | import DeleteIcon from '@material-ui/icons/Delete';
+    |        ^
+  6 | import Logo from '../components/logo';
+  7 | import Navigation from '../components/navigation';
+  8 |
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Attempted import error: 'DeleteIcon' is not exported from '@material-ui/icons'.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:10:  'Delete' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "jsxTagEnd" (38:5)
+
+  36 | 				<Grid item xs>
+  37 | 					<Button></Button
+> 38 | 				</Grid>
+     | 				^
+  39 | 			</React.Fragment>
+  40 | 		);
+  41 | 	}
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (33:5)
+
+  31 | 				<Grid item xs>
+  32 | 					<button></button></
+> 33 | 				</Grid>
+     | 				^
+  34 | 			</React.Fragment>
+  35 | 		);
+  36 | 	}
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (33:5)
+
+  31 | 				<Grid item xs>
+  32 | 					<button></button></
+> 33 | 				</Grid>
+     | 				^
+  34 | 			</React.Fragment>
+  35 | 		);
+  36 | 	}
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:10:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:10:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:10:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:10:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Expected corresponding JSX closing tag for <> (34:5)
+
+  32 | 				<Grid item xs>
+  33 | 					<>
+> 34 | 				</Grid>
+     | 				^
+  35 | 			</React.Fragment>
+  36 | 		);
+  37 | 	}
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token, expected ";" (19:9)
+
+  17 | });
+  18 | 
+> 19 | exports rep Button;
+     |         ^
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token, expected ";" (19:9)
+
+  17 | });
+  18 | 
+> 19 | exports default Button;
+     |         ^
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: A class name is required (10:1)
+
+   8 | class 
+   9 | 
+> 10 | export default Button;
+     | ^
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 33:7:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+  Line 8:22:  'ReactDOM' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token, expected "{" (1:8)
+
+> 1 | import [] from 'react';
+    |        ^
+  2 | 
+  3 | var buttonStyle = {
+  4 | 	margin: '10px 10px 10px 0',
+Compiling...
+Compiled successfully!
+
+Could not open buttons.js in the editor.
+
+To set up the editor integration, add something like REACT_EDITOR=atom to the .env.local file in your project folder and restart the development server. Learn more: https://goo.gl/MMTaZt
+
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token (6:8)
+
+  4 | 
+  5 | class Button extends ReactDOM.component{
+> 6 | 	const buttonStyle = {
+    | 	      ^
+  7 | 	margin: '10px 10px 10px 0',
+  8 | 	color: this.props.color
+  9 | 	};
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token (6:6)
+
+  4 | 
+  5 | class Button extends ReactDOM.component{
+> 6 | 	var buttonStyle = {
+    | 	    ^
+  7 | 		margin: '10px 10px 10px 0',
+  8 | 		color: this.props.color
+  9 | 	};
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+  Line 14:12:  'buttonStyle' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+Syntax error: Unexpected token (3:18)
+
+  1 | import { React, ReactDOM} from 'react';
+  2 | 
+> 3 | const buttonStyle;
+    |                  ^
+  4 | 
+  5 | class Button extends ReactDOM.component{
+  6 | 	buttonStyle = {
+Compiling...
+Failed to compile.
+
+./src/components/buttons.js
+  Line 13:12:  'buttonStyle' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.scss)
+SassError: Invalid CSS after "  background:": expected expression (e.g. 1px, bold), was "$"
+        on line 80 of src/styles/global.scss
+        from line 2 of /root/dev/efisens/src/App.scss
+>>   background: $
+
+   --------------^
+Compiling...
+Failed to compile.
+
+./src/App.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.scss)
+SassError: Undefined variable: "$cired".
+        on line 80 of src/styles/global.scss
+        from line 2 of /root/dev/efisens/src/App.scss
+>>   background: $cired
+
+   --------------^
+Compiling...
+Failed to compile.
+
+./src/App.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.scss)
+SassError: Undefined variable: "$color-red".
+        on line 80 of src/styles/global.scss
+        from line 2 of /root/dev/efisens/src/App.scss
+>>   background: $color-red;
+
+   --------------^
+Compiling...
+Failed to compile.
+
+./src/App.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.scss)
+SassError: Undefined variable: "$color-red".
+        on line 79 of src/styles/global.scss
+        from line 2 of /root/dev/efisens/src/App.scss
+>>   background: $color-red;
+
+   --------------^
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.scss (./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/react-scripts/node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/App.scss)
+SassError: Invalid CSS after "  background-color": expected "}", was ": #ff5e4d;"
+        on line 81 of src/styles/global.scss
+        from line 2 of /root/dev/efisens/src/App.scss
+>>   background-color: #ff5e4d;
+
+   --^
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used      no-unused-vars
+  Line 5:8:  'Logo' is defined but never used        no-unused-vars
+  Line 6:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used      no-unused-vars
+  Line 5:8:  'Logo' is defined but never used        no-unused-vars
+  Line 6:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used      no-unused-vars
+  Line 5:8:  'Logo' is defined but never used        no-unused-vars
+  Line 6:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used      no-unused-vars
+  Line 6:8:  'Navigation' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (37:25)
+
+  35 | 			// </React.Fragment>
+  36 | 			<div>
+> 37 | 				<div style={{width: }}>
+     | 				                    ^
+  38 | 					<div className="brand-logo">
+  39 | 		 				<Logo />
+  40 | 					</div>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier directly after number (37:28)
+
+  35 | 			// </React.Fragment>
+  36 | 			<div>
+> 37 | 				<div style={{width: 110px; display: inline-block}}>
+     | 				                       ^
+  38 | 					<div className="brand-logo">
+  39 | 		 				<Logo />
+  40 | 					</div>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier directly after number (37:28)
+
+  35 | 			// </React.Fragment>
+  36 | 			<div>
+> 37 | 				<div style={{width: 110px, display: }}>
+     | 				                       ^
+  38 | 					<div className="brand-logo">
+  39 | 		 				<Logo />
+  40 | 					</div>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Identifier directly after number (37:28)
+
+  35 | 			// </React.Fragment>
+  36 | 			<div>
+> 37 | 				<div style={{width: 110px, display: "inline-block"}}>
+     | 				                       ^
+  38 | 					<div className="brand-logo">
+  39 | 		 				<Logo />
+  40 | 					</div>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: flex,
+> 38 | 				align- items: center;
+     | 				     ^
+  39 | 				justify-content: space-between;}}>
+  40 | 				<div style={{display: "inline-block"}}>
+  41 | 					<div className="brand-logo">
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align- items: center;
+     | 				     ^
+  39 | 				justify-content: space-between;}}>
+  40 | 				<div style={{display: "inline-block"}}>
+  41 | 					<div className="brand-logo">
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align-items: center;
+     | 				     ^
+  39 | 				justify-content: space-between;}}>
+  40 | 				<div style={{display: "inline-block"}}>
+  41 | 					<div className="brand-logo">
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align-items: 'center'
+     | 				     ^
+  39 | 				justify-content: space-between;}}>
+  40 | 				<div style={{display: "inline-block"}}>
+  41 | 					<div className="brand-logo">
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align- items: 'center'
+     | 				     ^
+  39 | 		justify - content: 'space-between'
+  40 | 	}
+  41 | }>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align- items: 'center',
+     | 				     ^
+  39 | 					justify - content: 'space-between'
+  40 | 	}
+  41 | }>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (38:10)
+
+  36 | 			<div style={{
+  37 | 				display: 'flex',
+> 38 | 				align-items: 'center',
+     | 				     ^
+  39 | 					justify - content: 'space-between'
+  40 | 	}
+  41 | }>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (39:14)
+
+  37 | 				display: 'flex',
+  38 | 				'align-items': 'center',
+> 39 | 					justify -content: 'space-between'
+     | 					        ^
+  40 | 	}
+  41 | }>
+  42 | 	<div style={{ display: "inline-block" }}>
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token, expected "," (39:13)
+
+  37 | 				display: 'flex',
+  38 | 				'align-items': 'center',
+> 39 | 					justify-content: 'space-between'
+     | 					       ^
+  40 | 	}
+  41 | }>
+  42 | 	<div style={{ display: "inline-block" }}>
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 4:8:  'Button' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (37:3)
+
+  35 | 			// </React.Fragment>
+  36 | 			
+> 37 | 		);
+     | 		^
+  38 | 	}
+  39 | 
+  40 | 	return (
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+  Line 25:7:  'FormRow' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/header.js
+  Line 3:10:  'Grid' is defined but never used                no-unused-vars
+  Line 4:8:   'Button' is defined but never used              no-unused-vars
+  Line 8:7:   'useStyles' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+./src/components/header.js
+Syntax error: Unexpected token (16:3)
+
+  14 | 			'width': 'calc(100% - 30px)',
+  15 | 			'margin'
+> 16 | 		}}>
+     | 		^
+  17 | 			<div style={{ display: "inline-block" }}>
+  18 | 				<div className="brand-logo">
+  19 | 					<Logo />
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!

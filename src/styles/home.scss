@@ -294,24 +294,25 @@
 
 //Banner
 
-.jumbotron{
+.jumbotron {
   background: none;
-  background-image: url("../assets/home/images/4_2.png"), url("../assets/home/images/1_3.png"), url("../assets/home/images/1_2.png");
+  background-image: url("../assets/home/images/4_2.png"),
+    url("../assets/home/images/1_3.png"), url("../assets/home/images/1_2.png");
   background-position: right bottom, left bottom, left top;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: contain, auto, auto;
-  .center-align{
+  .center-align {
     height: calc(90vh);
     align-items: center;
     display: flex;
-    .banner-title{
+    .banner-title {
       color: $color-blue;
       font-size: 64px;
       font-weight: bold;
       letter-spacing: 0;
       line-height: 79px;
     }
-    p{
+    p {
       height: 63px;
       width: 574px;
       color: $color-blue;
@@ -320,21 +321,20 @@
       letter-spacing: 0;
       line-height: 21px;
     }
-    .btn{
+    .btn {
       height: 34px;
       width: 176px;
       border-radius: 6px;
-      background-color: #FF5E4D;
+      background-color: #ff5e4d;
       border: none;
       line-height: 1;
     }
-
   }
 }
 
-.title-bar{
-  h2{
-    color: #001A5C;
+.title-bar {
+  h2 {
+    color: #001a5c;
     font-family: Gilroy;
     font-size: 54px;
     font-weight: bold;
@@ -342,8 +342,8 @@
     line-height: 67px;
     text-align: center;
   }
-  p{
-    color: #001A5C;
+  p {
+    color: #001a5c;
     font-family: "Roboto Mono";
     font-size: 16px;
     font-weight: 500;
@@ -353,3 +353,112 @@
   }
 }
 
+// navbar
+.topnav {
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+}
+
+.dropdown-content a:hover {
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.brand-logo {
+  padding: 10px;
+  img{
+    width: 109px;
+  }
+}
