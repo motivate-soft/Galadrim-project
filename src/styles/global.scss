@@ -38,7 +38,15 @@
 @font-face {
   font-family: 'RobotoRegular';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
+  src: local("Gilroy"), local("Gilroy"),
+  url("../assets/Typo/Roboto_Mono/static/RobotoMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  font-style: normal;
+  font-weight: 100;
   src: local("Gilroy"), local("Gilroy"),
   url("../assets/Typo/Roboto_Mono/static/RobotoMono-Light.ttf") format("truetype");
 }
@@ -140,13 +148,14 @@ p{
 .bold-font{
   font-family: 'Gilroy Bold'!important;
 }
-
 .roboto-font{
   font-family: 'RobotoMono'!important;
 }
-
 .roboto-regular{
   font-family: 'RobotoRegular'!important;
+}
+.roboto-light{
+  font-family: 'RobotoLiht'!important;
 }
 
 

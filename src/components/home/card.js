@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Card({ id, active, img, title, text, buttonText, onMouseEnter, onMouseLeave }) {
     return (
