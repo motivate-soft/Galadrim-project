@@ -1,0 +1,16 @@
+{
+	"apps": [
+		{
+			"name": "efisens",
+			"script": "npm",
+			"args": "start",
+			"error_file": "dev.log",
+			"out_file": "dev.log",
+			"merge_logs": true,
+			"env": {
+				"DEV": "1",
+				"NODE_ENV": "dev"
+			}
+		}
+	]
+}
