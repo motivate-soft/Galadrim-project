@@ -6,13 +6,15 @@ export default function Navigation() {
 
   return (
     <div className="topnav" id="myTopnav">
-      <a href="#home" className="active">Qui sommes nous ?</a>
-      <a href="#news">Nos expertises</a>
-      <a href="#contact">Nos partenariats</a>
-      <a href="#contact">Efisens Clic&Shop</a>
-      <a href="#contact">Efisens Lab</a>
-      <a href="#contact">Carrières</a>
-      <a href="#contact">Nous contacter</a>
+      <ul>
+          <li><a href="#home" className="active">Qui sommes nous ?</a></li>
+          <li><a href="#news">Nos expertises</a></li>
+          <li><a href="#contact">Nos partenariats</a></li>
+          <li><a href="#contact">Efisens Clic&Shop</a></li>
+          <li><a href="#contact">Efisens Lab</a></li>
+          <li><a href="#contact">Carrières</a></li>
+          <li><a href="#contact">Nous contacter</a></li>
+      </ul>
     </div>
   );
 }

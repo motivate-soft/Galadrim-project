@@ -27,6 +27,43 @@
     url("../assets/Typo/gilroy/Gilroy-Bold.ttf") format("truetype");
 }
 
+
+@import "initial/functions";
+@import "initial/variables";
+@import "initial/mixins";
+@import "initial/root";
+@import "initial/reboot";
+@import "initial/type";
+@import "initial/images";
+@import "initial/code";
+@import "initial/grid";
+@import "initial/tables";
+@import "initial/forms";
+@import "initial/buttons";
+@import "initial/transitions";
+@import "initial/dropdown";
+@import "initial/button-group";
+@import "initial/input-group";
+@import "initial/custom-forms";
+@import "initial/nav";
+@import "initial/navbar";
+@import "initial/card";
+@import "initial/breadcrumb";
+@import "initial/pagination";
+@import "initial/badge";
+@import "initial/jumbotron";
+@import "initial/alert";
+@import "initial/progress";
+@import "initial/media";
+@import "initial/list-group";
+@import "initial/close";
+@import "initial/modal";
+@import "initial/tooltip";
+@import "initial/popover";
+@import "initial/carousel";
+@import "initial/utilities";
+@import "initial/print";
+
 h1,
 h2,
 h3,
@@ -79,35 +116,4 @@ a {
 
 .bg-lightgray {
   background-color: $color-lightgray !important;
-}
-
-//link
-a{
-  //
-}
-a:focus {
-  outline: none;
-}
-
-//Button
-.btn {
-  background: none;
-  border: none;
-  padding: 8px 30px;
-  border-radius: 4px;
-}
-
-.btn:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.btn:hover {
-  box-shadow: 1px 1px 4px grey;
-}
-
-.btn-primary {
-  border-radius: 6px;
-  color: white;
-  background-color: #ff5e4d;
 }

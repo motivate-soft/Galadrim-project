@@ -292,46 +292,6 @@
   }
 }
 
-//Banner
-
-.jumbotron {
-  background: none;
-  background-image: url("../assets/home/images/4_2.png"),
-    url("../assets/home/images/1_3.png"), url("../assets/home/images/1_2.png");
-  background-position: right bottom, left bottom, left top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: contain, auto, auto;
-  .center-align {
-    height: calc(90vh);
-    align-items: center;
-    display: flex;
-    .banner-title {
-      color: $color-blue;
-      font-size: 64px;
-      font-weight: bold;
-      letter-spacing: 0;
-      line-height: 79px;
-    }
-    p {
-      height: 63px;
-      width: 574px;
-      color: $color-blue;
-      font-size: 16px;
-      font-weight: 500;
-      letter-spacing: 0;
-      line-height: 21px;
-    }
-    .btn {
-      height: 34px;
-      width: 176px;
-      border-radius: 6px;
-      background-color: #ff5e4d;
-      border: none;
-      line-height: 1;
-    }
-  }
-}
-
 .title-bar {
   h2 {
     color: #001a5c;
@@ -350,28 +310,6 @@
     letter-spacing: 0;
     line-height: 21px;
     text-align: center;
-  }
-}
-
-// navbar
-.topnav {
-  overflow: hidden;
-  justify-content: center;
-  display: flex;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  .brand-logo {
-  padding: 10px;
-    img{
-      width: 109px;
-    }
   }
 }
 

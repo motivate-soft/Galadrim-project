@@ -27,3 +27,4 @@ yarn-error.log*
 prod.log*
 node_modules
 pm2_local.json
+package.json
