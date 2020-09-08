@@ -27,6 +27,14 @@
     url("../assets/Typo/gilroy/Gilroy-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'RobotoMono';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Gilroy"), local("Gilroy"),
+  url("../assets/Typo/Roboto_Mono/RobotoMono-VariableFont_wght.ttf") format("truetype");
+}
+
 
 @import "initial/functions";
 @import "initial/variables";
@@ -116,4 +124,12 @@ a {
 
 .bg-lightgray {
   background-color: $color-lightgray !important;
+}
+
+.bold-font{
+  font-family: 'Gilroy Bold';
+}
+
+.roboto-font{
+  font-family: RobotoMono;
 }
