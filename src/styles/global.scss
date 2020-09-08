@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/Typo/gilroy/Gilroy-Regular.ttf") format("ttf"),
+  url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("ttf"),
+  url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("ttf");
+}
+
+@import "./variables.scss";
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Gilroy";
+}
+
+.container {
+  position: relative;
+  // max-width: 1176px !important;
+  max-width: 1300px !important;
+}
+
+.text-blue {
+  color: $color-blue !important;
+}
+
+.text-green {
+  color: $color-green !important;
+}
+
+.text-orange {
+  color: $color-orange !important;
+}
+
+.bg-blue {
+  background-color: $color-blue !important;
+}
+
+.bg-lightblue {
+  background-color: $color-lightblue !important;
+}
+
+.bg-green {
+  background-color: $color-green !important;
+}
+
+.bg-darkgreen {
+  background-color: $color-darkgreen !important;
+}
+
+.bg-orange {
+  background-color: $color-orange !important;
+}
+
+.bg-lightgray {
+  background-color: $color-lightgray !important;
+}
+
+//Header
+.navbar .navbar-brand img {
+  max-width: 109px!important;
+}
+.light-border{
+  border: 1px solid grey;
+}
