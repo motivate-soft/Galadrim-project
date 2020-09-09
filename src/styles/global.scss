@@ -343,6 +343,9 @@ footer{
   padding: 5px;
   background: $gray-600;
   color: white;
+  svg{
+    transform: translateY(0)!important;
+  }
 }
 
 .nav-item{

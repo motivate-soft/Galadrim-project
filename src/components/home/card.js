@@ -9,7 +9,7 @@ export default function Card({ id, active, img, title, text, buttonText, onMouse
             onMouseLeave={() => onMouseLeave(id)}>
             <div className="card-body d-flex flex-column">
                 <img src={img} alt={title} className="mx-auto" />
-                <h5 className="mx-auto text-center font-weight-bold">{title}</h5>
+                <h4 style={{'fontSize':'24px'}} className="mx-auto text-center font-weight-bold">{title}</h4>
                 <p className="mx-auto text-center roboto-font" style={{fontSize: '10px'}}>{text}</p>
                 <button className='btn btn-custom'>{buttonText}</button>
             </div>
