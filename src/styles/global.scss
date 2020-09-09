@@ -344,3 +344,75 @@ footer{
   background: $gray-600;
   color: white;
 }
+
+.nav-item{
+  svg{
+    transform: translateY(4px);
+  }
+  .dropdown-content{
+    width: 536px;
+    position: absolute;
+    margin-top: 12px;
+
+    opacity: 0;
+    z-index: -1;
+    transition-duration: 1000ms;
+    .card-body{
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+      background-color: #ffffff;
+      position: relative;
+      padding: 30px 30px 5px 30px;
+      .col-lg-6{
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+      a{
+        .media{
+          img{
+            width: 35px;
+            background: $gray-200;
+            padding: 3px;
+            border-radius: 20px;
+            margin-right: 11px!important;
+          }
+          .media-body{
+            h5{
+              font-size: 14px;
+              margin-bottom: 5px;
+            }
+            p{
+              font-size: 10px;
+              line-height: 12px;
+              letter-spacing: -0.03rem;
+              margin-bottom: 25px;
+            }
+          }
+        }
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      .tail{
+        width: 20px;
+        height: 20px;
+        background: white;
+        position: absolute;
+        left: 50px;
+        top: -6px;
+        transform: rotateZ(45deg);
+      }
+    }
+
+  }
+
+}
+
+.nav-item:hover{
+  .dropdown-content{
+    opacity: 1;
+    z-index: 10;
+    transition-duration: 1000ms;
+  }
+}
