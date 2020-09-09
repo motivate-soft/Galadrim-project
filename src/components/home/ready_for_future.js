@@ -23,23 +23,23 @@ export default function ReadyForFuture() {
                   </div>
                   <div className="col-lg-6">
                       <div className="row">
-                          <div className="col-md-6 p-3">
+                          <div className="col-6 p-3">
                               <div className="image-box">
                                   <img src={ArticleImage} alt=""/>
                               </div>
                           </div>
-                          <div className="col-md-6 p-3">
+                          <div className="col-6 p-3">
                               <div className="image-box bottom-left-radius top-right-radius">
                                   <img src={ArticleImage} alt=""/>
                               </div>
                           </div>
-                          <div className="col-md-6 p-3">
+                          <div className="col-6 p-3">
                               <img src={LeftTipBg1} className="left-top-bg" style={{'left':'15px','top':'15px','width':'40%'}} alt=""/>
                               <div className="image-box image-box-circle">
                                   <img src={ArticleImage} alt=""/>
                               </div>
                           </div>
-                          <div className="col-md-6 p-3">
+                          <div className="col-6 p-3">
                               <div className="image-box bottom-left-radius">
                                   <img src={ArticleImage} alt=""/>
                               </div>

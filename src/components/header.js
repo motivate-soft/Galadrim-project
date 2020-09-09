@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../components/logo';
+import Logo from './global/logo';
 
 import { FaAngleDown } from '../../node_modules/react-icons/fa';
 import Cloud from '../assets/home/images/cloud.png'

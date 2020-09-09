@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../components/logo';
+import Logo from './global/logo';
 import {Send} from "@material-ui/icons";
 import EndImg from '../assets/home/images/group.png'
 
@@ -81,7 +81,7 @@ export default function Footer() {
                       </ul>
                   </div>
               </div>
-              <div className="row mt-5" style={{'marginBottom':'75px'}}>
+              <div className="row mt-5 news-letter-footer" style={{'marginBottom':'75px'}}>
                   <div className="col-lg-3">
                       <h5 className="text-green text-uppercase">
                           S’inscrire à notre newsletter

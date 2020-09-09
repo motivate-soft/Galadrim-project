@@ -419,3 +419,31 @@ footer{
     transition-duration: 1000ms;
   }
 }
+
+//footer responsive
+@media (max-width: 768px) {
+  footer{
+    text-align: center;
+    .news-letter-footer{
+      text-align: left;
+      width: 90%;
+      margin-left: 5%;
+      .col-lg-1{
+        justify-content: center;
+      }
+    }
+  }
+}
+.makeStyles-root-3{
+  display: none;
+}
+//header responsive
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+  .makeStyles-root-3{
+    border-bottom: 1px solid $gray-100;
+    display: block;
+  }
+}

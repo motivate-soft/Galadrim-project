@@ -119,7 +119,7 @@ class Experience extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-12 mt-5 text-center" style={{marginBottom:'76px'}}>
+                        <div className="col-12 mt-5 text-center action_content" style={{marginBottom:'76px'}}>
                             <button className="btn btn-danger btn-custom" style={{'padding': '5px 30px'}}>
                                 Voir tous les articles
                             </button>
