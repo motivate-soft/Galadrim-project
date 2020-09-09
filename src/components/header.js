@@ -15,15 +15,12 @@ export default function Header() {
 
 		}}>
             <nav className="navbar navbar-expand-lg" style={{'borderBottom': '1px solid #eee'}}>
-                <a className="" href="#"><Logo /></a>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+                <a className="" href="/"><Logo /></a>
+
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Qui sommes nous ?</a>
+                            <a className="nav-link" href="/who_we_are">Qui sommes nous ?</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Nos expertises <FaAngleDown/></a>
@@ -34,7 +31,7 @@ export default function Header() {
                                     </div>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <a href="">
+                                            <a href="/expertise/cloud">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Cloud}
                                                          alt="Cloud"/>
@@ -46,7 +43,7 @@ export default function Header() {
                                             </a>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="">
+                                            <a href="/expertise/modern_workplace">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Workspace}
                                                          alt="Cloud"/>
@@ -58,7 +55,7 @@ export default function Header() {
                                             </a>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="">
+                                            <a href="/expertise/security">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Service}
                                                          alt="Cloud"/>
@@ -70,7 +67,7 @@ export default function Header() {
                                             </a>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="">
+                                            <a href="/expertise/service_manager">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={ServiceManage}
                                                          alt="Cloud"/>
@@ -86,19 +83,19 @@ export default function Header() {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Nos partenariats</a>
+                            <a className="nav-link" href="/partner_ship">Nos partenariats</a>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="#">Efisens Clic&Shop</a>
+                            <a className="nav-link" href="/click_shopping">Efisens Clic&Shop</a>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="#">Efisens Lab</a>
+                            <a className="nav-link" href="/laboratory">Efisens Lab</a>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="#">Carrières</a>
+                            <a className="nav-link" href="/career">Carrières</a>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="#">Nous contacter</a>
+                            <a className="nav-link" href="/contact">Nous contacter</a>
                         </li>
 
                     </ul>

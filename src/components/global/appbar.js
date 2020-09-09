@@ -9,12 +9,9 @@ import Logo from '../global/logo';
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer/SwipeableDrawer";
 import List from "@material-ui/core/List/List";
 import ListItem from "@material-ui/core/ListItem/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon/ListItemIcon";
-import InboxIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import ListItemText from "@material-ui/core/ListItemText/ListItemText";
 import Divider from "@material-ui/core/Divider/Divider";
 import clsx from 'clsx';
-import MailIcon from '@material-ui/icons/Mail';
 
 const useStyles = makeStyles((theme) => ({
     list: {
@@ -31,24 +28,22 @@ const useStyles = makeStyles((theme) => ({
     },
     toolbar: {
         alignItems: 'center',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        paddingTop: theme.spacing(1),
+        paddingBottom: theme.spacing(1),
     },
 }));
 
 export default function DenseAppBar() {
     const classes = useStyles();
     const [state, setState] = React.useState({
-        top: false,
         left: false,
-        bottom: false,
-        right: false,
     });
 
     const toggleDrawer = (anchor, open) => (event) => {
         if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
             return;
         }
-
         setState({ ...state, [anchor]: open });
     };
 
@@ -61,13 +56,21 @@ export default function DenseAppBar() {
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
         >
-            <List>
-                {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <ListItemText primary={text} />
-                    </ListItem>
-                ))}
+            <List component="nav" className={classes.root} aria-label="mailbox folders">
+                <ListItem button>
+                    <ListItemText primary="Qui sommes nous ?" />
+                </ListItem>
+                <Divider />
+                <ListItem button divider>
+                    <ListItemText primary="Nos expertises" />
+                </ListItem>
+                <ListItem button>
+                    <ListItemText primary="Trash" />
+                </ListItem>
+                <Divider light />
+                <ListItem button>
+                    <ListItemText primary="Spam" />
+                </ListItem>
             </List>
             <Divider />
 
@@ -79,7 +82,7 @@ export default function DenseAppBar() {
             <AppBar position="static" color={"info"}>
                 <Toolbar variant="dense" className={classes.toolbar}>
                     <Typography variant="h6" color="inherit">
-                        <Logo/>
+                        <a href='/'><Logo/></a>
                     </Typography>
                     <IconButton edge="end" className={classes.menuButton} color="inherit" aria-label="menu">
                         {['left'].map((anchor) => (
@@ -95,7 +98,6 @@ export default function DenseAppBar() {
                                 </SwipeableDrawer>
                             </React.Fragment>
                         ))}
-
                     </IconButton>
                 </Toolbar>
             </AppBar>

@@ -29,7 +29,7 @@ Compiled successfully!
 Compiling...
 Compiled with warnings.
 
-./src/pages/Home.js
+./src/pages/home.js
   Line 4:8:  'Banner' is defined but never used    no-unused-vars
   Line 5:8:  'TitleBar' is defined but never used  no-unused-vars
 
@@ -89,7 +89,7 @@ Compiled successfully!
 Compiling...
 Compiled with warnings.
 
-./src/pages/Home.js
+./src/pages/home.js
   Line 3:8:  'Header' is defined but never used  no-unused-vars
 
 Search for the keywords to learn more about each warning.
@@ -139,14 +139,14 @@ Error: ENOENT: no such file or directory, open '/root/dev/efisens/src/components
 Compiling...
 Failed to compile.
 
-./src/pages/Home.js
+./src/pages/home.js
 Module not found: Can't resolve '../components/header' in '/root/dev/efisens/src/pages'
 Compiling...
 Compiled successfully!
 Compiling...
 Failed to compile.
 
-./src/pages/Home.js
+./src/pages/home.js
 Attempted import error: '../components/header' does not contain a default export (imported as 'Header').
 Compiling...
 Failed to compile.

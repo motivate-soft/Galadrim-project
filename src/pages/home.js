@@ -2,7 +2,6 @@ import React from 'react'
 
 import '../styles/home.scss';
 
-import Header from '../components/header';
 import Banner from '../components/home/banner';
 import Expertise from "../components/home/expertise";
 import Trust from "../components/home/trust";
@@ -11,17 +10,12 @@ import Experience from "../components/home/experience";
 import ClickShop from "../components/home/click_shop";
 import ReadyForFuture from "../components/home/ready_for_future";
 import Partner from "../components/home/partner";
-import Footer from "../components/footer";
-import SwipeableTemporaryDrawer from "../components/global/drawer";
-import DenseAppBar from "../components/global/appbar";
 
 
 //components
 export default function Home() {
     return (
-        <div>
-            <DenseAppBar/>
-            <Header/>
+        <>
             <Banner/>
             <Expertise/>
             <Trust/>
@@ -30,7 +24,6 @@ export default function Home() {
             <ClickShop/>
             <ReadyForFuture/>
             <Partner/>
-            <Footer/>
-        </div>
+        </>
     );
 }
