@@ -3,7 +3,7 @@ import BannerImage from '../../assets/home/images/1.png';
 
 export default function Banner() {
     return (
-        <div className="jumbotron bg-light">
+        <div className="jumbotron">
             <div className="container">
                 <div className="row">
                     <div className="col-md-5 center-align">

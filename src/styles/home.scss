@@ -111,6 +111,11 @@
       border-radius: 1em;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
       transition: margin-top ease 0.8s, box-shadow ease 0.8s;
+      .card-body{
+        z-index: 2;
+        background: white!important;
+        border-radius: 0.8rem;
+      }
     }
 
     .gradient-box:hover {
@@ -126,7 +131,7 @@
       right: 0;
       bottom: 0;
       left: 0;
-      z-index: -1;
+      z-index: 0;
       margin: -3px;
 
       /* !importanté */
@@ -324,7 +329,7 @@
 }
 
 .jumbotron{
-  background: none;
+  background-color: white;
   background-image: url("../assets/home/images/4_2.png"), url("../assets/home/images/1_3.png"), url("../assets/home/images/1_2.png");
   background-position: right bottom, left bottom, left top;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -418,12 +423,13 @@
       border-radius: 0.8em;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
       transition: margin-top ease 0.8s, box-shadow ease 0.8s;
+      z-index: 2;
 
       .image-box{
         height: 162px;
         overflow: hidden;
-        border-top-left-radius: 0.9em;
-        border-top-right-radius: 0.9em;
+        border-top-left-radius: 0.8em;
+        border-top-right-radius: 0.8em;
         img {
           margin: 0 auto;
           min-height: 100%;
@@ -433,6 +439,9 @@
 
       .card-body{
         padding: 0;
+        background: white!important;
+        border-radius: 0.7rem;
+        z-index: 1;
         .article-content{
           padding: 20px;
           text-align: left;
@@ -489,7 +498,7 @@
       right: 0;
       bottom: 0;
       left: 0;
-      z-index: -1;
+      z-index: 0;
       margin: -3px;
 
       /* !importanté */
