@@ -187,6 +187,10 @@ p{
   font-size: 16px;
 }
 
+button{
+  cursor: pointer;
+}
+
 button:focus{
   outline: none;
 }
@@ -283,4 +287,60 @@ button:focus{
   justify-content: center;
   display: flex;
   align-items: center;
+}
+
+.footer-title{
+  font-size: 16px;
+  color: $color-blue;
+  padding-left: 1rem;
+}
+
+.news-letter{
+  .news-letter-input{
+    height: 50px;
+    border: 2px solid #ebebeb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .news-letter-submit{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    background: $color-green;
+    border: none;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    svg{
+      fill: white;
+    }
+  }
+}
+
+footer{
+  .nav-item{
+    a{
+      font-family: 'RobotoRegular';
+      font-size: 14px;
+    }
+  }
+}
+
+.social-button{
+  margin: 0.5rem 0.5rem;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border: none;
+  font-size: 13px;
+  vertical-align: middle;
+  border-radius: 12px;
+  padding: 5px;
+  background: $gray-600;
+  color: white;
 }
