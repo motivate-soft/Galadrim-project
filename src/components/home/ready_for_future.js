@@ -7,7 +7,7 @@ import LeftTipBg1 from '../../assets/home/images/orange@2x.png';
 
 export default function ReadyForFuture() {
     return (
-      <div id="ready_for_future" style={{'padding-top': '129px','padding-bottom': '129px'}}>
+      <div id="ready_for_future" style={{'paddingTop': '129px','paddingBottom': '129px'}}>
           <div className="container">
               <div className="row">
                   <div className="col-lg-6 p-3">

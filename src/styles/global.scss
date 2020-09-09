@@ -278,3 +278,9 @@ button:focus{
   position: absolute;
   z-index: -1;
 }
+
+.center-content{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

@@ -630,3 +630,22 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+#partner{
+  position: relative;
+  .right_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+  }
+
+  .left_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 95%;
+  }
+}
