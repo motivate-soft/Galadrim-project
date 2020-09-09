@@ -4,7 +4,7 @@ import Logo from '../components/logo';
 import {Send} from "@material-ui/icons";
 import EndImg from '../assets/home/images/group.png'
 
-import { FaYoutube, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import { FaYoutube, FaLinkedinIn, FaInstagram } from '../../node_modules/react-icons/fa';
 
 export default function Footer() {
     return(
