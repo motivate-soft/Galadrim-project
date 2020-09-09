@@ -163,6 +163,10 @@ img{
   max-width: 100%;
 }
 
+h2{
+  font-size: 36px;
+}
+
 h4{
   font-size: 28px;
 }
@@ -200,4 +204,77 @@ button:focus{
     width: 32px;
     height: 7px;
   }
+}
+
+.btn-custom-info{
+  background: none;
+  border: 2px solid $gray-600;
+  color: $blue;
+}
+
+.btn-custom-info:hover, .btn-custom-info:focus{
+  background: $gray-600;
+  color: white;
+
+}
+
+.image-box{
+  width: 100%;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+  }
+}
+
+
+.image-box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+  z-index: -10;/* ratio of 1:1*/
+}
+
+.image-box-circle{
+  img{
+    border-radius: 50%;
+  }
+}
+
+.bottom-right-radius{
+  img{
+    border-bottom-right-radius: 100px;
+  }
+}
+
+.bottom-left-radius{
+  img{
+    border-bottom-left-radius: 100px;
+  }
+}
+
+.top-right-radius{
+  img{
+    border-top-right-radius: 100px;
+  }
+}
+
+.top-left-radius{
+  img{
+    border-top-left-radius: 100px;
+  }
+}
+#root{
+  overflow: hidden;
+}
+
+.left-top-bg{
+  position: absolute;
+  z-index: -1;
 }

@@ -5,7 +5,7 @@ import BackImage from '../../assets/home/images/group-2.png'
 
 export default function ClickShop () {
     return (
-      <div style={{'marginTop': '79px'}} id="click_shop">
+      <div id="click_shop">
           <div className="container">
               <div className="row top-layer">
                   <div className="col-lg-12 text-center">

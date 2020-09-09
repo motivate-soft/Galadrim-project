@@ -342,7 +342,6 @@
     }
     p{
       height: 63px;
-      width: 574px;
       color: $color-blue;
       font-family: 'RobotoMono';
       font-size: 16px;
@@ -416,7 +415,7 @@
       color: #001b5d;
       background: white;
       background-clip: padding-box;
-      border-radius: 1em;
+      border-radius: 0.8em;
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
       transition: margin-top ease 0.8s, box-shadow ease 0.8s;
 
@@ -601,5 +600,23 @@
     align-items: center;
     display: flex;
     z-index: 2;
+  }
+}
+
+#ready_for_future{
+  .card{
+    display: block;
+    padding: 99px;
+    border: none;
+    -webkit-box-align: center;
+    min-height: 412px;
+    position: relative;
+    box-sizing: border-box;
+    color: #001b5d;
+    background: white;
+    background-clip: padding-box;
+    border-radius: 0.8em;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
+    transition: margin-top ease 0.8s, box-shadow ease 0.8s;
   }
 }

@@ -9,6 +9,7 @@ import Trust from "../components/home/trust";
 import Talk from "../components/home/talks";
 import Experience from "../components/home/experience";
 import ClickShop from "../components/home/click_shop";
+import ReadyForFuture from "../components/home/ready_for_future";
 
 
 //components
@@ -22,6 +23,7 @@ export default function Home() {
             <Talk/>
             <Experience/>
             <ClickShop/>
+            <ReadyForFuture/>
         </div>
     );
 }
