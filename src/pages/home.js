@@ -12,7 +12,7 @@ import ReadyForFuture from "../components/home/ready_for_future";
 import Partner from "../components/home/partner";
 
 
-//components
+//components.scss
 export default function Home() {
     return (
         <>

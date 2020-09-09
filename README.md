@@ -1,25 +1,61 @@
 # Galadrim-project
 
-#### Start Project
-```
-npx create-react-app [PROJECT_NAME]
+### Page Structure
+
+```$xslt
+    Home
+    Who We Are?
+    Experties
+        - Cloud
+        - Modern Workplace
+        - Security
+        - Service Manager
+    Effectable Click & Shop
+    Effectable Laboratory
+    Careers
+    Contact US
 ```
 
+### Component Structure
+```$xslt
+    Header
+    Appbar(Responsive)
+    Router
+        ->  Home
+        ->  Who We Are?
+        ->  Experties
+              -> - Cloud
+              -> - Modern Workplace
+              -> - Security
+              -> - Service Manager
+        ->  Effectable Click & Shop
+        ->  Effectable Laboratory
+        ->  Careers
+        ->  Contact US
+    Footer
+```
+
+#### Home
+    
+```
+->  Banner
+->  Expertise
+->  Trust
+->  Talk
+->  Experience
+->  ClickShop
+->  ReadyForFuture
+->  Partner
+```
+
+#### Who We Are?
+```$xslt
 
 ```
-npx create-react-app [PROJECT_NAME]
-```
-#### Add Storybook:
-```
-npx -p @storybook/cli sb init
-```
 
-#### Run Project
-start with storybook
-```
-npm run storybook
-```
-start without storybook
-```
-npm start
+#### Expertise
+###### cloud
+```$xslt
+ExpertiseCloudBanner
+
 ```

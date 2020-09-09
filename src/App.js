@@ -6,7 +6,6 @@ import DenseAppBar from "./components/global/appbar";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import WhoWeAre from "./pages/who_we_are";
-import Expertise from "./pages/expertise";
 import PartnerShip from "./pages/partner_ship";
 import ClickShopping from "./pages/click_shopping";
 import Laboratory from "./pages/laboratory";
@@ -26,7 +25,6 @@ function App() {
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/who_we_are" component={WhoWeAre}/>
-                    <Route exact path="/expertise" component={Expertise}/>
                     <Route exact path="/expertise/cloud" component={ExpertiseCloud}/>
                     <Route exact path="/expertise/modern_workplace" component={ExpertiseModernWorkplace}/>
                     <Route exact path="/expertise/security" component={ExpertiseSecurity}/>
