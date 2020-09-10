@@ -10,12 +10,17 @@ import Experience from "../components/home/experience";
 import ClickShop from "../components/home/click_shop";
 import ReadyForFuture from "../components/home/ready_for_future";
 import Partner from "../components/home/partner";
+import FullScreenNav from "../components/global/full_skin";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 
 //components.scss
 export default function Home() {
     return (
         <>
+            <FullScreenNav/>
+            <Header/>
             <Banner/>
             <Expertise/>
             <Trust/>
@@ -24,6 +29,7 @@ export default function Home() {
             <ClickShop/>
             <ReadyForFuture/>
             <Partner/>
+            <Footer/>
         </>
     );
 }

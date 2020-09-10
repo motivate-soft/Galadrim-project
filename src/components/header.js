@@ -6,6 +6,7 @@ import Cloud from '../assets/home/images/cloud.png';
 import Workspace from '../assets/home/images/modern-workplace.png';
 import Service from '../assets/home/images/s-curit.png';
 import ServiceManage from '../assets/home/images/service-manag.png';
+import {Link} from "react-router-dom";
 
 
 export default function Header() {
@@ -15,21 +16,22 @@ export default function Header() {
 
 		}}>
             <nav className="navbar navbar-expand-lg" style={{'borderBottom': '1px solid #eee'}}>
-                <a className="" href="/"><Logo /></a>
+                <Link className="" to="/"><Logo /></Link>
 
                 <div className="collapse navbar-collapse ml-2" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/who_we_are">Qui sommes nous ?</a>
+                            
+                            <Link className="nav-link" to="/who_we_are">Qui sommes nous ?</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Nos expertises <FaAngleDown/></a>
+                            <Link className="nav-link" to="#">Nos expertises <FaAngleDown/></Link>
                             <div className="dropdown-content">
                                 <div className="card card-body">
                                     <div className="tail"/>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <a href="/expertise/cloud">
+                                            <Link to="/expertise/cloud">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Cloud}
                                                          alt="Cloud"/>
@@ -38,10 +40,10 @@ export default function Header() {
                                                             <p>Adopter des solutions cloud hybrides</p>
                                                         </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="/expertise/modern_workplace">
+                                            <Link to="/expertise/modern_workplace">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Workspace}
                                                          alt="Cloud"/>
@@ -50,10 +52,10 @@ export default function Header() {
                                                         <p>Moderniser vos environnements de travail</p>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="/expertise/security">
+                                            <Link to="/expertise/security">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Service}
                                                          alt="Cloud"/>
@@ -62,10 +64,10 @@ export default function Header() {
                                                         <p>Protéger vos données, votre infrastructure et vos utilisateurs</p>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <a href="/expertise/service_manager">
+                                            <Link to="/expertise/service_manager">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={ServiceManage}
                                                          alt="Cloud"/>
@@ -74,26 +76,26 @@ export default function Header() {
                                                         <p>Superviser et surveiller votre système IT</p>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/partner_ship">Nos partenariats</a>
+                            <Link className="nav-link" to="/partner_ship">Nos partenariats</Link>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="/click_shopping">Efisens Clic&Shop</a>
+                            <Link className="nav-link" to="/click_shopping">Efisens Clic&Shop</Link>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="/laboratory">Efisens Lab</a>
+                            <Link className="nav-link" to="/laboratory">Efisens Lab</Link>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="/career">Carrières</a>
+                            <Link className="nav-link" to="/career">Carrières</Link>
                         </li>
 						<li className="nav-item">
-                            <a className="nav-link" href="/contact">Nous contacter</a>
+                            <Link className="nav-link" to="/contact">Nous contacter</Link>
                         </li>
 
                     </ul>

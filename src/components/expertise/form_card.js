@@ -1,7 +1,7 @@
 import React from 'react';
 import './form_card.scss'
 
-export default function FormCard() {
+export default function FormCard(props) {
     return (
       <>
           <div className="card card-body form-card">
@@ -41,9 +41,9 @@ export default function FormCard() {
                                  placeholder="Apartment, studio, or floor"/>
                       </div>
                       <div className="form-group text-center mt-4 mb-4">
-                          <button type="submit" className="btn btn-custom btn-success">Envoyer le formulaire</button>
+                          <button type="submit" className="btn btn-custom" style={{backgroundColor: props.theme.mainColor}}>Envoyer le formulaire</button>
                       </div>
-                      <p className="form-description-string">
+                      <p className="form-description-string" style={{color: props.theme.mainColor}}>
                           Ces informations font l’objet d’un traitement informatisé par EFISENS,
                           destiné à répondre et assurer le suivi de votre demande,
                           et seront conservées durant le temps nécessaire pour y répondre.

@@ -4,16 +4,6 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  src: local("Gilroy"), local("GilroyRegular"),
-    url("../assets/Typo/gilroy/Gilroy-Regular.ttf") format("truetype"),
-    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype"),
-    url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Gilroy Black";
-  font-style: normal;
-  font-weight: 500;
   src: local("Gilroy"), local("Gilroy"),
     url("../assets/Typo/gilroy/Gilroy-Black.ttf") format("truetype"),
     url("../assets/Typo/gilroy/Gilroy-BlackItalic.ttf") format("truetype");

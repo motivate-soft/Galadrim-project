@@ -20,9 +20,6 @@ import FullScreenNav from "./components/global/full_skin";
 function App() {
   return (
       <React.Fragment>
-          {/*<DenseAppBar/>*/}
-          <FullScreenNav/>
-          <Header/>
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Home}/>
@@ -38,7 +35,6 @@ function App() {
                     <Route exact path="/contact" component={Contact}/>
                 </Switch>
             </BrowserRouter>
-          <Footer/>
       </React.Fragment>
   );
 }

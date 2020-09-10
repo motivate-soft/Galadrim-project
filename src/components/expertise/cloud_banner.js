@@ -5,10 +5,10 @@ import FormCard from "./form_card";
 import '../../styles/component.scss';
 
 
-export default function ExpertiseCloudBanner() {
+export default function ExpertiseCloudBanner(props) {
     return (
       <>
-        <div className="expertise_banner bg-green">
+        <div className="expertise_banner" style={{backgroundColor: props.theme.mainColor}}>
             <div className="container">
                 <div className="text-center">
                     <img src={BannerLogoImage} alt="Cloud Banner" width="290"/>
@@ -33,7 +33,7 @@ export default function ExpertiseCloudBanner() {
                        </div>
                    </div>
                    <div className="col-lg-6">
-                       <FormCard/>
+                       <FormCard theme={props.theme}/>
                    </div>
                </div>
             </div>
