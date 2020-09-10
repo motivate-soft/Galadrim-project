@@ -26,9 +26,7 @@ export default function Header() {
                             <a className="nav-link" href="#">Nos expertises <FaAngleDown/></a>
                             <div className="dropdown-content">
                                 <div className="card card-body">
-                                    <div className="tail">
-
-                                    </div>
+                                    <div className="tail"/>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <a href="/expertise/cloud">

@@ -24,6 +24,7 @@ import Cloud from "../../assets/home/images/cloud.png";
 import Workspace from "../../assets/home/images/modern-workplace.png";
 import Service from "../../assets/home/images/s-curit.png";
 import ServiceManage from "../../assets/home/images/service-manag.png";
+import { FaAngleDown } from '../../../node_modules/react-icons/fa';
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -109,13 +110,11 @@ export default function FullScreenNav() {
                     </ListItem>
                     <Accordion className={classes.accordion} >
                         <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
                             aria-controls="panel1c-content"
                             id="panel1c-header"
                         >
-
                             <div className={classes.column}>
-                                <Typography className="text-primary mobile-list" >Select trip destination</Typography>
+                                <Typography className="text-primary mobile-list" >Nos expertises <FaAngleDown/></Typography>
                             </div>
                         </AccordionSummary>
                         <AccordionDetails className={classes.details}>
