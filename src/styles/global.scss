@@ -203,6 +203,12 @@ button:focus{
   outline: none;
 }
 
+button{
+  svg{
+    margin-bottom: -2px;
+  }
+}
+
 .justify-space-between{
   justify-content: space-around;
 }
@@ -420,8 +426,9 @@ footer{
     }
 
   }
-
 }
+
+
 
 .nav-item:hover{
   .dropdown-content{

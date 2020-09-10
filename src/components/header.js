@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from './global/logo';
 
-import { FaAngleDown } from '../../node_modules/react-icons/fa';
-import Cloud from '../assets/home/images/cloud.png'
-import Workspace from '../assets/home/images/modern-workplace.png'
-import Service from '../assets/home/images/s-curit.png'
-import ServiceManage from '../assets/home/images/service-manag.png'
+import { FaAngleDown, FaLock } from '../../node_modules/react-icons/fa';
+import Cloud from '../assets/home/images/cloud.png';
+import Workspace from '../assets/home/images/modern-workplace.png';
+import Service from '../assets/home/images/s-curit.png';
+import ServiceManage from '../assets/home/images/service-manag.png';
 
 
 export default function Header() {
@@ -101,7 +101,7 @@ export default function Header() {
                     </ul>
                 </div>
 				<button className="btn btn-danger btn-custom">
-                    Accès client
+                    <FaLock/> Accès client
 				</button>
             </nav>
 		</div >
