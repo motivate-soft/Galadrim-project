@@ -17,7 +17,7 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg" style={{'borderBottom': '1px solid #eee'}}>
                 <a className="" href="/"><Logo /></a>
 
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div className="collapse navbar-collapse ml-2" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <a className="nav-link" href="/who_we_are">Qui sommes nous ?</a>
