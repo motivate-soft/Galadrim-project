@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleImage from '../../assets/expertise/cloud/cloud-white.png';
+import TitleImage from '../../assets/expertise/cloud/cloud-white.svg';
 import BannerLogoImage from '../../assets/expertise/cloud/banner_logo.png'
 import FormCard from "./form_card";
 import '../../styles/component.scss';

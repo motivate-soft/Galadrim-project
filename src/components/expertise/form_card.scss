@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+.form-card{
+  box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+  border-radius: 8px;
+  background-color: #ffffff;
+  z-index: 10;
+  margin-bottom: -300px;
+  .title-bar{
+    max-width: 422px;
+    margin-left: auto;
+    margin-right: auto;
+    h4{
+      font-family: "Gilroy Bold";
+      font-size: 24px;
+      font-weight: bold;
+      color: $color-blue;
+    }
+    p{
+      font-family: 'RobotoMono';
+      font-size: $color-blue;
+      margin-top: 12px;
+    }
+  }
+  .form-group{
+    label{
+      font-family: "Gilroy Medium"!important;
+      color: #6a6f85;
+    }
+    .form-control{
+      border: 1px solid white!important;
+    }
+    .form-control:focus{
+      font-family: "Gilroy Medium"!important;
+      border: 1px solid $color-blue!important;
+      color: $color-blue;
+      font-weight: 500;
+    }
+    button {
+      padding: 5px 38px;
+      font-family: "Gilroy Bold";
+    }
+  }
+  .form-description-string{
+    font-size: 9px;
+    color: #a4abb8;
+    font-family: 'RobotoRegular';
+  }
+}

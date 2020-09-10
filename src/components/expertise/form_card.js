@@ -1,4 +1,5 @@
 import React from 'react';
+import './form_card.scss'
 
 export default function FormCard() {
     return (
@@ -39,7 +40,19 @@ export default function FormCard() {
                           <input type="text" className="form-control" id="inputAddress2"
                                  placeholder="Apartment, studio, or floor"/>
                       </div>
-                      <button type="submit" className="btn btn-custom btn-success">Sign in</button>
+                      <div className="form-group text-center mt-4 mb-4">
+                          <button type="submit" className="btn btn-custom btn-success">Envoyer le formulaire</button>
+                      </div>
+                      <p className="form-description-string">
+                          Ces informations font l’objet d’un traitement informatisé par EFISENS,
+                          destiné à répondre et assurer le suivi de votre demande,
+                          et seront conservées durant le temps nécessaire pour y répondre.
+                          Conformément à la réglementation informatique et libertés, vous bénéficiez
+                          d’un droit d’accès et de rectification, de portabilité, d’effacement
+                          des informations vous concernant ou une limitation du traitement.
+                          Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour
+                          toutes demandes concernant vos données.
+                      </p>
                   </form>
               </div>
           </div>
