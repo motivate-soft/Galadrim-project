@@ -5,6 +5,7 @@ import {Send} from "@material-ui/icons";
 import EndImg from '../assets/home/images/group.png'
 
 import { FaYoutube, FaLinkedinIn, FaInstagram } from '../../node_modules/react-icons/fa';
+import {Link} from "react-router-dom";
 
 export default function Footer() {
     return(
@@ -22,16 +23,16 @@ export default function Footer() {
                       <h5 className="footer-title">Nos expertises</h5>
                       <ul className="nav flex-column">
                           <li className="nav-item">
-                              <a className="nav-link active" href="#">Cloud</a>
+                              <Link className="nav-link active" to="#">Cloud</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Modern Workplace</a>
+                              <Link className="nav-link" to="#">Modern Workplace</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Sécurité</a>
+                              <Link className="nav-link" to="#">Sécurité</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Services Managés</a>
+                              <Link className="nav-link" to="#">Services Managés</Link>
                           </li>
                       </ul>
                   </div>
@@ -39,16 +40,16 @@ export default function Footer() {
                       <h5 className="footer-title">Resources</h5>
                       <ul className="nav flex-column">
                           <li className="nav-item">
-                              <a className="nav-link active" href="#">Qui sommes-nous ?</a>
+                              <Link className="nav-link active" to="#">Qui sommes-nous ?</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Partenariats</a>
+                              <Link className="nav-link" to="#">Partenariats</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Efisens Lab</a>
+                              <Link className="nav-link" to="#">Efisens Lab</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">Carrières</a>
+                              <Link className="nav-link" to="#">Carrières</Link>
                           </li>
                       </ul>
                   </div>
@@ -61,10 +62,10 @@ export default function Footer() {
                       </h5>
                       <ul className="nav flex-column">
                           <li className="nav-item">
-                              <a className="nav-link active" href="#">Nous contacter</a>
+                              <Link className="nav-link active" to="#">Nous contacter</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">01 44 37 07 07</a>
+                              <Link className="nav-link" to="#">01 44 37 07 07</Link>
                           </li>
                           <li className="nav-item">
                               <button className="social-button" style={{'marginLeft':'1rem'}}>
@@ -105,9 +106,7 @@ export default function Footer() {
                           En renseignant votre adresse email, vous accepter de recevoir nos derniers articles de blog par courrier électronique et vous prenez connaissances de notre politique de protection des données personnelles. Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant ici.
                       </h6>
                   </div>
-                  <div className="col-lg-3">
-
-                  </div>
+                  <div className="col-lg-3"/>
                   <div className="col-lg-1" style={{'display':'flex','alignItems':'flex-end'}}>
                       <img src={EndImg} alt=""/>
                   </div>

@@ -59,7 +59,7 @@ class Experience extends React.Component {
 
     handleMouseEnter = (id) => {
         const { items } = this.state;
-        items.map((item, index) => {
+        items.forEach((item) => {
             if (item.id === id) {
                 item.active = true
             } else {
@@ -72,7 +72,7 @@ class Experience extends React.Component {
 
     handleMoustLeave = (id) => {
         const { items } = this.state;
-        items.map((item, index) => {
+        items.forEach((item) => {
             if (item.id === id) {
                 item.active = false
             }

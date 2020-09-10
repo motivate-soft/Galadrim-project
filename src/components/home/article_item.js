@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRightAltTwoTone } from '@material-ui/icons';
+import {Link} from "react-router-dom";
 
 
 
@@ -29,7 +30,7 @@ export default function ArticleItem({ id, active, img, title, text, buttonText, 
                     </p>
                     <h5 className="mx-auto font-weight-bold">{title}</h5>
                     <p className="mx-auto roboto-font">{text}</p>
-                    <a className="roboto-light">{buttonText} <ArrowRightAltTwoTone style={styles.largeIcon}/></a>
+                    <Link to="#" className="roboto-light">{buttonText} <ArrowRightAltTwoTone style={styles.largeIcon}/></Link>
                 </div>
             </div>
         </div >

@@ -18,7 +18,6 @@ import {
 
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Logo from "./logo";
 import Cloud from "../../assets/home/images/cloud.png";
 import Workspace from "../../assets/home/images/modern-workplace.png";

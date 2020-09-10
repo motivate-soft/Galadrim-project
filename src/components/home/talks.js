@@ -11,8 +11,8 @@ export default function Talk () {
           <div className= 'position-absolute red-right-top-semi-circle' style={{'bottom': '-60px'}}/>
           <div className="container">
               <div className="card card-body bg-white">
-                  <img src={ImageTriangle} className="image-triangle"/>
-                  <img src={ImageSquare} className="image-square"/>
+                  <img src={ImageTriangle} alt="Triangle" className="image-triangle"/>
+                  <img src={ImageSquare} alt="ImageSquare" className="image-square"/>
                   <div className="row">
                       <div className="col-lg-1"/>
                       <div className="col-lg-5">

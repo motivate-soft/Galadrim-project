@@ -2,9 +2,6 @@ import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import './App.scss';
 import Home from './pages/home';
-import DenseAppBar from "./components/global/appbar";
-import Header from "./components/header";
-import Footer from "./components/footer";
 import WhoWeAre from "./pages/who_we_are";
 import PartnerShip from "./pages/partner_ship";
 import ClickShopping from "./pages/click_shopping";
@@ -15,7 +12,6 @@ import ExpertiseCloud from "./pages/expertise_cloud";
 import ExpertiseSecurity from "./pages/expertise_security";
 import ExpertiseModernWorkplace from "./pages/expertise_modern_workplace";
 import ExpertiseServiceManager from "./pages/expertise_service_manager";
-import FullScreenNav from "./components/global/full_skin";
 
 function App() {
   return (

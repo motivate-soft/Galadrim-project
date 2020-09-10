@@ -47,20 +47,20 @@ class OurExpertise extends React.Component{
 
     handleMouseEnter = (id) => {
         const { items } = this.state;
-        items.map((item, index) => {
+        items.forEach((item) => {
             if (item.active === id) {
                 item.active = true
             } else {
                 item.active = false
             }
-        })
+        });
 
         this.setState({items: items})
     }
 
     handleMouseLeave = (id) => {
         const { items } = this.state;
-        items.map((item, index) => {
+        items.forEach((item) => {
             if (item.id === id) {
                 item.active = false
             }
