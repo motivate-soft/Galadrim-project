@@ -89,7 +89,7 @@ class Experience extends React.Component {
                     <div className="text-blue text-center w-75 mx-auto">
                         <h1 className="font-weight-bold mx-auto title">Efisens Lab</h1>
                         <div className="subtitle-container">
-                            <p className="roboto-font">
+                            <p className="">
                                 Restez à l'écoute du marché IT à l'aide de nos articles les plus récents en matière<br/>
                                 d'expérience digitale, de nos études de cas et de nos conseils pratiques.
                             </p>

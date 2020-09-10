@@ -29,8 +29,8 @@ export default function ArticleItem({ id, active, img, title, text, buttonText, 
                         <span className={tagClass}>{tagText}</span> • <span className="time">{timeText}</span>
                     </p>
                     <h5 className="mx-auto font-weight-bold">{title}</h5>
-                    <p className="mx-auto roboto-font">{text}</p>
-                    <Link to="#" className="roboto-light">{buttonText} <ArrowRightAltTwoTone style={styles.largeIcon}/></Link>
+                    <p className="mx-auto ">{text}</p>
+                    <Link to="#" className="">{buttonText} <ArrowRightAltTwoTone style={styles.largeIcon}/></Link>
                 </div>
             </div>
         </div >

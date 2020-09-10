@@ -15,19 +15,19 @@ export default function Trust() {
                     <h4 className="text-blue text-center">Ils nous font confiance</h4>
                 </div>
                 <div className="row justify-space-between mt-3 align-center">
-                    <div className="col-lg-2 col-xl-6">
+                    <div className="col-lg-2 col-md-6">
                         <img id="trust1" src={TrustImage1} alt=""/>
                     </div>
-                    <div className="col-lg-2 col-xl-6">
+                    <div className="col-lg-2 col-md-6">
                         <img id="trust2" src={TrustImage2} alt=""/>
                     </div>
-                    <div className="col-lg-2 col-xl-6">
+                    <div className="col-lg-2 col-md-6">
                         <img id="trust3" src={TrustImage3} alt=""/>
                     </div>
-                    <div className="col-lg-2 col-xl-6">
+                    <div className="col-lg-2 col-md-6">
                         <img id="trust4" src={TrustImage4} alt=""/>
                     </div>
-                    <div className="col-lg-2 col-xl-6">
+                    <div className="col-lg-2 col-md-6">
                         <img id="trust5" src={TrustImage5} alt=""/>
                     </div>
                 </div>

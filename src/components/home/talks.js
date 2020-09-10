@@ -22,7 +22,7 @@ export default function Talk () {
                           <div className="pick-item mb-1">
                               <div className="bg-blue" style={{'marginLeft': '-42px'}}/>
                           </div>
-                          <p className="text-blue mb-0 roboto-font">
+                          <p className="text-blue mb-0 ">
                               Nos experts partagent régulièrement leur savoir faire et leur expérience. Apprenez, lisez et servez -vous !
                           </p>
                       </div>
@@ -41,7 +41,7 @@ export default function Talk () {
                                   </div>
                               </form>
                           </div>
-                          <h6 className="text-green roboto-regular">
+                          <h6 className="text-green ">
                               En renseignant votre adresse email, vous accepter de recevoir nos derniers articles de blog par courrier électronique et vous prenez connaissances de notre politique de protection des données personnelles. Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant ici.
                           </h6>
                       </div>

@@ -79,7 +79,7 @@ class Jobs extends React.Component {
                     <div className="text-blue text-center w-75 mx-auto">
                         <h1 className="font-weight-bold mx-auto title">Nos expertises</h1>
                         <div className="subtitle-container">
-                            <p className="roboto-font">Nous agrégeons les meilleures technologies IT pour qu’elles<br/> puissent vous être bénéfiques au quotidien.</p>
+                            <p className="">Nous agrégeons les meilleures technologies IT pour qu’elles<br/> puissent vous être bénéfiques au quotidien.</p>
                         </div>
                     </div>
                     <div className="features-block mt-5">

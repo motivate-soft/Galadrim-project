@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="row" style={{'marginTop':'75px'}}>
                   <div className="col-lg-3 col-md-12">
                       <Logo/>
-                      <p className="mt-3 text-blue" style={{'fontSize': '14px','fontFamily':'RobotoRegular'}}>
+                      <p className="mt-3 text-blue contact-info" style={{'fontSize': '14px'}}>
                           7 rue Sainte Lucie,<br/>
                           75 015 PARIS, FRANCE
                       </p>
@@ -102,7 +102,7 @@ export default function Footer() {
                       <h5 className="text-green text-uppercase">
                           &nbsp;
                       </h5>
-                      <h6 className="text-green roboto-regular">
+                      <h6 className="text-green ">
                           En renseignant votre adresse email, vous accepter de recevoir nos derniers articles de blog par courrier électronique et vous prenez connaissances de notre politique de protection des données personnelles. Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant ici.
                       </h6>
                   </div>
@@ -112,7 +112,7 @@ export default function Footer() {
                   </div>
               </div>
           </div>
-          <div className="container-fluid bg-primary text-white">
+          <div className="container-fluid bg-primary text-white footer-bar">
               <div className="row">
                   <div className="container">
                       <div className="row" style={{'paddingTop':'24px', 'paddingBottom':'24px' }}>
