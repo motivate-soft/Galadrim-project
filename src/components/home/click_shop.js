@@ -21,7 +21,7 @@ export default function ClickShop () {
                       </div>
                   </div>
               </div>
-              <div className="row">
+              <div className="row bottom-layer">
                   <div className="col-lg-12 text-center">
                       <img src={BackImage} alt="" style={{'width': '100%'}}/>
                   </div>

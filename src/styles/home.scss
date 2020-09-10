@@ -855,11 +855,17 @@
           font-size: 14px;
         }
       }
+      .bottom-layer{
+        height: 600px;
+        .col-lg-12{
+          margin-top: 190px;
+        }
+      }
     }
   }
   #ready_for_future{
-    margin-top: 100px;
     padding-bottom: 29px!important;
+    padding-top: 0!important;
     .card-body{
       padding: 15px;
       .left-top-bg{
