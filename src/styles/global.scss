@@ -4,7 +4,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 500;
-  src: local("Gilroy"), local("Gilroy"),
+  src: local("Gilroy"), local("GilroyRegular"),
     url("../assets/Typo/gilroy/Gilroy-Regular.ttf") format("truetype"),
     url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype"),
     url("../assets/Typo/gilroy/Gilroy-RegularItalic.ttf") format("truetype");
@@ -28,10 +28,18 @@
 }
 
 @font-face {
-  font-family: 'RobotoMono';
+  font-family: "Gilroy SemiBold";
   font-style: normal;
   font-weight: bold;
   src: local("Gilroy"), local("Gilroy"),
+  url("../assets/Typo/gilroy/Gilroy-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  font-style: normal;
+  font-weight: bold;
+  src: local("Roboto"), local("Roboto"),
   url("../assets/Typo/Roboto_Mono/static/RobotoMono-Medium.ttf") format("truetype");
 }
 
@@ -39,7 +47,7 @@
   font-family: 'RobotoRegular';
   font-style: normal;
   font-weight: 300;
-  src: local("Gilroy"), local("Gilroy"),
+  src: local("Roboto"), local("Roboto"),
   url("../assets/Typo/Roboto_Mono/static/RobotoMono-Regular.ttf") format("truetype");
 }
 
@@ -47,7 +55,7 @@
   font-family: 'RobotoLight';
   font-style: normal;
   font-weight: 100;
-  src: local("Gilroy"), local("Gilroy"),
+  src: local("Roboto"), local("Roboto"),
   url("../assets/Typo/Roboto_Mono/static/RobotoMono-Light.ttf") format("truetype");
 }
 
@@ -349,6 +357,9 @@ footer{
 }
 
 .nav-item{
+  .nav-link{
+    font-family: "Gilroy SemiBold"!important;
+  }
   svg{
     transform: translateY(4px);
   }
