@@ -201,6 +201,7 @@ button{
 
 button:focus{
   outline: none;
+  box-shadow: none!important;
 }
 
 button{
@@ -208,6 +209,11 @@ button{
     margin-bottom: -2px;
   }
 }
+
+input:focus{
+  box-shadow: none!important;
+}
+
 
 .justify-space-between{
   justify-content: space-around;
@@ -452,16 +458,75 @@ footer{
     }
   }
 }
-.makeStyles-root-3{
-  display: none;
+.MuiPaper-elevation4{
+  display: none!important;
 }
 //header responsive
 @media (max-width: 1024px) {
   .navbar {
     display: none;
   }
-  .makeStyles-root-3{
-    border-bottom: 1px solid $gray-100;
+  .MuiPaper-elevation4{
+    display: block!important;
+  }
+
+  .mobile-list span{
+    font-family: 'Gilroy SemiBold';
+  }
+  .btn-responsive-block{
     display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: 49px;
+    margin-top: 20px;
+  }
+  .MuiAccordion-root{
+    border: none!important;
+    box-shadow: none!important;
+  }
+  .MuiAccordion-root:before{
+    display: none!important;
+  }
+  .MuiTypography-body1{
+    font-family: 'Gilroy SemiBold'!important;
+  }
+  .MuiIconButton-edgeEnd{
+    margin-right: 182px!important;
+    svg{
+      path{
+        fill: $primary;
+      }
+    }
+  }
+  .MuiCollapse-wrapper{
+    .MuiAccordionDetails-root{
+      padding: 0!important;
+      .media{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        img{
+          width: 29px;
+          margin-right: 10px!important;
+        }
+        .media-body{
+          width: 50px;
+          padding-right: 120px;
+          h5{
+            font-size: 14px;
+            margin-bottom: 1px;
+          }
+          p{
+            font-size: 10px;
+          }
+        }
+      }
+      a:hover{
+        text-decoration: none!important;
+      }
+    }
+    .makeStyles-list-3{
+      padding: 0!important;
+      padding-left: 10px!important;
+    }
   }
 }

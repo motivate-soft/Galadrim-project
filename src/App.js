@@ -15,11 +15,13 @@ import ExpertiseCloud from "./pages/expertise_cloud";
 import ExpertiseSecurity from "./pages/expertise_security";
 import ExpertiseModernWorkplace from "./pages/expertise_modern_workplace";
 import ExpertiseServiceManager from "./pages/expertise_service_manager";
+import FullScreenNav from "./components/global/full_skin";
 
 function App() {
   return (
       <React.Fragment>
-          <DenseAppBar/>
+          {/*<DenseAppBar/>*/}
+          <FullScreenNav/>
           <Header/>
             <BrowserRouter>
                 <Switch>
