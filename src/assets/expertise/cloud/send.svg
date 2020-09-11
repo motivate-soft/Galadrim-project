@@ -1,8 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
     <g fill="none" fill-rule="evenodd">
         <g fill="#FFF">
             <g>
-                <path d="M0.012 0.286L0 8.841 18.571 11.286 0 13.73 0.012 22.286 26 11.286z" transform="translate(3 4.714)"/>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path d="M0.01 0.232L0 7.184 15.089 9.17 0 11.156 0.01 18.107 21.125 9.17z" transform="translate(-370 -5815) translate(0 5428) translate(132 375) translate(226) translate(12 12) translate(2.438 3.83)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

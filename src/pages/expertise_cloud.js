@@ -6,6 +6,9 @@ import OurApproach from "../components/expertise/our_approach";
 import FullScreenNav from "../components/global/full_skin";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import OurTechnique from "../components/expertise/our_technique";
+import Resource from "../components/expertise/resource";
+import OtherExpertise from "../components/expertise/other_expertise";
 
 const theme = {
     mainColor: '#00d2b5',
@@ -27,6 +30,9 @@ class ExpertiseCloud extends React.Component{
                 <div className="spacer"/>
                 <OurExpertise theme={theme}/>
                 <OurApproach theme={theme}/>
+                <OurTechnique theme={theme}/>
+                <Resource theme={theme}/>
+                <OtherExpertise theme={theme}/>
                 <Footer/>
             </>
         );
