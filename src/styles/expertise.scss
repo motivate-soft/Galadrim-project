@@ -220,5 +220,34 @@
       font-size:  54px;
     }
   }
+  .card-area{
+    position: relative;
+    margin-top: 81px;
+    justify-content: center;
+    display: flex;
+    .col-lg-3{
+      text-align: center;
+    }
+    .top-right-img{
+      position: absolute;
+      top: -28px;
+      right: calc(50% - 26.1vw);
+      width: 60px;
+      height: 60px;
+      z-index: -1;
+      border-radius: 0 60px 0 0;
+      background-color: #ff5c4d;
+    }
+    .bottom-right-img{
+      position: absolute;
+      bottom: -43px;
+      right: 129px;
+    }
+    .top-left-img{
+      position: absolute;
+      top: -19px;
+      left: 156px;
+    }
+  }
 }
 
