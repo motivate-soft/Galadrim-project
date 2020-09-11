@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .card-case{
-  transition-duration: 800ms;
+  transition-duration: 1000ms;
   .expertise-card{
     border: 3px solid white;
     height: 397px;
@@ -17,8 +17,8 @@
     }
     .expertise-card-title{
       font-family: 'Gilroy';
+      font-weight: 800;
       font-size: 24px;
-      font-weight: bold;
       font-stretch: normal;
       font-style: normal;
       line-height: normal;
@@ -31,10 +31,9 @@
     .expertise-card-subtitle{
       font-family: "Gilroy";
       font-size: 14px;
-      font-weight: bold;
+      font-weight: 800;
       font-stretch: normal;
       font-style: normal;
-      line-height: normal;
       letter-spacing: normal;
       text-align: center;
       color: $color-blue;
@@ -46,8 +45,8 @@
       margin-top: 30px;
       li{
         font-family: "RobotoMono";
+        font-weight: 500;
         font-size: 12px;
-        font-weight: normal;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.83;
@@ -79,5 +78,5 @@
   -ms-transform: translateY(-20px);
   -o-transform: translateY(-20px);
   transform: translateY(-20px);
-  transition-duration: 800ms;
+  transition-duration: 1000ms;
 }

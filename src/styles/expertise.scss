@@ -1,3 +1,4 @@
+@import "../styles/variables";
 .expertise_banner {
   padding-top: 78px;
   .container {
@@ -40,13 +41,17 @@
   h1{
     font-size: 54px;
     margin-top: 69px;
-    font-family: "Gilroy"; font-weight: 700;
+    font-family: "Gilroy";
+    font-weight: 800;
   }
   .card-content{
     margin-top: 77px;
   }
 }
 .our_approach{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   .title-area{
     max-width: 576px;
     margin-left: auto;
@@ -54,12 +59,14 @@
     h1{
       font-size: 54px;
       margin-top: 69px;
+      font-family: "Gilroy";
+      font-weight: 800;
     }
     .subtitle{
       margin-top: 29px;
       font-family: "RobotoMono";
-      font-size: 16px;
       font-weight: 500;
+      font-size: 16px;
       font-stretch: normal;
       font-style: normal;
       line-height: normal;
@@ -68,9 +75,10 @@
     }
   }
   .cart-area{
+    margin-top: 51px;
     .text-card{
-      width: 476px;
-      height: 189px;
+      text-align: left;
+      min-height: 189px;
       border-radius: 8px;
       box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
       background-color: #ffffff;
@@ -87,21 +95,43 @@
           font-style: normal;
           line-height: normal;
           letter-spacing: normal;
-          color: #ff5e4d;
         }
         .media-body{
           h5{
             font-family: "Gilroy";
             font-size: 26px;
-            font-weight: 500;
+            font-weight: 800;
             font-stretch: normal;
             font-style: normal;
             line-height: 1.23;
             letter-spacing: normal;
-            color: #ff5e4d;
           }
         }
       }
+      p{
+        color: $color-blue;
+        font-size: 14px;
+      }
+      .left-green-squre{
+        position: absolute;
+        left: -23px;
+        top: -25px;
+        height: 120px;
+        width: 120px;
+        z-index: -1;
+      }
     }
+  }
+  .circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+  }
+  .right-bottom-image{
+    position: absolute;
+    bottom: -95px;
+    right: -25px;
+    z-index: -1;
+    width: 156px;
   }
 }

@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 
 const theme = {
     mainColor: '#00d2b5',
+    secondaryColor: '#ff5e4d',
 };
 class ExpertiseCloud extends React.Component{
 
