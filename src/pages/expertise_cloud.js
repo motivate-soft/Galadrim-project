@@ -9,6 +9,7 @@ import Footer from "../components/footer";
 import OurTechnique from "../components/expertise/our_technique";
 import Resource from "../components/expertise/resource";
 import OtherExpertise from "../components/expertise/other_expertise";
+import CloudContactUs from "../components/expertise/cloud_contact_us";
 
 const theme = {
     mainColor: '#00d2b5',
@@ -33,6 +34,7 @@ class ExpertiseCloud extends React.Component{
                 <OurTechnique theme={theme}/>
                 <Resource theme={theme}/>
                 <OtherExpertise theme={theme}/>
+                <CloudContactUs theme={theme}/>
                 <Footer/>
             </>
         );
