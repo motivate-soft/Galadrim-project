@@ -1,6 +1,25 @@
 @import "../styles/variables";
 .expertise_banner {
+  position: relative;
   padding-top: 78px;
+  .banner0image{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: -80px;
+  }
+  .banner1image{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: calc(50% - 30px);
+  }
+  .banner2image{
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: -144px;
+  }
   .container {
     .row {
       margin-top: 85px;

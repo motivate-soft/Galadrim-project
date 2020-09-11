@@ -4,7 +4,6 @@ import Workspace from "../../assets/home/images/modern-workplace.png";
 import Service from "../../assets/home/images/s-curit.png";
 import IconButtonCard from "../global/Icon_button_card";
 
-import  FormesImageOrigin from '../../assets/expertise/cloud/orange-mini.svg';
 import  FormesImageGreen from '../../assets/expertise/cloud/vert-mini.svg';
 import  FormesImageBlue from '../../assets/expertise/cloud/bleu-mini.svg';
 

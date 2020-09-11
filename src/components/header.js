@@ -22,7 +22,7 @@ export default function Header() {
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             
-                            <Link className="nav-link" to="/who_we_are">Qui sommes nous ?</Link>
+                            <Link className="nav-link" to="/qui-sommes-nous">Qui sommes nous ?</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="#">Nos expertises <FaAngleDown/></Link>

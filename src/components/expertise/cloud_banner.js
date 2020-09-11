@@ -1,17 +1,22 @@
 import React from 'react';
 import TitleImage from '../../assets/expertise/cloud/cloud-white.svg';
-import BannerLogoImage from '../../assets/expertise/cloud/banner_logo.png'
+import BannerLogoImage from '../../assets/expertise/cloud/cloud-image.svg'
+import Banner0Image from '../../assets/expertise/cloud/cloud0.svg';
+import Banner1Image from '../../assets/expertise/cloud/cloud1.svg';
+import Banner2Image from '../../assets/expertise/cloud/cloud2.svg';
 import FormCard from "./form_card";
 import '../../styles/component.scss';
-
 
 export default function ExpertiseCloudBanner(props) {
     return (
       <>
         <div className="expertise_banner" style={{backgroundColor: props.theme.mainColor}}>
+            <img src={Banner0Image} className={"banner0image"} alt=""/>
+            <img src={Banner1Image} className={"banner1image"} alt=""/>
+            <img src={Banner2Image} className={"banner2image"} alt=""/>
             <div className="container">
                 <div className="text-center">
-                    <img src={BannerLogoImage} alt="Cloud Banner" width="290"/>
+                    <img src={BannerLogoImage} alt="Cloud Banner" width="290" style={{width:'290px'}}/>
                 </div>
                <div className="row">
                    <div className="col-lg-6">
