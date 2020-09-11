@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="174" height="174" viewBox="0 0 174 174">
-    <g fill="none" fill-rule="evenodd">
-        <g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="174px" viewBox="0 0 174 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>1CDD1AD6-9FF5-4B87-BF0F-6C2912D3EDEE</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="illustration/expertise/service-managé">
             <g>
-                <g>
-                    <g>
-                        <g>
-                            <g>
-                                <path fill="#FF5E4D" d="M95 125L127 125 127 0 95 0z" transform="translate(-933 -4439) translate(0 4144) translate(882 295) translate(51) translate(23 28)"/>
-                                <path fill="#001A5C" d="M48 125L80 125 80 0 48 0z" transform="translate(-933 -4439) translate(0 4144) translate(882 295) translate(51) translate(23 28)"/>
-                                <path fill="#00D2B5" d="M0 125L32 125 32 0 0 0z" transform="translate(-933 -4439) translate(0 4144) translate(882 295) translate(51) translate(23 28)"/>
-                            </g>
-                            <path d="M0 0H174V174H0z" transform="translate(-933 -4439) translate(0 4144) translate(882 295) translate(51)"/>
-                        </g>
-                    </g>
+                <g id="Group-4" transform="translate(23.000000, 28.000000)">
+                    <polygon id="Fill-1" fill="#FF5E4D" points="95 125 127 125 127 0 95 0"></polygon>
+                    <polygon id="Fill-2" fill="#001A5C" points="48 125 80 125 80 0 48 0"></polygon>
+                    <polygon id="Fill-3" fill="#00D2B5" points="0 125 32 125 32 0 0 0"></polygon>
                 </g>
+                <rect id="Rectangle-Copy-3" x="0" y="0" width="174" height="174"></rect>
             </g>
         </g>
     </g>

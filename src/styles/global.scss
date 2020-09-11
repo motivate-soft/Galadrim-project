@@ -673,9 +673,9 @@ footer{
   .MuiPaper-elevation4{
     display: block!important;
   }
-  .mobile-list span{
+  a{
     font-family: 'Gilroy';
-    font-weight: 800;
+    font-weight: 600;
   }
   .btn-responsive-block{
     display: block;
@@ -693,7 +693,7 @@ footer{
   }
   .MuiTypography-body1{
     font-family: 'Gilroy'!important;
-    font-weight: 800!important;
+    font-weight: 600!important;
     svg{
       margin-bottom: -2px;
       margin-left: 5px;
@@ -719,6 +719,7 @@ footer{
           width: 29px;
           margin-right: 10px!important;
         }
+        max-width: 239px;
         .media-body{
           width: 50px;
           //padding-right: 120px;
@@ -726,7 +727,7 @@ footer{
             font-size: 14px;
             margin-bottom: 1px;
             font-family: "Gilroy";
-            font-weight: 800;
+            font-weight: 600;
           }
           p{
             font-size: 10px;

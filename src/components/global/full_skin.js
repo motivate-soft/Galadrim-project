@@ -12,18 +12,18 @@ import {
     IconButton,
     Typography,
     Slide,
-    ListItemText,
     Dialog
 } from '@material-ui/core';
 
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
 import Logo from "./logo";
-import Cloud from "../../assets/home/images/cloud.png";
-import Workspace from "../../assets/home/images/modern-workplace.png";
-import Service from "../../assets/home/images/s-curit.png";
-import ServiceManage from "../../assets/home/images/service-manag.png";
+import Cloud from "../../assets/global/header/cloud.svg";
+import Workspace from "../../assets/global/header/modern-workplace.svg";
+import Service from "../../assets/global/header/s-curit.svg";
+import ServiceManage from "../../assets/global/header/service-manag.svg";
 import { FaAngleDown } from '../../../node_modules/react-icons/fa';
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -45,7 +45,6 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     menuButton: {
-        marginRight: theme.spacing(2),
     },
 
     title: {
@@ -79,7 +78,7 @@ export default function FullScreenNav() {
             <AppBar position="static">
                 <Toolbar className={classes.toolbar}>
                     <Typography variant="h6" color="inherit">
-                        <a href='/'><Logo/></a>
+                        <Link to='/'><Logo/></Link>
                     </Typography>
                     <IconButton
                         edge="start"
@@ -96,7 +95,7 @@ export default function FullScreenNav() {
                 <AppBar className={classes.appBar}>
                     <Toolbar className={classes.toolbar} style={{borderBottom: '0px solid #eee'}}>
                         <Typography variant="h6" color="inherit">
-                            <a href='/'><Logo/></a>
+                            <Link to='/'><Logo/></Link>
                         </Typography>
                         <IconButton edge="start" color="primary" onClick={handleClose} aria-label="close">
                             <CloseIcon />
@@ -105,7 +104,7 @@ export default function FullScreenNav() {
                 </AppBar>
                 <List className={classes.list}>
                     <ListItem button>
-                        <ListItemText primary="Qui sommes nous ?" className="text-primary mobile-list"/>
+                        <Link to={"/qui-sommes-nous"} className="text-primary mobile-list">Qui sommes nous ?</Link>
                     </ListItem>
                     <Accordion className={classes.accordion} >
                         <AccordionSummary
@@ -119,7 +118,7 @@ export default function FullScreenNav() {
                         <AccordionDetails className={classes.details}>
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <a href="/expertise/cloud">
+                                    <Link to="/expertises/cloud">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={Cloud}
                                                  alt="Cloud"/>
@@ -128,10 +127,10 @@ export default function FullScreenNav() {
                                                 <p>Adopter des solutions cloud hybrides</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="col-lg-6">
-                                    <a href="/expertise/modern_workplace">
+                                    <Link to="/expertises/modern-workplace">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={Workspace}
                                                  alt="Cloud"/>
@@ -140,10 +139,10 @@ export default function FullScreenNav() {
                                                 <p>Moderniser vos environnements de travail</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="col-lg-6">
-                                    <a href="/expertise/security">
+                                    <Link to="/expertise/security">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={Service}
                                                  alt="Cloud"/>
@@ -152,10 +151,10 @@ export default function FullScreenNav() {
                                                 <p>Protéger vos données, votre infrastructure et vos utilisateurs</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="col-lg-6">
-                                    <a href="/expertise/service_manager">
+                                    <Link to="/expertise/service_manager">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={ServiceManage}
                                                  alt="Cloud"/>
@@ -164,26 +163,26 @@ export default function FullScreenNav() {
                                                 <p>Superviser et surveiller votre système IT</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </AccordionDetails>
 
                     </Accordion>
                     <ListItem button>
-                        <ListItemText primary="Nos partenariats" className="text-primary mobile-list"/>
+                        <Link to={"/partenariats"} className="text-primary mobile-list">Nos partenariats</Link>
                     </ListItem>
                     <ListItem button>
-                        <ListItemText primary="Efisens Clic&Shop" className="text-primary mobile-list"/>
+                        <Link to={"/clic-shop"} className="text-primary mobile-list">Efisens Clic&Shop</Link>
                     </ListItem>
                     <ListItem button>
-                        <ListItemText primary="Efisens Lab" className="text-primary mobile-list"/>
+                        <Link to={"/lab"} className="text-primary mobile-list">Efisens Lab</Link>
                     </ListItem>
                     <ListItem button>
-                        <ListItemText primary="Carrières" className="text-primary mobile-list"/>
+                        <Link to={"/carrieres"} className="text-primary mobile-list">Carrières</Link>
                     </ListItem>
                     <ListItem button>
-                        <ListItemText primary="Nous contacter" className="text-primary mobile-list"/>
+                        <Link to={"/contact"} className="text-primary mobile-list">Nous contacter</Link>
                     </ListItem>
                     <button className="btn btn-danger btn-custom btn-responsive-block">
                         < FaLock /> Accès client

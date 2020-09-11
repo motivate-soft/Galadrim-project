@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="78" height="26" viewBox="0 0 78 26">
-    <g fill="none" fill-rule="evenodd">
-        <g>
-            <g>
-                <g transform="translate(-1230 -5827) translate(0 5428) translate(1230 399)">
-                    <path fill="#00D2B5" d="M13 0c7.18 0 13 5.82 13 13v13H0V13C0 5.82 5.82 0 13 0z"/>
-                    <circle cx="13" cy="13" r="13" fill="#FF5E4D" transform="rotate(180 26 13)"/>
-                    <path fill="#001A5C" d="M0 0L26 26 0 26z" transform="rotate(-90 39 -13)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="26px" viewBox="0 0 78 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>EEE6B011-8CA9-42AF-816F-E32883270A67</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="web/footer" transform="translate(-1230.000000, -399.000000)" fill="#00D2B5">
+            <g id="Group">
+                <g transform="translate(1230.000000, 399.000000)">
+                    <g id="illustration/demi-arrondi/vert/3" transform="translate(13.000000, 13.000000) scale(-1, -1) translate(-13.000000, -13.000000) ">
+                        <path d="M13,0 C20.1797017,-1.31888981e-15 26,5.82029825 26,13 L26,26 L26,26 L0,26 L0,13 C-8.79259876e-16,5.82029825 5.82029825,1.31888981e-15 13,0 Z" transform="translate(13.000000, 13.000000) rotate(-180.000000) translate(-13.000000, -13.000000) "></path>
+                    </g>
+                    <g id="illustration/rond/saumon" transform="translate(39.000000, 13.000000) scale(-1, -1) translate(-39.000000, -13.000000) translate(26.000000, 0.000000)">
+                        <circle fill="#FF5E4D" cx="13" cy="13" r="13"></circle>
+                    </g>
+                    <g id="illustration/triangle/bleu/2" transform="translate(65.000000, 13.000000) scale(-1, -1) translate(-65.000000, -13.000000) translate(52.000000, 0.000000)">
+                        <polygon fill="#001A5C" transform="translate(13.000000, 13.000000) rotate(-270.000000) translate(-13.000000, -13.000000) " points="2.53426909e-14 -1.24344979e-14 26 26 2.53426909e-14 26"></polygon>
+                    </g>
                 </g>
             </g>
         </g>

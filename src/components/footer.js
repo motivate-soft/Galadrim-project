@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="container">
               <div className="row" style={{'marginTop':'75px'}}>
                   <div className="col-lg-3 col-md-12">
-                      <Logo/>
+                      <Link to={'/'}><Logo/></Link>
                       <p className="mt-3 text-blue contact-info" style={{'fontSize': '14px'}}>
                           7 rue Sainte Lucie,<br/>
                           75 015 PARIS, FRANCE

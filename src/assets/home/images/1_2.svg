@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <g fill="none" fill-rule="evenodd" opacity=".08">
+        <g fill="#001A5C">
+            <path d="M0 0L120 120 0 120z" transform="translate(0 -723) translate(0 723)"/>
+        </g>
+    </g>
+</svg>

@@ -2,10 +2,10 @@ import React from 'react';
 import Logo from './global/logo';
 
 import { FaAngleDown, FaLock } from '../../node_modules/react-icons/fa';
-import Cloud from '../assets/home/images/cloud.png';
-import Workspace from '../assets/home/images/modern-workplace.png';
-import Service from '../assets/home/images/s-curit.png';
-import ServiceManage from '../assets/home/images/service-manag.png';
+import Cloud from '../assets/global/header/cloud.svg';
+import Workspace from '../assets/global/header/modern-workplace.svg';
+import Service from '../assets/global/header/s-curit.svg';
+import ServiceManage from '../assets/global/header/service-manag.svg';
 import {Link} from "react-router-dom";
 
 
