@@ -11,7 +11,7 @@
     margin-right: auto;
     h4{
       font-family: "Gilroy";
-      font-weight: 700;
+      font-weight: 800;
       font-size: 24px;
       color: $color-blue;
     }
@@ -23,25 +23,26 @@
   }
   .form-group{
     label{
-      font-family: "Gilroy"!important; font-weight: 500;
+      font-family: "Gilroy"!important;
+      font-weight: 500;
       color: #6a6f85;
     }
     .form-control{
       border: 1px solid white!important;
     }
     .form-control:focus{
-      font-family: "Gilroy"!important; font-weight: 500;
+      font-family: "Gilroy"!important;
+      font-weight: 500;
       border: 1px solid $color-blue!important;
       color: $color-blue;
-      font-weight: 500;
     }
     button {
       padding: 5px 38px;
-      font-family: "Gilroy"; font-weight: 300;
     }
   }
   .form-description-string{
     font-size: 9px;
-    font-family: 'RobotoRegular';
+    font-family: 'RobotoMono';
+    font-weight: 400;
   }
 }

@@ -253,6 +253,14 @@
 }
 
 
+h1, h2, h3, h4, h5{
+  font-family: "Gilroy";
+  font-weight: 800;
+}
+p, h6{
+  font-family: "RobotoMono";
+  font-weight: 500;
+}
 
 @import "initial/functions";
 @import "initial/variables";
@@ -738,3 +746,4 @@ footer{
     }
   }
 }
+
