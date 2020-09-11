@@ -19,15 +19,15 @@ function App() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Home}/>
-                    <Route exact path="/who_we_are" component={WhoWeAre}/>
-                    <Route exact path="/expertise/cloud" component={ExpertiseCloud}/>
-                    <Route exact path="/expertise/modern_workplace" component={ExpertiseModernWorkplace}/>
-                    <Route exact path="/expertise/security" component={ExpertiseSecurity}/>
-                    <Route exact path="/expertise/service_manager" component={ExpertiseServiceManager}/>
-                    <Route exact path="/partner_ship" component={PartnerShip}/>
-                    <Route exact path="/click_shopping" component={ClickShopping}/>
-                    <Route exact path="/laboratory" component={Laboratory}/>
-                    <Route exact path="/career" component={Career}/>
+                    <Route exact path="/qui-sommes-nous" component={WhoWeAre}/>
+                    <Route exact path="/expertises/cloud" component={ExpertiseCloud}/>
+                    <Route exact path="/expertises/modern-workplace" component={ExpertiseModernWorkplace}/>
+                    <Route exact path="/expertises/securite" component={ExpertiseSecurity}/>
+                    <Route exact path="/expertises/services-manages" component={ExpertiseServiceManager}/>
+                    <Route exact path="/partenariats" component={PartnerShip}/>
+                    <Route exact path="/clic-shop" component={ClickShopping}/>
+                    <Route exact path="/lab" component={Laboratory}/>
+                    <Route exact path="/carrieres" component={Career}/>
                     <Route exact path="/contact" component={Contact}/>
                 </Switch>
             </BrowserRouter>

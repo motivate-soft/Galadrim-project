@@ -31,7 +31,7 @@ export default function Header() {
                                     <div className="tail"/>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <Link to="/expertise/cloud">
+                                            <Link to="/expertises/cloud">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Cloud}
                                                          alt="Cloud"/>
@@ -43,7 +43,7 @@ export default function Header() {
                                             </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <Link to="/expertise/modern_workplace">
+                                            <Link to="/expertises/modern-workplace">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Workspace}
                                                          alt="Cloud"/>
@@ -55,7 +55,7 @@ export default function Header() {
                                             </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <Link to="/expertise/security">
+                                            <Link to="/expertises/securite">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={Service}
                                                          alt="Cloud"/>
@@ -67,7 +67,7 @@ export default function Header() {
                                             </Link>
                                         </div>
                                         <div className="col-lg-6">
-                                            <Link to="/expertise/service_manager">
+                                            <Link to="/expertises/services-manages">
                                                 <div className="media">
                                                     <img className="align-self-start mr-3" src={ServiceManage}
                                                          alt="Cloud"/>
@@ -83,16 +83,16 @@ export default function Header() {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/partner_ship">Nos partenariats</Link>
+                            <Link className="nav-link" to="/partenariats">Nos partenariats</Link>
                         </li>
 						<li className="nav-item">
-                            <Link className="nav-link" to="/click_shopping">Efisens Clic&Shop</Link>
+                            <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop</Link>
                         </li>
 						<li className="nav-item">
-                            <Link className="nav-link" to="/laboratory">Efisens Lab</Link>
+                            <Link className="nav-link" to="/lab">Efisens Lab</Link>
                         </li>
 						<li className="nav-item">
-                            <Link className="nav-link" to="/career">Carrières</Link>
+                            <Link className="nav-link" to="/carrieres">Carrières</Link>
                         </li>
 						<li className="nav-item">
                             <Link className="nav-link" to="/contact">Nous contacter</Link>
