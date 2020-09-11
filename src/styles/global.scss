@@ -572,7 +572,6 @@ footer{
     width: 536px;
     position: absolute;
     margin-top: 12px;
-
     opacity: 0;
     z-index: -1;
     transition-duration: 1000ms;
@@ -600,12 +599,18 @@ footer{
             h5{
               font-size: 14px;
               margin-bottom: 5px;
+              font-family: "Gilroy";
+              font-weight: 800;
+              color: $blue;
             }
             p{
               font-size: 10px;
               line-height: 12px;
               letter-spacing: -0.03rem;
               margin-bottom: 25px;
+              font-family: "RobotoMono";
+              font-weight: 400;
+              color: $blue;
             }
           }
         }
@@ -618,8 +623,8 @@ footer{
         height: 20px;
         background: white;
         position: absolute;
-        left: 50px;
-        top: -6px;
+        left: 123px;
+        top: -3px;
         transform: rotateZ(45deg);
       }
     }
@@ -627,13 +632,19 @@ footer{
   }
 }
 
-
-
 .nav-item:hover{
   .dropdown-content{
     opacity: 1;
     z-index: 10;
     transition-duration: 1000ms;
+  }
+  .dropdown-content:hover{
+    .media{
+      opacity: 0.7;
+    }
+    .media:hover{
+      opacity: 1;
+    }
   }
 }
 
