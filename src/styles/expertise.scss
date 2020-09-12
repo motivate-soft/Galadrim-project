@@ -3,7 +3,10 @@
   position: relative;
   padding-top: 78px;
   .banner-logo{
-    height: 59px!important;
+    display: inline;
+  }
+  .banner-logo-mobile{
+    display: none;
   }
   .banner0image{
     position: absolute;
@@ -26,17 +29,20 @@
   .container {
     .row {
       margin-top: 85px;
-      .image_title {
-        font-size: 64px;
-        font-family: "Gilroy";
-        font-weight: 800;
-        color: white;
+      .media{
         img {
+          margin-top: -5px;
           width: 76px;
-          margin-top: -10px;
           margin-right: 24px;
         }
+        .image_title {
+          font-family: "Gilroy";
+          font-weight: 800;
+          color: white;
+          margin-bottom: 0;
+        }
       }
+
       .description {
         max-width: 476px;
         margin-top: 37px;
@@ -309,6 +315,12 @@
 
 @media(max-width: 768px){
   .expertise_banner{
+    .banner-logo{
+      display: none;
+    }
+    .banner-logo-mobile{
+      display: block;
+    }
     .banner0image{
       display: none
     }
