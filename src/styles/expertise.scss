@@ -419,7 +419,11 @@
         height: 0;
       }
       .card2{
-        margin-top: 16px;
+        margin-top: -413px;
+        margin-bottom: 225px;
+      }
+      .card3{
+        margin-top: 229px;
       }
       .circle{
         width: 50px;
@@ -580,6 +584,61 @@
             padding: 5px 59px;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 441px) {
+  .our_approach{
+    .container{
+      padding-left: 20px;
+      padding-right: 20px;
+      .title-area{
+        h1{
+          font-size: 36px;
+        }
+        .subtitle{
+          margin-top: 16px;
+        }
+      }
+      .cart-area{
+        margin-top: 35px;
+        .text-card{
+          max-height: 213px;
+          .left-green-squre{
+            position: absolute;
+            left: -15px;
+            top: -15px;
+            height: 30px;
+            width: 30px;
+            z-index: -1;
+          }
+        }
+      }
+      .image-hidden-able{
+        display: none;
+      }
+      .space-content{
+        height: 0;
+      }
+      .card2{
+        margin-top: -447px;
+        margin-bottom: 252px;
+      }
+      .card3{
+        margin-top: 250px;
+      }
+      .circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+      }
+      .right-bottom-image{
+        bottom: -64px;
+        right: 0;
+        z-index: -1;
+        width: 104px;
       }
     }
   }

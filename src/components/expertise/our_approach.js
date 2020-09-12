@@ -35,18 +35,6 @@ export default function OurApproach(props) {
                                         <img src={Cart1Image} alt=""/>
                                     </div>
 
-                                    <div className={'card text-card card2'}>
-                                        <div className="media">
-                                            <h1 className={'text-success align-self-center'} >02•</h1>
-                                            <div className="media-body" style={{maxWidth:'200px'}}>
-                                                <h5 className="mt-0 text-success">Conception & architecture </h5>
-                                            </div>
-                                        </div>
-                                        <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>
-                                    </div>
-                                </div>
-                                <div className={'col-md-6'}>
-                                    <div className={"spacer-100 space-content mb-3"}/>
                                     <div className={'card text-card card3'}>
                                         <div className="media">
                                             <h1 className={'text-primary align-self-center'} >03•</h1>
@@ -56,6 +44,19 @@ export default function OurApproach(props) {
                                         </div>
                                         <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>
                                     </div>
+                                </div>
+                                <div className={'col-md-6'}>
+                                    <div className={"spacer-100 space-content mb-3"}/>
+                                    <div className={'card text-card card2'}>
+                                        <div className="media">
+                                            <h1 className={'text-success align-self-center'} >02•</h1>
+                                            <div className="media-body" style={{maxWidth:'200px'}}>
+                                                <h5 className="mt-0 text-success">Conception & architecture </h5>
+                                            </div>
+                                        </div>
+                                        <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>
+                                    </div>
+
                                     <div style={{position: "relative"}}>
                                         <div className={"image-box bottom-right-radius mt-4 mb-3"}>
                                             <img src={Cart1Image} alt=""/>
