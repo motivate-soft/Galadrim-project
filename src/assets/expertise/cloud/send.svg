@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
-    <title>D704975B-186D-4159-8357-99BD5F4CD6D9</title>
+    <title>64A7D8C8-5E3B-4009-BC61-F58002F996ED</title>
     <desc>Created with sketchtool.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icons/newsletter/send" fill="#FFFFFF">
-            <g id="send" transform="translate(3.000000, 4.714286)">
-                <polygon id="Path" points="0.0123616071 0.285714286 0 8.84125074 18.5714286 11.2857143 0 13.7301778 0.0123616071 22.2857143 26 11.2857143"></polygon>
+    <g id="Écrans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0.0.1---Cloud" transform="translate(-370.000000, -5815.000000)" fill="#FFFFFF">
+            <g id="web/footer" transform="translate(0.000000, 5428.000000)">
+                <g id="input/newsletter/inactive-footer">
+                    <g transform="translate(132.000000, 375.000000)">
+                        <g id="input/newsletter/inactive">
+                            <g id="Group" transform="translate(226.000000, 0.000000)">
+                                <g id="icons/newsletter/send" transform="translate(12.000000, 12.000000)">
+                                    <g id="send" transform="translate(2.437500, 3.830357)">
+                                        <polygon id="Path" points="0.0100438058 0.232142857 0 7.18351623 15.0892857 9.16964286 0 11.1557695 0.0100438058 18.1071429 21.125 9.16964286"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

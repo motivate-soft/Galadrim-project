@@ -1,33 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="76" viewBox="0 0 76 76">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>B918C7D4-D587-4EE3-AA4F-4C6A38DF3DC5</title>
+    <desc>Created with sketchtool.</desc>
     <defs>
-        <path id="dzarwkw5la" d="M0.082 0.341L42.913 0.341 42.913 43.172 0.082 43.172z"/>
-        <path id="5ubwz6ti5c" d="M0 0.344L28.047 0.344 28.047 28.391 0 28.391z"/>
-        <path id="qjmxotvv3e" d="M0.227 0.082L23.308 0.082 23.308 23.164 0.227 23.164z"/>
+        <polygon id="path-1" points="0.0821586207 0.341438424 42.9130256 0.341438424 42.9130256 43.1722493 0.0821586207 43.1722493"></polygon>
+        <polygon id="path-3" points="0 0.344475096 28.0465522 0.344475096 28.0465522 28.3906933 0 28.3906933"></polygon>
+        <polygon id="path-5" points="0.226989163 0.082270936 23.307665 0.082270936 23.307665 23.1636207 0.226989163 23.1636207"></polygon>
     </defs>
-    <g fill="none" fill-rule="evenodd">
-        <g>
-            <g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#FF5E4D" d="M26.207 13.322c0 6.633-5.378 12.011-12.012 12.011S2.184 19.955 2.184 13.322C2.184 6.688 7.56 1.31 14.195 1.31c6.634 0 12.012 5.378 12.012 12.012" transform="translate(-132 -261) translate(-74 58) translate(206 203) translate(6.115 16.16)"/>
-                            <g transform="translate(-132 -261) translate(-74 58) translate(206 203) translate(6.115 16.16) translate(10.483)">
-                                <mask id="xf41qini6b" fill="#fff">
-                                    <use xlink:href="#dzarwkw5la"/>
-                                </mask>
-                                <path fill="#FFF" d="M42.913 21.757c0 11.827-9.588 21.415-21.415 21.415S.082 33.584.082 21.757C.082 9.93 9.671.341 21.498.341S42.913 9.93 42.913 21.757" mask="url(#xf41qini6b)"/>
-                            </g>
-                            <g transform="translate(-132 -261) translate(-74 58) translate(206 203) translate(6.115 16.16) translate(0 18.782)">
-                                <mask id="mee6lm3fxd" fill="#fff">
-                                    <use xlink:href="#5ubwz6ti5c"/>
-                                </mask>
-                                <path fill="#001A5C" d="M28.047 14.367c0 7.745-6.279 14.024-14.024 14.024C6.278 28.39 0 22.112 0 14.367 0 6.623 6.278.344 14.023.344s14.024 6.279 14.024 14.023" mask="url(#mee6lm3fxd)"/>
-                            </g>
-                            <g transform="translate(-132 -261) translate(-74 58) translate(206 203) translate(6.115 16.16) translate(40.184 15.287)">
-                                <mask id="uygbmltwxf" fill="#fff">
-                                    <use xlink:href="#qjmxotvv3e"/>
-                                </mask>
-                                <path fill="#FF5E4D" d="M23.308 11.623c0 6.374-5.167 11.54-11.54 11.54-6.374 0-11.541-5.166-11.541-11.54 0-6.374 5.167-11.54 11.54-11.54 6.374 0 11.54 5.166 11.54 11.54" mask="url(#uygbmltwxf)"/>
+    <g id="Écrans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0.0.1---Cloud" transform="translate(-132.000000, -261.000000)">
+            <g id="web/cloud/1.0" transform="translate(-74.000000, 58.000000)">
+                <g id="illustration/expertise/cloud-white">
+                    <g transform="translate(206.000000, 203.000000)">
+                        <g id="illustration/expertise/cloud" transform="translate(6.114943, 16.160920)">
+                            <g id="Group-12">
+                                <path d="M26.2068966,13.3218391 C26.2068966,19.9552366 20.829361,25.3333333 14.1954023,25.3333333 C7.56144364,25.3333333 2.18390805,19.9552366 2.18390805,13.3218391 C2.18390805,6.68788042 7.56144364,1.31034483 14.1954023,1.31034483 C20.829361,1.31034483 26.2068966,6.68788042 26.2068966,13.3218391" id="Fill-1" fill="#FF5E4D"></path>
+                                <g id="Group-5" transform="translate(10.482759, 0.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Clip-4"></g>
+                                    <path d="M42.9130256,21.7570966 C42.9130256,33.5844562 33.3252325,43.1722493 21.4978729,43.1722493 C9.6705133,43.1722493 0.0821586207,33.5844562 0.0821586207,21.7570966 C0.0821586207,9.92917537 9.6705133,0.341382266 21.4978729,0.341382266 C33.3252325,0.341382266 42.9130256,9.92917537 42.9130256,21.7570966" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                                </g>
+                                <g id="Group-8" transform="translate(0.000000, 18.781609)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Clip-7"></g>
+                                    <path d="M28.0465522,14.3673058 C28.0465522,22.1124287 21.7682876,28.3906933 14.0231648,28.3906933 C6.27804192,28.3906933 -0.000222672977,22.1124287 -0.000222672977,14.3673058 C-0.000222672977,6.62273969 6.27804192,0.344475096 14.0231648,0.344475096 C21.7682876,0.344475096 28.0465522,6.62273969 28.0465522,14.3673058" id="Fill-6" fill="#001A5C" mask="url(#mask-4)"></path>
+                                </g>
+                                <g id="Group-11" transform="translate(40.183908, 15.287356)">
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <g id="Clip-10"></g>
+                                    <path d="M23.3077773,11.622665 C23.3077773,17.9965567 18.1412749,23.1636207 11.7673833,23.1636207 C5.3940532,23.1636207 0.226989163,17.9965567 0.226989163,11.622665 C0.226989163,5.24933498 5.3940532,0.082270936 11.7673833,0.082270936 C18.1412749,0.082270936 23.3077773,5.24933498 23.3077773,11.622665" id="Fill-9" fill="#FF5E4D" mask="url(#mask-6)"></path>
+                                </g>
                             </g>
                         </g>
                     </g>

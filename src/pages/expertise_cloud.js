@@ -10,10 +10,14 @@ import OurTechnique from "../components/expertise/our_technique";
 import Resource from "../components/expertise/resource";
 import OtherExpertise from "../components/expertise/other_expertise";
 import CloudContactUs from "../components/expertise/cloud_contact_us";
+import BannerLogoImage from "../assets/expertise/cloud/cloud.svg";
 
 const theme = {
     mainColor: '#00d2b5',
     secondaryColor: '#ff5e4d',
+    banner: {
+        logo: BannerLogoImage
+    }
 };
 class ExpertiseCloud extends React.Component{
 
