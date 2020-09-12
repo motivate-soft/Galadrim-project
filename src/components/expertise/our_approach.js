@@ -21,7 +21,7 @@ export default function OurApproach(props) {
                         <div className={'cart-area'}>
                             <div className={'row'}>
                                 <div className={'col-md-6 text-left'}>
-                                    <div className={'card text-card'}>
+                                    <div className={'card text-card card1'}>
                                         <div className={"left-green-squre"} style={{backgroundColor: props.theme.mainColor}}/>
                                         <div className="media">
                                             <h1 className={'text-danger align-self-center'} style={{color: "#ff5e4d"}}>01•</h1>
@@ -31,28 +31,27 @@ export default function OurApproach(props) {
                                         </div>
                                         <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>
                                     </div>
-                                    <div className={"image-box mt-4 mb-4"}>
+                                    <div className={"image-box image-hidden-able mt-4 mb-4"}>
                                         <img src={Cart1Image} alt=""/>
                                     </div>
-                                    <div className={'card text-card'}>
+
+                                    <div className={'card text-card card2'}>
                                         <div className="media">
-                                            <h1 className={'text-primary align-self-center'} >03•</h1>
+                                            <h1 className={'text-success align-self-center'} >02•</h1>
                                             <div className="media-body" style={{maxWidth:'200px'}}>
-                                                <h5 className="mt-0 text-primary" >Conception & architecture </h5>
+                                                <h5 className="mt-0 text-success">Conception & architecture </h5>
                                             </div>
                                         </div>
                                         <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>
                                     </div>
                                 </div>
                                 <div className={'col-md-6'}>
-                                    <div className={"spacer-100 mb-3"}>
-
-                                    </div>
-                                    <div className={'card text-card'}>
+                                    <div className={"spacer-100 space-content mb-3"}/>
+                                    <div className={'card text-card card3'}>
                                         <div className="media">
-                                            <h1 className={'text-success align-self-center'} >02•</h1>
+                                            <h1 className={'text-primary align-self-center'} >03•</h1>
                                             <div className="media-body" style={{maxWidth:'200px'}}>
-                                                <h5 className="mt-0 text-success">Conception & architecture </h5>
+                                                <h5 className="mt-0 text-primary" >Conception & architecture </h5>
                                             </div>
                                         </div>
                                         <p>Analyse et audit de l'existant et propositions de nouvelles architectures.</p>

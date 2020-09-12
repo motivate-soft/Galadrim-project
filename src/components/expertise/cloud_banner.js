@@ -16,7 +16,7 @@ export default function ExpertiseCloudBanner(props) {
             <img src={Banner2Image} className={"banner2image"} alt=""/>
             <div className="container">
                 <div className="text-center">
-                    <img src={BannerLogoImage} alt="Cloud Banner" width="290" style={{width:'290px'}}/>
+                    <img src={BannerLogoImage} alt="Cloud Banner" width="290" className={'banner-logo'}/>
                 </div>
                <div className="row">
                    <div className="col-lg-6">

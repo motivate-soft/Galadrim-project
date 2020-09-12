@@ -17,22 +17,22 @@ export default function OurTechnique(props) {
                 </div>
                 <div className={'col-lg-12 brand-area'}>
                     <div className={'row'}>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={MicrosoftImage} alt=""/>
                         </div>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={AzureImage} alt=""/>
                         </div>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={NutanixImage} alt=""/>
                         </div>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={AwsImage} alt=""/>
                         </div>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={VmwareImage} alt=""/>
                         </div>
-                        <div className={'col-lg-4 text-center logo-item'}>
+                        <div className={'col-lg-4 col-6 text-center logo-item'}>
                             <img src={EquinixImage} alt=""/>
                         </div>
                     </div>
