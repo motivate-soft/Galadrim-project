@@ -89,7 +89,7 @@ class Resource extends React.Component{
                         <div className={'col-lg-12 text-center'}>
                             <div className={'title-area'}>
                                 <h1 style={{color: this.props.theme.mainColor}}>Ressources associées</h1>
-                                <p style={{color: this.props.theme.mainColor}}>Quae fuerit causa, mox videro; interea hoc tenebo, si ob rem voluptas expetenda.</p>
+                                {/*<p style={{color: this.props.theme.mainColor}}>Quae fuerit causa, mox videro; interea hoc tenebo, si ob rem voluptas expetenda.</p>*/}
                             </div>
                         </div>
                         <div className={'col-lg-12'}>
