@@ -15,9 +15,9 @@ import BannerTitleImage from '../assets/expertise/service-manager/service-manag-
 import BannerImage0 from "../assets/expertise/service-manager/service-manag_3.svg";
 import BannerImage1 from "../assets/expertise/service-manager/service-manag_2.svg";
 import BannerImage2 from "../assets/expertise/service-manager/service-manag.svg";
-import OptimizationImage from "../assets/expertise/service-manager/gestion.svg";
-import AdaptableImage from "../assets/expertise/service-manager/maintenance.svg";
-import ScalabilityImage from "../assets/expertise/service-manager/outils.svg";
+import GestionImage from "../assets/expertise/service-manager/gestion.svg";
+import MaintenanceImage from "../assets/expertise/service-manager/maintenance.svg";
+import OutilsImage from "../assets/expertise/service-manager/outils.svg";
 
 const theme = {
     mainColor: '#ff5e4d',
@@ -88,8 +88,8 @@ const theme = {
             {
                 id : '1',
                 img: {
-                    url : OptimizationImage,
-                    alt : 'OptimizationImage'
+                    url : GestionImage,
+                    alt : 'GestionImage'
                 },
                 title: 'Management',
                 titleWidth: '348px',
@@ -99,8 +99,8 @@ const theme = {
             {
                 id : '2',
                 img: {
-                    url : AdaptableImage,
-                    alt : 'AdaptableImage'
+                    url : MaintenanceImage,
+                    alt : 'MaintenanceImage'
                 },
                 titleWidth: '348px',
                 title: 'Maintenance',
@@ -110,8 +110,8 @@ const theme = {
             {
                 id : '3',
                 img: {
-                    url : ScalabilityImage,
-                    alt : 'ScalabilityImage'
+                    url : OutilsImage,
+                    alt : 'OutilsImage'
                 },
                 title: 'Outils',
                 titleWidth: '348px',
