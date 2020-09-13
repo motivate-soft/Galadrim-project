@@ -23,6 +23,13 @@ import ourApproachImage1 from '../assets/home/images/article.jpg';
 import ourApproachImage2 from '../assets/home/images/article.jpg';
 import ourApproachBottomImage from '../assets/expertise/cloud1/vert-mini.svg';
 
+import MicrosoftImage from '../assets/expertise/cloud1/ld-0005692867-1.png';
+import AzureImage from '../assets/expertise/cloud1/1200-px-microsoft-azure-logo-svg.png';
+import NutanixImage from '../assets/expertise/cloud1/nutanix.png';
+import AWSImage from '../assets/expertise/cloud1/1200-px-amazon-web-services-logo-svg.png';
+import VMWareImage from '../assets/expertise/cloud1/v-mware-logo.png';
+import EquinixImage from '../assets/expertise/cloud1/equinix-logo-1200-x-627.png';
+
 const theme = {
     mainColor: '#00d2b5',
     secondaryColor: '#ff5e4d',
@@ -148,6 +155,35 @@ const theme = {
         image1: ourApproachImage1,
         image2: ourApproachImage2,
         bottomImage: ourApproachBottomImage,
+    },
+    ourTechnique: {
+        title: "Nos choix technologiques",
+        brands: [
+            {
+                name: "Microsoft",
+                image: MicrosoftImage
+            },
+            {
+                name: "Azure",
+                image: AzureImage
+            },
+            {
+                name: "Nutanix",
+                image: NutanixImage
+            },
+            {
+                name: "AWS",
+                image: AWSImage
+            },
+            {
+                name: "WMWare",
+                image: VMWareImage
+            },
+            {
+                name: "Equinix",
+                image: EquinixImage
+            }
+        ]
     }
 };
 
