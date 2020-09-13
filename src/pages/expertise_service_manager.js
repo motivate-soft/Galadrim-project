@@ -10,7 +10,7 @@ import Resource from "../components/expertise/resource";
 import OtherExpertise from "../components/expertise/other_expertise";
 import CloudContactUs from "../components/expertise/cloud_contact_us";
 import BannerLogoImage from '../assets/expertise/service-manager/services-manag-s.svg';
-import BannerLogoMobileImage from '../assets/expertise/service-manager/services-manag-s.svg';
+import BannerLogoMobileImage from '../assets/expertise/service-manager/services-managés mobile@1,5x.svg';
 import BannerTitleImage from '../assets/expertise/service-manager/service-manag-white.svg'
 import BannerImage0 from "../assets/expertise/service-manager/service-manag_3.svg";
 import BannerImage1 from "../assets/expertise/service-manager/service-manag_2.svg";
