@@ -574,7 +574,7 @@ footer{
     margin-top: 12px;
     opacity: 0;
     z-index: -1;
-    transition-duration: 1000ms;
+    transition-duration: 200ms;
     .card-body{
       border: none;
       border-radius: 8px;
@@ -636,7 +636,7 @@ footer{
   .dropdown-content{
     opacity: 1;
     z-index: 10;
-    transition-duration: 1000ms;
+    transition-duration: 200ms;
   }
   .dropdown-content:hover{
     .media{
