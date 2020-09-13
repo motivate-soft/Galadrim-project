@@ -1,5 +1,5 @@
     import React from 'react';
-    import FullScreenNav from "../components/global/full_skin";
+    import FullScreenNav from "../components/global/full_screen_nav";
     import Header from "../components/header";
     import Footer from "../components/footer";
     import ExpertiseCloudBanner from "../components/expertise/cloud_banner";
@@ -18,6 +18,9 @@
     import OptimizationImage from "../assets/expertise/security/cadenat.svg";
     import AdaptableImage from "../assets/expertise/security/chiffrement.svg";
     import ScalabilityImage from "../assets/expertise/security/surveillance.svg";
+    import ourApproachImage1 from "../assets/home/images/article.jpg";
+    import ourApproachImage2 from '../assets/home/images/article.jpg';
+    import ourApproachBottomImage from "../assets/expertise/cloud1/vert-mini.svg";
 
     const theme = {
         mainColor: '#00d2b5',
@@ -119,6 +122,30 @@
                     content : Content3()
                 }
             ]
+        },
+        ourApproach: {
+            title: "Notre démarche",
+            subtitle: "Nous sécurisons de manière active et proactive toutes les briques de votre IT, de l'utilisateur jusqu’à l'infrastructure, grâce à une méthodologie et des outils approuvés sur le marché. ",
+            cards: {
+                card1: {
+                    title: "Conseil & accompagnement ",
+                    titleMaxWidth: "230px",
+                    description: "Audit sécurité de l'existant, test d’intrusion, préconisation de méthodologies à appliquer et de solutions de sécurité à implémenter."
+                },
+                card2: {
+                    title: "Intégration de solutions de sécurité",
+                    titleMaxWidth: "500px",
+                    description: "Assurer le choix, le déploiement et le bon fonctionnement des solutions de sécurité mises en place en partenariat  avec des spécialistes de la cybersécurité comme AISI. ",
+                },
+                card3: {
+                    title: "Management de sécurité en continu",
+                    titleMaxWidth: "400px",
+                    description: "Mettre en place des outils de surveillance proactifs de l'activité de votre IT. Mise en place de méthodologie et deprocessus d'évolution de votre organisation.",
+                },
+            },
+            image1: ourApproachImage1,
+            image2: ourApproachImage2,
+            bottomImage: ourApproachBottomImage,
         }
     };
 

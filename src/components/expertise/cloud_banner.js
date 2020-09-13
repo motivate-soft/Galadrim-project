@@ -12,14 +12,10 @@ export default function ExpertiseCloudBanner(props) {
             <div className="container">
                 <div className="text-center">
                     <img src={props.theme.banner.logo} alt="" className={'banner-logo'}/>
-                    <img src={props.theme.banner.logoMobile} alt="" className={'banner-logo-mobile'}/>
+                    <img src={props.theme.banner.logoMobile} alt="" className={'banner-logo-mobile'} width={props.theme.banner.logoMobileWidth}/>
                 </div>
                <div className="row">
                    <div className="col-lg-6">
-                       {/*<h1 className="image_title">*/}
-                           {/*<img src={props.theme.banner.titleImage} alt="" width="76"/>*/}
-                           {/*<span>{props.theme.banner.title}</span>*/}
-                       {/*</h1>*/}
                        <div className="media">
                            <img className="mr-4" src={props.theme.banner.titleImage} alt="" width="76"/>
                            <div className="media-body">

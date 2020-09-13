@@ -142,7 +142,7 @@ export default function FullScreenNav() {
                                     </Link>
                                 </div>
                                 <div className="col-lg-6">
-                                    <Link to="/expertise/security">
+                                    <Link to="/expertises/securite">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={Service}
                                                  alt="Cloud"/>
@@ -154,7 +154,7 @@ export default function FullScreenNav() {
                                     </Link>
                                 </div>
                                 <div className="col-lg-6">
-                                    <Link to="/expertise/service_manager">
+                                    <Link to="/expertises/services-manages">
                                         <div className="media">
                                             <img className="align-self-start mr-3" src={ServiceManage}
                                                  alt="Cloud"/>

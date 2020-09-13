@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from "../components/footer";
-import FullScreenNav from "../components/global/full_skin";
+import FullScreenNav from "../components/global/full_screen_nav";
 import Header from "../components/header";
 import ExpertiseCloudBanner from "../components/expertise/cloud_banner";
 import OurExpertise from "../components/expertise/our_expertise";
@@ -18,6 +18,9 @@ import BannerImage2 from "../assets/expertise/modern-workplace/modern-workplace.
 import OptimizationImage from "../assets/expertise/modern-workplace/productivit.svg";
 import AdaptableImage from "../assets/expertise/modern-workplace/mobilit.svg";
 import ScalabilityImage from "../assets/expertise/modern-workplace/collaboration.svg";
+import ourApproachImage1 from "../assets/home/images/article.jpg";
+import ourApproachImage2 from '../assets/home/images/article.jpg';
+import ourApproachBottomImage from "../assets/expertise/modern-workplace/bleu-mini.svg";
 
 const theme = {
     mainColor: '#001a5c',
@@ -119,7 +122,32 @@ const theme = {
                 content : Content3()
             }
         ]
-    }
+    },
+    ourApproach: {
+        title: "Notre démarche",
+        subtitle: "Mettre en place des solutions collaboratives interconnectées pour vous permettre une gestion fluide des équipes. Proposer une expérience de travail identique quelque soit le lieu ou le device que vous utilisez.",
+        cards: {
+            card1: {
+                title: "Conception & architecture ",
+                titleMaxWidth: "200px",
+                description: "Analyse et audit de l'existant (usages, matériels, nouveaux besoins). Préconisations de nouvelles solutions."
+            },
+            card2: {
+                title: "Implémentation configuration",
+                titleMaxWidth: "200px",
+                description: "Design et implémentation des solutions choisies et définition du cursus d'adoption des usages et des technologies.",
+            },
+            card3: {
+                title: "Gestion du cycle de vie",
+                titleMaxWidth: "200px",
+                description: "Supervision, management et accompagnement en continu à l'utilisation des nouvelles solutions.",
+            },
+        },
+        image1: ourApproachImage1,
+        image2: ourApproachImage2,
+        bottomImage: ourApproachBottomImage,
+    },
+
 };
 
 

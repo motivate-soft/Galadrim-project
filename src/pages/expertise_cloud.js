@@ -3,7 +3,7 @@ import '../styles/expertise.scss'
 import ExpertiseCloudBanner from "../components/expertise/cloud_banner";
 import OurExpertise from "../components/expertise/our_expertise";
 import OurApproach from "../components/expertise/our_approach";
-import FullScreenNav from "../components/global/full_skin";
+import FullScreenNav from "../components/global/full_screen_nav";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import OurTechnique from "../components/expertise/our_technique";
@@ -19,6 +19,9 @@ import BannerImage2 from '../assets/expertise/cloud1/cloud.svg';
 import OptimizationImage from "../assets/expertise/cloud/maximisation.svg";
 import AdaptableImage from "../assets/expertise/cloud/adaptabilit.svg";
 import ScalabilityImage from "../assets/expertise/cloud/volution.svg";
+import ourApproachImage1 from '../assets/home/images/article.jpg';
+import ourApproachImage2 from '../assets/home/images/article.jpg';
+import ourApproachBottomImage from '../assets/expertise/cloud1/vert-mini.svg';
 
 const theme = {
     mainColor: '#00d2b5',
@@ -26,6 +29,7 @@ const theme = {
     banner: {
         logo: BannerLogoImage,
         logoMobile: BannerLogoMobileImage,
+        logoMobileWidth: "182px",
         titleImage: BannerTitleImage,
         titleFirst: "Cloud Hybride",
         titleSecond: "",
@@ -87,39 +91,63 @@ const theme = {
         title: "Notre expertise",
         cards: [
             {
-                id : '1',
+                id: '1',
                 img: {
-                    url : OptimizationImage,
-                    alt : 'OptimizationImage'
+                    url: OptimizationImage,
+                    alt: 'OptimizationImage'
                 },
                 title: 'Optimisation',
                 titleWidth: '180px',
-                subtitle : 'Rendre efficace l\'utilisation de votre IT au quotidient',
-                content : Content1()
+                subtitle: 'Rendre efficace l\'utilisation de votre IT au quotidient',
+                content: Content1()
             },
             {
-                id : '2',
+                id: '2',
                 img: {
-                    url : AdaptableImage,
-                    alt : 'AdaptableImage'
+                    url: AdaptableImage,
+                    alt: 'AdaptableImage'
                 },
                 titleWidth: '180px',
                 title: 'Adaptabilité',
-                subtitle : 'Rendre flexible vos technologies IT',
-                content : Content2()
+                subtitle: 'Rendre flexible vos technologies IT',
+                content: Content2()
             },
             {
-                id : '3',
+                id: '3',
                 img: {
-                    url : ScalabilityImage,
-                    alt : 'ScalabilityImage'
+                    url: ScalabilityImage,
+                    alt: 'ScalabilityImage'
                 },
                 title: 'Évolutivité',
                 titleWidth: '348px',
-                subtitle : 'Améliorer votre écosystème IT en fonction de vos usages et des nouvelles technologies',
-                content : Content3()
+                subtitle: 'Améliorer votre écosystème IT en fonction de vos usages et des nouvelles technologies',
+                content: Content3()
             }
         ]
+    },
+    ourApproach: {
+        title: "Notre démarche",
+        subtitle: "En fonction de vos challenges technologiques et usages, nous pouvons créer, déployer et maintenir des solutions cloud sur mesure, afin de vous permettre de vous concentrer sur vos métiers",
+        cards: {
+            card1: {
+                title: "Conception & architecture",
+                titleMaxWidth: "200px",
+                description: "Analyse et audit de l'existant et propositions de nouvelles architectures."
+            },
+            card2: {
+                title: "Intégration & déploiement ",
+                titleMaxWidth: "200px",
+                description: "Design et validation de l'architecture cloud cible.",
+            },
+            card3: {
+                title: "Gestion du cycle de vie",
+                titleMaxWidth: "200px",
+                description: "Fournir les services managés nécessaires à l'évolution de vos technologies, au fil du temps et en fonction de vos besoins.",
+            },
+        },
+        image1: ourApproachImage1,
+        image2: ourApproachImage2,
+        bottomImage: ourApproachBottomImage,
     }
 };
 
@@ -127,11 +155,14 @@ function bannerContent() {
     return (
         <>
             <p>
-                Mettre à disposition le meilleur du cloud public et d'une infrastructure traditionnelle pour vous proposer une infrastructure évolutive dans le temps.
+                Mettre à disposition le meilleur du cloud public et d'une infrastructure traditionnelle pour vous
+                proposer une infrastructure évolutive dans le temps.
             </p>
             <p>
-                Développement de vos applications, espaces de tests, Pic et débordement d'activité, plan de reprise d’activité...
-                Affranchissez-vous de vos contraintes d’hier pour mettre en place les solutions technologiques innovantes de demain !
+                Développement de vos applications, espaces de tests, Pic et débordement d'activité, plan de reprise
+                d’activité...
+                Affranchissez-vous de vos contraintes d’hier pour mettre en place les solutions technologiques
+                innovantes de demain !
             </p>
             <h5>
                 Plus de performance, d’agilité et de sécurité – Dites oui au cloud !
@@ -174,14 +205,13 @@ function Content3() {
 }
 
 
-class ExpertiseCloud extends React.Component{
+class ExpertiseCloud extends React.Component {
 
     state = {
-        theme:theme
+        theme: theme
     }
 
-    render()
-    {
+    render() {
         return (
             <>
                 <FullScreenNav/>

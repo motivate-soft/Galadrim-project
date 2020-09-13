@@ -10,7 +10,7 @@ import Experience from "../components/home/experience";
 import ClickShop from "../components/home/click_shop";
 import ReadyForFuture from "../components/home/ready_for_future";
 import Partner from "../components/home/partner";
-import FullScreenNav from "../components/global/full_skin";
+import FullScreenNav from "../components/global/full_screen_nav";
 import Header from "../components/header";
 import Footer from "../components/footer";
 

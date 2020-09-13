@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from "../components/footer";
-import FullScreenNav from "../components/global/full_skin";
+import FullScreenNav from "../components/global/full_screen_nav";
 import Header from "../components/header";
 import ExpertiseCloudBanner from "../components/expertise/cloud_banner";
 import OurExpertise from "../components/expertise/our_expertise";
@@ -18,6 +18,9 @@ import BannerImage2 from "../assets/expertise/service-manager/service-manag.svg"
 import GestionImage from "../assets/expertise/service-manager/gestion.svg";
 import MaintenanceImage from "../assets/expertise/service-manager/maintenance.svg";
 import OutilsImage from "../assets/expertise/service-manager/outils.svg";
+import ourApproachImage1 from "../assets/home/images/article.jpg";
+import ourApproachImage2 from '../assets/home/images/article.jpg';
+import ourApproachBottomImage from "../assets/expertise/service-manager/orange-mini.svg";
 
 const theme = {
     mainColor: '#ff5e4d',
@@ -119,8 +122,31 @@ const theme = {
                 content : Content3()
             }
         ]
+    },
+    ourApproach: {
+        title: "Notre démarche",
+        subtitle: "Créer des méthodologies sur mesure afin d'automatiser la surveillance de votre IT et ainsi vous permettre de vous concentrer sur votre métier.",
+        cards: {
+            card1: {
+                title: "Identifier le niveau de services managés",
+                titleMaxWidth: "400px",
+                description: "Définir le périmètre d'intervention, les technologies à maintenir et le niveau de service (SLA) à respecter."
+            },
+            card2: {
+                title: "Déroulement du contrat",
+                titleMaxWidth: "200px",
+                description: "Assurer la supervision proactive des infrastructures et proposer une évolution des technologies afin d'en optimiser les performances.",
+            },
+            card3: {
+                title: "Gestion du cycle de vie",
+                titleMaxWidth: "200px",
+                description: "Proposer des évolutions techniques et contractuels au périmètre engagé.",
+            },
+        },
+        image1: ourApproachImage1,
+        image2: ourApproachImage2,
+        bottomImage: ourApproachBottomImage,
     }
-
 };
 
 
