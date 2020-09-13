@@ -15,6 +15,9 @@ import BannerTitleImage from "../assets/expertise/modern-workplace/modern-workpl
 import BannerImage0 from "../assets/expertise/modern-workplace/modern-workplace_3.svg";
 import BannerImage1 from "../assets/expertise/modern-workplace/modern-workplace_2.svg";
 import BannerImage2 from "../assets/expertise/modern-workplace/modern-workplace.svg";
+import OptimizationImage from "../assets/expertise/modern-workplace/productivit.svg";
+import AdaptableImage from "../assets/expertise/modern-workplace/mobilit.svg";
+import ScalabilityImage from "../assets/expertise/modern-workplace/collaboration.svg";
 
 const theme = {
     mainColor: '#001a5c',
@@ -30,8 +33,128 @@ const theme = {
         bannerImage0: BannerImage0,
         bannerImage1: BannerImage1,
         bannerImage2: BannerImage2,
+        formCard: {
+            title: "Intéressé par notre solution Modern Worplace ?",
+            subtitle: "Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.",
+            buttonText: "Envoyer le formulaire",
+            description: " Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.",
+            formFields: [
+                {
+                    labelText: "Nom",
+                    name: "Name",
+                    classes: "form-group col-md-6",
+                    id: "name",
+                    type: "text",
+                    placeholder: "Nom",
+                },
+                {
+                    labelText: "Prénom",
+                    name: "password",
+                    classes: "form-group col-md-6",
+                    id: "password",
+                    type: "password",
+                    placeholder: "Dupont",
+                },
+                {
+                    labelText: "Email professionnel",
+                    name: "email",
+                    classes: "form-group col-md-12",
+                    id: "email",
+                    type: "email",
+                    placeholder: "jean.dupont@mail.com",
+                },
+                {
+                    labelText: "Numéro de téléphone",
+                    name: "phone",
+                    classes: "form-group col-md-12",
+                    id: "phone",
+                    type: "text",
+                    placeholder: "06 25 22 22 22"
+                },
+                {
+                    labelText: "Nom de l'entreprise",
+                    name: "company",
+                    classes: "form-group col-md-12",
+                    id: "company",
+                    type: "text",
+                    placeholder: "Entreprise"
+                },
+            ]
+        },
+    },
+    ourExpertise: {
+        title: "Notre expertise",
+        cards: [
+            {
+                id : '1',
+                img: {
+                    url : OptimizationImage,
+                    alt : 'OptimizationImage'
+                },
+                title: 'Productivité',
+                titleWidth: '348px',
+                subtitle : 'Optimiser l\'expérience de vos collaborateurs au quotidien tout en protégeant vos données personnelles ',
+                content : Content1()
+            },
+            {
+                id : '2',
+                img: {
+                    url : AdaptableImage,
+                    alt : 'AdaptableImage'
+                },
+                titleWidth: '348px',
+                title: 'Mobilité',
+                subtitle : 'Vous permettre d’avoir le même espace de travail quelque que soit le lieu ou le device que vous utilisez.',
+                content : Content2()
+            },
+            {
+                id : '3',
+                img: {
+                    url : ScalabilityImage,
+                    alt : 'ScalabilityImage'
+                },
+                title: 'Collaboration',
+                titleWidth: '348px',
+                subtitle : 'Faciliter les synergies et la collaboration entre les équipes',
+                content : Content3()
+            }
+        ]
     }
 };
+
+
+function Content1() {
+    return (
+        <>
+            <li>Supervision et optimisation des coût d'exploitation d'une infrastructure</li>
+            <li>Audit de performance Infrastructure</li>
+            <li>Supervision proactive de vos infrastructures</li>
+            <li>Préconisations de transition vers le cloud</li>
+        </>
+    );
+}
+
+function Content2() {
+    return (
+        <>
+            <li>Refonte d'une cartographie applicative cloud ready</li>
+            <li>Modernisation des couches OS et Firmware</li>
+            <li>Audit et optimisation du réseau</li>
+        </>
+    );
+}
+
+function Content3() {
+    return (
+        <>
+            <li>Transformer une infrastructure vers des solutions PaaS (Platform as a Service)</li>
+            <li>Conteneurisation</li>
+            <li>Modernisation complète du système d'information</li>
+            <li>Console de management et administration mutli-cloud</li>
+        </>
+    );
+}
+
 
 function bannerContent() {
     return (

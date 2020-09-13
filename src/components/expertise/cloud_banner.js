@@ -1,8 +1,4 @@
 import React from 'react';
-import TitleImage from '../../assets/expertise/cloud/cloud-white.svg';
-import Banner0Image from '../../assets/expertise/cloud/cloud0.svg';
-import Banner1Image from '../../assets/expertise/cloud/cloud1.svg';
-import Banner2Image from '../../assets/expertise/cloud/cloud2.svg';
 import FormCard from "./form_card";
 import '../../styles/component.scss';
 
