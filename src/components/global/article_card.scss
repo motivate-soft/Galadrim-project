@@ -2,7 +2,7 @@
 
 .card-case{
   cursor: pointer;
-  transition-duration: 1000ms;
+  transition-duration: 300ms;
   .card{
     border: 3px solid white;
     border-radius: 8px;
@@ -104,6 +104,6 @@
   -ms-transform: translateY(-20px);
   -o-transform: translateY(-20px);
   transform: translateY(-20px);
-  transition-duration: 1000ms;
+  transition-duration: 300ms;
 }
 
