@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+.contact_form_card{
+  box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+  border-radius: 8px;
+  background-color: #ffffff;
+  z-index: 10;
+  padding: 32px;
+  margin-bottom: -300px;
+  margin-top: 77px;
+  position: relative;
+  .tab-bar{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 53px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    .tab-control{
+      float: left;
+      width: 50%;
+      height: 53px;
+      background-color: rgba(255, 94, 77, 0.04);
+      border-bottom: 4px solid rgba(255, 94, 77, 0.04);
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      cursor: pointer;
+      span{
+        font-family: Gilroy;
+        font-size: 13px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ff4e41;
+      }
+    }
+    .active{
+      background-color: rgba(255, 94, 77, 0.08);
+      border-bottom: 4px solid #ff4e41;
+    }
+  }
+  .title-bar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 53px;
+    h4{
+      font-family: "Gilroy";
+      font-weight: 800;
+      font-size: 24px;
+      color: $color-blue;
+    }
+  }
+  .subtitle-bar{
+    max-width: 376px;
+    margin-right: auto;
+    margin-left: auto;
+    p{
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-align: center;
+    }
+  }
+  .form-group{
+    label{
+      font-family: "Gilroy"!important;
+      font-weight: 500;
+      color: #6a6f85;
+    }
+    .form-control{
+      border: 1px solid white!important;
+    }
+    .form-control:focus{
+      font-family: "Gilroy"!important;
+      font-weight: 500;
+      border: 1px solid $color-blue!important;
+      color: $color-blue;
+    }
+    button {
+      padding: 5px 38px;
+    }
+  }
+  .form-description-string{
+    font-size: 9px;
+    font-family: 'RobotoMono';
+    font-weight: 400;
+    color: #a4abb8;
+  }
+}
+
+@media(max-width: 768px){
+  .contact_form_card{
+    margin-bottom: -797px;
+  }
+}
