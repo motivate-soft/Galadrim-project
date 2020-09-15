@@ -120,4 +120,78 @@
     margin-top: 12px;
     margin-bottom: 0;
   }
+  .brand-area{
+    margin-top: 88px;
+    .row{
+      margin-bottom: 30px;
+      justify-content: space-around;
+      .image-area{
+        text-align: center;
+        height: 100px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }
+      .navigation-area{
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .collapse-control{
+          height: 24px;
+          width: 24px;
+          border-radius: 12px;
+          background-color: #FFFFFF;
+          box-shadow: 0 2px 4px 0 rgba(41,41,43,0.05), 0 20px 40px 0 rgba(41,41,43,0.05);
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          svg{
+            height: 12px;
+            width: 12px;
+            transform: rotate(0deg);
+            path{
+              fill: $color-blue;
+            }
+          }
+        }
+      }
+      .collapsed-area{
+        display: none;
+        h3{
+          font-family: "Gilroy";
+          font-weight: 600;
+          color: $color-blue;
+          font-size: 18px;
+          letter-spacing: 0;
+          line-height: 22px;
+          text-align: center;
+        }
+        .lists{
+          margin-top: 12px;
+          li{
+            color: $color-blue;
+            font-family: "Gilroy";
+            font-size: 18px;
+            letter-spacing: 0;
+            line-height: 21px;
+            text-align: center;
+          }
+        }
+        button{
+          color: $color-blue;
+          font-family: "Gilroy";
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 20px;
+          text-align: center;
+          margin-top: 15px;
+          border: 2px solid lightgray;
+          background: white;
+        }
+      }
+    }
+  }
 }
