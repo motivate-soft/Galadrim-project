@@ -441,6 +441,11 @@ export default function OurPartners() {
                         </div>
                     </div>
                 </div>
+                <div className={'col-lg-12 text-center action-area'}>
+                    <button className={'btn btn-custom'}>
+                        Contactez-nous
+                    </button>
+                </div>
             </div>
         </div>
       </div>

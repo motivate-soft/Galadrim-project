@@ -6,6 +6,7 @@ import '../styles/partner_ship.scss';
 import PartnerBanner from "../components/partner_ship/banner";
 import InNews from "../components/partner_ship/in_news";
 import OurPartners from "../components/partner_ship/our_partners";
+import PartnerContactUs from "../components/partner_ship/contact_us";
 
 export default function PartnerShip() {
     return(
@@ -15,6 +16,7 @@ export default function PartnerShip() {
             <PartnerBanner/>
             <InNews/>
             <OurPartners/>
+            <PartnerContactUs/>
             <Footer/>
         </>
     );

@@ -194,4 +194,51 @@
       }
     }
   }
+  .action-area{
+    margin-top: 63px;
+    .btn{
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 20px;
+      text-align: center;
+      padding: 5px 30px;
+      background: $color-red;
+    }
+  }
+}
+
+.partner_contact_us{
+  position: relative;
+  .left_bg_image{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .right_bg_image{
+    position: absolute;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+  }
+  .row{
+    margin-top: 153px;
+    min-height: 441px;
+    .col-lg-12{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      h2{
+        font-size: 52px;
+        font-family: "Gilroy";
+        margin-bottom: 28px;
+        font-weight: 600;
+        color: $color-blue;
+      }
+      .btn{
+        padding: 5px 59px;
+        background: $color-blue;
+      }
+    }
+  }
 }
