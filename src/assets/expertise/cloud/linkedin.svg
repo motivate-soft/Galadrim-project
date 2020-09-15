@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>A4EF9D80-2895-4C98-826A-394098103A4A</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Écrans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0.0.1---Cloud" transform="translate(-1032.000000, -5604.000000)">
+            <g id="web/footer" transform="translate(0.000000, 5428.000000)">
+                <g id="icons/social/Linkedin">
+                    <g transform="translate(1032.000000, 176.000000)">
+                        <g id="icons/social/linkedin" fill="#CACCD8">
+                            <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                        </g>
+                        <g id="linkedin-in" transform="translate(6.000000, 6.000000)" fill="#FFFFFF">
+                            <path d="M2.68600759,12 L0.198170051,12 L0.198170051,3.98839286 L2.68600759,3.98839286 L2.68600759,12 Z M1.44074983,2.89553571 C0.645391654,2.89553571 0,2.23660714 0,1.44107143 C0,0.645535714 0.645391654,0 1.44074983,0 C2.23610801,0 2.88149967,0.645535714 2.88149967,1.44107143 C2.88149967,2.23660714 2.23610801,2.89553571 1.44074983,2.89553571 Z M11.997322,12 L9.51484044,12 L9.51484044,8.1 C9.51484044,7.17053571 9.49609462,5.97857143 8.22137916,5.97857143 C6.92791788,5.97857143 6.72974782,6.98839286 6.72974782,8.03303571 L6.72974782,12 L4.24458826,12 L4.24458826,3.98839286 L6.6306628,3.98839286 L6.6306628,5.08125 L6.66547646,5.08125 C6.99754519,4.45178571 7.80897121,3.7875 9.01941531,3.7875 C11.5367106,3.7875 12,5.44553571 12,7.59910714 L12,12 L11.997322,12 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
