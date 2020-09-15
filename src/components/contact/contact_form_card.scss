@@ -43,54 +43,57 @@
       border-bottom: 4px solid #ff4e41;
     }
   }
-  .title-bar{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 53px;
-    h4{
-      font-family: "Gilroy";
-      font-weight: 800;
-      font-size: 24px;
-      color: $color-blue;
+  .tab_content{
+    display: none;
+    .title-bar{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 53px;
+      h4{
+        font-family: "Gilroy";
+        font-weight: 800;
+        font-size: 24px;
+        color: $color-blue;
+      }
     }
-  }
-  .subtitle-bar{
-    max-width: 376px;
-    margin-right: auto;
-    margin-left: auto;
-    p{
-      font-family: Gilroy;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.19;
-      letter-spacing: normal;
-      text-align: center;
+    .subtitle-bar{
+      max-width: 376px;
+      margin-right: auto;
+      margin-left: auto;
+      p{
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.19;
+        letter-spacing: normal;
+        text-align: center;
+      }
     }
-  }
-  .form-group{
-    label{
-      font-family: "Gilroy"!important;
-      font-weight: 500;
-      color: #6a6f85;
+    .form-group{
+      label{
+        font-family: "Gilroy"!important;
+        font-weight: 500;
+        color: #6a6f85;
+      }
+      .form-control{
+        border: 1px solid white!important;
+      }
+      .form-control:focus{
+        font-family: "Gilroy"!important;
+        font-weight: 500;
+        border: 1px solid $color-blue!important;
+        color: $color-blue;
+      }
+      button {
+        padding: 5px 38px;
+      }
     }
-    .form-control{
-      border: 1px solid white!important;
+    .form-description-string{
+      font-size: 9px;
+      font-family: 'RobotoMono';
+      font-weight: 400;
+      color: #a4abb8;
     }
-    .form-control:focus{
-      font-family: "Gilroy"!important;
-      font-weight: 500;
-      border: 1px solid $color-blue!important;
-      color: $color-blue;
-    }
-    button {
-      padding: 5px 38px;
-    }
-  }
-  .form-description-string{
-    font-size: 9px;
-    font-family: 'RobotoMono';
-    font-weight: 400;
-    color: #a4abb8;
   }
 }
 

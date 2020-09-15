@@ -133,10 +133,6 @@ class OurPartners extends React.Component{
         items: brands,
     };
 
-    handleClick = (id) => {
-
-    }
-
     collapseHandler = (id, controller_id) => {
         console.log(id);
         const element = document.getElementById(id);
