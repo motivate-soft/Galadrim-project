@@ -11,8 +11,9 @@ export default function PartnerContactUs() {
             <div className={'container'}>
                 <div className={'row'}>
                     <div className={'col-lg-12'}>
-                        <div className={'text-center'}>
-                            <h2>Parlez à un expert cloud.</h2>
+                        <div className={'text-center action-area'}>
+                            <h2>Votre partenaire technologique ...
+                                avec vous et pour longtemps </h2>
                             <button className={'btn btn-custom'}>
                                 Contactez-nous
                             </button>
