@@ -68,6 +68,38 @@
   }
 }
 
+.spacer-177{
+  height: 177px;
+}
+
+.contact_brands{
+  .title_box{
+    h4{
+      font-family: "Gilroy";
+      font-weight:800;
+    }
+  }
+  .justify-space-between{
+    .col-lg-2{
+      text-align: center;
+      margin-top: 10px;
+      height: 100px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.resource{
+  .btn{
+    background: $color-red;
+  }
+  .text-red{
+    color: $color-red;
+  }
+}
+
 @media(max-width: 768px){
   .contact_banner{
     .banner-logo{
@@ -135,6 +167,53 @@
           }
         }
       }
+    }
+  }
+
+  .contact_brands{
+    .container{
+      margin-top: 0!important;
+      padding: 40px!important;
+      .title_box{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        h4{
+          font-size: 24px;
+          line-height: 1.1;
+        }
+      }
+      .justify-space-between{
+        align-items: flex-start;
+        margin-top: 30px!important;
+        .col-xl-6{
+          width: 50%;
+          text-align: center;
+          margin-top: 0;
+          #trust1{
+            width: 104px;
+          }
+          #trust2{
+            width: 56px;
+            margin-top: 10px;
+          }
+          #trust3{
+            width: 58px;
+            margin-top: -10px;
+          }
+          #trust4{
+            width: 106px;
+            margin-top: 8px;
+          }
+          #trust5{
+            width: 112px;
+            margin-left: -148px;
+          }
+        }
+      }
+    }
+    .green-right-top-semi-circle{
+      margin-right: -24px;
     }
   }
 }
