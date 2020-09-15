@@ -1,7 +1,42 @@
 @import "./variable";
 @import "./typo";
 @import "./layout";
-@import "bootstrap/scss/bootstrap";
+
+@import "initial/functions";
+@import "initial/variables";
+@import "initial/mixins";
+@import "initial/root";
+@import "initial/reboot";
+@import "initial/type";
+@import "initial/images";
+@import "initial/code";
+@import "initial/grid";
+@import "initial/tables";
+@import "initial/forms";
+@import "initial/buttons";
+@import "initial/transitions";
+@import "initial/dropdown";
+@import "initial/button-group";
+@import "initial/input-group";
+@import "initial/custom-forms";
+@import "initial/nav";
+@import "initial/navbar";
+@import "initial/card";
+@import "initial/breadcrumb";
+@import "initial/pagination";
+@import "initial/badge";
+@import "initial/jumbotron";
+@import "initial/alert";
+@import "initial/progress";
+@import "initial/media";
+@import "initial/list-group";
+@import "initial/close";
+@import "initial/modal";
+@import "initial/tooltip";
+@import "initial/popover";
+@import "initial/carousel";
+@import "initial/utilities";
+@import "initial/print";
 
 
 .container {
