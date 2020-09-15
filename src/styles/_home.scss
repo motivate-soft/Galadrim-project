@@ -1,0 +1,85 @@
+@import "./_variable.scss";
+
+
+
+.expertises-block {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    .blue-left-bottom-semi-circle {
+        z-index: 10 !important;
+        bottom: -60px;
+        left: 0;
+        width: 60px;
+        height: 120px;
+        border-radius: 0 60px 60px 0;
+        background-color: $color-blue;
+    }
+
+    .features-block {
+        position: relative;
+        padding: 30px;
+        .grid-dots {
+            z-index: -1;
+            width: 100px;
+            height: 120px;
+        }
+        .top-right-rounded {
+            z-index: -1;
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+.partner-logo-block {
+    .logo-wrapper {
+        width: 150px;
+        .partner-logo {
+            width: 100%;
+            height: max-content;
+        }
+    }
+    .logo-wrapper:nth-child(2) {
+        width: 80px;
+    }
+    .logo-wrapper:nth-child(3) {
+        width: 80px;
+    }
+}
+
+.articles-block {
+    position: relative;
+    margin-bottom: 50px;
+    .grid-dots {
+        z-index: -1;
+        width: 99px;
+        height: 123px;
+    }
+}
+
+.efisens-shop {
+    margin-bottom: 100px;
+    .container {
+        background: url("../assets/Images/group-2@3x.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+        img {
+            margin-top: 50px;
+        }
+    }
+    .btn {
+        margin-top: 100px;
+    }
+}
+
+.talents-block {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 108px;
+}
+
+    
