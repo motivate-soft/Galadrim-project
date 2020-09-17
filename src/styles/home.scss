@@ -16,16 +16,18 @@
       font-family: "Gilroy";
       font-weight: 800;
       letter-spacing: 0;
-      line-height: 79px;
-
+      line-height: 80px;
+      max-width: 414px;
     }
     p{
       color: $color-blue;
-      font-family: 'RobotoMono';
-      font-size: 16px;
-      font-weight: 600;
+      font-family: 'Gilroy';
+      font-size: 18px;
+      font-weight: 800;
       letter-spacing: 0;
       line-height: 21px;
+      margin-bottom: 47px;
+      max-width: 546px;
     }
     .btn{
       height: 34px;
@@ -42,16 +44,21 @@
 .jobs-block {
   // height: 100vh;
   position: relative;
-
+  padding-bottom: 102px;
   .subtitle-container{
-    font-size: 16px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    font-family: "RobotoMono";
-    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    p{
+      font-size: 18px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      font-family: "Gilroy";
+      font-weight: 800;
+      max-width: 574px;
+    }
   }
 
   .title{
@@ -59,6 +66,7 @@
     margin-top: 79px;
     font-family: "Gilroy";
     font-weight: 800!important;
+    margin-bottom: 18px;
   }
 
   .blue-left-bottom-semi-circle {
@@ -86,12 +94,18 @@
       border-radius: 0 60px 0 0;
       background-color: $color-orange;
     }
+    .row{
+      justify-content: center;
+      .col-lg-3{
+        max-width: 325px;
+      }
+    }
 
     .gradient-box {
       display: -webkit-box;
       display: flex;
       -webkit-box-align: center;
-      min-height: 380px;
+      min-height: 412px;
       position: relative;
       box-sizing: border-box;
       color: #001b5d;
@@ -104,13 +118,16 @@
         z-index: 2;
         background: white!important;
         border-radius: 0.8rem;
+        margin-bottom: 40px;
         h4{
           font-family: "Gilroy";
           font-weight: 800!important;
+          font-size: 24px;
         }
         p{
-          font-family: "RobotoMono";
+          font-family: "Gilroy";
           font-weight: 500;
+          font-size: 14px;
         }
       }
     }
@@ -192,8 +209,9 @@
     font-weight: 800;
   }
   p{
-    font-family: "RobotoMono";
-    font-weight: 600;
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-size: 18px;
   }
   h5{
     font-family: "Gilroy";
@@ -275,15 +293,20 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
+    justify-content: center;
+    display: flex;
     p{
-      font-family: "RobotoMono"!important;
-      font-weight: 500!important;
+      font-family: "Gilroy";
+      font-weight: 800!important;
+      font-size: 18px;
+      max-width: 824px;
     }
   }
 
   .title{
     font-size: 54px;
     margin-top: 79px;
+    margin-bottom: 16px;
     font-family: "Gilroy";
     font-weight: 800!important;
   }
@@ -304,6 +327,12 @@
     background-image: url("../assets/home/images/vert-mini.png"), url("../assets/home/images/orange-mini.png");
     background-repeat: no-repeat, no-repeat;
     background-position: calc(100% - 0px) -7px, 0 calc(100% - 26px);
+    .row{
+      justify-content: center;
+      .col-lg-3{
+        max-width: 325px;
+      }
+    }
     .orange-top-right-semi-circle {
       top: 1px;
       right: -15px;
@@ -355,8 +384,11 @@
           }
           p{
             font-family: "RobotoMono";
-            font-weight: 500;
             font-size: 14px;
+            color: #001A5C;
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 16px;
             .badge{
               padding: 8px;
             }
@@ -426,8 +458,9 @@
     font-size: 54px;
   }
   p{
-    font-family: "RobotoMono";
-    font-weight: 500;
+    font-family: "Gilroy";
+    font-weight: 800;
+    font-size: 18px;
   }
   position: relative;
   .top-layer{
@@ -449,14 +482,29 @@
   h2{
     font-family: "Gilroy";
     font-weight: 800;
+    max-width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 51px;
   }
   p{
-    font-family: "RobotoMono";
+    font-family: "Gilroy";
     font-weight: 500;
+    font-size: 16px;
+    max-width: 377px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 46px;
+  }
+  .btn{
+    margin-top: 105px;
+    font-weight: 600;
+    padding: 6px 30px;
+    border-radius: 6px;
   }
   .card{
     display: block;
-    padding: 99px;
+    padding: 80px 99px;
     border: none;
     -webkit-box-align: center;
     min-height: 412px;
@@ -468,28 +516,6 @@
     border-radius: 0.8em;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05) !important;
     transition: margin-top ease 0.8s, box-shadow ease 0.8s;
-  }
-}
-
-.partener {
-  h2{
-    font-family: "Gilroy";
-    font-weight: 500;
-  }
-  height: 500px;
-  .buttom-right-triangle {
-    width: 0;
-    height: 0;
-    border-top: 500px solid $color-darkgreen;
-    border-left: 500px solid transparent;
-    right: 0;
-  }
-  .quarter-circle-top-right {
-    width: 400px;
-    height: 400px;
-    border-radius: 0 400px 0 0;
-    left: 0;
-    bottom: 0;
   }
 }
 
@@ -760,6 +786,7 @@
     }
   }
   .jobs-block{
+
     .title{
       font-size: 36px;
       margin-top: 63px!important;
@@ -774,14 +801,14 @@
       margin-top: 0!important;
       .gradient-box{
         transform: translateY(0);
-        transition-duration: 3000ms;
+        transition-duration: 300ms;
       }
       .gradient-box:hover {
         margin-top: 0;
         transform: translateY(-3px);
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
         cursor: pointer;
-        transition-duration: 3000ms;
+        transition-duration: 300ms;
         z-index: 5;
       }
       .orange-top-right-semi-circle{
@@ -899,7 +926,7 @@
           transform: translateY(-3px);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
           cursor: pointer;
-          transition-duration: 3000ms;
+          transition-duration: 300ms;
           z-index: 5;
         }
       }
@@ -948,15 +975,20 @@
       }
       h4{
         font-size: 18px!important;
-        margin-bottom: 30px!important;
+        margin-top : 16px!important;
       }
       h2{
         font-size: 25px!important;
-        margin-top: 30px!important;
+        margin-top: 41px!important;
        }
+      p{
+        margin-top: 36px!important;
+        margin-bottom: 0;
+      }
       button{
         padding: 2px 15px;
         border-radius: 5px;
+        margin-top: 68px!important;
         margin-bottom: 10px;
       }
     }

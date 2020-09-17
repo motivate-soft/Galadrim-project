@@ -12,7 +12,7 @@ const items = [
         id: '1',
         img: Cloud,
         title: 'Cloud',
-        text: 'Optimiser l’utilisation de votre IT au quotidien avec des technologies agiles, sécurisées et innovantes.',
+        text: 'Bénéficier des technologies cloud les plus avancées pour optimiser l"utilisation de votre IT au quotidien.',
         buttonText: 'En savoir plus',
         active: false,
     },
@@ -36,7 +36,7 @@ const items = [
         id: '4',
         img: ServiceManage,
         title: 'Services Managés',
-        text: 'Superviser votre système IT. Équiper des meilleurs outils pour superviser de façon complète votre S',
+        text: 'Manager votre système IT. Équiper vous des meilleurs outils pour superviser de façon complète et proactive votre SI. ',
         buttonText: 'En savoir plus',
         active: false,
     },
@@ -76,10 +76,10 @@ class Jobs extends React.Component {
             <div className="jobs-block">
                 <div className='position-absolute blue-left-bottom-semi-circle'/>
                 <div className="container">
-                    <div className="text-blue text-center w-75 mx-auto">
+                    <div className="text-blue text-center mx-auto">
                         <h1 className="font-weight-bold mx-auto title">Nos expertises</h1>
                         <div className="subtitle-container">
-                            <p className="">Nous agrégeons les meilleures technologies IT pour qu’elles<br/> puissent vous être bénéfiques au quotidien.</p>
+                            <p className="">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien.</p>
                         </div>
                     </div>
                     <div className="features-block mt-5">

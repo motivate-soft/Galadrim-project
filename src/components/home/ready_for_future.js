@@ -13,10 +13,10 @@ export default function ReadyForFuture() {
                   <div className="col-lg-6 p-3">
                       <div className="card card-body text-center">
                           <img src={LeftTipBg} className="left-top-bg" alt="" style={{'top':'-32px','left':'-32px'}}/>
-                          <h4 style={{'fontSize':'21px'}} className="text-blue mb-5 mt-3 text-uppercase vertical-gradient">Rejoignez l'aventure Efisens !</h4>
-                          <h2 className="text-blue mt-5 mb-4">Êtes-vous prêt à construire l'avsenir?</h2>
-                          <p className="text-blue mt-5">Si vous êtes passionnés par la technologie et que vous souhaitez intégrer un environnement de travail stimulant - Rejoignez-nous !</p>
-                          <button className="btn btn-custom-info mt-5">
+                          <h4 style={{'fontSize':'21px'}} className="text-blue text-uppercase vertical-gradient">Rejoignez l'aventure Efisens !</h4>
+                          <h2 className="text-blue">Êtes-vous prêt à construire l'avenir avec nous ?</h2>
+                          <p className="text-blue">Si vous êtes passionnés par la technologie et que vous souhaitez intégrer un environnement de travail stimulant - Rejoignez-nous !</p>
+                          <button className="btn btn-custom-info">
                               Accéder à nos offres d'emploi
                           </button>
                       </div>

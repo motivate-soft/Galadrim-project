@@ -102,78 +102,82 @@
 
 @media(max-width: 768px){
   .contact_banner{
-    .banner-logo{
-      display: none;
-    }
-    .banner-logo-mobile{
-      display: inline;
-    }
+    position: relative;
+    background: rgba(0, 26, 92, 0.08);
+    min-height: 400px;
     .banner0image{
-      display: none
+      position: absolute;
+      z-index: 0;
+      bottom: 0;
+      width: 149px;
+      transform: rotateY(180deg);
+      margin-left: -25px;
     }
     .banner1image{
       position: absolute;
       z-index: 0;
       bottom: 0;
       right: calc(50% - 30px);
-      display: none;
+      width: 219px;
     }
     .banner2image{
-      width: 333px;
+      position: absolute;
+      z-index: 0;
       bottom: 0;
-      right: -14px;
-      -webkit-transform: rotateY(180deg);
-      -moz-transform: rotateY(180deg);
-      -ms-transform: rotateY(180deg);
-      -o-transform: rotateY(180deg);
+      right: -144px;
+      width: 567px;
       transform: rotateY(180deg);
     }
-    padding-top: 36px;
-    .banner-logo{
-      height: 37px!important;
-    }
-    .container{
-      .row{
-        margin-top: 48px;
-        .media{
-          img {
-            width: 37px;
-            margin-top: -10px;
-            margin-right: 18px;
+    .container {
+      .row {
+        .title-area{
+          max-width: 100%;
+          margin-top: 34px;
+          h1{
+            font-family: "Gilroy";
+            font-weight: 800;
+            color: $color-blue;
+            font-size: 36px;
+            line-height: 45px;
           }
-          .media-body{
-            .image_title {
-              font-size: 24px!important;
-              line-height: 18px!important;
-              display: inline-block;
-              margin-right: 10px;
-            }
+        }
+        .right-blue-bar-area{
+          margin-top: 16px;
+          margin-bottom: 0;
+          margin-left: -52px;
+          .right-blue-bar{
+            width: 32px;
+            height: 7px;
+            background: $color-blue;
+            display: none;
           }
         }
         .description {
-          margin-top: 24px;
-          margin-bottom: -70px;
-          padding-right: 5px;
-          padding-left: 5px;
+          max-width: 476px;
           p {
+            color: $color-blue;
             font-size: 16px;
-            line-height: 20px;
-            font-weight: 400;
+            font-family: 'Gilroy';
+            font-weight: 600;
+            margin-bottom: 0;
           }
-          h5 {
-            font-size: 20px;
-            font-family: "Gilroy";
-            font-weight: 500;
-          }
+        }
+        .btn{
+          margin-top: 20px;
+          background: $color-red;
         }
       }
     }
   }
 
+  .spacer-177{
+    height: 0;
+  }
+
   .contact_brands{
     .container{
-      margin-top: 0!important;
-      padding: 40px!important;
+      margin-top: 29px!important;
+      padding: 35px!important;
       .title_box{
         width: 80%;
         margin-left: auto;

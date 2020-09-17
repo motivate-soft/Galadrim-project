@@ -11,9 +11,9 @@ export default function Partner() {
               <div className="row">
                   <div className="col-lg-12 text-center center-content" style={{'height': '441px'}}>
                       <div>
-                          <h2 className="text-danger" style={{'fontSize':'41px'}}>Votre partenaire technologique ...<br/>
+                          <h2 className="text-danger" style={{fontSize:'41px', fontWeight:'700'}}>Votre partenaire technologique ...<br/>
                               avec vous et pour longtemps </h2>
-                          <button className="btn btn-custom btn-danger mt-4" style={{'padding': '5px 30px'}}>
+                          <button className="btn btn-custom btn-danger mt-4" style={{'padding': '5px 50px'}}>
                               Contactez-nous
                           </button>
                       </div>
