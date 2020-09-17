@@ -773,3 +773,9 @@ footer{
   box-shadow: none!important;
   border-bottom: 1px solid $gray-200!important;
 }
+
+@media (max-width: 360px){
+  button {
+    padding: 5px 15px!important;
+  }
+}
