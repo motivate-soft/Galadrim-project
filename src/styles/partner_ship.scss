@@ -34,12 +34,14 @@
     right: 0;
     transform: rotateY(180deg);
     width: 288px;
+    z-index: -1;
   }
   .left_bottom_image{
     position: absolute;
     bottom: 0;
     left: 0;
     width: 288px;
+    z-index: -1;
   }
 }
 
