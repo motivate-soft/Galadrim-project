@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="100" viewBox="0 0 98 100">
+    <defs>
+        <filter id="w1adp95aba" width="683.3%" height="683.3%" x="-291.7%" y="-208.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.160784314 0 0 0 0 0.160784314 0 0 0 0 0.168627451 0 0 0 0.05 0"/>
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.160784314 0 0 0 0 0.160784314 0 0 0 0 0.168627451 0 0 0 0.05 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+            </feMerge>
+        </filter>
+        <circle id="5oz6ehe3tb" cx="12" cy="12" r="12"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-272 -1293) translate(309 1311)">
+                        <use fill="#000" filter="url(#w1adp95aba)" xlink:href="#5oz6ehe3tb"/>
+                        <use fill="#FFF" xlink:href="#5oz6ehe3tb"/>
+                    </g>
+                </g>
+                <g fill="#001A5C">
+                    <path d="M4.315 5.513L.237 1.047C.072.87.072.581.237.403l.25-.27c.165-.178.432-.178.597 0l3.53 3.879L8.141.137c.166-.178.433-.178.598 0l.25.27c.165.178.165.466 0 .644L4.911 5.517c-.165.174-.432.174-.597-.004zm.597 4.853L8.99 5.9c.166-.178.166-.466 0-.645l-.25-.269c-.164-.178-.431-.178-.597 0L4.613 8.865 1.084 4.99c-.165-.178-.432-.178-.597 0l-.25.27c-.165.177-.165.466 0 .644l4.078 4.466c.165.174.432.174.597-.004z" transform="translate(-272 -1293) translate(309 1311) translate(7.387 6.75)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

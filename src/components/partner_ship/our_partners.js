@@ -1,26 +1,39 @@
 import React from 'react';
 import { FaAngleDoubleDown } from '../../../node_modules/react-icons/fa';
 import BrandImage from '../../assets/expertise/cloud1/1200-px-microsoft-azure-logo-svg.jpg';
+import MicroSoftImage from '../../assets/partner-ship/pngegg.png';
+import NutanixImage from '../../assets/partner-ship/nutanix.png';
+import PurePlayer from '../../assets/partner-ship/picture.png';
+import Veeam from '../../assets/partner-ship/veeam-logo-peridot-500-png-web-1280-1280.png';
+import VMware from '../../assets/partner-ship/1024-px-vmware-svg.png';
+import Hewlett from '../../assets/partner-ship/langfr-560-px-hewlett-packard-enterprise-logo-svg.png';
+import Sentinel from '../../assets/partner-ship/logo-sentinel-one.png';
+import Sonic from '../../assets/partner-ship/secure-first-logo-final-outlines-01-1030-x-437.png';
+import Fortinet from '../../assets/partner-ship/kisspng-fortinet-fortigate-100-d-fortinet-fg-30-d-bdl-950-12-firewall-transparent-icon-5-b-5-e-9-bf-38-acd-57-9724893115329269635686.png';
+import Ruckus from '../../assets/partner-ship/ruckus-logo-768-x-378.png';
+import Poly from '../../assets/partner-ship/poly.png';
+import ThreeCx from '../../assets/partner-ship/3-cx-logo-svg.png';
+import Dell from '../../assets/partner-ship/dell-logo-2016-svg.png';
 
 const brands = [
     [
       {
-          name: "Azure",
-          image: BrandImage,
+          name: "MicroSoft",
+          image: MicroSoftImage,
           actionUrl: "https://azure.microsoft.com/en-us/",
           title: "Nous détenons plusieurs certifications  Veeam  : ",
           content: Content()
       },
       {
-          name: "Azure",
-          image: BrandImage,
+          name: "Nutanix",
+          image: NutanixImage,
           actionUrl: "https://azure.microsoft.com/en-us/",
           title: "Nous détenons plusieurs certifications  Veeam  : ",
           content: Content()
       },
       {
-          name: "Azure",
-          image: BrandImage,
+          name: "PurePlayer",
+          image: PurePlayer,
           actionUrl: "https://azure.microsoft.com/en-us/",
           title: "Nous détenons plusieurs certifications  Veeam  : ",
           content: Content()
@@ -28,22 +41,22 @@ const brands = [
   ],
     [
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Veeam",
+            image: Veeam,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "VMware",
+            image: VMware,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Hewlett",
+            image: Hewlett,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
@@ -51,22 +64,22 @@ const brands = [
     ],
     [
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Sentinel",
+            image: Sentinel,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Sonic",
+            image: Sonic,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Fortinet",
+            image: Fortinet,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
@@ -74,22 +87,22 @@ const brands = [
     ],
     [
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Ruckus",
+            image: Ruckus,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Poly",
+            image: Poly,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
         },
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "ThreeCx",
+            image: ThreeCx,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()
@@ -97,8 +110,8 @@ const brands = [
     ],
     [
         {
-            name: "Azure",
-            image: BrandImage,
+            name: "Dell",
+            image: Dell,
             actionUrl: "https://azure.microsoft.com/en-us/",
             title: "Nous détenons plusieurs certifications  Veeam  : ",
             content: Content()

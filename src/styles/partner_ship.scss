@@ -158,6 +158,14 @@
         }
       }
       .collapsed-area{
+        position: relative;
+        height: 304px;
+        padding: 45px 39px;
+        box-shadow: 0 2px 4px 0 rgba(41, 41, 43, 0.05), 0 20px 40px 0 rgba(41, 41, 43, 0.05);
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        background: white;
         display: none;
         transition: 0.3s all;
         h3{
@@ -171,13 +179,16 @@
         }
         .lists{
           margin-top: 12px;
+          transform: translateX(41px);
+          width: 180px;
           li{
             color: $color-blue;
             font-family: "Gilroy";
-            font-size: 18px;
+            font-size: 14px;
             letter-spacing: 0;
-            line-height: 21px;
-            text-align: center;
+            line-height: 18px;
+            text-align: left;
+            text-indent: -20px;
           }
         }
         button{
@@ -250,7 +261,7 @@
 }
 
 .show{
-  display: block!important;
+  display: flex!important;
 }
 
 .rotated{
