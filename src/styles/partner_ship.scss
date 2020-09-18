@@ -128,7 +128,7 @@
       justify-content: space-around;
       .image-area{
         text-align: center;
-        height: 100px;
+        height: 120px;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -159,7 +159,6 @@
       }
       .collapsed-area{
         position: relative;
-        height: 304px;
         padding: 45px 39px;
         box-shadow: 0 2px 4px 0 rgba(41, 41, 43, 0.05), 0 20px 40px 0 rgba(41, 41, 43, 0.05);
         border-radius: 8px;
@@ -398,7 +397,7 @@
         justify-content: space-around;
         .image-area{
           text-align: center;
-          height: 100px;
+          height: 120px;
           justify-content: center;
           display: flex;
           align-items: center;
@@ -432,23 +431,9 @@
           transition: 0.3s all;
           h3{
             font-family: "Gilroy";
-            font-weight: 600;
-            color: $color-blue;
-            font-size: 18px;
-            letter-spacing: 0;
-            line-height: 22px;
-            text-align: center;
           }
           .lists{
             margin-top: 12px;
-            li{
-              color: $color-blue;
-              font-family: "Gilroy";
-              font-size: 18px;
-              letter-spacing: 0;
-              line-height: 21px;
-              text-align: center;
-            }
           }
           button{
             color: $color-blue;
