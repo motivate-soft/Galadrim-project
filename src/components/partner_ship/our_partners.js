@@ -150,11 +150,11 @@ class OurPartners extends React.Component{
         console.log(id);
         const element = document.getElementById(id);
         const controller = document.getElementById(controller_id);
-        if (element.classList.contains('show')) {
-            element.classList.remove('show');
+        if (element.classList.contains('pre-show')) {
+            element.classList.remove('pre-show');
             controller.classList.remove('rotated');
         } else {
-            element.classList.add('show');
+            element.classList.add('pre-show');
             controller.classList.add('rotated');
         }
     };

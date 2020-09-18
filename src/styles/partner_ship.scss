@@ -260,8 +260,11 @@
   }
 }
 
-.show{
+.pre-show{
   display: flex!important;
+}
+.show{
+  display: block!important;
 }
 
 .rotated{
