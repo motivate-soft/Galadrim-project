@@ -52,8 +52,8 @@ function tabHandler(id, controllerId) {
     for(var i=0;i<tabs.length; i++){
         tabs[i].classList.remove('show');
     }
-    for(var i=0;i<tabControls.length; i++){
-        tabControls[i].classList.remove('active');
+    for(var j=0;j<tabControls.length; j++){
+        tabControls[j].classList.remove('active');
     }
     tab.classList.add('show');
     controller.classList.add('active');
