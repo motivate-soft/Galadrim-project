@@ -26,7 +26,9 @@ export default function RightImage() {
               <div className={'row'}>
                   <div className={'col-lg-6'}>
                       <div className={'row'}>
-                          <img src={DiscussImage} alt=""/>
+                          <div>
+                              <img src={DiscussImage} alt=""/>
+                          </div>
                       </div>
                   </div>
                   <div className={'col-lg-6'}/>
