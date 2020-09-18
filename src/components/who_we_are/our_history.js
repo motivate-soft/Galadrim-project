@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import RocketImage from '../../assets/who_we_are/rocket.svg'
 
 export default function OurHistory() {
     return (
@@ -38,6 +38,7 @@ export default function OurHistory() {
                                     <span className={'badge'}>
                                        2016
                                    </span>
+                                    <img src={RocketImage} className={'rocket'} alt=""/>
                                 </div>
                             </div>
                             <div className={'row'}>

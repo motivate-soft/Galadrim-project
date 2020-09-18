@@ -183,6 +183,13 @@
             h3{
               color: $color-red;
             }
+            .rocket{
+              position: absolute;
+              right: -18px;
+              bottom: -10px;
+              width: 20px;
+              height: 20px;
+            }
           }
           .y-2015{
             .flag-content{
@@ -471,5 +478,428 @@
       line-height: 21px;
       text-align: center;
     }
+  }
+}
+
+.who_approach{
+  padding-bottom: 127px;
+  position: relative;
+  .container{
+    .row{
+      .col-lg-12{
+        text-align: center;
+        h5{
+          font-family: 'Gilroy';
+          font-size: 18px;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 2.08px;
+          text-align: center;
+          color: $color-blue;
+          margin-top: 94px;
+        }
+        h1{
+          margin-top: 26px;
+          max-width: 908px;
+          margin-left: auto;
+          margin-right: auto;
+          font-family: 'Gilroy';
+          font-size: 54px;
+          font-weight: 800;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 54px;
+          letter-spacing: normal;
+          text-align: center;
+          color: $color-blue;
+        }
+      }
+    }
+    .card-area{
+      margin-top: 46px;
+      .col-lg-4{
+        .card-body{
+          max-width: 376px;
+          min-height: 442px;
+          border-radius: 8px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          background-color: #ffffff;
+          border: none;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 20px 42px;
+          h2{
+            font-family: 'Gilroy';
+            font-size: 24px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            margin-bottom: 34px;
+          }
+          p{
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.17;
+            letter-spacing: normal;
+            text-align: justify;
+            color: #00175f;
+          }
+        }
+      }
+    }
+  }
+  .left-bottom-image{
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+  }
+}
+
+.why_do_it{
+  .container{
+    .row{
+      .col-lg-12{
+        h1{
+          font-family: 'Gilroy';
+          font-size: 54px;
+          font-weight: 800;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: $color-blue;
+          margin-top: 60px;
+          margin-bottom: 71px;
+        }
+      }
+      .col-lg-4{
+        .card-body{
+          //max-width: 376px;
+          margin-bottom: 30px;
+          min-height: 237px;
+          border-radius: 8px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          background-color: #ffffff;
+          border: none;
+          justify-content: center;
+          display: flex;
+          align-items: center;
+          h3{
+            font-family: 'Gilroy';
+            font-size: 24px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ff5e4d;
+          }
+          p{
+            font-family: 'Gilroy';
+            font-size: 18px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.06;
+            letter-spacing: normal;
+            text-align: center;
+            color: $color-blue;
+            margin-top: 15px;
+          }
+        }
+        .image-content{
+          margin-bottom: 30px;
+          //width: 376px;
+          height: 237px;
+          border-radius: 8px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          overflow: hidden;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
+}
+
+.talents_technologies{
+  margin-top: 155px;
+  .container{
+    .row{
+      justify-content: center;
+      .col-lg-12{
+        h5{
+          font-family: 'Gilroy';
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: 2.08px;
+          text-align: center;
+          color: $color-blue;
+        }
+        h1{
+          font-family: 'Gilroy';
+          font-size: 54px;
+          line-height: 54px;
+          font-weight: 800;
+          text-align: center;
+          color: $color-blue;
+          margin-top: 24px;
+        }
+        .title-image{
+          margin-top: 27px;
+        }
+      }
+      .col-lg-10{
+        .card-green{
+          margin-top: 61px;
+          min-height: 204px;
+          border-radius: 8px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          background-color: $color-green;
+          color: white;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          border: none;
+          margin-left: auto;
+          margin-right: auto;
+          h5{
+            font-family: 'Gilroy';
+            font-size: 18px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 2.08px;
+            text-align: center;
+          }
+          h3{
+            max-width: 764px;
+            font-family: 'Gilroy';
+            font-size: 36px;
+            line-height: 38px;
+            font-weight: 600;
+            text-align: center;
+            color: #ffffff;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .right-top-square{
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            z-index: -1;
+            background: $color-blue;
+            right: -18px;
+            top: -18px;
+          }
+          .left-bottom-circle{
+            width: 76px;
+            height: 76px;
+            position: absolute;
+            background: $color-red;
+            border-radius: 76px;
+            z-index: -1;
+            left: -38px;
+            bottom: -38px;
+          }
+        }
+        .card-bg-image{
+          margin-top: 24px;
+          min-height: 293px;
+          background-blend-mode: normal, color;
+          text-align: center;
+          justify-content: center;
+          display: flex;
+          border: none;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 8px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../assets/who_we_are/discuss.jpg");
+          background-size: cover, cover;
+          background-position: center center, center center;
+          h5{
+            max-width: 1024px;
+            font-family: 'Gilroy';
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 38px;
+            text-transform: uppercase;
+            text-align: center;
+            background: linear-gradient(to right, #00d2b5, #ff5e4d, #001a5c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+          h3{
+            max-width: 775px;
+            font-family: 'Gilroy';
+            font-size: 24px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            color: $color-blue;
+          }
+          .btn{
+            font-family: 'Gilroy';
+            font-size: 16px;
+            text-align: center;
+            color: $color-blue;
+            display: inline-block;
+            font-weight: 800;
+            background: white;
+            border: solid 2px #a5abb7;
+            width: 332px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 14px;
+            border-radius: 6px;
+          }
+          .right-bottom-image{
+            position: absolute;
+            right: -66px;
+            bottom: -94px;
+            z-index: -1;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.who_brand{
+  margin-top: 155px;
+  .title_box{
+    h4{
+      font-family: "Gilroy";
+      font-weight:800;
+    }
+  }
+  .justify-space-between{
+    .col-lg-2{
+      text-align: center;
+      margin-top: 10px;
+      height: 100px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.who_efisens{
+  .container{
+    .row{
+      justify-content: center;
+      .col-lg-12{
+        h1{
+          font-family: 'Gilroy';
+          font-size: 54px;
+          line-height: 54px;
+          font-weight: 800;
+          text-align: center;
+          color: $color-blue;
+          margin-top: 108px;
+        }
+      }
+      .col-lg-5{
+        margin-top: 97px;
+        .card-body{
+          height: 219px;
+          border-radius: 4px;
+          box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+          background-color: #ffffff;
+          border: none;
+          .avatar-content{
+            margin-top: -60px;
+            position: relative;
+            width: 72px;
+            height: 72px;
+            margin-left: auto;
+            margin-right: auto;
+            .avatar-image{
+              border-radius: 36px;
+            }
+            .quote{
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+          }
+          h3{
+            text-align: center;
+            font-family: 'Gilroy';
+            font-size: 14px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #6a6f85;
+            margin-bottom: 4px;
+          }
+          h5{
+            text-align: center;
+            font-family: 'Gilroy';
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #6a6f85;
+            margin-bottom: 14px;
+          }
+          p{
+            max-width: 352px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Gilroy';
+            font-size: 17px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.29;
+            letter-spacing: normal;
+            color: #00175f;
+          }
+        }
+      }
+    }
+  }
+}
+
+.who_action{
+  margin-top: 79px;
+  position: relative;
+  .right_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+  }
+
+  .left_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 95%;
   }
 }

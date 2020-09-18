@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="216" viewBox="0 0 176 216">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#00D2B5">
+            <g>
+                <g transform="translate(-1108 -5429) translate(1108 5429)">
+                    <circle cx="8" cy="8" r="8"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(0 40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40 40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80 40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120 40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160 40)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(0 80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40 80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80 80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120 80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160 80)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(0 120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40 120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80 120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120 120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160 120)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(0 160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40 160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80 160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120 160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160 160)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(0 200)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(40 200)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(80 200)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(120 200)"/>
+                    <circle cx="8" cy="8" r="8" transform="translate(160 200)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
