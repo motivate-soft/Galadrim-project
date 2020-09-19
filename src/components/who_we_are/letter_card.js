@@ -21,7 +21,7 @@ export default function LetterCard() {
                         <div className={'card card-body'}>
                             <div>
                                 <h1>25M€</h1>
-                                <p>Chiffre d'affaire<br/> consolidé</p>
+                                <p>Chiffre d'affaires<br/> consolidé</p>
                             </div>
                         </div>
                     </div>
