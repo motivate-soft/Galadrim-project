@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="245" height="204" viewBox="0 0 245 204">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="#001A5C" d="M125.076 120.483L75.866 171.826 26.655 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M75.866 152.843L75.866 204 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FF5E4D" d="M75.866 204L75.866 152.843 26.655 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#001A5C" d="M222.812 120.483L173.944 171.826 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FF5E4D" d="M173.602 204L173.602 152.843 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M52.835 51.342L26.655 68.735 26.655 120.483 66.98 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FF5E4D" d="M0 51.342L0 74.627 26.655 120.483 26.655 68.735 0.564 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#001A5C" d="M75.866 204L125.076 171.64 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M125.076 171.64L173.602 204 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#001A5C" d="M0 120.483L0 147.866 26.655 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FF5E4D" d="M0 137.989L0 165.664 26.655 120.483zM0 180.526L0 204 75.866 204 26.691 152.658z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#001A5C" d="M0 165.64L0 188.94 26.655 171.443 26.655 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#00D2B5" d="M26.655 171.64L75.866 204 26.655 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M26.655 120.483L75.866 68.456 125.076 120.483z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#001A5C" d="M66.929 51.342L26.655 120.483 75.866 87.749 75.866 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#00D2B5" d="M75.866 51.342L75.866 87.749 125.076 120.483 84.802 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M0 120.483L26.655 120.483 0 92.416z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#00D2B5" d="M0 102.712L26.655 120.483 0 74.617z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FFF" d="M151.255 51.342L125.076 68.735 125.076 120.483 165.401 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <path fill="#FF5E4D" d="M84.751 51.342L125.076 120.483 125.076 68.735 98.896 51.342z" transform="translate(101 -560) translate(-101 58) translate(0 502)"/>
+                        <g>
+                            <path fill="#FFF" d="M0 32.36L0 83.517 49.21 0z" transform="translate(101 -560) translate(-101 58) translate(0 502) translate(173.602 120.483)"/>
+                            <path fill="#001A5C" d="M0 83.517L49.21 51.157 49.21 0z" transform="translate(101 -560) translate(-101 58) translate(0 502) translate(173.602 120.483)"/>
+                            <path fill="#00D2B5" d="M49.21 50.686L70.398 64.349 70.398 35.261 49.21 0z" transform="translate(101 -560) translate(-101 58) translate(0 502) translate(173.602 120.483)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

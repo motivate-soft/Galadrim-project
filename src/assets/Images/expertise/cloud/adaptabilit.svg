@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>EAB650EC-DF29-4861-AAC1-D123531B5451</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="5.17241379e-05 0.317948276 11.922931 0.317948276 11.922931 12.2408793 5.17241379e-05 12.2408793"></polygon>
+        <polygon id="path-3" points="0 0.490965517 11.9228793 0.490965517 11.9228793 12.4133793 0 12.4133793"></polygon>
+        <polygon id="path-5" points="0 0.404275862 11.9227759 0.404275862 11.9227759 12.3272069 0 12.3272069"></polygon>
+    </defs>
+    <g id="Écrans" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0.0.1---Cloud" transform="translate(-676.000000, -1120.000000)">
+            <g id="web/cloud/2.0" transform="translate(0.000000, 921.000000)">
+                <g transform="translate(108.000000, 69.000000)" id="bloc/expertise/modern-workplace-actif">
+                    <g transform="translate(424.000000, 111.000000)">
+                        <g id="bloc/cloud/maximisation">
+                            <g id="illustration/expertise/cloud/adaptabilité" transform="translate(144.000000, 19.000000)">
+                                <g id="Group-10" transform="translate(38.793103, 15.517241)">
+                                    <g id="Group-3" transform="translate(0.000000, 0.199655)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Clip-2"></g>
+                                        <path d="M11.9229828,6.27915517 C11.9229828,9.57191379 9.25401724,12.2408793 5.96177586,12.2408793 C2.66901724,12.2408793 5.17241379e-05,9.57191379 5.17241379e-05,6.27915517 C5.17241379e-05,2.98691379 2.66901724,0.317948276 5.96177586,0.317948276 C9.25401724,0.317948276 11.9229828,2.98691379 11.9229828,6.27915517" id="Fill-1" fill="#FF5E4D" mask="url(#mask-2)"></path>
+                                    </g>
+                                    <g id="Group-6" transform="translate(0.000000, 46.751379)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <g id="Clip-5"></g>
+                                        <path d="M-5.17241379e-05,6.45217241 C-5.17241379e-05,3.15993103 2.66891379,0.490965517 5.96167241,0.490965517 C9.25391379,0.490965517 11.9228793,3.15993103 11.9228793,6.45217241 C11.9228793,9.74441379 9.25391379,12.4133793 5.96167241,12.4133793 C2.66891379,12.4133793 -5.17241379e-05,9.74441379 -5.17241379e-05,6.45217241" id="Fill-4" fill="#FF5E4D" mask="url(#mask-4)"></path>
+                                    </g>
+                                    <g id="Group-9" transform="translate(0.000000, 23.475517)">
+                                        <mask id="mask-6" fill="white">
+                                            <use xlink:href="#path-5"></use>
+                                        </mask>
+                                        <g id="Clip-8"></g>
+                                        <path d="M5.96156897,12.3272069 C2.66881034,12.3272069 -0.000155172414,9.65824138 -0.000155172414,6.366 C-0.000155172414,3.07324138 2.66881034,0.404275862 5.96156897,0.404275862 C9.25381034,0.404275862 11.9227759,3.07324138 11.9227759,6.366 C11.9227759,9.65824138 9.25381034,12.3272069 5.96156897,12.3272069" id="Fill-7" fill="#001A5C" mask="url(#mask-6)"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,279 @@
+@import "./variable";
+@mixin font($font-family, $font-file, $font-weight) {
+    @font-face {
+        font-family: $font-family;
+        // src: url($font-file + ".eot");
+        // src: url($font-file + ".eot?#iefix") format("embedded-opentype"), url($font-file + ".woff") format("woff"),
+        //     url($font-file + ".ttf") format("truetype"), url($font-file + ".svg#" + $font-family) format("svg");
+        src: url($font-file + ".ttf") format("truetype");
+        font-weight: $font-weight;
+        font-style: normal;
+    }
+}
+
+@include font("Gilroy-Thin", "../assets/Typo/gilroy/Gilroy-Thin", 100);
+@include font("Gilroy-ThinItalic", "../assets/Typo/gilroy/Gilroy-ThinItalic", 100);
+@include font("Gilroy-UltraLight", "../assets/Typo/gilroy/Gilroy-UltraLight", 200);
+@include font("Gilroy-UltraLightItalic", "../assets/Typo/gilroy/Gilroy-UltraLightItalic", 200);
+@include font("Gilroy-Light", "../assets/Typo/gilroy/Gilroy-Light", 300);
+@include font("Gilroy-LightItalic", "../assets/Typo/gilroy/Gilroy-LightItalic", 300);
+@include font("Gilroy-Regular", "../assets/Typo/gilroy/Gilroy-Regular", 400);
+@include font("Gilroy-RegularItalic", "../assets/Typo/gilroy/Gilroy-RegularItalic", 400);
+@include font("Gilroy-Medium", "../assets/Typo/gilroy/Gilroy-Medium", 500);
+@include font("Gilroy-MediumItalic", "../assets/Typo/gilroy/Gilroy-MediumItalic", 500);
+@include font("Gilroy-SemiBold", "../assets/Typo/gilroy/Gilroy-SemiBold", 600);
+@include font("Gilroy-SemiBoldItalic", "../assets/Typo/gilroy/Gilroy-SemiBoldItalic", 600);
+@include font("Gilroy-Bold", "../assets/Typo/gilroy/Gilroy-Bold", 700);
+@include font("Gilroy-BoldItalic", "../assets/Typo/gilroy/Gilroy-BoldItalic", 700);
+@include font("Gilroy-ExtraBold", "../assets/Typo/gilroy/Gilroy-ExtraBold", 800);
+@include font("Gilroy-ExtraBoldItalic", "../assets/Typo/gilroy/Gilroy-ExtraBoldItalic", 800);
+@include font("Gilroy-Black", "../assets/Typo/gilroy/Gilroy-Black", 900);
+@include font("Gilroy-BlackItalic", "../assets/Typo/gilroy/Gilroy-BlackItalic", 900);
+@include font("Gilroy-Heavy", "../assets/Typo/gilroy/Gilroy-Heavy", bold);
+@include font("Gilroy-HeavyItalic", "../assets/Typo/gilroy/Gilroy-HeavyItalic", bold);
+
+@include font("RobotoMono-Thin", "../assets/Typo/Roboto_Mono/static/RobotoMono-Thin", 100);
+@include font("RobotoMono-ThinItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-ThinItalic", 100);
+@include font("RobotoMono-ExtraLight", "../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLight", 200);
+@include font("RobotoMono-ExtraLightItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLightItalic", 200);
+@include font("RobotoMono-Light", "../assets/Typo/Roboto_Mono/static/RobotoMono-Light", 300);
+@include font("RobotoMono-LightItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-LightItalic", 300);
+@include font("RobotoMono-Regular", "../assets/Typo/Roboto_Mono/static/RobotoMono-Regular", 400);
+@include font("RobotoMono-Italic", "../assets/Typo/Roboto_Mono/static/RobotoMono-Italic", 400);
+@include font("RobotoMono-Medium", "../assets/Typo/Roboto_Mono/static/RobotoMono-Medium", 500);
+@include font("RobotoMono-MediumItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-MediumItalic", 500);
+@include font("RobotoMono-SemiBold", "../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBold", 700);
+@include font("RobotoMono-SemiBoldItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBoldItalic", 700);
+@include font("RobotoMono-Bold", "../assets/Typo/Roboto_Mono/static/RobotoMono-Bold", bold);
+@include font("RobotoMono-BoldItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-BoldItalic", bold);
+
+body {
+    font-family: "Gilroy-Medium";
+    font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Gilroy-Bold";
+    color: $color-darkblue;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+// font-size
+
+.heading-lg {
+    font-size: 64px;
+    font-family: "Gilroy-ExtraBold";
+}
+
+.heading-sm {
+    font-size: 12px;
+    font-family: "Gilroy-ExtraBold";
+}
+
+.heading-xs {
+    font-size: 10px;
+    font-family: "Gilroy-ExtraBold";
+}
+
+.heading-xxs {
+    font-size: 9px;
+    font-family: "Gilroy-ExtraBold";
+}
+
+p {
+    font-size: 16px;
+    font-family: "RobotoMono-Medium";
+    color: $color-darkblue;
+}
+
+.text-xxl {
+    font-size: 64px !important;
+}
+
+.text-lg {
+    font-size: 18px !important;
+}
+
+.text-sm {
+    font-size: 14px !important;
+}
+
+.text-xs {
+    font-size: 12px !important;
+}
+
+.text-xxs {
+    font-size: 10px !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+// font-family
+
+.gilroy-medium {
+    font-family: Gilroy-Medium !important;
+}
+
+.gilroy-regular {
+    font-family: Gilroy-Medium !important;
+}
+
+.gilroy-bold {
+    font-family: Gilroy-Bold !important;
+}
+
+.gilroy-semibold {
+    font-family: Gilroy-SemiBold !important;
+}
+
+.gilroy-light {
+    font-family: Gilroy-Light !important;
+}
+
+.roboto-medium {
+    font-family: RobotoMono-Medium !important;
+}
+
+.roboto-light {
+    font-family: RobotoMono-Light !important;
+}
+
+a {
+    font-family: "Gilroy-SemiBold";
+    font-weight: normal;
+}
+
+// font-color
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-darkblue {
+    color: $color-darkblue !important;
+}
+
+.text-darkblue {
+    color: $color-blue !important;
+}
+
+.text-green {
+    color: $color-green !important;
+}
+
+.text-orange {
+    color: $color-orange !important;
+}
+
+.text-gray {
+    color: $color-gray !important;
+}
+
+.text-lightgray {
+    color: $color-lightgray !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+// utility
+.gradient-text {
+    background: -webkit-linear-gradient(left, #00d2b5, #ff5e4d, #001a5c);
+    background: -o-linear-gradient(right, #00d2b5, #ff5e4d, #001a5c);
+    background: -moz-linear-gradient(right, #00d2b5, #ff5e4d, #001a5c);
+    background: linear-gradient(to right, #00d2b5, #ff5e4d, #001a5c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-title {
+    font-family: "Gilroy-ExtraBold";
+    text-align: left;
+    line-height: 100%;
+    @media only screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 36px;
+        margin-left: 0;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 45px;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 52px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 64px;
+    }
+}
+
+.text-primary {
+    font-family: Gilroy-Bold;
+    // text-align: center;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #001a5c;
+    @media screen and (max-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.block-title {
+    display: block;
+    font-size: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Gilroy-ExtraBold";
+    @media only screen and (max-width: 768px) {
+        font-size: 36px;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 48px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 54px;
+    }
+}
+
+.subtitle {
+    // color: #001a5c;
+    font-size: 18px;
+    font-family: Gilroy-Light;
+    letter-spacing: 2.08px;
+    line-height: 22px;
+    margin-bottom: 0;
+}

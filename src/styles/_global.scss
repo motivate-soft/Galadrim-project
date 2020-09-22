@@ -1,0 +1,165 @@
+@import "variable";
+@import "typo";
+@import "layout";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    @media only screen and (min-width: 1200px) {
+        max-width: 1176px !important;
+    }
+    @media only screen and (min-width: 1400px) {
+        max-width: 1300px !important;
+        // max-width: 1176px !important;
+    }
+}
+
+.section {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    // display: flex;
+    // overflow: auto;
+}
+
+.bg-blue {
+    background-color: $color-blue !important;
+}
+
+.bg-lightblue {
+    background-color: $color-lightblue !important;
+}
+
+.bg-green {
+    background-color: $color-green !important;
+}
+
+.bg-darkgreen {
+    background-color: $color-darkgreen !important;
+}
+
+.bg-orange {
+    background-color: $color-orange !important;
+}
+
+.bg-lightgray {
+    background-color: $color-lightgray !important;
+}
+
+// absolute postion classes
+.position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom-center {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.center-right {
+    position: absolute;
+    right: 0;
+    transform: translate(0, 50%);
+}
+
+.transform-left-50 {
+    transform: translate(-50%, 0);
+}
+
+.transform-right-50 {
+    transform: translate(50%, 0);
+}
+
+.transform-top-50 {
+    transform: translate(0, -50%);
+}
+
+.transform-bottom-50 {
+    transform: translate(0, 50%);
+}
+
+.transform-top-left {
+    transform: translate(-50%, -50%);
+}
+
+.transform-top-right {
+    transform: translate(50%, -50%);
+}
+
+.transform-bottom-left {
+    transform: translate(-50%, 50%);
+}
+
+.transform-bottom-right {
+    transform: translate(50%, 50%);
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.rounded {
+    border-radius: 50% !important;
+}
+
+.bg-z-index {
+    z-index: -1 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}

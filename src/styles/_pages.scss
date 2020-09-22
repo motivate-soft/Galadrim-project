@@ -1,0 +1,86 @@
+@import "./_variable.scss";
+
+// Expertise
+
+.expertise-features {
+    h1 {
+        margin-bottom: 42px;
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
+        @media (min-width: 768px) {
+            font-size: 48px;
+        }
+        @media (min-width: 992px) {
+            font-size: 54px;
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+.banner-form {
+    position: relative;
+    z-index: 99;
+    padding: 34px 32px 24px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+
+    @media (max-width: 768px) {
+        margin: 36px auto 0;
+    }
+    .banner-form-header {
+        max-width: 422px;
+        margin: 0 auto 24px;
+        h4 {
+            margin: 0 auto;
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+        h5 {
+            margin: 13px auto 23px;
+            font-weight: bold;
+            line-height: 1.19;
+            text-align: center;
+            color: #3a405c;
+        }
+    }
+    p {
+        font-family: Roboto-Regular;
+        font-size: 11px;
+        color: #a4abb8;
+        margin: 25px auto 0;
+    }
+}
+.trust-block {
+    h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+.tech-choices {
+    img {
+    }
+}
+.resources-block {
+    .articles-container {
+        position: relative;
+        margin-top: 30px;
+        padding: 24px 16px;
+        background-image: url("../assets/Shapes/drawings/green-mini.svg"),
+            url("../assets/Shapes/drawings/orange-mini.svg");
+        background-repeat: no-repeat, no-repeat;
+        // background-position: bottom right, top left;
+        background-position: calc(100% - 0px) calc(100% - 27px), -1px 13px;
+
+        background-size: 99px 123px, 99px 123px;
+        @media (min-width: 768px) {
+            margin-top: 0 !important;
+            background-position: calc(100% - 0px) -7px, 0 calc(100% - 26px);
+            // background-position: top right, bottom left;
+        }
+    }
+}
