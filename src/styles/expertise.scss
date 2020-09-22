@@ -1,0 +1,145 @@
+// Expertise
+
+.expertise-features {
+    .block-title {
+        margin-top: 78px;
+        margin-bottom: 77px;
+        @media (max-width: 768px) {
+            margin-top: 69px;
+            margin-bottom: 36px;
+        }
+    }
+}
+
+.expertise-approach {
+    .block-title {
+        margin: 70px auto 30px;
+        @media (max-width: 768px) {
+            margin-top: 69px;
+            margin-bottom: 36px;
+        }
+    }
+    .block-subtitle {
+        margin: 0 auto 30px;
+        max-width: 576px;
+        @media (max-width: 768px) {
+            margin-top: 69px;
+            margin-bottom: 36px;
+        }
+    }
+    .approach-container {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        .approach-card:nth-child(1) {
+            div:nth-child(2) {
+                display: block;
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+        .approach-card:nth-child(2) {
+            display: none;
+        }
+        .approach-card:nth-child(3) {
+            div:nth-child(2) {
+                display: none;
+                @media (max-width: 768px) {
+                    display: block;
+                }
+            }
+        }
+        .align-self-center {
+            display: block;
+        }
+        @media screen and (max-width: 767px) {
+            .approach-card:nth-child(2) {
+                display: block;
+            }
+            .align-self-center {
+                display: none;
+            }
+        }
+    }
+}
+
+.expertise-tech-block {
+    h1 {
+        margin: 135px auto 102px;
+    }
+}
+
+.expertise-resources-block {
+    display: flex;
+    flex-direction: column;
+    .block-title {
+        margin: 135px auto 68px;
+        @media (max-width: 768px) {
+            margin: 0 auto 36px;
+        }
+    }
+    .articles-container {
+        position: relative;
+        margin-top: 30px;
+        padding: 24px 16px;
+        background-image: url("../assets/Shapes/drawings/green-mini.svg"),
+            url("../assets/Shapes/drawings/orange-mini.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: calc(100% - 0px) calc(100% - 27px), -1px 13px;
+
+        background-size: 99px 123px, 99px 123px;
+        @media (min-width: 768px) {
+            margin-top: 0 !important;
+            background-position: calc(100% - 0px) -7px, 0 calc(100% - 26px);
+        }
+    }
+    @media (max-width: 768px) {
+        .bottom-left {
+            display: none;
+        }
+    }
+}
+
+.expertise-ourexpertise-block {
+    .block-title {
+        margin: 70px auto 30px;
+        @media (max-width: 768px) {
+            margin: 0 auto 16px;
+        }
+    }
+    .block-subtitle {
+        margin: 0 auto 70px;
+        max-width: 576px;
+        @media (max-width: 768px) {
+            margin: 0 auto 16px;
+        }
+    }
+    .expertise-containter {
+        max-width: max-content;
+        margin: auto;
+
+        img.top-left {
+            z-index: -1;
+            height: 135px;
+            width: 111px;
+        }
+        img.bottom-right {
+            z-index: -1;
+            height: 135px;
+            width: 111px;
+        }
+        img.top-right {
+            z-index: -1;
+            height: 60px;
+            width: 60px;
+        }
+        @media (max-width: 768px) {
+            .top-right,
+            .top-left,
+            .bottom-right {
+                display: none;
+            }
+        }
+    }
+}

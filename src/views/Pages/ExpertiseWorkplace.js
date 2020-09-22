@@ -49,7 +49,9 @@ import WorkplaceForm from '../Components/Expertise/Forms/WorkplaceForm';
 
 
 
-const color = "#001A5C"
+// const color = "#001A5C"
+const color = "darkblue"
+
 
 const cloudBannerData = {
     color: "#001A5C",
@@ -221,7 +223,7 @@ const articleData = [
     },
 ]
 
-const expertieseData = {
+const expertiseData = {
     title: "Nos autres expertises",
     subtitle: "Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien.",
     items: [
@@ -269,7 +271,7 @@ export default function ExpertiseWorkplace() {
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />
-            <OurExpertise color={color} col={4} data={expertieseData} />
+            <OurExpertise color={color} col={4} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )

@@ -1,16 +1,8 @@
 import React from 'react'
 import DGradientCard from '../Common/DGradientCard';
 import styled from 'styled-components';
-import { BlockTitle } from './../Elements/Typography';
 
-const ExpertiseBlockTitle = styled(BlockTitle)`
-    margin-top: 78px;
-    margin-bottom: 77px;
-    @media (max-width: 768px){
-        margin-top: 69px;
-        margin-bottom: 36px;
-    }
-`
+
 
 const FeatureCard = styled.div`
     display: flex;
@@ -45,7 +37,7 @@ export default function ExpertiseFeatures(props) {
     return (
         <div className="section expertise-features">
             <div className="container">
-                <ExpertiseBlockTitle color={color}>Notre Expertise</ExpertiseBlockTitle>
+                <h1 className={color ? `block-title text-${color}`: `block-title text-green`}>Notre Expertise</h1>
                 <div className="row">
                     {
                         items.map((item, index) => (

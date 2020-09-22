@@ -4,32 +4,26 @@ import VGradientCard from '../Common/VGradientCard';
 import ArticleCard from '../Common/ArticleCard';
 import { BlockTitle } from './../Elements/Typography';
 import { CustomButton } from '../Elements/Buttons';
+import { RightRoundedSemiCircle } from '../Elements/Drawings';
 
 const ResourceButton = styled(CustomButton)`
-    margin-top: 59px;
+    display: block;
+    color: #ffffff;
+    margin: 37px auto 75px;
     padding: 5px 45px;
-    margin-bottom: 75px;
-`
-
-const SemiCircle = styled.div`
-    position: absolute;
-    width: 55px;
-    height: 110px;
-    border-radius: 0 55px 55px 0;
-    left: 0;
-    bottom: 0;
-    transform: translate(0, 50%);
-    background-color: ${props => props.color};
+    @media (max-width: 768px){
+        margin: 0 auto 54px;
+    }
 `
 
 export default function Resources(props) {
     const { color, articles } = props
 
     return (
-        <div className="section resources-block position-relative d-flex">
-            <SemiCircle color={color} />
+        <div className="section expertise-resources-block">
+            <RightRoundedSemiCircle width={55} height={110} className={color ? `bottom-left transform-bottom-50 bg-${color}` : `bottom-left transform-bottom-50 bg-green`} />
             <div className="container">
-                <BlockTitle color={color} top={135} bottom={68}>Ressources associées</BlockTitle>
+                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Ressources associées</h1>
                 <div className="articles-container">
                     <div className="row">
                         {
@@ -50,9 +44,8 @@ export default function Resources(props) {
                         }
                     </div>
                 </div>
-
-                <ResourceButton backgroundColor={color} className="text-white d-block mx-auto">Voir tous les articles</ResourceButton>
             </div>
+            <ResourceButton className={color ? `bg-${color}` : 'bg-green'}>Voir tous les articles</ResourceButton>
         </div>
     )
 }

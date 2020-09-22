@@ -6,45 +6,8 @@ import OrangeCircleImage from '../../../assets/Shapes/others/orange-circle@3x.pn
 import Demo from '../../../assets/Images/demo.jpg'
 import ApproachCard from './ApproachCard';
 import { SquareImage, RoundedImage } from '../Elements/CustomImages';
-import { BlockTitle, Subtitle } from './../Elements/Typography';
 
 const defaultColor = '#001A5C'
-
-const Wrapper = styled.div`
-    position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    .approach-card:nth-child(1){
-        div:nth-child(2) {
-            display: block;
-            @media (max-width: 768px){
-                display: none;
-            }
-        }
-    }
-    .approach-card:nth-child(2){
-        display: none;
-    }
-    .approach-card:nth-child(3){
-        div:nth-child(2) {
-            display: none;
-            @media (max-width: 768px){
-                display: block;
-            }
-        }
-    }
-    .align-self-center{
-        display: block;
-    }
-    @media screen and (max-width: 767px){
-        .approach-card:nth-child(2){
-            display: block;
-        }
-        .align-self-center{
-            display: none;
-        }
-    }
-`
 
 const TopSquare = styled.div`
     position: absolute;
@@ -110,48 +73,46 @@ export default function OurApproach(props) {
     const { color, title, subtitle, approaches, bottomMiniImage } = props
 
     return (
-        <div className="section">
+        <div className="section expertise-approach">
             <div className="container">
-                <Wrapper color={color}>
-                    <BlockTitle maxWidth={576} color={color} top={70} bottom={30}>{title}</BlockTitle>
-                    <Subtitle maxWidth={576} bottom={30} color={color} className="mx-auto text-center">{subtitle}</Subtitle>
-                    <div className="position-relative pt-3 px-3 pb-0">
-                        <TopSquare color={color} />
-                        <BottomMini src={bottomMiniImage} />
-                        <OrangeCircle src={OrangeCircleImage} />
-                        <div className="row">
-                            <div className="col-12 col-md-6 mb-4">
-                                <div className="row">
-                                    <div className="col-12 approach-card">
-                                        {
-                                            approaches && approaches.length > 0 && <ApproachCard {...approaches[0]} />
-                                        }
-                                        <SquareImage src={Demo} alt="Approach One" />
-                                    </div>
-                                    <div className="col-12 approach-card">
-                                        {
-                                            approaches && approaches.length > 0 && <ApproachCard {...approaches[1]} />
-                                        }
-                                    </div>
-                                    <div className="col-12 approach-card">
-                                        {
-                                            approaches && approaches.length > 0 && <ApproachCard {...approaches[2]} />
-                                        }
-                                        <RoundedImage src={Demo} alt="Approach Two" radius={[0, 0, 100, 0]} />
-                                    </div>
+                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title}</h1>
+                <p className={color ? `block-subtitle text-${color}` : `block-subtitle text-green`}>{subtitle}</p>
+                <div className="approach-container position-relative pt-3 px-3 pb-0">
+                    <TopSquare className={color ? `bg-${color}` : `bg-green`}/>
+                    <BottomMini src={bottomMiniImage} />
+                    <OrangeCircle src={OrangeCircleImage} />
+                    <div className="row">
+                        <div className="col-12 col-md-6 mb-4">
+                            <div className="row">
+                                <div className="col-12 approach-card">
+                                    {
+                                        approaches && approaches.length > 0 && <ApproachCard {...approaches[0]} />
+                                    }
+                                    <SquareImage src={Demo} alt="Approach One" />
                                 </div>
-                            </div>
-                            <div className="col-12 col-md-6 mb-4 d-flex">
-                                <div className="align-self-center">
+                                <div className="col-12 approach-card">
                                     {
                                         approaches && approaches.length > 0 && <ApproachCard {...approaches[1]} />
+                                    }
+                                </div>
+                                <div className="col-12 approach-card">
+                                    {
+                                        approaches && approaches.length > 0 && <ApproachCard {...approaches[2]} />
                                     }
                                     <RoundedImage src={Demo} alt="Approach Two" radius={[0, 0, 100, 0]} />
                                 </div>
                             </div>
                         </div>
+                        <div className="col-12 col-md-6 mb-4 d-flex">
+                            <div className="align-self-center">
+                                {
+                                    approaches && approaches.length > 0 && <ApproachCard {...approaches[1]} />
+                                }
+                                <RoundedImage src={Demo} alt="Approach Two" radius={[0, 0, 100, 0]} />
+                            </div>
+                        </div>
                     </div>
-                </Wrapper>
+                </div>
             </div>
         </div>
     )

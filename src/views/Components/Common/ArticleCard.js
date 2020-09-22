@@ -3,28 +3,6 @@ import styled from 'styled-components';
 import { FaArrowRight } from 'react-icons/fa'
 
 
-const Wrapper = styled.div`
-    z-index: 1;
-    width: 100%;
-    border-radius: 13px;
-    margin: 0;
-    background: #ffffff;
-    img{
-        border-radius: 13px 13px 0 0;
-        margin: 0;
-        width: 100%;
-        height: 162px;
-    }
-    .content{
-        padding: 0 16px;
-    }
-    p.text-sm {
-        margin-top: 0;
-        color: #001b5d !important;
-        /* font-family: 'RobotoMono-Light'; */
-    }
-`
-
 const Tag = styled.p`
     width: 60px;
     height: 24px;
@@ -86,19 +64,19 @@ export default function ArticleCard(props) {
     const { id, title, text, img, tag, time } = props;
 
     return (
-        <Wrapper>
+        <div className="article-card">
             <img src={img} alt={title} />
             <div className="content">
                 <div className="d-flex my-3">
                     <Tag id={id}><span>{tag}</span>• {time} minutes</Tag>
                 </div>
                 <h5 className="mt-0 mb-2">{title}</h5>
-                <p className="text-sm">{text}</p>
+                <p>{text}</p>
                 <ButtonWrapper>
                     <ArticleLink>Lire l’article</ArticleLink>
                     <FaArrowRight />
                 </ButtonWrapper>
             </div>
-        </Wrapper>
+        </div>
     )
 }

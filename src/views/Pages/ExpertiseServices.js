@@ -39,14 +39,15 @@ import ManageengineImage from '../../assets/Images/expertise/managed-services/ma
 import Cloud from '../../assets/Images/cloud.png'
 import Workspace from '../../assets/Images/modern-workplace.png'
 import Security from '../../assets/Images/security.png'
-// import ServiceManager from '../../assets/Images/managed-service.svg'
+// import ServiceManager from '../../assets/Images/managed-service.svg' 
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import ServiceForm from '../Components/Expertise/Forms/ServiceForm';
 
 
 
-const color = "#FF5E4D"
+// const color = "#FF5E4D"
+const color = "orange"
 
 const cloudBannerData = {
     color: "#FF5E4D",
@@ -196,7 +197,7 @@ const articleData = [
     },
 ]
 
-const expertieseData = {
+const expertiseData = {
     title: "Nos autres expertises",
     subtitle: "Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien.",
     items: [
@@ -244,7 +245,7 @@ export default function ExpertiseServices() {
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />
-            <OurExpertise color={color} col={4} data={expertieseData} />
+            <OurExpertise color={color} col={4} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )

@@ -25,11 +25,11 @@ const CardButton = styled(CustomButton)`
 
 export default function ExpertiseCard({ id, img, title, text }) {
     return (
-        <div className="home-expertise-card">
+        <div className="expertise-card">
             <div className="text-center mx-auto d-flex flex-column">
                 <img src={img} alt={title} className="mx-auto" />
                 <h4>{title}</h4>
-                <p className="text-xs mx-auto">{text}</p>
+                <p className="mx-auto">{text}</p>
                 <CardButton>En savoir plus</CardButton>
             </div>
         </div>

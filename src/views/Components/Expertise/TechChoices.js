@@ -7,9 +7,9 @@ import { BlockTitle } from './../Elements/Typography';
 export default function TechChoices(props) {
     const { color, logos } = props
     return (
-        <div className="section" color={color}>
+        <div className="section expertise-tech-block">
             <div className="container">
-                <BlockTitle color={color} top={135} bottom={102}>Nos choix technologiques</BlockTitle>
+                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Nos choix technologiques</h1>
                 <div className="row justify-content-center">
                     {
                         logos.map((logo, index) => (

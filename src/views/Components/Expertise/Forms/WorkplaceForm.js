@@ -17,6 +17,7 @@ const SubmitButton = styled(CustomButton)`
 `
 
 export default function WorkplaceForm(props) {
+    const { color } = props
     return (
         <>
             <div className="row">
@@ -41,7 +42,7 @@ export default function WorkplaceForm(props) {
                     <CustomInput name="companyName" type="text" placeholder="Entreprise" />
                 </div>
             </div>
-            <SubmitButton type="submit" color={props.color} className="d-block mx-auto">Envoyer le formulaire</SubmitButton>
+            <SubmitButton type="submit" className={color ? `bg-${color}` : 'bg-green'}>Envoyer le formulaire</SubmitButton>
         </>
     )
 }

@@ -71,36 +71,36 @@
         .features-block {
             position: relative;
             padding: 23px 21px 24px;
-            .home-expertise-card {
-                margin: 0;
-                padding: 0 20px 60px;
-                width: 100%;
-                border-radius: 13px;
-                background: #ffffff;
-                img {
-                    max-width: 175px;
-                    margin: auto;
-                    @media (max-width: 1200px) {
-                        max-width: 140px;
-                    }
-                }
-                h4 {
-                    margin: 0 auto 8px;
-                    font-family: "Gilroy-Bold";
-                }
-                p {
-                    // font-family: "RobotoMono-Light";
-                    font-family: "Gilroy-Medium";
-                    margin: 0;
-                    font-size: 14px;
-                    line-height: 1.36;
-                    text-align: center;
-                    color: #001a5c;
-                    @media (max-width: 768px) {
-                        font-size: 10px;
-                    }
-                }
-            }
+            // .home-expertise-card {
+            //     margin: 0;
+            //     padding: 0 20px 60px;
+            //     width: 100%;
+            //     border-radius: 13px;
+            //     background: #ffffff;
+            //     img {
+            //         max-width: 175px;
+            //         margin: auto;
+            //         @media (max-width: 1200px) {
+            //             max-width: 140px;
+            //         }
+            //     }
+            //     h4 {
+            //         margin: 0 auto 8px;
+            //         font-family: "Gilroy-Bold";
+            //     }
+            //     p {
+            //         // font-family: "RobotoMono-Light";
+            //         font-family: "Gilroy-Medium";
+            //         margin: 0;
+            //         font-size: 14px;
+            //         line-height: 1.36;
+            //         text-align: center;
+            //         color: #001a5c;
+            //         @media (max-width: 768px) {
+            //             font-size: 10px;
+            //         }
+            //     }
+            // }
             .top-left {
                 z-index: -1;
                 width: 111px;
@@ -209,14 +209,12 @@
         background-image: url("../assets/Shapes/drawings/green-mini.svg"),
             url("../assets/Shapes/drawings/orange-mini.svg");
         background-repeat: no-repeat, no-repeat;
-        // background-position: bottom right, top left;
         background-position: calc(100% - 0px) calc(100% - 27px), -1px 13px;
 
         background-size: 99px 123px, 99px 123px;
         @media (min-width: 768px) {
             margin-top: 0 !important;
             background-position: calc(100% - 0px) -7px, 0 calc(100% - 26px);
-            // background-position: top right, bottom left;
         }
     }
     h1 {

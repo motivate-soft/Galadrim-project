@@ -45,9 +45,8 @@ import ServiceManager from '../../assets/Images/managed-service.svg'
 import ArticleImage from "../../assets/Images/demo.jpg"
 
 
-
-
-const color = "#00D2B5"
+// const color = "#00D2B5"
+const color = "green"
 
 const cloudBannerData = {
     color: "#00D2B5",
@@ -204,7 +203,7 @@ const articleData = [
     },
 ]
 
-const expertieseData = {
+const expertiseData = {
     title: "Nos autres expertises",
     subtitle: "Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien.",
     items: [
@@ -252,7 +251,7 @@ export default function ExpertiseCloud() {
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />
-            <OurExpertise color={color} col={4} data={expertieseData} />
+            <OurExpertise color={color}  data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )
