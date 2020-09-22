@@ -28,3 +28,7 @@ prod.log*
 node_modules
 pm2_local.json
 package.json
+/package.json
+/package-lock.json
+/prod.log
+/dev.log
