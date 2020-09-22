@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Logo from '../Components/Common/Logo';
 import { Link } from "react-router-dom";
@@ -89,13 +89,13 @@ export default function Header() {
                             <Link className="nav-link" to="/partnerships">Nos partenariats</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/shop">Efisens Clic&Shop</Link>
+                            <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/lab">Efisens Lab</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/careers">Carrières</Link>
+                            <Link className="nav-link" to="/career">Carrières</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/contact">Nous contacter</Link>

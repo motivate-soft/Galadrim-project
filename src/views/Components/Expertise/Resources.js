@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import VGradientCard from '../Common/VGradientCard';
 import ArticleCard from '../Common/ArticleCard';
-import OrangeDotsGrid from "../../../assets/Shapes/drawings/orange-mini.png"
-import GreenDotsGrid from "../../../assets/Shapes/drawings/green-mini.svg"
-import { BlockTitle, Subtitle } from './../Elements/Typography';
+import { BlockTitle } from './../Elements/Typography';
 import { CustomButton } from '../Elements/Buttons';
 
 const ResourceButton = styled(CustomButton)`

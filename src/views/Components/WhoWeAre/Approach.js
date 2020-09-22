@@ -1,5 +1,4 @@
 import React from 'react'
-import { BlockTitle, Subtitle } from '../Elements/Typography'
 import styled from "styled-components"
 
 import CardImage1 from '../../../assets/Images/who-we-are/panel-techno.svg';

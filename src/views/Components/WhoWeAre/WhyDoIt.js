@@ -1,11 +1,5 @@
 import React from 'react';
 
-import DiscussionImage from '../../../assets/Images/who-we-are/discuss.jpg';
-import OrangeRoundedImage from '../../../assets/Shapes/rounded-angle/orange-rounded.svg';
-import OrangeMiniImage from '../../../assets/Shapes/drawings/orange@3x.png';
-import GreenSquareImage from '../../../assets/Shapes/others/green-square.svg';
-
-
 export default function WhyDoIt() {
     return (
         <div className="section why-do-it">

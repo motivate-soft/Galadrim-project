@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { FaAngleDoubleDown, FaAngleDoubleUp } from 'react-icons/fa'
-import styled from 'styled-components';
 import { GrayButton } from './../Elements/Buttons';
 
 

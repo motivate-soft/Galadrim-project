@@ -7,11 +7,9 @@ import ServiceManage from '../../../assets/Images/managed-service.svg'
 import BlueDotsGrid from "../../../assets/Shapes/drawings/blue-mini.svg"
 import GreenDotsGrid from "../../../assets/Shapes/drawings/green-mini.svg"
 import OrangeRounded from "../../../assets/Shapes/rounded-angle/orange-rounded@3x.png"
-import BlueHalfRounded from "../../../assets/Shapes/half-rounded/blue-half-rounded@3x.png"
 import ExpertiseCard from '../Common/ExpertiseCard';
 import DGradientCard from '../Common/DGradientCard';
 import { RightRoundedSemiCircle } from '../Elements/Drawings';
-import { Title } from '../Elements/Typography'
 
 
 const items = [

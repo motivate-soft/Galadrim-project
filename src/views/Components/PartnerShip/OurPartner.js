@@ -18,7 +18,7 @@ import DellLogo from '../../../assets/Images/Partnership/logo-dell@3x.png';
 import PartnerDropDownCard from './PartnerDropDownCard';
 import { OrangeButton } from '../Elements/Buttons';
 
-const color = "#FF5E4D"
+// const color = "#FF5E4D"
 
 const brands = [
 

@@ -13,14 +13,14 @@ const Wrapper = styled.div`
         margin: 0;
         font-size: 35px;
         font-family: "RobotoMono-Bold";
-        color: ${props => props.color != undefined ? props.color : '#001A5C'}
+        color: ${props => props.color !== undefined ? props.color : '#001A5C'}
     }
     & h3{
         margin: 0;
         margin-left: 8px;
         word-break: break-word;
         font-size: 26px;
-        color: ${props => props.color != undefined ? props.color : '#001A5C'}
+        color: ${props => props.color !== undefined ? props.color : '#001A5C'}
     }
     & p{
         max-width: 100%;

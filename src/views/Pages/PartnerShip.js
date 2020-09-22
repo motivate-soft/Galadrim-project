@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import PartnershipBanner from './../Components/PartnerShip/PartnershipBanner';
 import PartnerFeatures from '../Components/PartnerShip/PartnerFeatures';
 import OurPartner from './../Components/PartnerShip/OurPartner';

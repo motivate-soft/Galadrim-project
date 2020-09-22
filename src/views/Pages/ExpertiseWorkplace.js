@@ -23,9 +23,9 @@ import MobilityImage from '../../assets/Images/expertise/modern-workplace/mobili
 import CollaborationImage from '../../assets/Images/expertise/modern-workplace/collaboration.svg';
 
 // approaches
-import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
+// import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
 import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+// import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
 
 // TechChoices
 import MicrosoftImage from '../../assets/Images/expertise/modern-workplace/microsoft@3x.png';
@@ -40,7 +40,7 @@ import SfrImage from '../../assets/Images/expertise/modern-workplace/sfr-logo@3x
 
 // OurExpertise
 import Cloud from '../../assets/Images/cloud.png'
-import Workspace from '../../assets/Images/modern-workplace.png'
+// import Workspace from '../../assets/Images/modern-workplace.png'
 import Security from '../../assets/Images/security.png'
 import ServiceManager from '../../assets/Images/managed-service.svg'
 
@@ -232,20 +232,20 @@ const expertieseData = {
             text: 'Optimiser l’utilisation de votre IT au quotidien avec des technologies agiles, sécurisées et innovantes.',
             active: false,
         },
-        {
-            id: '2',
-            img: Workspace,
-            title: 'Modern Workplace',
-            text: 'Mettre en place et interconnecter des solutions collaboratives pour vos équipes.',
-            active: false,
-        },
         // {
-        //     id: '3',
-        //     img: Security,
-        //     title: 'Sécurité',
-        //     text: 'Vous permettre d’être serein en protégeant votre cœur informatique ainsi que vos données  tout en garantissant la protection des données utilisateurs (RGPD friendly).',
+        //     id: '2',
+        //     img: Workspace,
+        //     title: 'Modern Workplace',
+        //     text: 'Mettre en place et interconnecter des solutions collaboratives pour vos équipes.',
         //     active: false,
         // },
+        {
+            id: '3',
+            img: Security,
+            title: 'Sécurité',
+            text: 'Vous permettre d’être serein en protégeant votre cœur informatique ainsi que vos données  tout en garantissant la protection des données utilisateurs (RGPD friendly).',
+            active: false,
+        },
         {
             id: '4',
             img: ServiceManager,

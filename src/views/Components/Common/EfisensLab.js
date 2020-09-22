@@ -1,13 +1,10 @@
 import React from 'react'
 
 import ArticleImage from "../../../assets/Images/demo.jpg"
-import OrangeDotsGrid from "../../../assets/Shapes/drawings/orange-mini.png"
-import GreenDotsGrid from "../../../assets/Shapes/drawings/green-mini.svg"
 import ArticleCard from './ArticleCard';
 import VGradientCard from './VGradientCard';
 import { RightRoundedSemiCircle } from '../Elements/Drawings'
 import { OrangeButton } from '../Elements/Buttons';
-import { BlockTitle, Paragraph } from '../Elements/Typography';
 import styled from 'styled-components';
 
 

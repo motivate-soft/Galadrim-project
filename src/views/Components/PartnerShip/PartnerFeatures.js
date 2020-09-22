@@ -1,36 +1,8 @@
 import React from 'react'
-import styled from 'styled-components'
 import Demo from "../../../assets/Images/demo.jpg"
 import RightBottomImage from "../../../assets/Images/charts/security.svg"
-import { Image } from './../Elements/CustomImages';
 
-const Wrapper = styled.div`
-    h3 {
-        max-width: 774px;
-        margin: 107px auto 52px;
-        text-align: center;
-        color: #001A5C;
-    }
-    .text-area {
-        position: relative;
-        max-width: 476px;
-        height: 304px;
-        padding: 40px 39px 56px;
-        color: #00175f;
-        font-size: 18px;
-        font-family: 'RobotoMono-Light'; 
-        /* line-height: 1.19; */
-        border-radius: 8px;
-        background-color: #FFFFFF;
-        box-shadow: 0 2px 4px 0 rgba(41,41,43,0.05), 0 20px 40px 0 rgba(41,41,43,0.05);
-        img {
-            z-index: -1;
-            right: -24px;
-            bottom: -24px;
-            transform: rotateY(180deg);
-        }
-    }
-`
+
 
 export default function PartnerFeatures() {
     return (

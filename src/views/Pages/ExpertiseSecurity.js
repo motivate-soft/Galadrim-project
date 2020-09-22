@@ -24,8 +24,8 @@ import ScalabilityImage from '../../assets/Images/expertise/security/surveillanc
 
 // approaches
 import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+// import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
+// import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
 
 // TechChoices
 import MicrosoftImage from '../../assets/Images/expertise/security/microsoft@3x.png';
@@ -38,7 +38,7 @@ import EquinixImage from '../../assets/Images/expertise/security/equinix-logo-12
 // OurExpertise
 import Cloud from '../../assets/Images/cloud.png'
 import Workspace from '../../assets/Images/modern-workplace.png'
-import Security from '../../assets/Images/security.png'
+// import Security from '../../assets/Images/security.png'
 import ServiceManager from '../../assets/Images/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"

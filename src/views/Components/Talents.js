@@ -102,7 +102,7 @@ export default function Talents() {
                                 <RoundedImage src={DemoAvatar} radius={[0, 100, 0, 100]} />
                             </div>
                             <div className="col-6 col-sm-6 col-lg-6 mb-4 justify-content-center position-relative">
-                                <img src={DemoAvatar} className="rounded w-100 h-100" />
+                                <img src={DemoAvatar} alt="demo" className="rounded w-100 h-100" />
                                 <OrangeDotsGridImage src={OrangeDotsGrid} alt="Orange Dotsgrid" />
                             </div>
                             <div className="col-6 col-sm-6 col-lg-6 mb-4 justify-content-center">

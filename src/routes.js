@@ -8,7 +8,7 @@ import PartnerShip from './views/Pages/PartnerShip';
 import Contact from './views/Pages/Contact';
 import Career from './views/Pages/Career';
 import Shop from './views/Pages/Shop';
-import Laboratory from './views/Pages/Laboratory';
+import EfisensLab from './views/Pages/EfisensLab';
 
 
 const routes = [
@@ -20,7 +20,7 @@ const routes = [
     { path: '/expertise/managed-services', name: 'ExpertiseServices', component: ExpertiseServices },
     { path: '/partnerships', name: 'Partnership', component: PartnerShip },
     { path: '/clic-shop', name: 'Shop', component: Shop },
-    { path: '/laboratory', name: 'Laboratory', component: Laboratory },
+    { path: '/lab', name: 'Laboratory', component: EfisensLab },
     { path: '/career', name: 'Career', component: Career },
     { path: '/contact', name: 'Contact', component: Contact },
 ];

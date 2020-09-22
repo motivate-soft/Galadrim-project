@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch, BrowserRouter, Link } from 'react-router-dom';
+import { Switch, BrowserRouter } from 'react-router-dom';
 
 // style
 import "./App.scss"
@@ -13,7 +13,8 @@ export default function App() {
     <React.Fragment>
       <BrowserRouter>
         <Switch>
-          <Route path="/" render={props => <DefaultLayout {...props} />} />
+          <DefaultLayout />
+          {/* <Route path="/" render={props => <DefaultLayout {...props} />} /> */}
         </Switch>
       </BrowserRouter>
     </React.Fragment>

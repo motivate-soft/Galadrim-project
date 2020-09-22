@@ -23,8 +23,8 @@ import MaintenanceImage from '../../assets/Images/expertise/managed-services/mai
 import OutilsImage from '../../assets/Images/expertise/managed-services/outils.svg';
 
 // approaches
-import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
+// import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
+// import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
 import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
 
 // TechChoices
@@ -39,7 +39,7 @@ import ManageengineImage from '../../assets/Images/expertise/managed-services/ma
 import Cloud from '../../assets/Images/cloud.png'
 import Workspace from '../../assets/Images/modern-workplace.png'
 import Security from '../../assets/Images/security.png'
-import ServiceManager from '../../assets/Images/managed-service.svg'
+// import ServiceManager from '../../assets/Images/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import ServiceForm from '../Components/Expertise/Forms/ServiceForm';

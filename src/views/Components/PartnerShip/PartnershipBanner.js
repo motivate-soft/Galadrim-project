@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 
 import RightBottomImage from '../../../assets/Images/charts/cloud.svg';
 import LeftBottomImage from '../../../assets/Images/charts/modern-workplace.svg';

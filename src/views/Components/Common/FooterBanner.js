@@ -86,8 +86,8 @@ export default function FooterBanner(props) {
                     <FooterTitle color={color} maxWidth={650} top={26} bottom={22}>{title}</FooterTitle>
                     <ContactButton backgroundColor={color ? color : defaultColor} className="mx-auto text-white" >Contactez-nous</ContactButton>
                 </div>
-                <img src={LeftBgImage} className="bottom-left" alt="Left Image" />
-                <img src={RightBgImage} className="bottom-right" alt="Right Image" />
+                <img src={LeftBgImage} className="bottom-left" alt="Left background" />
+                <img src={RightBgImage} className="bottom-right" alt="Right background" />
             </Section>
         </div>
     )

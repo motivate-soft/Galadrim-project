@@ -1,0 +1,164 @@
+@import "./global";
+@import "./typo";
+@import "./variable";
+
+.lab-banner {
+    display: flex;
+    min-height: 348px;
+    background-color: #001a5c;
+    h2 {
+        margin: 109px auto 0;
+        max-width: 776px;
+        font-family: Gilroy-ExtraBold;
+        @media (max-width: 768px) {
+            font-size: 24px;
+        }
+    }
+    img.bottom-left {
+        width: 238px;
+        height: 199px;
+        transform: scaleX(-1);
+        @media (max-width: 768px) {
+            width: 100px;
+            height: 83px;
+        }
+    }
+    img.bottom-right {
+        height: 201px;
+        width: 294px;
+        transform: scaleY(-1) rotate(180deg);
+        @media (max-width: 768px) {
+            width: 150px;
+            height: 125px;
+        }
+    }
+    @media (max-width: 768px) {
+        min-height: 560px;
+    }
+}
+
+.lab-innews {
+    h1 {
+        margin: 82px auto 42px;
+        font-size: 48px;
+        font-family: Gilroy-ExtraBold;
+        letter-spacing: normal;
+        text-align: center;
+        @media (max-width: 768px) {
+        }
+    }
+    .innews-image-card {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        max-width: 520px;
+        padding-left: 44px;
+        padding-bottom: 44px;
+        padding-top: 0;
+        padding-right: 0;
+        background: url("../assets/Shapes/drawings/green-mini.svg");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 110px 134px;
+        img {
+            max-width: 476px;
+            width: 100%;
+            align-self: flex-end;
+        }
+        @media (max-width: 768px) {
+        }
+    }
+    .innews-card {
+        max-width: 476px;
+        padding: 0 16px;
+        .news-info {
+            p {
+                font-family: Gilroy-Medium;
+                font-size: 12px;
+                letter-spacing: normal;
+                color: #6a6f85;
+                
+            }
+            span {
+                padding: 4px 8px;
+                font-family: Gilroy-Medium;
+                font-size: 12px;
+                text-align: center;
+                color: #00d2b5;
+                border-radius: 4px;
+                background-color: rgba(0, 210, 180, 0.1);
+            }
+        }
+        h3 {
+            font-family: Gilroy-ExtraBold;
+            font-size: 28px;
+            line-height: 1;
+            letter-spacing: normal;
+            color: #001a5c;
+        }
+        p {
+            font-family: RobotoMono-Light;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: normal;
+            color: #001a5c;
+        }
+        .pub-date {
+            display: block;
+            margin: 50px 0 16px;
+            font-family: Gilroy-Light;
+            font-size: 10px;
+            color: #696f87;
+        }
+        .article-link {
+            display: flex;
+            align-items: center;
+            font-family: Gilroy-Light;
+            font-size: 16px;
+            color: #6a6f85;
+        }
+    }
+}
+
+.last-articles-block {
+    h1 {
+        margin: 86px auto 64px;
+        color: #001a5c;
+        font-family: Gilroy-ExtraBold;
+        font-size: 48px;
+        letter-spacing: 0;
+        line-height: 60px;
+        text-align: center;
+    }
+    .article-search-form {
+        position: relative;
+        margin: auto;
+        max-width: 377px;
+        input {
+            display: block;
+            position: relative;
+            box-sizing: border-box;
+            width: 100%;
+            height: 51px;
+            padding: 0 16px;
+            color: #6a6f85;
+            font-family: Gilroy-SemiBold;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 20px;
+            border: 1px solid #ebebeb;
+            border-radius: 4px;
+            background-color: #ffffff;
+            box-shadow: inset 1px 1px 2px 0 rgba(235, 235, 235, 0.3);
+        }
+        svg {
+            z-index: 1;
+            top: 20px;
+            left: 20px;
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            fill: #caccd8;
+        }
+    }
+}

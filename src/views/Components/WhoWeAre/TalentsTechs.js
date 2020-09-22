@@ -1,7 +1,6 @@
 import React from 'react';
 import TitleImage from '../../../assets/Images/who-we-are/title-bar@3x.png';
 import RightBottomImage from '../../../assets/Images/who-we-are/vert.svg'
-import { BlockTitle } from '../Elements/Typography';
 import { GrayButton } from '../Elements/Buttons';
 import { Circle, Square } from '../Elements/Drawings';
 
@@ -13,7 +12,7 @@ export default function TalentsTechs() {
                     <div className="col-lg-12 text-center">
                         <h5>L’humain est au cœur de notre ADN</h5>
                         <h1 className="block-title" >Talents<br /> & Technologies</h1>
-                        <img src={TitleImage} className="title-image" alt="title image" />
+                        <img src={TitleImage} className="title-image" alt="title" />
                     </div>
                     <div className="col-sm-12 col-lg-10 offset-lg-1">
                         <div className="green-card position-relative mx-auto">

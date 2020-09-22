@@ -1,6 +1,5 @@
 import React from 'react'
 import { Image } from './../Elements/CustomImages';
-import styled from 'styled-components';
 import { BlockTitle } from './../Elements/Typography';
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import { BlockTitle, GradientText } from '../Elements/Typography'
 
 import AvatarImage from '../../../assets/Images/who-we-are/ceo.jpg';
 import QuoteImage from '../../../assets/Images/who-we-are/quote.svg';

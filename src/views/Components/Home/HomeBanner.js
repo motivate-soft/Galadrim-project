@@ -29,7 +29,7 @@ export default function HomeBanner() {
                         <ContactButton>Contactez-nous</ContactButton>
                     </div>
                     <div className="col-md-6 col-12">
-                        <img className="w-100 banner-image" src={HomeBannerImage} />
+                        <img className="w-100 banner-image" alt="home banner" src={HomeBannerImage} />
                     </div>
                 </div>
             </div>

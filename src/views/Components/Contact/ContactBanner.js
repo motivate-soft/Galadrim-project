@@ -1,15 +1,11 @@
 import React from 'react'
 import { FaLock } from 'react-icons/fa';
-import { Title, Underline } from '../Elements/Typography'
+import { Underline } from '../Elements/Typography'
 import { IconButton } from './../Elements/Buttons';
-import BannerFormCard from '../Common/BannerFormCard';
-import ContactForm from './ContactForm';
 
 import LeftBottomImage from '../../../assets/Images/charts/cloud.svg';
 import CenterBottomImage from '../../../assets/Images/charts/modern-workplace.svg';
 import RightBottomImage from '../../../assets/Images/charts/security.svg';
-import OrangeRoundedImage from '../../../assets/Shapes/rounded-angle/orange-rounded.svg';
-import styled from 'styled-components';
 import ContactTab from './ContactTab';
 
 const color = '#00175f'
