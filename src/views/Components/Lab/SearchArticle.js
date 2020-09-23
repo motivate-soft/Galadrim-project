@@ -125,7 +125,7 @@ export default function SearchArticle() {
                             articles.map((article, index) => (
                                 <div key={index} className="col-12 col-md-6 col-lg-4 mb-4">
                                     <DGradientCard
-                                    // maxWidth={325}
+                                        maxWidth={376}
                                     >
                                         <ArticleCard
                                             key={index}

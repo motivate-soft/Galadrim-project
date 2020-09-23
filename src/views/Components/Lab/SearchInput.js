@@ -22,35 +22,35 @@ const InputWithBackground = styled.input`
         outline: none !important;
         border: 1px solid #001f5f;
     }
-    ::placeholder {
+    &::placeholder {
         padding: 30px;
         color: #6a6f85;
         font-size: 16px;
         font-family: Gilroy-SemiBold;
         opacity: 1;     
     }
-    :-moz-placeholder {
+    &:-moz-placeholder {
         padding: 30px;
         color: #6a6f85;
         font-size: 16px;
         font-family: Gilroy-SemiBold;
         opacity: 1;
     }
-    ::-moz-placeholder { 
+    &::-moz-placeholder { 
         padding: 30px;
         color: #6a6f85;
         font-size: 16px;
         font-family: Gilroy-SemiBold;
         opacity: 1;
     }
-    :-ms-input-placeholder {
+    &:-ms-input-placeholder {
         padding: 30px; 
         color: #6a6f85;
         font-size: 16px;
         font-family: Gilroy-SemiBold;
     }
 
-    ::-ms-input-placeholder {   
+    &::-ms-input-placeholder {   
         padding: 30px;
         color: #6a6f85;
         font-family: Gilroy-SemiBold;

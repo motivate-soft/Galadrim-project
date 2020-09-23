@@ -89,34 +89,55 @@
 
 .article-card {
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     width: 100%;
     border-radius: 13px;
-    margin: 0;
     background: #ffffff;
-    h5 {
-        margin: 0 auto 8px !important;
-        font-family: Gilroy-ExtraBold !important;
-        font-size: 19px !important;
-        text-align: left !important;
-        line-height: 1.05 !important;
-        letter-spacing: normal;
-        color: #001a5c !important;
-    }
     img {
         border-radius: 13px 13px 0 0;
         margin: 0;
         width: 100%;
         height: 162px;
     }
-    .content {
-        padding: 0 16px;
-    }
-    p {
-        text-align: left;
-        margin-top: 0;
-        color: #001b5d !important;
-        font-family: "RobotoMono-Medium";
-        font-size: 14px;
+    .article-card-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px 24px;
+        h5 {
+            margin: 0 auto 8px !important;
+            font-family: Gilroy-ExtraBold !important;
+            font-size: 19px !important;
+            text-align: left !important;
+            line-height: 1.05 !important;
+            letter-spacing: normal;
+            color: #001a5c !important;
+        }
+        p {
+            text-align: left;
+            margin-top: 0;
+            color: #001b5d !important;
+            font-family: "RobotoMono-Medium";
+            font-size: 14px;
+        }
+        .article-card-button {
+            margin-top: auto;
+            a {
+                display: flex;
+                align-items: center;
+                svg {
+                    fill: #6a6f85 !important;
+                }
+                span {
+                    margin-right: 8px;
+                    font-family: Gilroy-Light;
+                    font-size: 16px;
+                    color: #6a6f85;
+                }
+            }
+        }
     }
 }
 
@@ -160,7 +181,7 @@
     @include media-breakpoint-up(lg) {
         .container {
             align-self: center;
-        }   
+        }
         h1 {
             font-size: 41px;
         }

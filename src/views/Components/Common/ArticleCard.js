@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaArrowRight } from 'react-icons/fa'
 
@@ -12,6 +13,7 @@ const Tag = styled.p`
     color: #6a6f85 !important;
     margin: 0!important;
     span {
+
         margin-right: 8px;
         padding: 4px 8px;
         font-size: 12px;
@@ -43,22 +45,6 @@ const Tag = styled.p`
    
 `
 
-const ArticleLink = styled.p`
-    margin-bottom: 28px;
-    font-family: 'RobotoMono-Light';
-    font-size: 14px;
-    color: #6a6f85 !important;
-    margin: 0 4px !important;
-`
-
-const ButtonWrapper = styled.div`
-    position: absolute;
-    display: flex;
-    align-items: center;
-    bottom: 28px;
-    color: #6A6F85;
-`
-
 
 export default function ArticleCard(props) {
     const { id, title, text, img, tag, time } = props;
@@ -66,16 +52,15 @@ export default function ArticleCard(props) {
     return (
         <div className="article-card">
             <img src={img} alt={title} />
-            <div className="content">
+            <div className="article-card-text">
                 <div className="d-flex my-3">
                     <Tag id={id}><span>{tag}</span>• {time} minutes</Tag>
                 </div>
                 <h5>{title}</h5>
                 <p>{text}</p>
-                <ButtonWrapper>
-                    <ArticleLink>Lire l’article</ArticleLink>
-                    <FaArrowRight />
-                </ButtonWrapper>
+                <div className="article-card-button">
+                    <Link to={`/efilab/${id}`} ><span>Lire l’article</span><FaArrowRight /></Link>
+                </div>
             </div>
         </div>
     )
