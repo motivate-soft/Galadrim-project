@@ -23,6 +23,9 @@ const Tabs = styled.div`
     button:nth-child(2){
         border-radius: 0 8px 0 0;
     }
+    @media (max-width: 768px){
+        margin-top: 50px;
+    }
 `;
 
 const Tab = styled(BaseButton)`

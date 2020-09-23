@@ -17,10 +17,10 @@ import {
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import Cloud from '../../assets/Images/cloud.svg'
-import Workplace from '../../assets/Images/modern-workplace.svg'
-import Security from '../../assets/Images/security.svg'
-import ManagedService from '../../assets/Images/managed-service.svg'
+import Cloud from '../../assets/Images/home/cloud.svg'
+import Workplace from '../../assets/Images/home/modern-workplace.svg'
+import Security from '../../assets/Images/home/security.svg'
+import ManagedService from '../../assets/Images/home/managed-service.svg'
 
 import { FaAngleDown } from '../../../node_modules/react-icons/fa';
 import { Link } from "react-router-dom";

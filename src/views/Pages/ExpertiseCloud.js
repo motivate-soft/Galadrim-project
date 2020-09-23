@@ -37,10 +37,10 @@ import VmwareImage from '../../assets/Images/expertise/cloud/v-mware-logo.png';
 import EquinixImage from '../../assets/Images/expertise/cloud/equinix-logo-1200-x-627.png';
 
 // OurExpertise
-// import Cloud from '../../assets/Images/cloud.png'
-import Workspace from '../../assets/Images/modern-workplace.png'
-import Security from '../../assets/Images/security.png'
-import ServiceManager from '../../assets/Images/managed-service.svg'
+// import Cloud from '../../assets/Images/home/cloud.svg'
+import Workspace from '../../assets/Images/home/modern-workplace.svg'
+import Security from '../../assets/Images/home/security.svg'
+import ServiceManager from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 

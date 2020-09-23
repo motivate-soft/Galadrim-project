@@ -1,6 +1,6 @@
 import React from 'react'
-import HomeGroup from '../../../assets/Images/group-3@3x.png'
-import BackGroup from '../../../assets/Images/group-2@3x.png'
+import HomeGroup from '../../../assets/Images/home/group-3@3x.png'
+import BackGroup from '../../../assets/Images/home/group-2@3x.png'
 import { OrangeButton } from "../Elements/Buttons";
 import styled from 'styled-components';
 

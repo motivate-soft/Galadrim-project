@@ -39,10 +39,10 @@ import PolyImage from '../../assets/Images/expertise/modern-workplace/poly-logo@
 import SfrImage from '../../assets/Images/expertise/modern-workplace/sfr-logo@3x.png';
 
 // OurExpertise
-import Cloud from '../../assets/Images/cloud.png'
-// import Workspace from '../../assets/Images/modern-workplace.png'
-import Security from '../../assets/Images/security.png'
-import ServiceManager from '../../assets/Images/managed-service.svg'
+import Cloud from '../../assets/Images/home/cloud.svg'
+// import Workspace from '../../assets/Images/home/modern-workplace.svg'
+import Security from '../../assets/Images/home/security.svg'
+import ServiceManager from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import WorkplaceForm from '../Components/Expertise/Forms/WorkplaceForm';

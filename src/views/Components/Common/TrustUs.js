@@ -1,11 +1,11 @@
 import React from 'react'
 
 // images
-import LogoBPI from "../../../assets/Images/PartnerLogos/bpi@3x.png"
-import LogoAssiatance from "../../../assets/Images/PartnerLogos/assistance@3x.png"
-import LogoAstorg from "../../../assets/Images/PartnerLogos/astorg@3x.png"
-import LogoEmil from "../../../assets/Images/PartnerLogos/emil-frey-france@3x.png"
-import LogoEchosens from "../../../assets/Images/PartnerLogos/logo-echosens-gradient@3x.png"
+import LogoBPI from "../../../assets/Images/home/bpi@3x.png"
+import LogoAssiatance from "../../../assets/Images/home/assistance@3x.png"
+import LogoAstorg from "../../../assets/Images/home/astorg@3x.png"
+import LogoEmil from "../../../assets/Images/home/emil-frey-france@3x.png"
+import LogoEchosens from "../../../assets/Images/home/echosens@3x.png"
 import { Image } from '../Elements/CustomImages';
 
 

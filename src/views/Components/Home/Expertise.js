@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Cloud from '../../../assets/Images/cloud.png'
-import Workspace from '../../../assets/Images/modern-workplace.png'
-import Security from '../../../assets/Images/security.png'
-import ServiceManage from '../../../assets/Images/managed-service.svg'
+import Cloud from '../../../assets/Images/home/cloud.svg'
+import Workspace from '../../../assets/Images/home/modern-workplace.svg'
+import Security from '../../../assets/Images/home/security.svg'
+import ServiceManage from '../../../assets/Images/home/managed-service.svg'
 import BlueDotsGrid from "../../../assets/Shapes/drawings/blue-mini.svg"
 import GreenDotsGrid from "../../../assets/Shapes/drawings/green-mini.svg"
 import OrangeRounded from "../../../assets/Shapes/rounded-angle/orange-rounded@3x.png"

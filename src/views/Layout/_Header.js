@@ -3,10 +3,10 @@
 // import styled from 'styled-components';
 
 // import { FaAngleDown, FaLock } from 'react-icons/fa';
-// import Cloud from '../../assets/Images/cloud.png'
-// import Workplace from '../../assets/Images/modern-workplace.png'
-// import Security from '../../assets/Images/security.png'
-// import ServiceManager from '../../assets/Images/managed-service.svg'
+// import Cloud from '../../assets/Images/home/cloud.png'
+// import Workplace from '../../assets/Images/home/modern-workplace.png'
+// import Security from '../../assets/Images/home/security.png'
+// import ServiceManager from '../../assets/Images/home/managed-service.svg'
 // import { Navbar, Nav, Form, NavDropdown, Row } from 'react-bootstrap';
 // import NavDropdownMenu from './NavDropdownMenu';
 // import Logo from '../Components/Common/Logo';

@@ -3,7 +3,7 @@ import React from 'react'
 import Logo from './../Components/Common/Logo';
 import styled from 'styled-components';
 import { MdSend } from 'react-icons/md';
-import ShapesGroup from "../../assets/Images/group@3x.png"
+import ShapesGroup from "../../assets/Images/home/group@3x.png"
 import InstagramIcon from "../../assets/Icons/instagram.svg"
 import LinkedinIcon from "../../assets/Icons/linkedin.svg"
 import YoutubeIcon from "../../assets/Icons/youtube.svg"

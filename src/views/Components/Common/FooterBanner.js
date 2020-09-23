@@ -1,6 +1,6 @@
 import React from 'react'
-import LeftBgImage from "../../../assets/Images/left_bg.png"
-import RightBgImage from "../../../assets/Images/right_bg.png"
+import LeftBgImage from "../../../assets/Images/home/left_bg.png"
+import RightBgImage from "../../../assets/Images/home/right_bg.png"
 import styled from 'styled-components'
 import { CustomButton } from '../Elements/Buttons';
 

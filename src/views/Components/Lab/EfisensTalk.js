@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import OrangeSquare from "../../../assets/Shapes/others/orange-square@3x.png"
 import GreenTriangle from "../../../assets/Shapes/others/green-top-left-triangle@3x.png"
-import GrayTriangleBackground from "../../../assets/Images/gray-background.png";
+import GrayTriangleBackground from "../../../assets/Images/home/gray-background.png";
 // import IconSend from "../../../assets/Icons/send@3x.png"
 import { MdSend } from "react-icons/md"
 import { LeftRoundedSemiCircle } from '../Elements/Drawings';

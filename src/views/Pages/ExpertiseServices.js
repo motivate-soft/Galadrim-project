@@ -36,10 +36,10 @@ import ManageengineImage from '../../assets/Images/expertise/managed-services/ma
 
 
 // OurExpertise
-import Cloud from '../../assets/Images/cloud.png'
-import Workspace from '../../assets/Images/modern-workplace.png'
-import Security from '../../assets/Images/security.png'
-// import ServiceManager from '../../assets/Images/managed-service.svg' 
+import Cloud from '../../assets/Images/home/cloud.svg'
+import Workspace from '../../assets/Images/home/modern-workplace.svg'
+import Security from '../../assets/Images/home/security.svg'
+// import ServiceManager from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import ServiceForm from '../Components/Expertise/Forms/ServiceForm';

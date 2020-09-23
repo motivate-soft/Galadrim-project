@@ -1,9 +1,24 @@
 // Contact page
 .contact-banner {
-    position: relative;
-    overflow: visible;
-    background: rgba(0, 26, 92, 0.08);
-    height: 706px;
+    // position: relative;
+    // overflow: visible;
+    .contact-banner-background-container {
+        position: relative;
+        background: rgba(0, 26, 92, 0.08);
+        height: 706px;
+        .orange-rounded {
+            position: absolute;
+            bottom: 0;
+            transform: translateY(100%) rotate(90deg);
+            width: 313px;
+            height: 313px;
+        }
+    }
+    & > div.container {
+        margin-top: -706px !important;
+        min-height: 706px;
+        background-color: transparent;
+    }
     h1 {
         max-width: 330px;
         margin-top: 142px;
@@ -38,7 +53,7 @@
     @include media-breakpoint-down(sm) {
         h1 {
             max-width: 330px;
-            margin: 30px auto 20px;
+            margin: 50px auto 20px;
         }
         h5 {
             margin: 20px auto 20px;
@@ -55,11 +70,33 @@
             height: 237px;
         }
     }
-    @include media-breakpoint-up(sm) {
-    }
     @include media-breakpoint-up(md) {
+        img.bottom-left {
+            width: 150px;
+            height: auto;
+        }
+        img.bottom-right {
+            width: 300px;
+            height: auto;
+        }
+        img.bottom-center {
+            width: 150px;
+            height: auto;
+        }
     }
     @include media-breakpoint-up(lg) {
+        img.bottom-left {
+            width: 180px;
+            height: auto;
+        }
+        img.bottom-right {
+            width: 450px;
+            height: auto;
+        }
+        img.bottom-center {
+            width: 180px;
+            height: auto;
+        }
     }
 }
 .contact-trust-us {
