@@ -8,7 +8,7 @@
         height: 706px;
         .orange-rounded {
             position: absolute;
-            bottom: 0;
+            bottom: 1px;
             transform: translateY(100%) rotate(90deg);
             width: 313px;
             height: 313px;
@@ -16,7 +16,7 @@
     }
     & > div.container {
         margin-top: -706px !important;
-        min-height: 706px;
+        min-height: 910px;
         background-color: transparent;
     }
     h1 {
@@ -51,6 +51,9 @@
         background: #ffffff;
     }
     @include media-breakpoint-down(sm) {
+        & > div.container {
+            min-height: 706px;
+        }
         h1 {
             max-width: 330px;
             margin: 50px auto 20px;
@@ -68,6 +71,9 @@
         img.bottom-right {
             width: 283px;
             height: 237px;
+        }
+        img.orange-rounded {
+            display: none;
         }
     }
     @include media-breakpoint-up(md) {

@@ -34,6 +34,14 @@ export const RightRoundedSemiCircle = styled.div`
     }
 `
 
+// export const Quadrant = styled.div`
+//     width: ${props => props.width ? props.width + 'px' : defaultWidth + 'px'};
+//     height: ${props => props.height ? props.height + 'px' : defaultWidth + 'px'};
+//     /* ${props.origin => ( `border-radius: 100%`) }; */
+//     /* border-radius: 100%; */
+//     /* background-color: ${props => props.color ? props.color : colorGreen}; */
+// `
+
 export const Circle = styled.div`
     width: ${props => props.width ? props.width + 'px' : defaultWidth + 'px'};
     height: ${props => props.height ? props.height + 'px' : defaultWidth + 'px'};
