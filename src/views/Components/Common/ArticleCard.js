@@ -70,7 +70,7 @@ export default function ArticleCard(props) {
                 <div className="d-flex my-3">
                     <Tag id={id}><span>{tag}</span>• {time} minutes</Tag>
                 </div>
-                <h5 className="mt-0 mb-2">{title}</h5>
+                <h5>{title}</h5>
                 <p>{text}</p>
                 <ButtonWrapper>
                     <ArticleLink>Lire l’article</ArticleLink>

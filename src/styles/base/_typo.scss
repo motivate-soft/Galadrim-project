@@ -1,4 +1,3 @@
-@import "./variable";
 @mixin font($font-family, $font-file, $font-weight) {
     @font-face {
         font-family: $font-family;
@@ -11,41 +10,41 @@
     }
 }
 
-@include font("Gilroy-Thin", "../assets/Typo/gilroy/Gilroy-Thin", 100);
-@include font("Gilroy-ThinItalic", "../assets/Typo/gilroy/Gilroy-ThinItalic", 100);
-@include font("Gilroy-UltraLight", "../assets/Typo/gilroy/Gilroy-UltraLight", 200);
-@include font("Gilroy-UltraLightItalic", "../assets/Typo/gilroy/Gilroy-UltraLightItalic", 200);
-@include font("Gilroy-Light", "../assets/Typo/gilroy/Gilroy-Light", 300);
-@include font("Gilroy-LightItalic", "../assets/Typo/gilroy/Gilroy-LightItalic", 300);
-@include font("Gilroy-Regular", "../assets/Typo/gilroy/Gilroy-Regular", 400);
-@include font("Gilroy-RegularItalic", "../assets/Typo/gilroy/Gilroy-RegularItalic", 400);
-@include font("Gilroy-Medium", "../assets/Typo/gilroy/Gilroy-Medium", 500);
-@include font("Gilroy-MediumItalic", "../assets/Typo/gilroy/Gilroy-MediumItalic", 500);
-@include font("Gilroy-SemiBold", "../assets/Typo/gilroy/Gilroy-SemiBold", 600);
-@include font("Gilroy-SemiBoldItalic", "../assets/Typo/gilroy/Gilroy-SemiBoldItalic", 600);
-@include font("Gilroy-Bold", "../assets/Typo/gilroy/Gilroy-Bold", 700);
-@include font("Gilroy-BoldItalic", "../assets/Typo/gilroy/Gilroy-BoldItalic", 700);
-@include font("Gilroy-ExtraBold", "../assets/Typo/gilroy/Gilroy-ExtraBold", 800);
-@include font("Gilroy-ExtraBoldItalic", "../assets/Typo/gilroy/Gilroy-ExtraBoldItalic", 800);
-@include font("Gilroy-Black", "../assets/Typo/gilroy/Gilroy-Black", 900);
-@include font("Gilroy-BlackItalic", "../assets/Typo/gilroy/Gilroy-BlackItalic", 900);
-@include font("Gilroy-Heavy", "../assets/Typo/gilroy/Gilroy-Heavy", bold);
-@include font("Gilroy-HeavyItalic", "../assets/Typo/gilroy/Gilroy-HeavyItalic", bold);
+@include font("Gilroy-Thin", "../../assets/Typo/gilroy/Gilroy-Thin", 100);
+@include font("Gilroy-ThinItalic", "../../assets/Typo/gilroy/Gilroy-ThinItalic", 100);
+@include font("Gilroy-UltraLight", "../../assets/Typo/gilroy/Gilroy-UltraLight", 200);
+@include font("Gilroy-UltraLightItalic", "../../assets/Typo/gilroy/Gilroy-UltraLightItalic", 200);
+@include font("Gilroy-Light", "../../assets/Typo/gilroy/Gilroy-Light", 300);
+@include font("Gilroy-LightItalic", "../../assets/Typo/gilroy/Gilroy-LightItalic", 300);
+@include font("Gilroy-Regular", "../../assets/Typo/gilroy/Gilroy-Regular", 400);
+@include font("Gilroy-RegularItalic", "../../assets/Typo/gilroy/Gilroy-RegularItalic", 400);
+@include font("Gilroy-Medium", "../../assets/Typo/gilroy/Gilroy-Medium", 500);
+@include font("Gilroy-MediumItalic", "../../assets/Typo/gilroy/Gilroy-MediumItalic", 500);
+@include font("Gilroy-SemiBold", "../../assets/Typo/gilroy/Gilroy-SemiBold", 600);
+@include font("Gilroy-SemiBoldItalic", "../../assets/Typo/gilroy/Gilroy-SemiBoldItalic", 600);
+@include font("Gilroy-Bold", "../../assets/Typo/gilroy/Gilroy-Bold", 700);
+@include font("Gilroy-BoldItalic", "../../assets/Typo/gilroy/Gilroy-BoldItalic", 700);
+@include font("Gilroy-ExtraBold", "../../assets/Typo/gilroy/Gilroy-ExtraBold", 800);
+@include font("Gilroy-ExtraBoldItalic", "../../assets/Typo/gilroy/Gilroy-ExtraBoldItalic", 800);
+@include font("Gilroy-Black", "../../assets/Typo/gilroy/Gilroy-Black", 900);
+@include font("Gilroy-BlackItalic", "../../assets/Typo/gilroy/Gilroy-BlackItalic", 900);
+@include font("Gilroy-Heavy", "../../assets/Typo/gilroy/Gilroy-Heavy", bold);
+@include font("Gilroy-HeavyItalic", "../../assets/Typo/gilroy/Gilroy-HeavyItalic", bold);
 
-@include font("RobotoMono-Thin", "../assets/Typo/Roboto_Mono/static/RobotoMono-Thin", 100);
-@include font("RobotoMono-ThinItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-ThinItalic", 100);
-@include font("RobotoMono-ExtraLight", "../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLight", 200);
-@include font("RobotoMono-ExtraLightItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLightItalic", 200);
-@include font("RobotoMono-Light", "../assets/Typo/Roboto_Mono/static/RobotoMono-Light", 300);
-@include font("RobotoMono-LightItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-LightItalic", 300);
-@include font("RobotoMono-Regular", "../assets/Typo/Roboto_Mono/static/RobotoMono-Regular", 400);
-@include font("RobotoMono-Italic", "../assets/Typo/Roboto_Mono/static/RobotoMono-Italic", 400);
-@include font("RobotoMono-Medium", "../assets/Typo/Roboto_Mono/static/RobotoMono-Medium", 500);
-@include font("RobotoMono-MediumItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-MediumItalic", 500);
-@include font("RobotoMono-SemiBold", "../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBold", 700);
-@include font("RobotoMono-SemiBoldItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBoldItalic", 700);
-@include font("RobotoMono-Bold", "../assets/Typo/Roboto_Mono/static/RobotoMono-Bold", bold);
-@include font("RobotoMono-BoldItalic", "../assets/Typo/Roboto_Mono/static/RobotoMono-BoldItalic", bold);
+@include font("RobotoMono-Thin", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Thin", 100);
+@include font("RobotoMono-ThinItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-ThinItalic", 100);
+@include font("RobotoMono-ExtraLight", "../../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLight", 200);
+@include font("RobotoMono-ExtraLightItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-ExtraLightItalic", 200);
+@include font("RobotoMono-Light", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Light", 300);
+@include font("RobotoMono-LightItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-LightItalic", 300);
+@include font("RobotoMono-Regular", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Regular", 400);
+@include font("RobotoMono-Italic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Italic", 400);
+@include font("RobotoMono-Medium", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Medium", 500);
+@include font("RobotoMono-MediumItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-MediumItalic", 500);
+@include font("RobotoMono-SemiBold", "../../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBold", 700);
+@include font("RobotoMono-SemiBoldItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-SemiBoldItalic", 700);
+@include font("RobotoMono-Bold", "../../assets/Typo/Roboto_Mono/static/RobotoMono-Bold", bold);
+@include font("RobotoMono-BoldItalic", "../../assets/Typo/Roboto_Mono/static/RobotoMono-BoldItalic", bold);
 
 body {
     font-family: "Gilroy-Medium";
@@ -206,6 +205,10 @@ a {
     text-align: center !important;
 }
 
+.text-left {
+    text-align: left !important;
+}
+
 // utility
 .gradient-text {
     background: -webkit-linear-gradient(left, #00d2b5, #ff5e4d, #001a5c);
@@ -220,6 +223,7 @@ a {
     font-family: "Gilroy-ExtraBold";
     text-align: left;
     line-height: 100%;
+    white-space: pre-line;
     @media only screen and (max-width: 768px) {
         text-align: center;
         font-size: 36px;
@@ -238,11 +242,22 @@ a {
 
 .text-primary {
     font-family: Gilroy-Bold;
-    // text-align: center;
     font-size: 18px;
     line-height: 1.17;
     color: #001a5c;
     @media screen and (max-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.banner-text {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #001a5c;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -266,6 +281,27 @@ a {
     }
     @media only screen and (min-width: 1200px) {
         font-size: 54px;
+    }
+}
+
+.block-title-secondary {
+    display: block;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Gilroy-ExtraBold";
+    @media only screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 36px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 48px;
     }
 }
 

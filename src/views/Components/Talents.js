@@ -6,6 +6,7 @@ import DemoAvatar from "../../assets/Images/demo.jpg"
 import styled from 'styled-components'
 import { GradientText } from "./Elements/Typography"
 import { SquareImage, RoundedImage } from './Elements/CustomImages';
+import { BaseButton } from './Elements/Buttons';
 
 
 const Card = styled.div`
@@ -43,7 +44,7 @@ const CircleImage = styled.img`
     top: -32px;
 `
 
-const GrayButton = styled.button`
+const GrayButton = styled(BaseButton)`
     display: flex;
     font-weight: 400;
     color: #001F5F;

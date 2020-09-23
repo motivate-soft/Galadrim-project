@@ -4,9 +4,9 @@ import Logo from './../Components/Common/Logo';
 import styled from 'styled-components';
 import { MdSend } from 'react-icons/md';
 import ShapesGroup from "../../assets/Images/group@3x.png"
-import InstagramIcon from "../../assets/Icons/instagram@3x.png"
-import LinkedinIcon from "../../assets/Icons/linkedin@3x.png"
-import YoutubeIcon from "../../assets/Icons/youtube@3x.png"
+import InstagramIcon from "../../assets/Icons/instagram.svg"
+import LinkedinIcon from "../../assets/Icons/linkedin.svg"
+import YoutubeIcon from "../../assets/Icons/youtube.svg"
 import { Link } from 'react-router-dom';
 
 

@@ -1,106 +1,67 @@
-@import "variable";
-@import "global";
-@import "typo";
+// Home Page
 
 .home-banner {
     margin: 0;
-    min-height: 706px;
     background-image: url("../assets/Shapes/others/rounded-circle@3x.png"),
         url("../assets/Shapes/others/bottom-right-triangle@3x.png"),
         url("../assets/Shapes/others/bottom-left-triangle@3x.png");
     background-repeat: no-repeat;
     background-position: left top, bottom right, bottom left;
     background-size: 120px 120px, auto calc(100vh - 60px), 120px 120px;
-
-    @media only screen and (max-width: 768px) {
+    .banner-title {
+        margin-bottom: 19px;
+        white-space: pre-line;
+    }
+    .banner-text {
+        margin: 12px 0 47px;
+    }
+    @include media-breakpoint-down(sm) {
         height: auto;
         margin-left: auto;
         margin-right: auto;
         background-size: 37px 37px, 136px 136px, 56px 56px;
-    }
-    @media only screen and (min-width: 768px) {
-        height: calc(100vh - 60px);
-        background-size: 120px 120px, auto calc(100vw - 200px), 120px 120px;
-    }
-    @media only screen and (min-width: 992px) {
-        background-size: 120px 120px, auto calc(100vh - 60px), 120px 120px;
-    }
-    h1 {
-        margin-bottom: 19px;
-        white-space: pre-line;
-    }
-    p.banner-text {
-        margin: 12px 0 47px;
-    }
-    .banner-image {
-        @media only screen and (max-width: 768px) {
+        .banner-image {
             display: block;
             max-width: 70%;
             margin: 21px auto 30px;
         }
-        @media only screen and (min-width: 768px) {
-            // max-width: 587px;
+    }
+    @include media-breakpoint-up(sm) {
+        min-height: 706px;
+        height: calc(100vh - 60px);
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 50px 50px, 200px 200px, 84px 84px;
+        .banner-image {
+            display: block;
+            max-width: 587px;
             width: 100%;
-            margin-right: 0;
+            margin-left: auto;
         }
+    }
+    @include media-breakpoint-up(md) {
+        background-size: 120px 120px, calc(50vh) calc(50vh), 120px 120px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: calc(100vh - 60px);
+        background-size: 120px 120px, calc(100vh - 60px) calc(100vh - 60px), 120px 120px;
     }
 }
 
 .home-expertise-block {
     position: relative;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    h1 {
-        margin-bottom: 21px;
-        @media (max-width: 768px) {
-            font-size: 36px;
-        }
-        @media (min-width: 768px) {
-            font-size: 48px;
-        }
+    .block-title {
+        margin: 79px auto 21px;
     }
-    p {
+    .block-subtitle {
         max-width: 574px;
-        margin-bottom: 95px;
-        @media (max-width: 768px) {
-            margin-bottom: 0;
-        }
+        margin: 0 auto 76px;
     }
     .container {
         padding-bottom: 104px;
         .features-block {
             position: relative;
             padding: 23px 21px 24px;
-            // .home-expertise-card {
-            //     margin: 0;
-            //     padding: 0 20px 60px;
-            //     width: 100%;
-            //     border-radius: 13px;
-            //     background: #ffffff;
-            //     img {
-            //         max-width: 175px;
-            //         margin: auto;
-            //         @media (max-width: 1200px) {
-            //             max-width: 140px;
-            //         }
-            //     }
-            //     h4 {
-            //         margin: 0 auto 8px;
-            //         font-family: "Gilroy-Bold";
-            //     }
-            //     p {
-            //         // font-family: "RobotoMono-Light";
-            //         font-family: "Gilroy-Medium";
-            //         margin: 0;
-            //         font-size: 14px;
-            //         line-height: 1.36;
-            //         text-align: center;
-            //         color: #001a5c;
-            //         @media (max-width: 768px) {
-            //             font-size: 10px;
-            //         }
-            //     }
-            // }
             .top-left {
                 z-index: -1;
                 width: 111px;
@@ -116,13 +77,19 @@
                 width: 42px;
                 height: 42px;
             }
-            @media (max-width: 768px) {
-                .top-left,
-                .bottom-right,
-                .top-right {
-                    display: none;
-                }
-            }
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .block-title {
+            margin: 50px auto 21px;
+        }
+        .block-subtitle {
+            margin: 0 auto 20px;
+        }
+        .top-left,
+        .bottom-right,
+        .top-right {
+            display: none;
         }
     }
 }
@@ -132,8 +99,12 @@
         font-size: 28px;
         margin: 76px auto 32px;
     }
-    @media (max-width: 768px) {
-        font-size: 24px;
+
+    @include media-breakpoint-down(sm) {
+        h3 {
+            font-size: 28px;
+            margin: 50px auto 24px;
+        }
     }
 }
 
@@ -152,10 +123,6 @@
             top: 0;
             width: 54px;
             height: 54px;
-            @media (max-width: 768px) {
-                width: 29px;
-                height: 29px;
-            }
         }
         .right-bottom {
             position: absolute;
@@ -163,9 +130,6 @@
             bottom: -14px;
             width: 54px;
             height: 54px;
-            @media (max-width: 768px) {
-                display: none;
-            }
         }
         .efisens-talk-form {
             position: relative;
@@ -181,20 +145,32 @@
             p {
                 margin-top: 7px;
             }
-            @media (max-width: 768px) {
+        }
+        @media (max-width: 768px) {
+            margin: 70px auto !important;
+            padding: 12px;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .efisens-talk-form-container {
+            margin: 70px auto !important;
+            padding: 12px;
+            .left-top {
+                width: 29px;
+                height: 29px;
+            }
+            .right-bottom {
+                display: none;
+            }
+            .efisens-talk-form {
                 padding: 33px 28px 20px;
-
                 h2 {
-                    margin-top: 33px;
+                    margin-top: 0;
                 }
                 p {
                     margin-bottom: 20px;
                 }
             }
-        }
-        @media (max-width: 768px) {
-            margin: 70px auto !important;
-            padding: 12px;
         }
     }
 }

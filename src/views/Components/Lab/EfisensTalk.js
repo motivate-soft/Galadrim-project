@@ -72,9 +72,8 @@ const InputAppend = styled.div`
 
 export default function EfisensTalk() {
     return (
-        <div className="section home-efisens-talk-block">
+        <div className="section efisens-talk-block d-flex">
             <TriangleBackgroundImage src={GrayTriangleBackground} alt="Triangle background" />
-            <LeftRoundedSemiCircle color="#00D2B5" className="position-absolute top-right transform-top-50" />
             <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
             <div className="container my-auto">
                 <div className=" efisens-talk-form-container">

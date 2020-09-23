@@ -50,9 +50,9 @@ export default function Expertise() {
             <div className="container">
                 <div className="text-darkblue text-center w-75 mx-auto d-flex flex-column">
                     <h1 className="block-title">Nos expertises</h1>
-                    <p className="text-primary mx-auto">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
+                    <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
                 </div>
-                <div className="features-block mt-5">
+                <div className="features-block">
                     <img src={BlueDotsGrid} alt="blue grid dots" className="position-absolute top-left" />
                     <img src={GreenDotsGrid} alt="green grid dots" className="position-absolute bottom-right" />
                     <img src={OrangeRounded} alt="orange rounded" className="position-absolute top-right" />

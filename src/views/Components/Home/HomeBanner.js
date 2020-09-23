@@ -1,8 +1,8 @@
 import React from 'react'
 import HomeBannerImage from "../../../assets/Images/home/home-banner-image@3x.png"
 import { OrangeButton } from './../Elements/Buttons';
-import styled from 'styled-components';
 import { Underline } from '../Elements/Typography';
+import styled from 'styled-components';
 
 
 const title = "Décomplexer \n les nouvelles \n technologies"
@@ -25,11 +25,11 @@ export default function HomeBanner() {
                     <div className="col-md-6 col-12 my-auto text-darkblue">
                         <h1 className="banner-title">{title}</h1>
                         <Underline className="banner-divider" />
-                        <p className="text-primary">{text}</p>
+                        <p className="banner-text">{text}</p>
                         <ContactButton>Contactez-nous</ContactButton>
                     </div>
                     <div className="col-md-6 col-12">
-                        <img className="w-100 banner-image" alt="home banner" src={HomeBannerImage} />
+                        <img className="banner-image" alt="home banner" src={HomeBannerImage} />
                     </div>
                 </div>
             </div>

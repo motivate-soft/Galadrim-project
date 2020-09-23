@@ -6,7 +6,7 @@ import LeftBottomImage from '../../../assets/Images/charts/modern-workplace.svg'
 
 export default function LabBanner() {
     return (
-        <div className="section lab-banner">
+        <div className="section efilab-banner">
             <img src={LeftBottomImage} alt="Left Banner Background" className="bottom-left" />
             <img src={RightBottomImage} alt="Right Banner Background" className="bottom-right" />
             <div className="container">

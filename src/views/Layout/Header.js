@@ -92,7 +92,7 @@ export default function Header() {
                             <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/lab">Efisens Lab</Link>
+                            <Link className="nav-link" to="/efilab">Efisens Lab</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/career">Carrières</Link>

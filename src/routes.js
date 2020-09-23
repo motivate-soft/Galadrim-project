@@ -8,7 +8,9 @@ import PartnerShip from './views/Pages/PartnerShip';
 import Contact from './views/Pages/Contact';
 import Career from './views/Pages/Career';
 import Shop from './views/Pages/Shop';
-import EfisensLab from './views/Pages/EfisensLab';
+import EfiLabList from './views/Pages/EfiLabList';
+import EfilabDetail from './views/Pages/EfilabDetail';
+import EfilabCategory from './views/Pages/EfilabCategory';
 
 
 const routes = [
@@ -20,7 +22,9 @@ const routes = [
     { path: '/expertise/managed-services', name: 'ExpertiseServices', component: ExpertiseServices },
     { path: '/partnerships', name: 'Partnership', component: PartnerShip },
     { path: '/clic-shop', name: 'Shop', component: Shop },
-    { path: '/lab', name: 'Laboratory', component: EfisensLab },
+    { path: '/efilab', name: 'Efilab list', component: EfiLabList },
+    // { path: '/efilab/:slug', name: 'Efilab category', component: EfilabCategory },
+    { path: '/efilab/:id', name: 'Efilab detail', component: EfilabDetail },
     { path: '/career', name: 'Career', component: Career },
     { path: '/contact', name: 'Contact', component: Contact },
 ];

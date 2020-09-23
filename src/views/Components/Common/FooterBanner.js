@@ -23,7 +23,7 @@ export default function FooterBanner(props) {
     return (
         <div className="section footer-banner">
             <div className="container">
-                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title}</h1>
+                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title ? title : ""}</h1>
                 <ContactButton className={color ? `bg-${color}` : `bg-green`} >Contactez-nous</ContactButton>
             </div>
             <img src={LeftBgImage} className="bottom-left" alt="Left background" />
