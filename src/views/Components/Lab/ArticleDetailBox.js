@@ -2,8 +2,10 @@ import React from 'react'
 
 import { ReactComponent as SendIcon } from "../../../assets/Icons/send.svg"
 import { ReactComponent as LinkedinIcon } from "../../../assets/Icons/linkedin.svg"
-import { FaFacebook } from 'react-icons/fa'
+// import { FaFacebook } from 'react-icons/fa'
 import Author from './Author'
+// import { Facebook } from '@material-ui/icons'
+import { FaFacebookF } from 'react-icons/fa'
 
 const ArticleContent = ({ content }) => {
     const sentenceArray = content.match(/[^\.!\?]+[\.!\?]+/g);
@@ -26,6 +28,14 @@ const keywords = [
     'keyword5',
 ]
 
+const SendIconBox = () => {
+    return <div className="send-icon-box"><SendIcon /></div>
+}
+
+const FacebookIconBox = () => {
+    return <div className="facebook-icon-box"><FaFacebookF /></div>
+}
+
 export default function ArticleDetailBox(props) {
     const { id, title, content, image, date, user } = props.article
     return (
@@ -34,9 +44,9 @@ export default function ArticleDetailBox(props) {
                 <div className="article-container">
                     <div className="article-block">
                         <div className="social-media-link">
-                            <SendIcon className="send-icon" />
+                            <SendIconBox />
                             <LinkedinIcon className="linkedin-icon" />
-                            <FaFacebook className="facebook-icon" />
+                            <FacebookIconBox />
                         </div>
                         <h4>{title}</h4>
                         <ArticleContent content={content} />

@@ -4,7 +4,7 @@ import ArticleImage from "../../assets/Images/demo.jpg"
 import UserAvatar from "../../assets/Images/efilab/user.jpg"
 import ArticleSummaryBox from './../Components/Lab/ArticleSummaryBox';
 import ArticleDetailBox from '../Components/Lab/ArticleDetailBox';
-import EfisensTalk from "../Components/Common/EfisensTalk";
+import EfisensTalk from "../Components/Lab/EfisensTalk";
 import Follow from '../Components/Lab/Follow';
 
 import { ReactComponent as InstagramIcon } from "../../assets/Icons/instagram.svg"

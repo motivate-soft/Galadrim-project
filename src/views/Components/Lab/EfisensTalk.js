@@ -7,7 +7,7 @@ import GrayTriangleBackground from "../../../assets/Images/gray-background.png";
 // import IconSend from "../../../assets/Icons/send@3x.png"
 import { MdSend } from "react-icons/md"
 import { LeftRoundedSemiCircle } from '../Elements/Drawings';
-import { BaseInput } from './../Elements/CustomInput';
+import { BaseInput } from '../Elements/CustomInput';
 
 
 const TriangleBackgroundImage = styled.img`
