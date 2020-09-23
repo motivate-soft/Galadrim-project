@@ -16,9 +16,11 @@ const InputWithBackground = styled.input`
     border-radius: 4px;
     border: solid 1px #ebebeb;
     background-color: #ffffff;
+    transition: border ease 300ms;
     &:focus{
         background: none;
-        /* border: 1px solid #001f5f; */
+        outline: none !important;
+        border: 1px solid #001f5f;
     }
     ::placeholder {
         padding: 30px;
@@ -27,7 +29,20 @@ const InputWithBackground = styled.input`
         font-family: Gilroy-SemiBold;
         opacity: 1;     
     }
-
+    :-moz-placeholder {
+        padding: 30px;
+        color: #6a6f85;
+        font-size: 16px;
+        font-family: Gilroy-SemiBold;
+        opacity: 1;
+    }
+    ::-moz-placeholder { 
+        padding: 30px;
+        color: #6a6f85;
+        font-size: 16px;
+        font-family: Gilroy-SemiBold;
+        opacity: 1;
+    }
     :-ms-input-placeholder {
         padding: 30px; 
         color: #6a6f85;

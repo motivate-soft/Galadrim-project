@@ -257,7 +257,6 @@
     .innews-image-box {
         display: flex;
         justify-content: flex-end;
-        margin-left: auto;
         max-width: 520px;
         padding-top: 0;
         padding-right: 0;
@@ -267,13 +266,10 @@
         background: url("../assets/Shapes/drawings/green-mini.svg");
         background-position: bottom left;
         background-repeat: no-repeat;
-
         img {
             max-width: 476px;
             width: 100%;
             align-self: flex-end;
-        }
-        @media (max-width: 768px) {
         }
     }
     .innews-box {
@@ -331,10 +327,21 @@
             margin: 30px auto 30px;
         }
         .innews-image-box {
-            margin: 0 auto;
+            justify-content: center;
             padding-left: 20px;
             padding-bottom: 20px;
             background-size: 55px 67px;
+        }
+        .innews-box {
+            margin: 40px auto 40px;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        h1 {
+            margin: 30px auto 30px;
+        }
+        .innews-image-box {
+            margin: auto;
         }
         .innews-box {
             margin: 40px auto 40px;
@@ -345,7 +352,19 @@
             margin: 30px auto 30px;
         }
         .innews-image-box {
-            margin: 0 auto;
+            margin: auto;
+        }
+        .innews-box {
+            margin: 40px auto 40px;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        h1 {
+            margin: 30px auto 30px;
+        }
+        .innews-image-box {
+            margin-left: auto;
+            margin-right: 0;
         }
         .innews-box {
             margin: 40px auto 40px;
