@@ -2,7 +2,7 @@ import React from 'react'
 
 import { ReactComponent as SendIcon } from "../../../assets/Icons/send.svg"
 import { ReactComponent as LinkedinIcon } from "../../../assets/Icons/linkedin.svg"
-import { FaFacebook, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 import Author from './Author'
 
 const ArticleContent = ({ content }) => {
@@ -34,9 +34,9 @@ export default function ArticleDetailBox(props) {
                 <div className="article-container">
                     <div className="article-block">
                         <div className="social-media-link">
-                            <SendIcon />
-                            <FaLinkedinIn />
-                            <FaFacebook />
+                            <SendIcon className="send-icon" />
+                            <LinkedinIcon className="linkedin-icon" />
+                            <FaFacebook className="facebook-icon" />
                         </div>
                         <h4>{title}</h4>
                         <ArticleContent content={content} />

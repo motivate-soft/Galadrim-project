@@ -35,16 +35,16 @@ export default function WhoBanner() {
                         </h5>
                         <div className="d-flex who-banner-button-container justify-content-center">
                             <div className="row who-banner-button-container">
-                                <div className="col-6 col-sm-6 col-md-3">
+                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
                                     <CustomGrayButton>Histoire</CustomGrayButton>
                                 </div>
-                                <div className="col-6 col-sm-6 col-md-3">
+                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
                                     <CustomGrayButton>Groupe</CustomGrayButton>
                                 </div>
-                                <div className="col-6 col-sm-6 col-md-3">
+                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
                                     <CustomGrayButton>Approche</CustomGrayButton>
                                 </div>
-                                <div className="col-6 col-sm-6 col-md-3">
+                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
                                     <CustomGrayButton>Talents</CustomGrayButton>
                                 </div>
                             </div>

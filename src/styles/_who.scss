@@ -1,74 +1,15 @@
-
-.who-banner {
-    letter-spacing: 0;
-    line-height: 45px;
-    text-align: center;
-    .top-left {
-        @media (max-width: 768px) {
-        }
-    }
-    .top-right {
-    }
-}
-
 // Who we are
 
 .who-banner {
     position: relative;
     min-height: 436px;
-    .top-left {
-        @media (max-width: 768px) {
-            width: 130px;
-        }
-        @media (min-width: 768px) {
-            width: 150px;
-        }
-        @media (min-width: 992px) {
-            width: 200px;
-        }
-        @media (min-width: 1200px) {
-            width: 260px;
-            height: 436px;
-        }
-    }
-    .top-right {
-        @media (max-width: 768px) {
-            width: 115px;
-        }
-        @media (min-width: 768px) {
-            width: 130px;
-        }
-        @media (min-width: 992px) {
-            width: 180px;
-        }
-        @media (min-width: 1200px) {
-            width: 239px;
-            height: 478px;
-        }
-    }
+    letter-spacing: 0;
+    line-height: 45px;
+    text-align: center;
+
     h2 {
         font-family: Gilroy-ExtraBold;
         color: $color-darkblue;
-        @media (max-width: 768px) {
-            font-size: 24px;
-            margin-top: 210px;
-            line-height: 30px;
-        }
-        @media (min-width: 768px) {
-            margin-top: 250px;
-            font-size: 28px;
-            line-height: 35px;
-        }
-        @media (min-width: 992px) {
-            margin-top: 73px;
-            font-size: 32px;
-            line-height: 40px;
-        }
-        @media (min-width: 1200px) {
-            line-height: 45px;
-            margin-top: 73px;
-            font-size: 36px;
-        }
     }
     p {
         font-family: "Gilroy";
@@ -83,6 +24,70 @@
             padding-left: 4px !important;
             padding-right: 4px !important;
             padding-bottom: 8px;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        h2 {
+            font-size: 24px;
+            margin-top: 230px;
+            line-height: 30px;
+        }
+        h5 {
+            line-height: 1.2 !important;
+        }
+        .top-left {
+            width: 130px;
+        }
+        .top-right {
+            width: 115px;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        h2 {
+            margin-top: 250px;
+            font-size: 28px;
+            line-height: 35px;
+        }
+        h5 {
+            line-height: 1.2 !important;
+        }
+        .top-left {
+            width: 180px;
+        }
+        .top-right {
+            width: 150px;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        h2 {
+            margin-top: 73px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        h5 {
+            line-height: 1.2 !important;
+        }
+        .top-left {
+            width: 200px;
+        }
+        .top-right {
+            width: 180px;
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        h2 {
+            line-height: 45px;
+            margin-top: 73px;
+            font-size: 36px;
+        }
+        .top-left {
+            width: 260px;
+            height: 436px;
+        }
+        .top-right {
+            width: 239px;
+            height: 478px;
         }
     }
 }
@@ -468,7 +473,7 @@
         font-family: Gilroy-SemiBold;
         line-height: 38px;
         margin: 0 auto;
-        @media (max-width:768px){
+        @media (max-width: 768px) {
             font-size: 20px;
             line-height: 24px;
             min-height: none;
