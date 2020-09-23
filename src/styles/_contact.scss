@@ -35,6 +35,32 @@
         border-radius: 8px 8px 0 0;
         background: #ffffff;
     }
+    @include media-breakpoint-down(sm) {
+        h1 {
+            max-width: 330px;
+            margin: 30px auto 20px;
+        }
+        h5 {
+            margin: 20px auto 20px;
+        }
+        button {
+            margin: auto;
+        }
+        img.bottom-left,
+        img.bottom-center {
+            display: none;
+        }
+        img.bottom-right {
+            width: 283px;
+            height: 237px;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+    }
+    @include media-breakpoint-up(md) {
+    }
+    @include media-breakpoint-up(lg) {
+    }
 }
 .contact-trust-us {
     // padding-top: 286px;
