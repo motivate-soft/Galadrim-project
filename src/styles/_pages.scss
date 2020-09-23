@@ -144,7 +144,7 @@
 .footer-banner {
     position: relative;
     display: flex;
-    // align-items: center;
+    align-items: center;
 
     h1 {
         max-width: 660px;
@@ -154,16 +154,16 @@
     }
     @include media-breakpoint-down(sm) {
         height: auto;
-        display: flex;
-        display: flex;
-        align-items: center;
-        height: 200px;
+        align-items: none;
         img {
             height: 148px !important;
         }
         h1 {
             font-size: 24px;
             margin: 26px auto 22px;
+        }
+        button {
+            margin-bottom: 148px;
         }
     }
     @include media-breakpoint-up(md) {
@@ -179,19 +179,16 @@
         }
     }
     @include media-breakpoint-up(lg) {
-        .container {
-            align-self: center;
-        }
+        height: 380px;
         h1 {
             font-size: 41px;
         }
         img.bottom-right {
-            height: 75%;
+            height: 90%;
         }
         img.bottom-left {
-            height: 75%;
+            height: 100%;
         }
-        height: 380px;
     }
     @include media-breakpoint-up(xl) {
         h1 {

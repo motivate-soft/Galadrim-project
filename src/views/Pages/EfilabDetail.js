@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ArticleImage from "../../assets/Images/demo.jpg"
+import ArticleImage from "../../assets/Images/efilab/article1.jpg"
 import UserAvatar from "../../assets/Images/efilab/user.jpg"
 import ArticleSummaryBox from './../Components/Lab/ArticleSummaryBox';
 import ArticleDetailBox from '../Components/Lab/ArticleDetailBox';
