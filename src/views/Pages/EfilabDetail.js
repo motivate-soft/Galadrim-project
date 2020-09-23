@@ -51,7 +51,7 @@ const footerBannerText = "Votre partenaire technologique ... avec vous et pour l
 
 export default function EfilabDetail() {
     return (
-        <div className="section efilab-article-detail">
+        <>
             <ArticleSummaryBox article={article} />
             <ArticleDetailBox article={item} />
             <EfisensTalk />
@@ -61,6 +61,6 @@ export default function EfilabDetail() {
                 <YoutubeIcon fill="#ff5e4d" />
             </Follow>
             <FooterBanner color="orange" title={footerBannerText} />
-        </div>
+        </>
     )
 }

@@ -50,10 +50,10 @@ export default function ArticleDetailBox(props) {
                     <div className="article-block">
                         <h4>{title}</h4>
                         <ArticleContent content={content} />
-                        <div className="green-banner">
-                            <h1>Décomplexons <br /> l’informatique<br /> ensemble.</h1>
-                            <button className="btn btn-custom">Contactez nous</button>
-                        </div>
+                    </div>
+                    <div className="green-banner">
+                        <h1>Décomplexons <br /> l’informatique<br /> ensemble.</h1>
+                        <button className="btn btn-custom">Contactez nous</button>
                     </div>
                     <div className="keywords-block">
                         {
