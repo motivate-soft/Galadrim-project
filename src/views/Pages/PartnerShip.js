@@ -14,7 +14,7 @@ export default function PartnerShip() {
             <PartnershipBanner />
             <PartnerFeatures />
             <OurPartner/>
-            <FooterBanner title={footerBannerTitle} />
+            <FooterBanner color="orange" title={footerBannerTitle} />
         </>
     )
 }

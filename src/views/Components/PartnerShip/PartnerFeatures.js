@@ -10,11 +10,13 @@ export default function PartnerFeatures() {
             <div className="container ">
                 <h3 className="text-darkblue mx-auto">C'est au contact d'experts techniques, de leaders technologiques et de partenaires stratégiques que nous innovons ! </h3>
                 <div className="row">
-                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 d-flex partner-image-container">
-                        <img src={Demo} alt="Partner" className="partner-img" />
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div className="partner-image-box">
+                            <img src={Demo} alt="Partner" className="partner" />
+                        </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 partner-text-container">
-                        <div className="position-relative partner-text">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div className="partner-text-box">
                             <p className="text-darkblue">Afin d’apporter le meilleur service à nos clients, nous travaillons en étroite collaboration avec un écosystème de plus d’une dizaine de partenaires qui  nous accompagne et renforce notre offre d'expertises et de solutions technologiques.</p>
                             <img src={RightBottomImage} alt="Background" className="bottom-right" />
                         </div>

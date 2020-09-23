@@ -34,8 +34,7 @@ const CustomInput = styled(BaseInput)`
     font-size: 16px;
     font-family: "Gilroy-Medium";
     color: #001a5c !important;
-    width: calc(100%
- - 50px);
+    width: calc(100% - 50px);
     height: 50px;
     margin-bottom: 8px;
     padding-left: 16px;
@@ -77,7 +76,7 @@ export default function EfisensTalk() {
             <LeftRoundedSemiCircle color="#00D2B5" className="position-absolute top-right transform-top-50" />
             <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
             <div className="container my-auto">
-                <div className=" efisens-talk-form-container">
+                <div className="efisens-talk-form-container">
                     <img src={OrangeSquare} alt="Left Square" className="left-top" />
                     <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
                     <div className="efisens-talk-form">

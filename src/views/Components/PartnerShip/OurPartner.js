@@ -217,7 +217,7 @@ export default function OurPartner(props) {
             <div className="container text-darkblue text-center">
                 <div className="text-darkblue text-center">
                     <h5>Ils avancent à nos côtés</h5>
-                    <h1>Nos partenaires</h1>
+                    <h1 className="block-title">Nos partenaires</h1>
                 </div>
                 <div className="row d-flex">
                     {
