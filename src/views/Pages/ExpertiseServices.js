@@ -39,9 +39,9 @@ import ManageengineImage from '../../assets/Images/expertise/managed-services/ma
 
 // OurExpertise
 import Cloud from '../../assets/Images/home/cloud.svg'
-import Workspace from '../../assets/Images/home/modern-workplace.svg'
+import Workplace from '../../assets/Images/home/modern-workplace.svg'
 import Security from '../../assets/Images/home/security.svg'
-// import ServiceManager from '../../assets/Images/home/managed-service.svg'
+// import ManagedService from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import ServiceForm from '../Components/Expertise/Forms/ServiceForm';
@@ -215,7 +215,7 @@ const expertiseData = {
         },
         {
             id: '2',
-            img: Workspace,
+            img: Workplace,
             title: 'Modern Workplace',
             text: 'Mettre en place et interconnecter des solutions collaboratives pour vos équipes.',
             active: false,
@@ -229,7 +229,7 @@ const expertiseData = {
         },
         // {
         //     id: '4',
-        //     img: ServiceManager,
+        //     img: ManagedService,
         //     title: 'Services Managés',
         //     text: 'Superviser votre système IT. Équiper des meilleurs outils pour superviser de façon complète votre S',
         //     active: false,

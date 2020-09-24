@@ -1,5 +1,25 @@
 // Expertise
 
+.expertise-nav-link {
+    opacity: 1;
+    margin-right: 26px;
+    .link-image-wrapper {
+        margin-right: 10px;
+        width: 23px !important;
+        height: 23px !important;
+        img {
+            display: block;
+            margin: 2px auto;
+            width: 19px !important;
+            height: 19px !important;
+        }
+    }
+    .link-text-wrapper {
+        width: auto !important;
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
 .expertise-features {
     .block-title {
         margin-top: 78px;
