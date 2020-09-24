@@ -1,5 +1,5 @@
 import React from 'react'
-import PurePlayLogoImage from "assets/Images/Partnership/logo-pureplayer@3x.png"
+import PurePlayLogoImage from "../../../assets/Images/Partnership/logo-pureplayer@3x.png"
 
 export default function SecurityMSP() {
     return (
