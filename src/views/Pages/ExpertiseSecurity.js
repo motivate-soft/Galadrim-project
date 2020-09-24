@@ -43,7 +43,7 @@ import ServiceManager from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import SecurityForm from '../Components/Expertise/Forms/SecurityForm';
-import SecurityMSP from 'views/Components/Expertise/SecurityMSP';
+import SecurityMSP from '../Components/Expertise/SecurityMSP';
 
 
 

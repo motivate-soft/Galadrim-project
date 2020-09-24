@@ -89,7 +89,7 @@ export default function Header() {
                             <Link className="nav-link" to="/partnerships">Nos partenariats</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop</Link>
+                            <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/efilab">Efisens Lab</Link>

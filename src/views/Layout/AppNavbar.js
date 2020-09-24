@@ -178,7 +178,7 @@ export default function AppNavbar() {
                         <Link to="/partnerships" className="text-darkblue mobile-list">Nos partenariats</Link>
                     </ListItem>
                     <ListItem button>
-                        <Link to="/clic-shop" className="text-darkblue mobile-list">Efisens Clic&Shop</Link>
+                        <Link to="/clic-shop" className="text-darkblue mobile-list">Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
                     </ListItem>
                     <ListItem button>
                         <Link to="/efilab" className="text-darkblue mobile-list">Efisens Lab</Link>

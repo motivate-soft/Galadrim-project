@@ -71,12 +71,22 @@ a {
             list-style: none;
             .nav-item {
                 .nav-link {
+                    position: relative;
                     display: block;
                     padding: 0.5rem 1rem;
                     color: #001a5c;
                     font-family: "Gilroy-SemiBold";
                     font-size: 16px;
                     font-weight: 600;
+                    span {
+                        top: 28px;
+                        position: absolute;
+                        // width: 128px;
+                        // height: 10px;
+                        // font-family: Gilroy-SemiBold;
+                        font-size: 10px;
+                        color: #6a6f85;
+                    }
                 }
                 svg {
                     transform: translateY(4px);
@@ -172,7 +182,13 @@ a {
     }
     a {
         font-family: "Gilroy-SemiBold";
+        span {
+            font-family: Gilroy-SemiBold;
+            font-size: 10px;
+            color: #6a6f85;
+        }
     }
+    
     .btn-responsive-block {
         display: block;
         width: 80%;
@@ -317,6 +333,7 @@ a {
         margin-top: 12px;
     }
     .nav-link {
+        position: relative;
         display: block;
         padding: 8px 16px;
     }
