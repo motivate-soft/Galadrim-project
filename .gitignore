@@ -32,3 +32,4 @@ package.json
 /package-lock.json
 /prod.log
 /dev.log
+/jsconfig.json
