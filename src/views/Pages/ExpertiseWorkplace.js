@@ -26,6 +26,8 @@ import CollaborationImage from '../../assets/Images/expertise/modern-workplace/c
 // import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
 import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
 // import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
+// import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
 import MicrosoftImage from '../../assets/Images/expertise/modern-workplace/microsoft@3x.png';
@@ -139,6 +141,7 @@ const approachData = {
             text: "Supervision, management et accompagnement en continu à l'utilisation des nouvelles solutions."
         },
     ],
+    bottomCircleImage: OrangeCircleImage,
     bottomMiniImage: BlueMiniImage,
 }
 

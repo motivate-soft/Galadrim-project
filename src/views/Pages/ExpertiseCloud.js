@@ -27,6 +27,8 @@ import ScalabilityImage from '../../assets/Images/expertise/cloud/volution.svg';
 import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
 // import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
 // import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
+// import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
 import MicrosoftImage from '../../assets/Images/expertise/cloud/microsoft@3x.png';
@@ -134,6 +136,7 @@ const approachData = {
             text: "Fournir les services managés nécessaires à l'évolution de vos technologies, au fil du temps et en fonction de vos besoins."
         },
     ],
+    bottomCircleImage: OrangeCircleImage,
     bottomMiniImage: GreenMiniImage,
 }
 

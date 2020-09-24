@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
-import OrangeCircleImage from '../../../assets/Shapes/others/orange-circle@3x.png';
 import Demo from '../../../assets/Images/demo.jpg'
 import ApproachCard from './ApproachCard';
 import { SquareImage, RoundedImage } from '../Elements/CustomImages';
@@ -29,6 +27,7 @@ const TopSquare = styled.div`
         height: 120px;
     }
 `
+
 const BottomMini = styled.img`
     position: absolute;
     bottom: 48px;
@@ -70,7 +69,7 @@ const OrangeCircle = styled.img`
 `
 
 export default function OurApproach(props) {
-    const { color, title, subtitle, approaches, bottomMiniImage } = props
+    const { color, title, subtitle, approaches, bottomCircleImage, bottomMiniImage } = props
 
     return (
         <div className="section expertise-approach">
@@ -78,9 +77,9 @@ export default function OurApproach(props) {
                 <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title}</h1>
                 <p className={color ? `block-subtitle text-${color}` : `block-subtitle text-green`}>{subtitle}</p>
                 <div className="approach-container position-relative pt-3 px-3 pb-0">
-                    <TopSquare className={color ? `bg-${color}` : `bg-green`}/>
+                    <TopSquare className={color ? `bg-${color}` : `bg-green`} />
                     <BottomMini src={bottomMiniImage} />
-                    <OrangeCircle src={OrangeCircleImage} />
+                    <OrangeCircle src={bottomCircleImage} />
                     <div className="row">
                         <div className="col-12 col-md-6 mb-4">
                             <div className="row">

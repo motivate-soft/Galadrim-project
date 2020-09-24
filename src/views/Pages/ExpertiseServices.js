@@ -26,6 +26,8 @@ import OutilsImage from '../../assets/Images/expertise/managed-services/outils.s
 // import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
 // import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
 import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+// import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
+import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
 import MicrosoftImage from '../../assets/Images/expertise/managed-services/microsoft@3x.png';
@@ -133,6 +135,7 @@ const approachData = {
             text: "Proposer des évolutions techniques et contractuels au périmètre engagé."
         },
     ],
+    bottomCircleImage: BlueCircleImage,
     bottomMiniImage: OrangeMiniImage,
 }
 

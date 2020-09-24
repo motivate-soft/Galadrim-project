@@ -82,7 +82,7 @@ export default function EfisensTalk() {
                     <div className="efisens-talk-form">
                         <div className="row text-darkblue">
                             <div className="col-12 col-md-12 col-lg-6 col-12">
-                                <h2 className>Efisens Talks</h2>
+                                <h2>Efisens Talks</h2>
                                 <Underline mobileWidth={15} mobileHeight={3} />
                                 <p className="text-primary">Nos experts partagent régulièrement leur savoir faire et leur expérience. Apprenez, lisez et servez -vous !</p>
                             </div>
