@@ -53,6 +53,7 @@ export default function ExpertiseBanner(props) {
                     </div>
                 </div>
             </div>
+            
         </div>
 
     )

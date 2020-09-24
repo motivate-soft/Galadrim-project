@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {
     AppBar,
@@ -17,15 +17,15 @@ import {
 import CloseIcon from '@material-ui/icons/Close';
 import MenuIcon from '@material-ui/icons/Menu';
 
-import Cloud from '../../assets/Images/home/cloud.svg'
-import Workplace from '../../assets/Images/home/modern-workplace.svg'
-import Security from '../../assets/Images/home/security.svg'
-import ManagedService from '../../assets/Images/home/managed-service.svg'
+import Cloud from '../../../assets/Images/home/cloud.svg'
+import Workplace from '../../../assets/Images/home/modern-workplace.svg'
+import Security from '../../../assets/Images/home/security.svg'
+import ManagedService from '../../../assets/Images/home/managed-service.svg'
 
-import { FaAngleDown } from '../../../node_modules/react-icons/fa';
-import { Link } from "react-router-dom";
-import Logo from '../Components/Common/Logo';
-import { OrangeButton } from './../Components/Elements/Buttons';
+import { FaAngleDown } from 'react-icons/fa';
+import { Link, useLocation } from "react-router-dom";
+import Logo from '../../Components/Common/Logo';
+import { OrangeButton } from '../../Components/Elements/Buttons';
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
@@ -67,6 +67,19 @@ export default function AppNavbar() {
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
 
+    const location = useLocation()
+    useEffect(() => {
+        const currentPath = location.pathname
+        const baseUrl = currentPath.split('/')[1]
+        const navbar = document.getElementById("appNavbar")
+        // const searchParams = new URLSearchParams(location.search)
+        if (baseUrl === 'efilab' || baseUrl === 'expertise') {
+            navbar.style.display = 'none'
+        } else {
+            navbar.style.display = 'flex'
+        }
+    }, [location])
+
     const handleClickOpen = () => {
         setOpen(true);
     };
@@ -76,7 +89,7 @@ export default function AppNavbar() {
     };
 
     return (
-        <div>
+        <div id="appNavbar">
             <AppBar position="static">
                 <Toolbar className={classes.toolbar}>
                     <Typography variant="h6" color="inherit">
@@ -106,7 +119,7 @@ export default function AppNavbar() {
                 </AppBar>
                 <List className={classes.list}>
                     <ListItem button>
-                        <Link to="/who-we-are" className="text-darkblue mobile-list">Qui sommes nous ?</Link>
+                        <Link to="/who-we-are" className="text-darkblue mobile-list" onClick={handleClose}>Qui sommes nous ?</Link>
                     </ListItem>
                     <Accordion className={classes.accordion} >
                         <AccordionSummary
@@ -120,7 +133,7 @@ export default function AppNavbar() {
                         <AccordionDetails className={classes.details}>
                             <div className="row dropdown-content">
                                 <div className="col-12 col-sm-12 col-lg-6">
-                                    <Link to="/expertise/cloud">
+                                    <Link to="/expertise/cloud" onClick={handleClose}>
                                         <div className="dropdown-item d-flex align-items-center">
                                             <div>
                                                 <img className="align-self-start mr-3" src={Cloud} alt="Cloud" />
@@ -133,7 +146,7 @@ export default function AppNavbar() {
                                     </Link>
                                 </div>
                                 <div className="col-12 col-sm-12 col-lg-6">
-                                    <Link to="/expertise/modern-workplace">
+                                    <Link to="/expertise/modern-workplace" onClick={handleClose}>
                                         <div className="dropdown-item d-flex align-items-center">
                                             <div>
                                                 <img className="align-self-start mr-3" src={Workplace} alt="Workplace" />
@@ -146,7 +159,7 @@ export default function AppNavbar() {
                                     </Link>
                                 </div>
                                 <div className="col-12 col-sm-12 col-lg-6">
-                                    <Link to="/expertise/security">
+                                    <Link to="/expertise/security" onClick={handleClose}>
                                         <div className="dropdown-item d-flex align-items-center">
                                             <div>
                                                 <img className="align-self-start mr-3" src={Security} alt="Security" />
@@ -159,7 +172,7 @@ export default function AppNavbar() {
                                     </Link>
                                 </div>
                                 <div className="col-12 col-sm-12 col-lg-6">
-                                    <Link to="/expertise/managed-services">
+                                    <Link to="/expertise/managed-services" onClick={handleClose}>
                                         <div className="dropdown-item d-flex align-items-center">
                                             <div className="rounded">
                                                 <img className="align-self-start" src={ManagedService} alt="ManagedService" />
@@ -175,19 +188,19 @@ export default function AppNavbar() {
                         </AccordionDetails>
                     </Accordion>
                     <ListItem button>
-                        <Link to="/partnerships" className="text-darkblue mobile-list">Nos partenariats</Link>
+                        <Link to="/partnerships" className="text-darkblue mobile-list" onClick={handleClose}>Nos partenariats</Link>
                     </ListItem>
                     <ListItem button>
-                        <Link to="/clic-shop" className="text-darkblue mobile-list">Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
+                        <Link to="/clic-shop" className="text-darkblue mobile-list" onClick={handleClose}>Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
                     </ListItem>
                     <ListItem button>
-                        <Link to="/efilab" className="text-darkblue mobile-list">Efisens Lab</Link>
+                        <Link to="/efilab" className="text-darkblue mobile-list" onClick={handleClose}>Efisens Lab</Link>
                     </ListItem>
                     <ListItem button>
-                        <Link to="/career" className="text-darkblue mobile-list">Carrières</Link>
+                        <Link to="/career" className="text-darkblue mobile-list" onClick={handleClose}>Carrières</Link>
                     </ListItem>
                     <ListItem button>
-                        <Link to="/contact" className="text-darkblue mobile-list">Nous contacter</Link>
+                        <Link to="/contact" className="text-darkblue mobile-list" onClick={handleClose}>Nous contacter</Link>
                     </ListItem>
                     <OrangeButton className="d-block w-80 mx-auto my-5">Accès client</OrangeButton>
                 </List>

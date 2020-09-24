@@ -1,21 +1,81 @@
 // Expertise
 
-.expertise-nav-link {
-    opacity: 1;
-    margin-right: 26px;
-    .link-image-wrapper {
-        margin-right: 10px;
-        width: 23px !important;
-        height: 23px !important;
+.expertise-sticky-top-navbar {
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+
+.expertise-sticky-class {
+    position: fixed;
+    top: 0 !important;
+    opacity: 1 !important;
+}
+
+.expertise-sticky-nav {
+    z-index: 1010;
+    width: 100%;
+    display: flex;
+    padding: 15px 32px;
+    // position: fixed;
+    // top: 20px;
+    opacity: 0;
+    transition: opacity ease-in-out 500ms, top ease-in-out 500ms;
+
+    .expertise-nav-link {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 24px;
         img {
-            display: block;
-            margin: 2px auto;
-            width: 19px !important;
-            height: 19px !important;
+            margin-right: 12px;
+            width: 32px;
+            height: 32px;
+        }
+        span {
+            font-family: Gilroy-Bold;
+            font-size: 16px;
+            color: #ffffff;
         }
     }
-    .link-text-wrapper {
-        width: auto !important;
+    .expertise-nav-button {
+        margin-left: auto;
+        padding: 7px 24px;
+        border-radius: 6px;
+        background-color: #ffffff;
+
+        font-family: Gilroy-Bold;
+        font-size: 16px;
+        text-align: center;
+        color: #00d2b5;
+    }
+    .mobile-expertise-nav-button {
+        display: none;
+        margin-left: auto;
+        padding: 7px 24px;
+        border-radius: 6px;
+        background-color: #ffffff;
+
+        font-family: Gilroy-Bold;
+        font-size: 16px;
+        text-align: center;
+        color: #00d2b5;
+    }
+
+    @include media-breakpoint-down(sm) {
+        .expertise-nav-button {
+            display: none;
+        }
+        .mobile-expertise-nav-button {
+            display: block;
+        }
+        .expertise-nav-link {
+            display: none;
+        }
+        .white-logo {
+            border-right: none;
+        }
     }
 }
 

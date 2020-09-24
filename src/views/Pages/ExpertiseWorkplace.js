@@ -49,7 +49,13 @@ import ManagedService from '../../assets/Images/home/managed-service.svg'
 import ArticleImage from "../../assets/Images/demo.jpg"
 import WorkplaceForm from '../Components/Expertise/Forms/WorkplaceForm';
 
-
+// Fixed Navbar
+import ExpertiseStickyNavbar from '../Components/Expertise/ExpertiseStickyNavbar';
+import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseTopNavbar from '../Components/Expertise/ExpertiseTopNavbar';
 
 // const color = "#001A5C"
 const color = "darkblue"
@@ -263,15 +269,44 @@ const expertiseData = {
     ]
 }
 
+const fixedNavItems = [
+    {
+        id: 1,
+        title: 'Cloud',
+        content: 'Adopter des solutions cloud hybrides',
+        image: CloudWhite,
+    },
+    {
+        id: 2,
+        title: 'Modern Workplace',
+        content: 'Moderniser vos environnements de travail',
+        image: WorkplaceWhite,
+    },
+    {
+        id: 3,
+        title: 'Sécurité',
+        content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
+        image: SecurityWhite,
+    },
+    {
+        id: 1,
+        title: 'Services Managés',
+        content: 'Superviser et surveiller votre système IT',
+        image: ManagedServiceWhite,
+    }
+]
+
 const footerBannerTitle = "Parlez à un expert Sécurité."
 
 
 export default function ExpertiseWorkplace() {
     return (
         <>
+            <ExpertiseTopNavbar />
             <ExpertiseBanner {...cloudBannerData}>
                 <WorkplaceForm color={color} />
             </ExpertiseBanner >
+            <ExpertiseStickyNavbar color={color} title={fixedNavItems[1].title} image={fixedNavItems[1].image} />
             <ExpertiseFeatures color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />

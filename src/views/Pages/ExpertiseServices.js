@@ -46,7 +46,13 @@ import Security from '../../assets/Images/home/security.svg'
 import ArticleImage from "../../assets/Images/demo.jpg"
 import ServiceForm from '../Components/Expertise/Forms/ServiceForm';
 
-
+// Fixed Navbar
+import ExpertiseStickyNavbar from '../Components/Expertise/ExpertiseStickyNavbar';
+import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseTopNavbar from '../Components/Expertise/ExpertiseTopNavbar';
 
 // const color = "#FF5E4D"
 const color = "orange"
@@ -68,8 +74,8 @@ const cloudBannerData = {
     bannerSubtitle: `Restez connecté à votre métier comme jamais auparavant et entrevoyez votre système informatique de manière totalement différente.`,
     bannerDescription: `Vous accompagner au quotidien et veiller à ce que votre IT reste fonctionnel.
     Disponibilité des informations, coûts informatique importants, conformité et sécurité de votre système d'information, gestion du parc… Libérez-vous totalement des contraintes techniques !`,
-    
-    formBackground: 'blue-circle-background', 
+
+    formBackground: 'blue-circle-background',
     formTitle: `Intéressé par nos Services Managés ?`,
     formSubtitle: `Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.`,
     formDescription: `  Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.`,
@@ -237,15 +243,44 @@ const expertiseData = {
     ]
 }
 
+const fixedNavItems = [
+    {
+        id: 1,
+        title: 'Cloud',
+        content: 'Adopter des solutions cloud hybrides',
+        image: CloudWhite,
+    },
+    {
+        id: 2,
+        title: 'Modern Workplace',
+        content: 'Moderniser vos environnements de travail',
+        image: WorkplaceWhite,
+    },
+    {
+        id: 3,
+        title: 'Sécurité',
+        content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
+        image: SecurityWhite,
+    },
+    {
+        id: 1,
+        title: 'Services Managés',
+        content: 'Superviser et surveiller votre système IT',
+        image: ManagedServiceWhite,
+    }
+]
+
 const footerBannerTitle = "Parlez à un expert Services Managés"
 
 
 export default function ExpertiseServices() {
     return (
         <>
+            <ExpertiseTopNavbar />
             <ExpertiseBanner {...cloudBannerData}>
                 <ServiceForm color={color} />
             </ExpertiseBanner >
+            <ExpertiseStickyNavbar color={color} title={fixedNavItems[3].title} image={fixedNavItems[3].image} />
             <ExpertiseFeatures color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />

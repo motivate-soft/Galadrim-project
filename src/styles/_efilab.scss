@@ -1,27 +1,95 @@
-.efilab-nav {
+.efilab-top-nav {
+    display: flex;
+    align-items: center;
+    padding: 12px 32px 12px 28px;
+    .navbar-brand {
+        .efilab-logo {
+            display: flex;
+            align-items: center;
+            font-family: Gilroy-SemiBold;
+            font-size: 22px;
+            line-height: 1;
+            color: #001a5c;
+        }
+    }
+    .navbar-collapse {
+        .nav-item {
+            margin-right: 26px;
+            font-family: Gilroy-SemiBold;
+            font-size: 16px;
+            color: #001a5c;
+            .top-nav-link {
+                opacity: 0.6;   
+                display: flex;
+                align-items: center;
+                transition: opacity ease-in-out 300ms;
+                .link-image-wrapper {
+                    display: flex;
+                    margin-right: 9px;
+                    width: 26px;
+                    height: 26px;
+                    background-color: #e9ecef;
+                    border-radius: 50%;
+                    img {
+                        display: block;
+                        margin: 2px auto;
+                        width: 19px;
+                        height: 19px;
+                    }
+                }
+                .link-text-wrapper {
+                    h6 {
+                        font-family: Gilroy-Bold;
+                        color: #001a5c;
+                    }
+                }
+                &:hover {
+                    opacity: 1;
+                }
+                @include media-breakpoint-down(sm) {
+                    justify-content: flex-start;
+                    .link-image-wrapper {
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        margin-left: auto;
+    }
+}
+
+.efilab-sticky-nav {
+    z-index: 1010;
+    width: 100%;
+    padding: 12px 32px 12px 28px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 0 #f2f2f2;
+    position: fixed;
+    top: 20px;
+    opacity: 0;
+    transition: opacity ease-in-out 500ms, top ease-in-out 500ms, box-shadow ease-in-out 500ms;
     .efilab-logo {
         font-family: Gilroy-SemiBold;
         font-size: 22px;
+        color: #001a5c !important;
+    }
+    h4 {
+        margin: 0 auto;
+        padding: 0;
+        font-family: Gilroy-SemiBold;
+        font-size: 16px;
         color: #001a5c;
     }
-    .efilab-category-link {
-        opacity: 1;
-        margin-right: 26px;
-        .link-image-wrapper {
-            margin-right: 10px;
-            width: 23px !important;
-            height: 23px !important;
-            img {
-                display: block;
-                margin: 2px auto;
-                width: 19px !important;
-                height: 19px !important;
-            }
-        }
-        .link-text-wrapper{
-            width: auto !important;
-        }
-    }
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    opacity: 1 !important;
 }
 
 .efilab-category-link {
@@ -45,11 +113,11 @@
     }
     .link-text-wrapper {
         width: 190px;
-        .text-sm {
+        h6 {
             font-family: Gilroy-Bold;
             color: #001a5c;
         }
-        .text-xxs {
+        p {
             font-family: Gilroy-SemiBold;
             color: #6a6f85;
         }

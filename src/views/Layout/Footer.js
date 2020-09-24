@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from './../Components/Common/Logo';
+import Logo from '../Components/Common/Logo';
 import styled from 'styled-components';
 import { MdSend } from 'react-icons/md';
 import ShapesGroup from "../../assets/Images/home/group@3x.png"

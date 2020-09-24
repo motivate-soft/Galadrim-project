@@ -11,6 +11,8 @@ import { ReactComponent as InstagramIcon } from "../../assets/Icons/instagram.sv
 import { ReactComponent as LinkedinIcon } from "../../assets/Icons/linkedin.svg"
 import { ReactComponent as YoutubeIcon } from "../../assets/Icons/youtube.svg"
 import FooterBanner from '../Components/Common/FooterBanner';
+import EfilabStickyNav from '../Components/Lab/EfilabStickyNav';
+import EfilabTopNavbar from './../Components/Lab/EfilabTopNavbar';
 
 const article = {
     id: 1,
@@ -47,11 +49,13 @@ const item = {
 }
 
 const footerBannerText = "Votre partenaire technologique ... avec vous et pour longtemps "
-
+const navText = "Enjeux et bénéfices de la dématérialisation informatiqu"
 
 export default function EfilabDetail() {
     return (
         <>
+            <EfilabTopNavbar />
+            <EfilabStickyNav title={navText} />
             <ArticleSummaryBox article={article} />
             <ArticleDetailBox article={item} />
             <EfisensTalk />

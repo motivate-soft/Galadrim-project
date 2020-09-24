@@ -10,7 +10,7 @@ export default function CategoryLink(props) {
                 <img src={image} alt="efilab-category" />
             </div>
             <div className="link-text-wrapper">
-                <p className="text-sm text-darkblue text-left m-0 pb-1">{title}</p>
+                <h6 className="text-sm text-darkblue text-left m-0 pb-1">{title}</h6>
                 <p className="text-xxs text-left m-0 p-0">{content}</p>
             </div>
         </div>

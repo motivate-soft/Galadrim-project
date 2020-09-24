@@ -40,19 +40,19 @@ import EquinixImage from '../../assets/Images/expertise/cloud/equinix-logo-1200-
 
 // OurExpertise
 // import Cloud from '../../assets/Images/home/cloud.svg'
-// import Workplace from '../../assets/Images/home/modern-workplace.svg'
-// import Security from '../../assets/Images/home/security.svg'
-// import ManagedService from '../../assets/Images/home/managed-service.svg'
+import Workplace from '../../assets/Images/home/modern-workplace.svg'
+import Security from '../../assets/Images/home/security.svg'
+import ManagedService from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 
 // Fixed Navbar
-import ExpertiseFixedNavbar from 'views/Components/Expertise/ExpertiseFixedNavbar';
-import Cloud from '../../assets/Images/efilab/cloud.svg'
-import Workplace from '../../assets/Images/efilab/modern-workplace.svg'
-import ManagedService from '../../assets/Images/efilab/managed-service.svg'
-import Security from '../../assets/Images/efilab/security.svg'
-import ProductGuide from '../../assets/Images/efilab/product-guide.svg'
+import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseStickyNavbar from './../Components/Expertise/ExpertiseStickyNavbar';
+import ExpertiseTopNavbar from './../Components/Expertise/ExpertiseTopNavbar';
 
 
 // const color = "#00D2B5"
@@ -251,37 +251,31 @@ const expertiseData = {
     ]
 }
 
-const navItems = [
+const fixedNavItems = [
     {
         id: 1,
         title: 'Cloud',
         content: 'Adopter des solutions cloud hybrides',
-        image: Cloud,
+        image: CloudWhite,
     },
     {
         id: 2,
         title: 'Modern Workplace',
         content: 'Moderniser vos environnements de travail',
-        image: Workplace,
+        image: WorkplaceWhite,
     },
     {
         id: 3,
         title: 'Sécurité',
         content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
-        image: Security,
+        image: SecurityWhite,
     },
     {
         id: 1,
         title: 'Services Managés',
         content: 'Superviser et surveiller votre système IT',
-        image: ManagedService,
-    },
-    {
-        id: 1,
-        title: 'Guide produits',
-        content: 'Apprenez à utiliser les outils Efisens',
-        image: ProductGuide,
-    },
+        image: ManagedServiceWhite,
+    }
 ]
 
 const footerBannerTitle = "Parlez à un expert cloud."
@@ -290,10 +284,11 @@ const footerBannerTitle = "Parlez à un expert cloud."
 export default function ExpertiseCloud() {
     return (
         <>
-            {/* <ExpertiseFixedNavbar title={navItems[0].title} image={navItems[0].image} /> */}
+            <ExpertiseTopNavbar />
             <ExpertiseBanner {...cloudBannerData}>
                 <CloudForm color={color} />
             </ExpertiseBanner >
+            <ExpertiseStickyNavbar color={color} title={fixedNavItems[0].title} image={fixedNavItems[0].image} />
             <ExpertiseFeatures color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />

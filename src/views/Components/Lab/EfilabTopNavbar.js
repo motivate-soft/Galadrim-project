@@ -6,7 +6,8 @@ import Security from '../../../assets/Images/efilab/security.svg'
 import ProductGuide from '../../../assets/Images/efilab/product-guide.svg'
 import { Link, useHistory } from 'react-router-dom';
 import { FaLock } from 'react-icons/fa';
-import { IconButton } from './../Elements/Buttons';
+import { IconButton } from '../Elements/Buttons';
+import styled from 'styled-components';
 
 const categories = [
     {
@@ -41,11 +42,17 @@ const categories = [
     },
 ]
 
-export default function EfilabNavbar() {
+const CustomIconButton = styled(IconButton)`
+    padding: 4px 40px;
+    background-color: #ff5e4d;
+    color: #ffffff;
+`
+
+export default function EfilabTopNavbar() {
     const history = useHistory()
     return (
-        <nav className="navbar efilab-nav">
-            <div className="navbar-brand  mr-2"><Link className="efilab-logo" to="/">Efisens Lab</Link></div>
+        <nav className="navbar efilab-top-nav">
+            <div className="navbar-brand"><Link className="efilab-logo" to="/">Efisens Lab</Link></div>
             <div className="navbar-collapse ">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -54,12 +61,12 @@ export default function EfilabNavbar() {
                     {
                         categories.map((item, index) => (
                             <li key={index} className="nav-item">
-                                <div className="efilab-category-link" onClick={() => history.push(`/efilab/${item.title}`)}>
+                                <div className="top-nav-link" onClick={() => history.push(`/efilab ?category=${item.title}`)}>
                                     <div className="link-image-wrapper">
                                         <img src={item.image} alt="efilab-category" />
                                     </div>
                                     <div className="link-text-wrapper">
-                                        <p className="text-sm text-darkblue text-left m-0 pb-1">{item.title}</p>
+                                        <h6 className="text-sm text-darkblue text-left m-0 pb-1">{item.title}</h6>
                                     </div>
                                 </div>
                             </li>
@@ -67,7 +74,7 @@ export default function EfilabNavbar() {
                     }
                 </ul>
             </div>
-            <IconButton backgroundColor="#ff5e4d" color="#ffffff"><FaLock />Efisens.fr</IconButton>
+            <CustomIconButton>Efisens.fr</CustomIconButton>
         </nav>
     )
 }
