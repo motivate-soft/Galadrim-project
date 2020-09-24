@@ -146,6 +146,9 @@
     background-color: #001a5c;
     img.top-left {
         transform: rotate(90deg);
+        transform-origin: bottom left;
+        width: 222px;
+        top: -186px;
     }
     h2 {
         margin-top: 59px;
