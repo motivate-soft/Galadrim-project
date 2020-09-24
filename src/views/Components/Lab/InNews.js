@@ -16,7 +16,7 @@ export default function InNews() {
     return (
         <div className="section efilab-innews">
             <div className="container">
-                <h1 className="block-title-secondary text-darkblue">À la une</h1>
+                <h1 className="block-title-md text-darkblue">À la une</h1>
                 <NewsBox news={news} />
             </div>
         </div>

@@ -9,12 +9,14 @@ import FooterBanner from './../Components/Common/FooterBanner';
 import { ReactComponent as InstagramIcon } from "../../assets/Icons/instagram.svg"
 import { ReactComponent as LinkedinIcon } from "../../assets/Icons/linkedin.svg"
 import { ReactComponent as YoutubeIcon } from "../../assets/Icons/youtube.svg"
+import EfilabNavbar from './../Components/Lab/EfilabNavbar';
 
 const footerBannerText = "Votre partenaire technologique ... avec vous et pour longtemps "
 
 export default function EfiLabList() {
     return (
         <>
+            <EfilabNavbar />
             <LabBanner />
             <InNews />
             <SearchArticle />

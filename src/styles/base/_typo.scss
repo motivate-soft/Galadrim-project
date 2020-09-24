@@ -284,7 +284,7 @@ a {
     }
 }
 
-.block-title-secondary {
+.block-title-md {
     display: block;
     font-size: 48px;
     margin-left: auto;
@@ -302,6 +302,24 @@ a {
     }
     @media only screen and (min-width: 1200px) {
         font-size: 48px;
+    }
+}
+
+.block-title-sm {
+    display: block;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Gilroy-ExtraBold";
+    @media only screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 36px;
     }
 }
 

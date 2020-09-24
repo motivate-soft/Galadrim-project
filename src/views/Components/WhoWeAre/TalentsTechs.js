@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleImage from '../../../assets/Images/who-we-are/title-bar@3x.png';
+import TitleImage from '../../../assets/Images/who-we-are/title-bar-dna@3x.png';
 import RightBottomImage from '../../../assets/Images/who-we-are/vert.svg'
 import { GrayButton } from '../Elements/Buttons';
 import { Circle, Square } from '../Elements/Drawings';

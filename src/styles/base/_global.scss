@@ -152,6 +152,18 @@ body {
     border-radius: 50% !important;
 }
 
+// .rounded {
+//     border-radius: 8px;
+// }
+
+.top-rounded {
+    border-radius: 8px 8px 0 0;
+}
+
+.bottom-rounded {
+    border-radius: 0 0 8px 8px;
+}
+
 .bg-z-index {
     z-index: -1 !important;
 }

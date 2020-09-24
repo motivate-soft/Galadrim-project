@@ -411,27 +411,46 @@
     h1 {
         margin: 60px auto 70px;
     }
-    .tech-access-row {
-        .bottom-left {
-            z-index: -1;
-            left: -40px;
-            bottom: -40px;
-            width: 110px;
-            height: 135px;
-        }
-        .bottom-right {
-            z-index: -1;
-            transform: translate(100%, 0);
-            width: 120px;
-            height: 120px;
+    .bottom-left {
+        z-index: -1;
+        left: -40px;
+        bottom: -40px;
+        width: 110px;
+        height: 135px;
+    }
+    .bottom-right {
+        z-index: -1;
+        right: -9px;
+        transform: translate(100%, 0);
+        width: 120px;
+        height: 120px;
+    }
+    .green-bottom-left {
+        z-index: -1;
+        position: absolute;
+        bottom: 0;
+        width: 66px;
+        height: 66px;
+        transform: translate(-50%, 50%);
+    }
+    .who-image-card {
+        max-width: 376px;
+        max-height: 237px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     .whydoit-card {
-        // max-width: 376px;
+        max-width: 376px;
         width: 100%;
         min-height: 237px;
         padding: 18px;
-        border-radius: 8px;
+        // border-radius: 8px;
         box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
         background-color: #ffffff;
         h4 {
@@ -446,15 +465,6 @@
             font-family: Gilroy-Light;
         }
     }
-    .background {
-        background-image: url("../assets/Images/who-we-are/discuss.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-    }
-    img {
-        box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
-    }
     .top-rounded {
         border-radius: 8px 8px 0 0;
     }
@@ -463,6 +473,18 @@
     }
     .rounded {
         border-radius: 8px;
+    }
+
+    @include media-breakpoint-down(md) {
+        .bottom-left,
+        .bottom-right,
+        .green-bottom-left {
+            display: none;
+        }
+        [class*="col-"] {
+            display: flex;
+            justify-content: center;
+        }
     }
 }
 
@@ -528,7 +550,7 @@
             margin-bottom: 25px;
             font-family: Gilroy-Medium;
             font-size: 21px;
-            font-color: #00d2b5;
+            color: #00d2b5;
             letter-spacing: 0;
             line-height: 18px;
             text-align: center;
@@ -542,8 +564,10 @@
             text-align: center;
             color: #001860;
         }
-        img {
+        .bottom-right {
             z-index: -1;
+            width: 176px;
+            height: 216px;
             right: -76px;
             bottom: -89px;
         }
@@ -553,16 +577,28 @@
         button {
             padding: 4px 16px;
         }
-        @media (max-width: 768px) {
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 50px;
+        .background-card {
             padding: 30px 20px 24px;
-            img {
-                right: 0;
-                bottom: 0;
+            .bottom-right {
+                display: none;
             }
         }
     }
-    @media (max-width: 768px) {
+    @include media-breakpoint-down(md) {
         margin-bottom: 50px;
+        .background-card {
+            padding: 30px 20px 24px;
+            .bottom-right {
+                width: 88px;
+                height: 108px;
+                right: -30px;
+                bottom: -50px;
+            }
+        }
     }
 }
 

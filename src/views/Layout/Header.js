@@ -16,7 +16,7 @@ export default function Header() {
     // const [opentoggler, setOpentoggler] = useState(false)
 
     return (
-        <div>
+        <>
             <nav className="navbar">
                 <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
                 {/* <div className={opentoggler ? "navbar-toggler active" : "navbar-toggler"} onClick={() => setOpentoggler(!opentoggler)}> <span></span></div> */}
@@ -105,7 +105,7 @@ export default function Header() {
                 <IconButton backgroundColor="#ff5e4d" color="#ffffff"><FaLock />Accès client</IconButton>
             </nav>
             <AppNavbar />
-        </div >
+        </ >
     );
 }
 

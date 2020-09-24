@@ -1,3 +1,29 @@
+.efilab-nav {
+    .efilab-logo {
+        font-family: Gilroy-SemiBold;
+        font-size: 22px;
+        color: #001a5c;
+    }
+    .efilab-category-link {
+        opacity: 1;
+        margin-right: 26px;
+        .link-image-wrapper {
+            margin-right: 10px;
+            width: 23px !important;
+            height: 23px !important;
+            img {
+                display: block;
+                margin: 2px auto;
+                width: 19px !important;
+                height: 19px !important;
+            }
+        }
+        .link-text-wrapper{
+            width: auto !important;
+        }
+    }
+}
+
 .efilab-category-link {
     opacity: 0.6;
     display: flex;
@@ -6,8 +32,8 @@
     transition: opacity ease-in-out 300ms;
     .link-image-wrapper {
         display: flex;
-        width: 35px !important;
-        height: 35px !important;
+        width: 35px;
+        height: 35px;
         background-color: #e9ecef;
         border-radius: 50%;
         img {
@@ -220,7 +246,7 @@
             height: 100px;
         }
     }
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
         padding-bottom: 150px;
         .bottom-left {
             width: 160px;
@@ -374,7 +400,7 @@
 
 .efilab-search-block {
     display: flex;
-    .block-title-secondary {
+    .block-title-md {
         margin: 86px auto 24px;
     }
     h5 {

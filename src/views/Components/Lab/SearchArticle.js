@@ -105,7 +105,7 @@ export default function SearchArticle() {
         <div className="section efilab-search-block">
             <RightRoundedSemiCircle className="bottom-left" />
             <div className="container">
-                <h1 className="block-title-secondary text-darkblue">Derniers articles</h1>
+                <h1 className="block-title-md text-darkblue">Derniers articles</h1>
                 <SearchInput type="text" placeholder="     Rechercher un article" className="article-search-form" />
                 <h5>Filtrer par expertises</h5>
                 <div className="article-category-container">
