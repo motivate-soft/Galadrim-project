@@ -48,6 +48,51 @@
     }
 }
 
+.home-news-block {
+    h1 {
+        margin: 86px auto 42px;
+    }
+    .article-image-card {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        max-width: 520px;
+
+        padding-top: 0;
+        padding-right: 0;
+        background: url("../assets/Shapes/drawings/green-mini.svg");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        padding-left: 44px;
+        padding-bottom: 44px;
+        background-size: 110px 134px;
+
+        img {
+            max-width: 476px;
+            width: 100%;
+            align-self: flex-end;
+            border-radius: 8px;
+        }
+    }
+    .article-summary-card {
+        max-width: 476px;
+        padding: 0 16px;
+        h3{
+            margin: 0 auto 24px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        h1 {
+            margin: 40px auto 42px;
+        }
+        .article-summary-card {
+            h3{
+                margin: 30px auto 24px;
+            }
+        }
+    }
+}
+
 .home-expertise-block {
     position: relative;
     .block-title {
@@ -111,6 +156,7 @@
 .efisens-talk {
     margin: 74px auto 100px;
 }
+
 .home-efisens-talk-block {
     display: flex;
     min-height: 394px;
@@ -174,6 +220,7 @@
         }
     }
 }
+
 .home-articles-block {
     display: flex;
     flex-direction: column;

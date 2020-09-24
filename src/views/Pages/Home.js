@@ -9,6 +9,7 @@ import HomeBanner from './../Components/Home/HomeBanner';
 import Expertise from '../Components/Home/Expertise';
 import EfisensLab from '../Components/Common/EfisensLab';
 import FooterBanner from './../Components/Common/FooterBanner';
+import HomeNews from './../Components/Home/HomeNews';
 
 const footerBannerTitle = "Votre partenaire informatique de tous les jours"
 
@@ -16,13 +17,14 @@ export default function Home() {
     return (
         <>
             <HomeBanner />
+            <HomeNews />
             <Expertise />
-            <TrustUs className="home-trust-block"/>
+            <TrustUs className="home-trust-block" />
             <EfisensTalk />
             <EfisensLab />
             <EfisensShop />
             <Talents />
-            <FooterBanner title={footerBannerTitle} color='#ff5e4d'/>
+            <FooterBanner title={footerBannerTitle} color='#ff5e4d' />
         </>
     )
 }

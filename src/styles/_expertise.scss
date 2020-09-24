@@ -81,6 +81,24 @@
     }
 }
 
+.expertise-security-msp {
+    .msp-container {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        max-width: 620px;
+        width: 100%;
+        img {
+            width: 242px;
+            height: 242px;
+        }
+    }
+    @media (max-width: 768px) {
+        .msp-container {
+            flex-direction: column;
+        }
+    }
+}
 .expertise-resources-block {
     display: flex;
     flex-direction: column;

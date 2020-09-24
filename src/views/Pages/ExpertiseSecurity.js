@@ -43,6 +43,7 @@ import ServiceManager from '../../assets/Images/home/managed-service.svg'
 
 import ArticleImage from "../../assets/Images/demo.jpg"
 import SecurityForm from '../Components/Expertise/Forms/SecurityForm';
+import SecurityMSP from 'views/Components/Expertise/SecurityMSP';
 
 
 
@@ -252,6 +253,7 @@ export default function ExpertiseSecurity() {
             <ExpertiseFeatures color={color} items={expertiseFeature} featureBackground />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
+            <SecurityMSP />
             <Resources color={color} articles={articleData} />
             <OurExpertise color={color} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
