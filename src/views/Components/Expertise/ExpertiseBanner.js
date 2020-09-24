@@ -20,29 +20,10 @@ const Section = styled.div`
     }
 `
 
-const BannerLogo = styled.img`
-    @media (max-width: 768px){
-        display: none;
-    }
-    @media (min-width: 768px){
-        max-width: ${props => props.width ? `${props.width}px` : ""};
-        margin: 72px auto;
-    }
-`
-const BannerMobileLogo = styled.img`
-    @media (max-width: 768px){
-        max-width: ${props => props.mobileWidth ? `${props.mobileWidth}px` : ""};
-        margin: 27px auto 32px;
-    }
-    @media (min-width: 768px){
-        display: none;
-    }
-`
-
 
 export default function ExpertiseBanner(props) {
     return (
-        <div>
+        <div className="section expertise-banner">
             <Section
                 color={props.color}
                 bannerBackgroundImage1={props.bannerBackgroundImage1}
@@ -50,10 +31,6 @@ export default function ExpertiseBanner(props) {
                 bannerBackgroundImage3={props.bannerBackgroundImage3}>
             </Section>
             <div className="container">
-                <div className="d-flex justify-content-center">
-                    <BannerLogo src={props.bannerLogo.image} alt={props.bannerTitle} width={props.bannerLogo.width} />
-                    <BannerMobileLogo src={props.bannerLogo.mobileImage} alt={props.bannerTitle} mobileWidth={props.bannerLogo.mobileWidth} />
-                </div>
                 <div className="row">
                     <div className="col-sm-12 col-lg-6">
                         <ExpertiseBannerLeftSide
@@ -62,15 +39,17 @@ export default function ExpertiseBanner(props) {
                             bannerSubtitle={props.bannerSubtitle}
                             bannerDescription={props.bannerDescription} />
                     </div>
-                    <div className="col-sm-12 col-lg-6">
-                        <BannerFormCard
-                            color={props.color}
-                            formTitle={props.formTitle}
-                            formSubtitle={props.formSubtitle}
-                            formDescription={props.formDescription}
-                            formButtonText={props.formButtonText}>
-                            {props.children}
-                        </BannerFormCard>
+                    <div className="col-sm-12 col-lg-6 d-flex">
+                        <div className={`banner-form-wrapper ${props.formBackground}`}>
+                            <BannerFormCard
+                                color={props.color}
+                                formTitle={props.formTitle}
+                                formSubtitle={props.formSubtitle}
+                                formDescription={props.formDescription}
+                                formButtonText={props.formButtonText}>
+                                {props.children}
+                            </BannerFormCard>
+                        </div>
                     </div>
                 </div>
             </div>

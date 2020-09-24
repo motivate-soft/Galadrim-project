@@ -9,6 +9,17 @@
             margin-bottom: 36px;
         }
     }
+    .features-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .security-rgpd-background {
+        background-image: url("../assets/Images/expertise/security/rgpd-ready.svg");
+        background-position: 100% 78px;
+        background-repeat: no-repeat;
+        background-size: 118px 108px;
+    }
 }
 
 .expertise-approach {

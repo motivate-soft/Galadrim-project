@@ -50,12 +50,13 @@ const color = "green"
 
 const cloudBannerData = {
     color: "#00D2B5",
-    bannerLogo: {
-        image: BannerLogoImage,
-        mobileImage: BannerLogoMobileImage,
-        width: 290,
-        mobileWidth: 182,
-    },
+    // bannerLogo: {
+    //     image: BannerLogoImage,
+    //     mobileImage: BannerLogoMobileImage,
+    //     width: 290,
+    //     mobileWidth: 182,
+    // },
+
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -65,10 +66,11 @@ const cloudBannerData = {
     bannerSubtitle: `Plus de performance, d’agilité et de sécurité – Dites oui au cloud !`,
     bannerDescription: `Mettre à disposition le meilleur du cloud public et d'une infrastructure traditionnelle pour vous proposer une infrastructure évolutive dans le temps.
     Développement de vos applications, espaces de tests, Pic et débordement d'activité, plan de reprise d’activité... Affranchissez-vous de vos contraintes d’hier pour mettre en place les solutions technologiques innovantes de demain !`,
+
+    formBackground: 'orange-rounded-background',
     formTitle: `Intéressé par nos solutions Cloud ?`,
     formSubtitle: `Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.`,
     formDescription: `Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.`,
-    formButtonText: `Envoyer le formulaire`,
 }
 
 const expertiseFeature = [
@@ -251,7 +253,7 @@ export default function ExpertiseCloud() {
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />
-            <OurExpertise color={color}  data={expertiseData} />
+            <OurExpertise color={color} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )

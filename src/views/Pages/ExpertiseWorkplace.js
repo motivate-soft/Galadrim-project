@@ -55,12 +55,12 @@ const color = "darkblue"
 
 const cloudBannerData = {
     color: "#001A5C",
-    bannerLogo: {
-        image: BannerLogoImage,
-        mobileImage: BannerLogoMobileImage,
-        width: 967,
-        mobileWidth: 182,
-    },
+    // bannerLogo: {
+    //     image: BannerLogoImage,
+    //     mobileImage: BannerLogoMobileImage,
+    //     width: 967,
+    //     mobileWidth: 182,
+    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -70,6 +70,8 @@ const cloudBannerData = {
     bannerSubtitle: `Boostez l’engagement de vos collaborateurs pour une meilleure performance avec nos solutions Modern Workplace !`,
     bannerDescription: `Favorisez la cohésion et la collaboration d’équipe
     Evolution des postes de travail, mobilité, adoption des nouvelles technologies, flex-office, télétravail…. Activer les leviers technologiques qui vous permettront de réussir votre transformation digitale. `,
+
+    formBackground: 'orange-rounded-background',
     formTitle: `Intéressé par notre solution Modern Worplace ?`,
     formSubtitle: `Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.`,
     formDescription: ` Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.`,

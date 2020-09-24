@@ -1,21 +1,31 @@
-// Expertise
-
-.expertise-features {
-    h1 {
-        margin-bottom: 42px;
-        @media (max-width: 768px) {
-            font-size: 36px;
-        }
-        @media (min-width: 768px) {
-            font-size: 48px;
-        }
-        @media (min-width: 992px) {
-            font-size: 54px;
-        }
-    }
-}
 
 ///////////////////////////////////////////////////////////////////////////////////////
+.expertise-banner {
+    display: flex;
+    & > div.container {
+        margin-top: 113px;
+    }
+    .banner-form-wrapper {
+        margin-right: auto;
+        position: relative;
+        padding-top: 21px;
+        padding-right: 21px;
+    }
+    .orange-rounded-background {
+        background-image: url("../assets/Shapes/rounded-angle/orange-rounded.svg");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 42px 42px;
+    }
+    .blue-circle-background {
+        background-image: url("../assets/Shapes/others/blue-circle.svg");
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 42px 42px;
+    }
+   
+}
+
 
 .banner-form {
     position: relative;
@@ -25,9 +35,6 @@
     background-color: #ffffff;
     box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
 
-    @media (max-width: 768px) {
-        margin: 36px auto 0;
-    }
     .banner-form-header {
         max-width: 422px;
         margin: 0 auto 24px;
@@ -51,7 +58,12 @@
         color: #a4abb8;
         margin: 25px auto 0;
     }
+
+    @media (max-width: 768px) {
+        margin: 36px auto 0;
+    }
 }
+
 .trust-block {
     h3 {
         font-size: 28px;

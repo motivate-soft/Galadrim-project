@@ -2,10 +2,8 @@ import React from 'react'
 
 import { ReactComponent as SendIcon } from "../../../assets/Icons/send.svg"
 import { ReactComponent as LinkedinIcon } from "../../../assets/Icons/linkedin.svg"
-// import { FaFacebook } from 'react-icons/fa'
-import Author from './Author'
-// import { Facebook } from '@material-ui/icons'
 import { FaFacebookF } from 'react-icons/fa'
+import Author from './Author'
 
 const ArticleContent = ({ content }) => {
     const sentenceArray = content.match(/[^\.!\?]+[\.!\?]+/g);

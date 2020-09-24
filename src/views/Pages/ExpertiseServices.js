@@ -66,6 +66,8 @@ const cloudBannerData = {
     bannerSubtitle: `Restez connecté à votre métier comme jamais auparavant et entrevoyez votre système informatique de manière totalement différente.`,
     bannerDescription: `Vous accompagner au quotidien et veiller à ce que votre IT reste fonctionnel.
     Disponibilité des informations, coûts informatique importants, conformité et sécurité de votre système d'information, gestion du parc… Libérez-vous totalement des contraintes techniques !`,
+    
+    formBackground: 'blue-circle-background', 
     formTitle: `Intéressé par nos Services Managés ?`,
     formSubtitle: `Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.`,
     formDescription: `  Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.`,

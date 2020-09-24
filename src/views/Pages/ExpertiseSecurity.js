@@ -51,12 +51,12 @@ const color = "green"
 
 const cloudBannerData = {
     color: "#00D2B5",
-    bannerLogo: {
-        image: BannerLogoImage,
-        mobileImage: BannerLogoMobileImage,
-        width: 490,
-        mobileWidth: 256,
-    },
+    // bannerLogo: {
+    //     image: BannerLogoImage,
+    //     mobileImage: BannerLogoMobileImage,
+    //     width: 490,
+    //     mobileWidth: 256,
+    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -66,10 +66,11 @@ const cloudBannerData = {
     bannerSubtitle: `Offrez une expérience unique à vos collaborateurs, dans des environnements sécurisés.`,
     bannerDescription: `Vous permettre de mettre en œuvre un système de protection proactif et adapté à vos besoins et usages
     Déploiement dans le Cloud, nouvelles réglementations toujours plus contraignantes et multiplication des cyberattaques… Garantissez votre sécurité informatique entreprise !`,
+
+    formBackground: 'orange-rounded-background',
     formTitle: `Intéressé par notre service de Sécurité ?`,
     formSubtitle: `Remplissez ce formulaire et notre équipe commerciale reviendra rapidement vers vous.`,
     formDescription: ` Ces informations font l’objet d’un traitement informatisé par EFISENS, destiné à répondre et assurer le suivi de votre demande, et seront conservées durant le temps nécessaire pour y répondre. Conformément à la réglementation informatique et libertés, vous bénéficiez d’un droit d’accès et de rectification, de portabilité, d’effacement des informations vous concernant ou une limitation du traitement. Contactez-nous à l’adresse : conformite-RGPD@efisens.fr pour toutes demandes concernant vos données.`,
-    formButtonText: `Envoyer le formulaire`,
 }
 
 const expertiseFeature = [
@@ -248,7 +249,7 @@ export default function ExpertiseSecurity() {
             <ExpertiseBanner {...cloudBannerData}>
                 <SecurityForm color={color} />
             </ExpertiseBanner >
-            <ExpertiseFeatures color={color} items={expertiseFeature} />
+            <ExpertiseFeatures color={color} items={expertiseFeature} featureBackground />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />

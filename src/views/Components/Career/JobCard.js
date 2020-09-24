@@ -1,9 +1,12 @@
 import React from 'react'
-import { FaMapMarker, FaClock, FaMapMarkerAlt, FaRegClock } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaRegClock } from 'react-icons/fa'
+import { useHistory } from 'react-router-dom'
 
 
 export default function JobCard(props) {
     const { id, title, category } = props
+    const history = useHistory()
+
     function getJobBadge(category) {
         console.log(category)
         if (category === 'Tech') {
@@ -28,7 +31,7 @@ export default function JobCard(props) {
         // }
     }
     return (
-        <div id={id} className={`career-job-card ${getJobBadge(category)}`}>
+        <div className={`career-job-card ${getJobBadge(category)}`} onClick={() => history.push(`/career/${id}`)}>
             <span className="job-badge badge-green">{category}</span>
             <h4>{title}</h4>
             <div className="job-location">

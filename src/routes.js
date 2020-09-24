@@ -11,6 +11,7 @@ import Shop from './views/Pages/Shop';
 import EfiLabList from './views/Pages/EfiLabList';
 import EfilabDetail from './views/Pages/EfilabDetail';
 import EfilabCategory from './views/Pages/EfilabCategory';
+import CareerDetail from './views/Pages/CareerDetail';
 
 
 const routes = [
@@ -26,6 +27,7 @@ const routes = [
     // { path: '/efilab/:slug', name: 'Efilab category', component: EfilabCategory },
     { path: '/efilab/:id', name: 'Efilab detail', component: EfilabDetail },
     { path: '/career', name: 'Career', component: Career },
+    { path: '/career/:id', name: 'Efilab detail', component: CareerDetail },
     { path: '/contact', name: 'Contact', component: Contact },
 ];
 

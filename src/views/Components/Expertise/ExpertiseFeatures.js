@@ -18,34 +18,35 @@ const FeatureCard = styled.div`
     }
     h4{
         margin: 10px auto 19px ;
-        color: ${props => props.color ? props.color : '#ffffff'};
     }
     h5{
         max-width: 300px;
         margin: 0 auto 30px !important;
     }
     li {
-            font-family: 'RobotoMono-Medium';
-            font-size: 12px;
-            text-align: center;
-        }
+        font-family: 'RobotoMono-Regular';
+        font-size: 12px;
+        line-height: 1.57;
+        text-align: center;
+        color: #001a5c;
+    }
     
 `
 
 export default function ExpertiseFeatures(props) {
-    const { color, items } = props
+    const { color, items, featureBackground } = props
     return (
-        <div className="section expertise-features">
+        <div className='section expertise-features'>
             <div className="container">
-                <h1 className={color ? `block-title text-${color}`: `block-title text-green`}>Notre Expertise</h1>
-                <div className="row">
-                    {
-                        items.map((item, index) => (
-                            <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
-                                <DGradientCard key={index} minHeight={397} className="w-100" notMove>
+                <div className={`${featureBackground ? "features-wrapper security-rgpd-background" : "features-wrapper"}`}>
+                    <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Notre Expertise</h1>
+                    <div className="row">
+                        {
+                            items.map((item, index) => (
+                                <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
                                     <FeatureCard>
                                         <img className="mx-auto" src={item.img} alt={item.title} />
-                                        <h4 className="text-darkblue text-center">{item.title}</h4>
+                                        <h4 className={`text-${color ? color : `green`} text-center`}>{item.title}</h4>
                                         <h5 className="text-darkblue text-center mx-auto">{item.subtitle}</h5>
                                         {
                                             item.details.map((text, idx) => (
@@ -53,10 +54,10 @@ export default function ExpertiseFeatures(props) {
                                             ))
                                         }
                                     </FeatureCard>
-                                </DGradientCard>
-                            </div>
-                        ))
-                    }
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
         </div>
