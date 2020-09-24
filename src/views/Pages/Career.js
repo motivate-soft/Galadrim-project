@@ -1,6 +1,6 @@
 import React from 'react'
 import CareerOffer from '../Components/Career/CareerOffer'
-import { CareerBanner } from '../views/Components/Career/CareerBanner';
+import CareerBanner from '../Components/Career/CareerBanner';
 
 export default function Career() {
     return (
