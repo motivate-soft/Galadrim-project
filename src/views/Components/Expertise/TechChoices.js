@@ -10,11 +10,11 @@ export default function TechChoices(props) {
         <div className="section expertise-tech-block">
             <div className="container">
                 <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Nos choix technologiques</h1>
-                <div className="row justify-content-center">
+                <div className="row">
                     {
                         logos.map((logo, index) => (
                             <div key={index} className="col-6 col-lg-4 d-flex justify-content-center align-items-center px-3 py-4">
-                                <Image src={logo.src} alt={logo.alt} maxWidth={logo.maxWidth} className="w-100 mx-auto" />
+                                <Image src={logo.src} alt={logo.alt} maxWidth={logo.maxWidth} />
                             </div>
                         ))
                     }

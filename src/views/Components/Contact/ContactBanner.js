@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaLock } from 'react-icons/fa';
 import { Underline } from '../Elements/Typography'
 import { IconButton } from './../Elements/Buttons';
@@ -8,11 +8,21 @@ import CenterBottomImage from '../../../assets/Images/charts/modern-workplace.sv
 import RightBottomImage from '../../../assets/Images/charts/security.svg';
 import RoundedOrangeImage from '../../../assets/Shapes/rounded-angle/orange-rounded.svg';
 import ContactTab from './ContactTab';
+import ContactFormSuccess from './ContactFormSuccess';
 
 const color = '#00175f'
 
 
 export default function ContactBanner() {
+    const [submitted, setSubmitted] = useState(false)
+
+    const handleSubmit = (value) => {
+        setTimeout(() => {
+            alert(value)
+            setSubmitted(true)
+        }, 1000)
+    }
+
     return (
         <div className="section contact-banner">
             <div className="contact-banner-background-container">
@@ -30,7 +40,9 @@ export default function ContactBanner() {
                         <IconButton backgroundColor="#ff5e4d" color="#ffffff"><FaLock />Accès client</IconButton>
                     </div>
                     <div className="col-12 col-md-6">
-                        <ContactTab />
+                        {
+                            submitted ? <ContactFormSuccess /> : <ContactTab onSubmit={handleSubmit} />
+                        }
                     </div>
                 </div>
             </div>

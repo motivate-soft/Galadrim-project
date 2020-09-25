@@ -7,7 +7,10 @@ export default function SecurityMSP() {
             <div className="container">
                 <div className="d-flex justify-content-center msp-container">
                     <img src={PurePlayLogoImage} alt="pureplayer" />
-                    <p>En tant que MSP (Managed service provider) et agrégateur de solutions, nous travaillons avec la société AISI, expert infrastructure & cybersécurité, pour garantir un haut niveau de sécurité à nos clients.  </p>
+                    <div>
+                        <p>En tant que MSP (Managed service provider) et agrégateur de solutions, nous travaillons avec la société AISI, expert infrastructure & cybersécurité, pour garantir un haut niveau de sécurité à nos clients.  </p>
+                        <button className="btn btn-custom btn-gray">En savoir plus</button>
+                    </div>
                 </div>
             </div>
         </div>

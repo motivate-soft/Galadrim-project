@@ -19,7 +19,7 @@
             font-size: 16px;
             color: #001a5c;
             .top-nav-link {
-                opacity: 0.6;   
+                opacity: 0.6;
                 display: flex;
                 align-items: center;
                 transition: opacity ease-in-out 300ms;
@@ -552,6 +552,7 @@
 .article-summary-box {
     margin: 67px auto 73px;
 }
+
 .efilab-article-box {
     .article-container {
         display: flex;
@@ -674,7 +675,7 @@
                 padding: 30px 24px !important;
                 h1 {
                     text-align: center;
-                    font-size: 32px;
+                    font-size: 28px;
                     line-height: 1.2;
                 }
                 button {
@@ -688,21 +689,9 @@
             }
         }
     }
-    @include media-breakpoint-up(sm) {
-        .article-container {
-            padding-left: 40px;
-            .green-banner {
-                display: flex;
-                flex-direction: column;
-                h1 {
-                    font-size: 36px;
-                }
-            }
-        }
-    }
     @include media-breakpoint-up(md) {
         .article-container {
-            padding-left: 40px;
+            padding-left: 36px;
             .green-banner {
                 display: flex;
                 flex-direction: row;
@@ -724,6 +713,33 @@
                     font-size: 54px;
                 }
             }
+        }
+    }
+}
+
+.efilab-category-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 147px;
+    background-image: linear-gradient(264deg, #00efce, #00d2b5);
+    .efilab-lg-title {
+        width: 290px;
+        height: 59px;
+        object-fit: contain;
+    }
+    .efilab-sm-title {
+        display: none;
+        width: 290px;
+        height: 59px;
+        object-fit: contain;
+    }
+    @include media-breakpoint-down(sm) {
+        .efilab-lg-title {
+            display: none;
+        }
+        .efilab-sm-title {
+            display: block;
         }
     }
 }

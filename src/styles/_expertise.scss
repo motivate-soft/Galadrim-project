@@ -45,7 +45,7 @@
         border-radius: 6px;
         background-color: #ffffff;
         cursor: pointer;
-        
+
         font-family: Gilroy-Bold;
         font-size: 16px;
         text-align: center;
@@ -58,7 +58,7 @@
         border-radius: 6px;
         background-color: #ffffff;
         cursor: pointer;
-        
+
         font-family: Gilroy-Bold;
         font-size: 16px;
         text-align: center;
@@ -185,6 +185,18 @@
     h1 {
         margin: 135px auto 102px;
     }
+    .row {
+        justify-content: start;
+        [class*="col-"] {
+            padding: 0 20px;
+            img {
+                width: 100%;
+            }
+        }
+        @include media-breakpoint-down(md) {
+            justify-content: center;
+        }
+    }
 }
 
 .expertise-security-msp {
@@ -195,8 +207,17 @@
         max-width: 620px;
         width: 100%;
         img {
-            width: 242px;
-            height: 242px;
+            width: 100%;
+            max-width: 242px;
+            max-height: 242px;
+        }
+        p {
+            margin: 0 auto 14px;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            padding: 4px 12px;
         }
     }
     @media (max-width: 768px) {
@@ -209,9 +230,9 @@
     display: flex;
     flex-direction: column;
     .block-title {
-        margin: 135px auto 68px;
+        margin: 73px auto 68px;
         @media (max-width: 768px) {
-            margin: 0 auto 36px;
+            margin: 50px auto 36px;
         }
     }
     .articles-container {

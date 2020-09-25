@@ -72,8 +72,8 @@ export default function ContactTab(props) {
                     formSubtitle={formData.formSubtitle}
                     formDescription={formData.formDescription}
                     color={formData.color}
-                    className="not-top-rounded">
-                    <ContactForm />
+                >
+                    <ContactForm onSubmit={props.onSubmit} />
                 </BannerFormCard>
             </Content>
             <Content active={active === 1}>

@@ -114,6 +114,42 @@
     // transform: scaleX(-1);
 }
 
+.tick-icon {
+    width: 86px;
+    height: 86px;
+    background-image: linear-gradient(225deg, #ff7364, #ff5e4d 0%);
+}
+
+.contact-submit-success {
+    margin-top: 77px;
+    display: flex;
+    flex-direction: column;
+    max-width: 576px;
+    padding: 42px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+    background-color: #ffffff;
+    img {
+        margin: 0 auto 42px;
+        width: 86px;
+        height: 86px;
+    }
+    h4 {
+        margin: 0 auto 52px;
+        max-width: 500px;
+        font-family: Gilroy-Bold;
+        font-size: 26px;
+        text-align: center;
+        color: #001a5c;
+    }
+    button {
+        margin: auto;
+        max-width: 292px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
 .contact-us-now {
     overflow: auto;
     background-color: #ffffff;

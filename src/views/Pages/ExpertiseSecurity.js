@@ -30,12 +30,14 @@ import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
 // import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
-import MicrosoftImage from '../../assets/Images/expertise/security/microsoft@3x.png';
-import AzureImage from '../../assets/Images/expertise/security/microsoft-azure-logo.png';
-import NutanixImage from '../../assets/Images/expertise/security/nutanix.png';
-import AwsImage from '../../assets/Images/expertise/security/amazon-web-services-logo@3x.png';
-import VmwareImage from '../../assets/Images/expertise/security/v-mware-logo.png';
-import EquinixImage from '../../assets/Images/expertise/security/equinix-logo-1200-x-627.png';
+import MicrosoftLogo from '../../assets/Images/expertise/security/logo-microsoft@3x.png';
+import CiscoLogo from '../../assets/Images/expertise/security/logo-cisco@3x.png';
+import SentinelLogo from '../../assets/Images/expertise/security/logo-sentinel@3x.jpg';
+import FortinetLogo from '../../assets/Images/expertise/security/logo-fortinet@3x.png';
+import JuniperLogo from '../../assets/Images/expertise/security/logo-juniper@3x.png';
+import SonicLogo from '../../assets/Images/expertise/security/logo-sonic@3x.png';
+import RuckusLogo from '../../assets/Images/expertise/security/logo-ruckus@3x.png';
+
 
 // OurExpertise
 import Cloud from '../../assets/Images/home/cloud.svg'
@@ -151,35 +153,41 @@ const approachData = {
 
 const techChoicesLogos = [
     {
-        src: MicrosoftImage,
+        src: MicrosoftLogo,
         alt: "Microsoft",
+        maxWidth: 242,
+    },
+    {
+        src: FortinetLogo,
+        alt: "Fortnet",
+        maxWidth: 316,
+    },
+    {
+        src: SentinelLogo,
+        alt: "equinix",
+        maxWidth: 261,
+    },
+    {
+        src: JuniperLogo,
+        alt: "Juniper",
+        maxWidth: 202,
+    },
+    {
+        src: SonicLogo,
+        alt: "Sonic",
+        maxWidth: 266,
+    },
+    {
+        src: CiscoLogo,
+        alt: "Cisco",
         maxWidth: 200,
     },
     {
-        src: AzureImage,
-        alt: "Azure",
-        maxWidth: 200,
+        src: RuckusLogo,
+        alt: "Ruckus",
+        maxWidth: 232,
     },
-    {
-        src: NutanixImage,
-        alt: "Nutanix",
-        maxWidth: 240,
-    },
-    {
-        src: AwsImage,
-        alt: "Aws",
-        maxWidth: 130,
-    },
-    {
-        src: VmwareImage,
-        alt: "Vmware",
-        maxWidth: 240,
-    },
-    {
-        src: EquinixImage,
-        alt: "Equinix",
-        maxWidth: 160,
-    },
+
 ]
 
 const articleData = [

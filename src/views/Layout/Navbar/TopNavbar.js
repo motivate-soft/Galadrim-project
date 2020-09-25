@@ -18,7 +18,6 @@ export default function TopNavbar(props) {
     const navRef = useRef(null)
     const bgRef = useRef(null)
 
-
     useEffect(() => {
         const currentPath = location.pathname
         const baseUrl = currentPath.split('/')[1]

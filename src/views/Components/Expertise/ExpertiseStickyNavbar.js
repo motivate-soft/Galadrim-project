@@ -11,7 +11,7 @@ export default function ExpertiseStickyNavbar({ color, navItem }) {
     const [hovered, setHovered] = useState(false)
 
     const renderClassName = () => {
-        let className = ''
+        let className = 'section expertise-sticky-nav '
         if (color !== undefined) {
             className += `bg-${color} `
         }
@@ -21,7 +21,6 @@ export default function ExpertiseStickyNavbar({ color, navItem }) {
         // if (hovered === true) {
         //     className += 'expertise-sticky-hover-class '
         // }
-        className += 'section expertise-sticky-nav'
 
         return className
     }

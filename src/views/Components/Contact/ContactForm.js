@@ -17,6 +17,10 @@ const SubmitButton = styled(CustomButton)`
 `
 
 export default function ContactForm(props) {
+    const submit = () => {
+        props.onSubmit('submitted')
+    }
+
     return (
         <>
             <div className="row">
@@ -41,7 +45,7 @@ export default function ContactForm(props) {
                     <CustomInput name="companyName" type="text" placeholder="Entreprise" />
                 </div>
             </div>
-            <SubmitButton type="submit" color={props.color} className="d-block mx-auto">Envoyer le formulaire</SubmitButton>
+            <SubmitButton type="submit" color={props.color} className="d-block mx-auto" onClick={() => submit()}>Envoyer le formulaire</SubmitButton>
         </>
     )
 }
