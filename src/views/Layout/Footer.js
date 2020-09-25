@@ -54,21 +54,21 @@ export default function Footer() {
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 col-xl-2">
                         <h5>Nos expertises</h5>
-                        <Link to="/Cloud" className="nav-link">Cloud</Link>
-                        <Link to="/Modern-Workplace" className="nav-link">Modern Workplace</Link>
-                        <Link to="/Security" className="nav-link">Sécurité</Link>
-                        <Link to="/Managed-Services" className="nav-link">Services Managés</Link>
+                        <Link to="/expertise/cloud" className="nav-link">Cloud</Link>
+                        <Link to="/expertise/modern-workplace" className="nav-link">Modern Workplace</Link>
+                        <Link to="/expertise/security" className="nav-link">Sécurité</Link>
+                        <Link to="/expertise/managed-services" className="nav-link">Services Managés</Link>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 col-xl-2">
                         <h5>Ressources</h5>
-                        <Link to="/Who-We-Are" className="nav-link">Qui sommes-nous ?</Link>
-                        <Link to="/Partnership" className="nav-link">Partenariats</Link>
-                        <Link to="/Efisens-Lab" className="nav-link">Efisens Lab</Link>
-                        <Link to="/Careers" className="nav-link">Carrières</Link>
+                        <Link to="/who-we-are" className="nav-link">Qui sommes-nous ?</Link>
+                        <Link to="/partnership" className="nav-link">Partenariats</Link>
+                        <Link to="/efilab" className="nav-link">Efisens Lab</Link>
+                        <Link to="/career" className="nav-link">Carrières</Link>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 offset-xl-2 col-xl-3">
                         <h5>Contact</h5>
-                        <Link to="/Contact" className="nav-link">Nous contacter</Link>
+                        <Link to="/contact" className="nav-link">Nous contacter</Link>
                         <p>01 44 37 07 07</p>
                         <div className="px-3 py-3 d-block">
                             <img src={InstagramIcon} alt="instagram icon" className="social-icon mr-3" />

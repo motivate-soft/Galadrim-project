@@ -63,7 +63,7 @@ export default function ExpertiseStickyNavbar({ color, navItem }) {
                     <span>{title}</span>
                 </div>
                 <div className="expertise-nav-button" onClick={() => scrollTop()}>{actionText}</div>
-                <div className="mobile-expertise-nav-button">Intéressé ?</div>
+                <div className="mobile-expertise-nav-button" onClick={() => scrollTop()}>Intéressé ?</div>
             </div>
         </>
     )

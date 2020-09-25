@@ -21,7 +21,7 @@ const routes = [
     { path: '/expertise/modern-workplace', name: 'Expertise Workplace', component: ExpertiseWorkplace },
     { path: '/expertise/security', name: 'Expertise Security', component: ExpertiseSecurity },
     { path: '/expertise/managed-services', name: 'ExpertiseServices', component: ExpertiseServices },
-    { path: '/partnerships', name: 'Partnership', component: PartnerShip },
+    { path: '/partnership', name: 'Partnership', component: PartnerShip },
     { path: '/clic-shop', name: 'Shop', component: Shop },
     { path: '/efilab', name: 'Efilab list', component: EfiLabList },
     // { path: '/efilab/:slug', name: 'Efilab category', component: EfilabCategory },

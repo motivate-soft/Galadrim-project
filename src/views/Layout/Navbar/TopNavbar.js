@@ -101,7 +101,7 @@ export default function TopNavbar(props) {
 
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/partnerships">Nos partenariats</Link>
+                            <Link className="nav-link" to="/partnership">Nos partenariats</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/clic-shop">Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
