@@ -130,6 +130,7 @@
         .efilab-logo {
             display: flex;
             align-items: center;
+            padding-right: 14px;
             font-family: Gilroy-SemiBold;
             font-size: 22px;
             line-height: 1;
@@ -197,6 +198,7 @@
     opacity: 0;
     transition: opacity ease-in-out 500ms, top ease-in-out 500ms, box-shadow ease-in-out 500ms;
     .efilab-logo {
+        padding-right: 14px;
         font-family: Gilroy-SemiBold;
         font-size: 22px;
         color: #001a5c !important;
