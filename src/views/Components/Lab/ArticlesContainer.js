@@ -1,6 +1,8 @@
 import React from 'react'
+import ArticleBox from './ArticleBox'
+import EfisensTalk from './EfisensTalk'
 import Demo from "../../../assets/Images/efilab/article.jpg"
-import ArticleBox from './ArticleBox';
+import SearchInput from './SearchInput'
 
 const news = {
     id: 1,
@@ -12,11 +14,17 @@ const news = {
     time: 5,
 }
 
-export default function InNews() {
+export default function ArticlesContainer() {
     return (
-        <div className="section efilab-innews">
+        <div className="section articles-block">
             <div className="container">
-                <h1 className="block-title-md text-darkblue">À la une</h1>
+                <SearchInput />
+                <ArticleBox item={news} />
+                <ArticleBox item={news} />
+                <ArticleBox item={news} />
+                <EfisensTalk />
+                <ArticleBox item={news} />
+                <ArticleBox item={news} />
                 <ArticleBox item={news} />
             </div>
         </div>

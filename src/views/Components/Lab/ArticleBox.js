@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 
 
-export default function NewsBox(props) {
-    const { id, category, image, title, content, date, time } = props.news
+export default function ArticleBox(props) {
+    const { id, category, image, title, content, date, time } = props.item
     return (
         <div>
             <div className="row">
                 <div className="col-12 col-md-12 col-lg-6 d-flex">
-                    <div className="innews-image-box">
+                    <div className="article-image-box">
                         <img src={image} alt="News" />
                     </div>
                 </div>
                 <div className="col-12 col-md-12 col-lg-6">
-                    <div className="innews-box">
+                    <div className="article-box">
                         <div className="news-info">
                             <p><span>{category}</span>• {time} minutes</p>
                         </div>

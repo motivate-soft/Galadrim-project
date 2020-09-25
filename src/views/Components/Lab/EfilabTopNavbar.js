@@ -13,30 +13,35 @@ const categories = [
     {
         id: 1,
         title: 'Cloud',
+        subLink: 'cloud',
         content: 'Adopter des solutions cloud hybrides',
         image: Cloud,
     },
     {
         id: 2,
         title: 'Modern Workplace',
+        subLink: 'wordplace',
         content: 'Moderniser vos environnements de travail',
         image: Workplace,
     },
     {
         id: 3,
         title: 'Sécurité',
+        subLink: 'security',
         content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
         image: Security,
     },
     {
-        id: 1,
+        id: 4,
         title: 'Services Managés',
+        subLink: 'service',
         content: 'Superviser et surveiller votre système IT',
         image: ManagedService,
     },
     {
-        id: 1,
+        id: 5,
         title: 'Guide produits',
+        subLink: 'products',
         content: 'Apprenez à utiliser les outils Efisens',
         image: ProductGuide,
     },
@@ -61,7 +66,7 @@ export default function EfilabTopNavbar() {
                     {
                         categories.map((item, index) => (
                             <li key={index} className="nav-item">
-                                <div className="top-nav-link" onClick={() => history.push(`/efilab ?category=${item.title}`)}>
+                                <div className="top-nav-link" onClick={() => history.push(`/efilab/${item.subLink}`)}>
                                     <div className="link-image-wrapper">
                                         <img src={item.image} alt="efilab-category" />
                                     </div>
