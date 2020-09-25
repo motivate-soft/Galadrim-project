@@ -179,19 +179,21 @@ a {
 }
 
 .bg-hovered {
-    display: block !important;
+    z-index: 2000 !important;
+    // display: block !important;
     opacity: 0.5 !important;
     background: #ffffff !important;
 }
 .overlay-background {
-    z-index: 2000;
+    z-index: -100;
     position: fixed;
-    display: none;
     overflow: hidden;
+    // display: none;
     outline: 0;
     opacity: 0;
+
     background: transparent;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 200ms ease-in-out;
     /* equal to the navbar height */
     top: 58px;
     bottom: 0;
