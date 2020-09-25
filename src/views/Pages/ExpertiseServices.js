@@ -247,25 +247,25 @@ const fixedNavItems = [
     {
         id: 1,
         title: 'Cloud',
-        content: 'Adopter des solutions cloud hybrides',
+        actionText: 'Intéressé par nos solutions Cloud ?',
         image: CloudWhite,
     },
     {
         id: 2,
         title: 'Modern Workplace',
-        content: 'Moderniser vos environnements de travail',
+        actionText: 'Intéressé par notre solution Modern Worplace ?',
         image: WorkplaceWhite,
     },
     {
         id: 3,
         title: 'Sécurité',
-        content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
+        actionText: 'Intéressé par notre service de Sécurité ?',
         image: SecurityWhite,
     },
     {
-        id: 1,
+        id: 4,
         title: 'Services Managés',
-        content: 'Superviser et surveiller votre système IT',
+        actionText: 'Intéressé par nos Services Managés ?',
         image: ManagedServiceWhite,
     }
 ]
@@ -280,7 +280,7 @@ export default function ExpertiseServices() {
             <ExpertiseBanner {...cloudBannerData}>
                 <ServiceForm color={color} />
             </ExpertiseBanner >
-            <ExpertiseStickyNavbar color={color} title={fixedNavItems[3].title} image={fixedNavItems[3].image} />
+            <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[3]} />
             <ExpertiseFeatures color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />

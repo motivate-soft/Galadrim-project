@@ -179,26 +179,26 @@ a {
         }
     }
 }
-.navbar:hover + .nav-sibling {
-    display: block;
-    opacity: 0.5;
-    background: #ffffff;
-    transition: all 2s ease-in-out;
-}
-.nav-sibling {
-    z-index: 2000;
-    position: fixed;
-    display: none;
-    overflow: hidden;
-    outline: 0;
-    opacity: 0;
-    background: transparent;
-    /* equal to the navbar height */
-    top: 58px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+// .navbar:hover + .nav-sibling {
+//     display: block;
+//     opacity: 0.5;
+//     background: #ffffff;
+//     transition: all 2s ease-in-out;
+// }
+// .nav-sibling {
+//     z-index: 2000;
+//     position: fixed;
+//     display: none;
+//     overflow: hidden;
+//     outline: 0;
+//     opacity: 0;
+//     background: transparent;
+//     /* equal to the navbar height */
+//     top: 58px;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+// }
 
 .MuiIconButton-colorPrimary {
     color: $color-darkblue !important;

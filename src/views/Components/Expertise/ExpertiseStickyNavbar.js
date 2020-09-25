@@ -6,8 +6,8 @@ import AppNavbar from '../../Layout/Navbar/AppNavbar';
 
 
 
-export default function ExpertiseStickyNavbar(props) {
-    const { color, title, image } = props
+export default function ExpertiseStickyNavbar({ color, navItem }) {
+    const { title, image, actionText } = navItem
     const [sticky, setSticky] = useState(false)
     const [hovered, setHovered] = useState(false)
 
@@ -25,6 +25,14 @@ export default function ExpertiseStickyNavbar(props) {
         className += 'section expertise-sticky-nav'
 
         return className
+    }
+
+    const scrollTop = () => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth',
+        });
     }
 
     useEffect(() => {
@@ -54,7 +62,7 @@ export default function ExpertiseStickyNavbar(props) {
                     <img src={image} alt="expertise logo" />
                     <span>{title}</span>
                 </div>
-                <div className="expertise-nav-button">Intéressé par nos solutions Cloud ?</div>
+                <div className="expertise-nav-button" onClick={() => scrollTop()}>{actionText}</div>
                 <div className="mobile-expertise-nav-button">Intéressé ?</div>
             </div>
         </>
