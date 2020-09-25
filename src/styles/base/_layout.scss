@@ -35,7 +35,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     border-bottom: 1px solid rgb(238, 238, 238);
     .navbar-brand {
         a {
@@ -58,21 +58,40 @@ a {
             margin-top: 0;
             margin-bottom: 0;
             list-style: none;
+
             .nav-item {
                 .nav-link {
                     position: relative;
                     display: block;
-                    padding: 0.5rem 1rem;
+                    padding: 19px 12px;
                     color: #001a5c;
                     font-family: "Gilroy-SemiBold";
                     font-size: 16px;
                     font-weight: 600;
+                    transition: all 2s;
+
+                    // stroke effect
+
+                    // &:after {
+                    //     position: absolute;
+                    //     bottom: 0;
+                    //     left: 0;
+                    //     right: 0;
+                    //     margin: auto;
+                    //     width: 0%;
+                    //     content: ".";
+                    //     color: transparent;
+                    //     background: $color-darkblue;
+                    //     transition: all 0.5s;
+                    //     height: 3px;
+                    // }
+                    // &:hover:after {
+                    //     width: 100%;
+                    // }
                     span {
-                        top: 28px;
+                        top: 37px;
                         position: absolute;
-                        // width: 128px;
-                        // height: 10px;
-                        // font-family: Gilroy-SemiBold;
+                        font-family: Gilroy-SemiBold;
                         font-size: 10px;
                         color: #6a6f85;
                     }
@@ -80,21 +99,35 @@ a {
                 svg {
                     transform: translateY(4px);
                 }
+            }
+            .nav-dropdown {
+                position: relative;
                 .dropdown-content {
                     position: absolute;
+                    top: calc(100% + 1px);
                     width: 536px;
                     border: none;
                     border-radius: 8px;
+                    border: solid 1px #f2f2f2;
+                    border-top: none;
                     box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
                     background-color: #ffffff;
-                    padding: 30px 30px 5px 30px;
-                    margin-top: 12px;
+                    padding: 25px 25px 5px 25px;
                     opacity: 0;
                     z-index: -1;
+                    display: none;
                     transition-duration: 200ms;
-                    .col-lg-6 {
-                        padding-right: 5px;
-                        padding-left: 5px;
+                    .tail {
+                        width: 20px;
+                        height: 20px;
+                        border: solid 1px #f2f2f2;
+                        border-right: none;
+                        border-bottom: none;
+                        background: white;
+                        position: absolute;
+                        left: 120px;
+                        top: -10px;
+                        transform: rotateZ(45deg);
                     }
                     a {
                         .dropdown-item {
@@ -115,44 +148,56 @@ a {
                                 color: #001a5c;
                             }
                             p {
-                                margin-bottom: 4px;
+                                margin: 0 auto 4px;
                                 font-size: 10px;
                                 line-height: 12px;
                                 letter-spacing: -0.03rem;
-                                font-family: "RobotoMono-Medium";
+                                font-family: "Gilroy-SemiBold";
                                 font-weight: 400;
                                 color: #001a5c;
                             }
                         }
                     }
-                    .tail {
-                        width: 20px;
-                        height: 20px;
-                        background: white;
-                        position: absolute;
-                        left: 123px;
-                        top: -3px;
-                        transform: rotateZ(45deg);
-                    }
                 }
-            }
-            .nav-dropdown:hover {
-                .dropdown-content {
-                    opacity: 1;
-                    z-index: 10;
-                    transition-duration: 200ms;
-                }
-                .dropdown-content:hover {
-                    .dropdown-item {
-                        opacity: 0.7;
-                    }
-                    .dropdown-item:hover {
+                &:hover {
+                    .dropdown-content {
                         opacity: 1;
+                        display: block;
+                        z-index: 2010;
+                        transition-duration: 200ms;
+                    }
+                    .dropdown-content:hover {
+                        .dropdown-item {
+                            opacity: 0.7;
+                        }
+                        .dropdown-item:hover {
+                            opacity: 1;
+                        }
                     }
                 }
             }
         }
     }
+}
+.navbar:hover + .nav-sibling {
+    display: block;
+    opacity: 0.5;
+    background: #ffffff;
+    transition: all 2s ease-in-out;
+}
+.nav-sibling {
+    z-index: 2000;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    opacity: 0;
+    background: transparent;
+    /* equal to the navbar height */
+    top: 58px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .MuiIconButton-colorPrimary {

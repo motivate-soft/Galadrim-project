@@ -284,7 +284,7 @@ const footerBannerTitle = "Parlez à un expert cloud."
 export default function ExpertiseCloud() {
     return (
         <>
-            <ExpertiseTopNavbar />
+            {/* <ExpertiseTopNavbar /> */}
             <ExpertiseBanner {...cloudBannerData}>
                 <CloudForm color={color} />
             </ExpertiseBanner >

@@ -29,9 +29,9 @@ export default function ExpertiseStickyNavbar(props) {
 
     useEffect(() => {
         const header = document.getElementById("expertise-sticky-nav");
-        const headerOffsetTop = header.offsetTop;
+        // const headerOffsetTop = header.offsetTop;
         const scrollCallBack = window.addEventListener("scroll", () => {
-            if (window.pageYOffset > headerOffsetTop) {
+            if (window.pageYOffset > 706) {
                 setSticky(true);
             } else {
                 setSticky(false)

@@ -50,7 +50,7 @@ import ServiceForm from '../Components/Expertise/Forms/ServiceForm';
 import ExpertiseStickyNavbar from '../Components/Expertise/ExpertiseStickyNavbar';
 import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
 import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
-import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
+import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-services-white.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
 import ExpertiseTopNavbar from '../Components/Expertise/ExpertiseTopNavbar';
 
@@ -276,7 +276,7 @@ const footerBannerTitle = "Parlez à un expert Services Managés"
 export default function ExpertiseServices() {
     return (
         <>
-            <ExpertiseTopNavbar />
+            {/* <ExpertiseTopNavbar /> */}
             <ExpertiseBanner {...cloudBannerData}>
                 <ServiceForm color={color} />
             </ExpertiseBanner >

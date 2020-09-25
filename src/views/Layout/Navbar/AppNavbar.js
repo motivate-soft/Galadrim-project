@@ -73,7 +73,7 @@ export default function AppNavbar() {
         const baseUrl = currentPath.split('/')[1]
         const navbar = document.getElementById("appNavbar")
         // const searchParams = new URLSearchParams(location.search)
-        if (baseUrl === 'efilab' || baseUrl === 'expertise') {
+        if (baseUrl === 'efilab') {
             navbar.style.display = 'none'
         } else {
             navbar.style.display = 'flex'

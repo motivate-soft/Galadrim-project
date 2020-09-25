@@ -285,7 +285,7 @@ const footerBannerTitle = "Parlez à un expert Sécurité."
 export default function ExpertiseSecurity() {
     return (
         <>
-            <ExpertiseTopNavbar />
+            {/* <ExpertiseTopNavbar /> */}
             <ExpertiseBanner {...cloudBannerData}>
                 <SecurityForm color={color} />
             </ExpertiseBanner >
