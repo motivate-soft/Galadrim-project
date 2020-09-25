@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {
     AppBar,
@@ -66,17 +66,21 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 export default function AppNavbar() {
     const classes = useStyles();
     const [open, setOpen] = React.useState(false);
+    const navbarRef = useRef(null)
 
     const location = useLocation()
     useEffect(() => {
         const currentPath = location.pathname
         const baseUrl = currentPath.split('/')[1]
-        const navbar = document.getElementById("appNavbar")
+        // const navbar = document.getElementById("appNavbar")
         // const searchParams = new URLSearchParams(location.search)
+
         if (baseUrl === 'efilab') {
-            navbar.style.display = 'none'
+            navbarRef.current.style.display = 'none'
+            // navbar.style.display = 'none'
         } else {
-            navbar.style.display = 'flex'
+            navbarRef.current.style.display = 'flex'
+            // navbar.style.display = 'flex'
         }
     }, [location])
 
@@ -89,7 +93,7 @@ export default function AppNavbar() {
     };
 
     return (
-        <div id="appNavbar">
+        <div id="appNavbar" ref={navbarRef}>
             <AppBar position="static">
                 <Toolbar className={classes.toolbar}>
                     <Typography variant="h6" color="inherit">
@@ -188,7 +192,7 @@ export default function AppNavbar() {
                         </AccordionDetails>
                     </Accordion>
                     <ListItem button>
-                        <Link to="/partnership" className="text-darkblue mobile-list" onClick={handleClose}>Nos partenariats</Link>
+                        <Link to="/partnerships" className="text-darkblue mobile-list" onClick={handleClose}>Nos partenariats</Link>
                     </ListItem>
                     <ListItem button>
                         <Link to="/clic-shop" className="text-darkblue mobile-list" onClick={handleClose}>Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>

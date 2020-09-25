@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 import Logo from '../../Components/Common/Logo';
 import { Link, useLocation } from "react-router-dom";
@@ -9,36 +9,44 @@ import Cloud from '../../../assets/Images/home/cloud.svg'
 import Workplace from '../../../assets/Images/home/modern-workplace.svg'
 import Security from '../../../assets/Images/home/security.svg'
 import ManagedService from '../../../assets/Images/home/managed-service.svg'
-import { useEffect } from 'react';
 
 
 export default function TopNavbar(props) {
     const location = useLocation()
+    const [dropdownhovered, setDropdownhovered] = useState(false)
+
+    const navRef = useRef(null)
+    const bgRef = useRef(null)
+
 
     useEffect(() => {
         const currentPath = location.pathname
         const baseUrl = currentPath.split('/')[1]
-        const navbar = document.getElementById("topNavbar")
-
-        console.log('baseurl', baseUrl)
-        // const searchParams = new URLSearchParams(location.search)
         if (baseUrl === 'efilab') {
-            navbar.style.display = 'none'
+            navRef.current.style.display = 'none'
         } else {
-            navbar.style.display = 'flex'
+            navRef.current.style.display = 'flex'
         }
-    }, [location])
+        console.log(dropdownhovered)
+        if (dropdownhovered === true) {
+            bgRef.current.classList.add("bg-hovered")
+        } else {
+            bgRef.current.classList.remove("bg-hovered")
+        }
+    }, [location, dropdownhovered, bgRef])
 
     return (
         <>
-            <nav id="topNavbar" className="navbar top-navbar">
+            <nav ref={navRef} className="navbar top-navbar">
                 <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
                 <div className="navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <Link className="nav-link" to="/who-we-are">Qui sommes nous ?</Link>
                         </li>
-                        <li className="nav-item nav-dropdown">
+                        <li className="nav-item nav-dropdown"
+                            onMouseEnter={() => setDropdownhovered(true)}
+                            onMouseLeave={() => setDropdownhovered(false)}>
                             <Link className="nav-link" to="/expertise/cloud">Nos expertises <FaAngleDown /></Link>
                             <div className="dropdown-content">
                                 <div className="tail" />
@@ -99,7 +107,6 @@ export default function TopNavbar(props) {
                                     </div>
                                 </div>
                             </div>
-
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/partnership">Nos partenariats</Link>
@@ -120,7 +127,7 @@ export default function TopNavbar(props) {
                 </div>
                 <IconButton backgroundColor="#ff5e4d" color="#ffffff"><FaLock />Accès client</IconButton>
             </nav>
-            <div className="nav-sibling" />
+            <div ref={bgRef} id="overlay-background" className="overlay-background" />
         </ >
     );
 }

@@ -166,6 +166,7 @@ a {
                     .dropdown-content:hover {
                         .dropdown-item {
                             opacity: 0.7;
+                            transition: all ease-in-out 200ms;
                         }
                         .dropdown-item:hover {
                             opacity: 1;
@@ -176,13 +177,13 @@ a {
         }
     }
 }
-.navbar:hover + .nav-sibling {
-    display: block;
-    opacity: 0.5;
-    background: #ffffff;
-    transition: all 2s ease-in-out;
+
+.bg-hovered {
+    display: block !important;
+    opacity: 0.5 !important;
+    background: #ffffff !important;
 }
-.nav-sibling {
+.overlay-background {
     z-index: 2000;
     position: fixed;
     display: none;
@@ -190,12 +191,34 @@ a {
     outline: 0;
     opacity: 0;
     background: transparent;
+    transition: opacity 2s ease-in-out;
     /* equal to the navbar height */
     top: 58px;
     bottom: 0;
     left: 0;
     right: 0;
 }
+
+// .navbar:hover .overlay-background {
+//     display: block;
+//     opacity: 0.5;
+//     background: #ffffff;
+//     transition: all 2s ease-in-out;
+// }
+// .overlay-background {
+//     z-index: 2000;
+//     position: fixed;
+//     display: none;
+//     overflow: hidden;
+//     outline: 0;
+//     opacity: 0;
+//     background: transparent;
+//     /* equal to the navbar height */
+//     top: 58px;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+// }
 
 .MuiIconButton-colorPrimary {
     color: $color-darkblue !important;
