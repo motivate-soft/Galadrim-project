@@ -14,10 +14,11 @@ import { useEffect } from 'react';
 
 export default function TopNavbar(props) {
     const location = useLocation()
+
     useEffect(() => {
         const currentPath = location.pathname
         const baseUrl = currentPath.split('/')[1]
-        const navbar = document.getElementById("mainNavbar")
+        const navbar = document.getElementById("topNavbar")
 
         console.log('baseurl', baseUrl)
         // const searchParams = new URLSearchParams(location.search)
@@ -30,7 +31,7 @@ export default function TopNavbar(props) {
 
     return (
         <>
-            <nav id="mainNavbar" className="navbar">
+            <nav id="topNavbar" className="navbar top-navbar">
                 <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
                 <div className="navbar-collapse">
                     <ul className="navbar-nav">

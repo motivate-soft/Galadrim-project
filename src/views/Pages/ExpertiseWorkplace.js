@@ -55,7 +55,7 @@ import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
 import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
 import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
-import ExpertiseTopNavbar from '../Components/Expertise/ExpertiseTopNavbar';
+import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
 
 // const color = "#001A5C"
 const color = "darkblue"
@@ -302,7 +302,7 @@ const footerBannerTitle = "Parlez à un expert Sécurité."
 export default function ExpertiseWorkplace() {
     return (
         <>
-            {/* <ExpertiseTopNavbar /> */}
+            {/* <ExpertiseStickyTopNavbar /> */}
             <ExpertiseBanner {...cloudBannerData}>
                 <WorkplaceForm color={color} />
             </ExpertiseBanner >

@@ -27,9 +27,7 @@ a {
     }
     border-right: 1px solid #ffffff;
 }
-.navbar,
-.main-topnav,
-.expertise-sticky-top-navbar {
+.navbar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +206,7 @@ a {
 //header responsive
 @media (max-width: 1024px) {
     // .navbar,
-    .main-topnav,
+    .top-navbar,
     .expertise-sticky-top-navbar {
         display: none !important;
     }

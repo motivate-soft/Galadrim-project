@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom';
 import LogoWhite from '../Common/LogoWhite';
-import SticyMainNavbar from './ExpertiseTopNavbar';
+import SticyMainNavbar from './ExpertiseStickyTopNavbar';
 import AppNavbar from '../../Layout/Navbar/AppNavbar';
 
 
