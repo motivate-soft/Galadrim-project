@@ -2,10 +2,10 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 
 export default function CategoryLink(props) {
-    const { id, title, content, image } = props
+    const { id, title, content, subLink, image } = props
     const history = useHistory()
     return (
-        <div className="efilab-category-link" onClick={() => history.push(`/efilab/${title}`)}>
+        <div className="efilab-category-link" onClick={() => history.push(`/efilab/${subLink}`)}>
             <div className="link-image-wrapper">
                 <img src={image} alt="efilab-category" />
             </div>

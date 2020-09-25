@@ -9,8 +9,7 @@ import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
 // banner 
-import BannerLogoImage from '../../assets/Images/expertise/security/security-banner-logo.svg'
-import BannerLogoMobileImage from '../../assets/Images/expertise/security/security-banner-logo.svg'
+
 import TitleImage from '../../assets/Images/expertise/security/security-white.svg';
 import Background1 from '../../assets/Images/expertise/security/security-background-1.svg'
 import Background2 from '../../assets/Images/expertise/security/security-background-2.svg'

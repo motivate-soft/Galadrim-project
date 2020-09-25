@@ -7,9 +7,6 @@ import ArticleDetailBox from '../Components/Lab/ArticleDetailBox';
 import EfisensTalk from "../Components/Lab/EfisensTalk";
 import Follow from '../Components/Lab/Follow';
 
-import { ReactComponent as InstagramIcon } from "../../assets/Icons/instagram.svg"
-import { ReactComponent as LinkedinIcon } from "../../assets/Icons/linkedin.svg"
-import { ReactComponent as YoutubeIcon } from "../../assets/Icons/youtube.svg"
 import FooterBanner from '../Components/Common/FooterBanner';
 import EfilabStickyNav from '../Components/Lab/EfilabStickyNav';
 import EfilabTopNavbar from './../Components/Lab/EfilabTopNavbar';
@@ -59,11 +56,7 @@ export default function EfilabDetail() {
             <ArticleSummaryBox article={article} />
             <ArticleDetailBox article={item} />
             <EfisensTalk />
-            <Follow title="Suivez toute notre actualité #Efisenslife">
-                <LinkedinIcon fill="#ff5e4d" />
-                <InstagramIcon fill="#ff5e4d" />
-                <YoutubeIcon fill="#ff5e4d" />
-            </Follow>
+            <Follow />
             <FooterBanner color="orange" title={footerBannerText} />
         </>
     )

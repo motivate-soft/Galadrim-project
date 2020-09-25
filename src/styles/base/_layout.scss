@@ -43,7 +43,8 @@ a {
             display: block;
         }
     }
-    .navbar-collapse {
+    .navbar-nav,
+    .navbar-nav {
         display: flex !important;
         flex-basis: auto;
         flex-grow: 1;
@@ -458,4 +459,39 @@ a {
     @media screen and (max-width: 767px) {
         text-align: center !important;
     }
+}
+
+.pagination {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    li {
+        display: inline;
+    }
+    li:first-child > a,
+    li:first-child > span {
+        margin-left: 0;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    li > a,
+    .pagination > li > span {
+        position: relative;
+        float: left;
+        padding: 6px 12px;
+        margin-left: -1px;
+        line-height: 1.42857143;
+        color: #6a6f85;
+        text-decoration: none;
+        background-color: #fff;
+    }
+    li:last-child > a,
+    li:last-child > span {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    cursor: pointer;
 }

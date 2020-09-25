@@ -9,8 +9,7 @@ import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
 // banner 
-import BannerLogoImage from '../../assets/Images/expertise/modern-workplace/modern-workplace-banner-logo.svg'
-import BannerLogoMobileImage from '../../assets/Images/expertise/modern-workplace/modern-workplace-banner-logo-mobile.svg'
+
 import TitleImage from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg';
 import Background1 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-1.svg'
 import Background2 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-2.svg'

@@ -18,7 +18,7 @@ export default function ExpertiseStickyTopNavbar() {
         <>
             <nav className="navbar expertise-sticky-top-navbar">
                 <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
-                <div className="navbar-collapse">
+                <div className="navbar-nav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <Link className="nav-link" to="/who-we-are">Qui sommes nous ?</Link>

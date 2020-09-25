@@ -9,8 +9,7 @@ import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
 // banner 
-import BannerLogoImage from '../../assets/Images/expertise/managed-services/managed-services-banner-logo.svg'
-import BannerLogoMobileImage from '../../assets/Images/expertise/managed-services/managed-services-banner-logo-mobile.svg'
+
 import TitleImage from '../../assets/Images/expertise/managed-services/managed-services-white.svg';
 import Background1 from '../../assets/Images/expertise/managed-services/managed-services-background-1.svg'
 import Background2 from '../../assets/Images/expertise/managed-services/managed-services-background-2.svg'
@@ -59,12 +58,12 @@ const color = "orange"
 
 const cloudBannerData = {
     color: "#FF5E4D",
-    bannerLogo: {
-        image: BannerLogoImage,
-        mobileImage: BannerLogoMobileImage,
-        width: 926,
-        mobileWidth: 210,
-    },
+    // bannerLogo: {
+    //     image: BannerLogoImage,
+    //     mobileImage: BannerLogoMobileImage,
+    //     width: 926,
+    //     mobileWidth: 210,
+    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,

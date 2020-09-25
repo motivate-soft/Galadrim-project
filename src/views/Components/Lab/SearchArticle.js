@@ -18,30 +18,35 @@ const categories = [
     {
         id: 1,
         title: 'Cloud',
+        subLink: 'cloud',
         content: 'Adopter des solutions cloud hybrides',
         image: Cloud,
     },
     {
         id: 2,
         title: 'Modern Workplace',
+        subLink: 'workplace',
         content: 'Moderniser vos environnements de travail',
         image: Workplace,
     },
     {
         id: 3,
         title: 'Sécurité',
+        subLink: 'security',
         content: 'Protéger vos données, votre infrastructure et vos utilisateurs',
         image: Security,
     },
     {
-        id: 1,
+        id: 4,
         title: 'Services Managés',
+        subLink: 'service',
         content: 'Superviser et surveiller votre système IT',
         image: ManagedService,
     },
     {
-        id: 1,
+        id: 5,
         title: 'Guide produits',
+        subLink: 'products',
         content: 'Apprenez à utiliser les outils Efisens',
         image: ProductGuide,
     },
@@ -98,8 +103,6 @@ const articles = [
     },
 ]
 
-
-
 export default function SearchArticle() {
     return (
         <div className="section efilab-search-block">
@@ -113,7 +116,7 @@ export default function SearchArticle() {
                         {
                             categories.map((item, index) => (
                                 <div key={index} className="col-12 col-sm-12 col-md-4 mb-4">
-                                    <CategoryLink id={item.id} title={item.title} content={item.content} image={item.image} />
+                                    <CategoryLink id={item.id} title={item.title} content={item.content} subLink={item.subLink} image={item.image} />
                                 </div>
                             ))
                         }

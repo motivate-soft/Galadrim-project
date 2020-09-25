@@ -37,7 +37,7 @@ const FacebookIconBox = () => {
 export default function ArticleDetailBox(props) {
     const { id, title, content, image, date, user } = props.article
     return (
-        <div className="efilab-article-box">
+        <div className="article-detail-box">
             <div className="container">
                 <div className="article-container">
                     <div className="article-block">
@@ -73,7 +73,6 @@ export default function ArticleDetailBox(props) {
                     </div>
                     <Author id={user.id} name={user.name} avatar={user.avatar} pubDate={date} />
                 </div>
-
             </div>
         </div>
     )

@@ -26,7 +26,6 @@ export default function TopNavbar(props) {
         } else {
             navRef.current.style.display = 'flex'
         }
-        console.log(dropdownhovered)
         if (dropdownhovered === true) {
             bgRef.current.classList.add("bg-hovered")
         } else {
@@ -38,7 +37,7 @@ export default function TopNavbar(props) {
         <>
             <nav ref={navRef} className="navbar top-navbar">
                 <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
-                <div className="navbar-collapse">
+                <div className="navbar-nav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <Link className="nav-link" to="/who-we-are">Qui sommes nous ?</Link>

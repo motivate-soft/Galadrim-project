@@ -27,7 +27,7 @@ const routes = [
     { path: '/efilab/cloud', name: 'Efilab category', component: EfilabCategory },
     { path: '/efilab/workplace', name: 'Efilab category', component: EfilabCategory },
     { path: '/efilab/security', name: 'Efilab category', component: EfilabCategory },
-    { path: '/efilab/sevice', name: 'Efilab category', component: EfilabCategory },
+    { path: '/efilab/service', name: 'Efilab category', component: EfilabCategory },
     { path: '/efilab/:id', name: 'Efilab detail', component: EfilabDetail },
     { path: '/career', name: 'Career', component: Career },
     { path: '/career/:id', name: 'Efilab detail', component: CareerDetail },

@@ -20,7 +20,7 @@ const categories = [
     {
         id: 2,
         title: 'Modern Workplace',
-        subLink: 'wordplace',
+        subLink: 'workplace',
         content: 'Moderniser vos environnements de travail',
         image: Workplace,
     },
@@ -58,7 +58,7 @@ export default function EfilabTopNavbar() {
     return (
         <nav className="navbar efilab-top-nav">
             <div className="navbar-brand"><Link className="efilab-logo" to="/">Efisens Lab</Link></div>
-            <div className="navbar-collapse ">
+            <div className="navbar-nav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="nav-link" to="/who-we-are">Tous les articles</Link>
@@ -71,7 +71,7 @@ export default function EfilabTopNavbar() {
                                         <img src={item.image} alt="efilab-category" />
                                     </div>
                                     <div className="link-text-wrapper">
-                                        <h6 className="text-sm text-darkblue text-left m-0 pb-1">{item.title}</h6>
+                                        <h6 className="text-sm text-darkblue text-left">{item.title}</h6>
                                     </div>
                                 </div>
                             </li>

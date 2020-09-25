@@ -192,7 +192,7 @@ export default function AppNavbar() {
                         </AccordionDetails>
                     </Accordion>
                     <ListItem button>
-                        <Link to="/partnerships" className="text-darkblue mobile-list" onClick={handleClose}>Nos partenariats</Link>
+                        <Link to="/partnership" className="text-darkblue mobile-list" onClick={handleClose}>Nos partenariats</Link>
                     </ListItem>
                     <ListItem button>
                         <Link to="/clic-shop" className="text-darkblue mobile-list" onClick={handleClose}>Efisens Clic&Shop<br /><span>Notre boutique IT en ligne</span></Link>
