@@ -1,8 +1,7 @@
 import React from 'react'
 import ArticleBox from './ArticleBox'
 import EfisensTalk from './EfisensTalk'
-import Demo from "../../../assets/Images/efilab/article.jpg"
-import SearchInput from './SearchInput'
+import Demo from "../../../assets/Images/efilab/article.jpg"   
 import Pagination from './Pagination';
 import { useState } from 'react';
 
@@ -27,16 +26,18 @@ export default function ArticlesContainer() {
     }
     return (
         <div className="section articles-block">
-            <div className="container">
-                {
-                    pageOfItems.map((item, index) => (index === 2 ?
-                        <><ArticleBox key={index} item={item} />
-                            <EfisensTalk />
-                        </> : <ArticleBox key={index} item={item} />))
-                }
-                <div>
-                    <Pagination items={items} onChangePage={onChangePage} />
-                </div>
+            {
+                pageOfItems.map((item, index) => (index === 3 ?
+                    <>
+                        <div className="container">
+                            <ArticleBox key={index} item={item} />
+                        </div>
+                        <EfisensTalk />
+                    </> : <div className="container"><ArticleBox key={index} item={item} /></div>
+                ))
+            }
+            <div>
+                <Pagination items={items} onChangePage={onChangePage} />
             </div>
         </div>
     )

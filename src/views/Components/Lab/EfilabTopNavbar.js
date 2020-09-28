@@ -5,7 +5,6 @@ import ManagedService from '../../../assets/Images/efilab/managed-service.svg'
 import Security from '../../../assets/Images/efilab/security.svg'
 import ProductGuide from '../../../assets/Images/efilab/product-guide.svg'
 import { Link, useHistory } from 'react-router-dom';
-import { FaLock } from 'react-icons/fa';
 import { IconButton } from '../Elements/Buttons';
 import styled from 'styled-components';
 
