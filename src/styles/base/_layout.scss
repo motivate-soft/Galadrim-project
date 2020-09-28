@@ -38,6 +38,10 @@ a {
     padding: 0 1rem;
     border-bottom: 1px solid rgb(238, 238, 238);
     .navbar-brand {
+        height: 58px;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
         a {
             height: 26px;
             display: block;
@@ -59,7 +63,6 @@ a {
             margin-top: 0;
             margin-bottom: 0;
             list-style: none;
-
             .nav-item {
                 .nav-link {
                     position: relative;
@@ -72,7 +75,6 @@ a {
                     transition: all 2s;
 
                     // stroke effect
-
                     // &:after {
                     //     position: absolute;
                     //     bottom: 0;
@@ -175,6 +177,16 @@ a {
                             opacity: 1;
                         }
                     }
+                }
+            }
+        }
+    }
+    @media (max-width: 1300px) {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    padding-left: 4px !important;
+                    padding-right: 4px !important;
                 }
             }
         }

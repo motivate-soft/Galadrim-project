@@ -24,13 +24,13 @@ const routes = [
     { path: '/partnership', name: 'Partnership', component: PartnerShip },
     { path: '/clic-shop', name: 'Shop', component: Shop },
     { path: '/efilab', name: 'Efilab list', component: EfiLabList },
-    { path: '/efilab/cloud', name: 'Efilab category', component: EfilabCategory },
-    { path: '/efilab/workplace', name: 'Efilab category', component: EfilabCategory },
-    { path: '/efilab/security', name: 'Efilab category', component: EfilabCategory },
-    { path: '/efilab/service', name: 'Efilab category', component: EfilabCategory },
+    { path: '/efilab/cloud', name: 'Efilab cloud', component: EfilabCategory },
+    { path: '/efilab/workplace', name: 'Efilab workplace', component: EfilabCategory },
+    { path: '/efilab/security', name: 'Efilab security', component: EfilabCategory },
+    { path: '/efilab/service', name: 'Efilab service', component: EfilabCategory },
     { path: '/efilab/:id', name: 'Efilab detail', component: EfilabDetail },
     { path: '/career', name: 'Career', component: Career },
-    { path: '/career/:id', name: 'Efilab detail', component: CareerDetail },
+    { path: '/career/:id', name: 'Career detail', component: CareerDetail },
     { path: '/contact', name: 'Contact', component: Contact },
 ];
 

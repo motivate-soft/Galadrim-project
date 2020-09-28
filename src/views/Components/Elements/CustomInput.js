@@ -21,7 +21,7 @@ export const CustomInput = styled(BaseInput)`
     box-shadow: inset 0 1px 3px 0 rgba(235, 235, 235, 0.3);
     transition: border-color ease-in-out .5s, box-shadow ease-in-out .5s;
     &:focus{
-        border: 1px solid #001A5C !important;
+        border: 1px solid #001A5C;
         color: #384b7f;
     }
 `

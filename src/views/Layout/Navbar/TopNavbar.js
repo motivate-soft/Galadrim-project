@@ -36,7 +36,7 @@ export default function TopNavbar(props) {
     return (
         <>
             <nav ref={navRef} className="navbar top-navbar">
-                <div className="navbar-brand  mr-2"><Link className="" to="/"><Logo /></Link></div>
+                <div className="navbar-brand"><Link className="" to="/"><Logo /></Link></div>
                 <div className="navbar-nav">
                     <ul className="navbar-nav">
                         <li className="nav-item active">

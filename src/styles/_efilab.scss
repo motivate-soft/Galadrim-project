@@ -73,8 +73,8 @@
 @include media-breakpoint-down(sm) {
     .article-image-box {
         justify-content: center;
-        padding-left: 20px;
-        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-bottom: 20px !important;
         background-size: 55px 67px;
     }
     .article-info-box {

@@ -8,9 +8,10 @@ import InstagramIcon from "../../assets/Icons/instagram.svg"
 import LinkedinIcon from "../../assets/Icons/linkedin.svg"
 import YoutubeIcon from "../../assets/Icons/youtube.svg"
 import { Link } from 'react-router-dom';
+import CustomInput from './../Components/Elements/CustomInput';
 
 
-const CustomInput = styled.input`
+const EmailInput = styled(CustomInput)`
     font-size: 16px;
     font-family: "Roboto Medium";
     width: calc(100% - 50px);
@@ -22,7 +23,9 @@ const CustomInput = styled.input`
     border-radius: 4px 0 0 4px;
     transition: border ease 300ms;
     &:focus{
-        border: 1px solid #00d5b4;
+        border-top: 1px solid #001a5c;
+        border-left: 1px solid #001a5c;
+        border-bottom: 1px solid #001a5c;
         border-right: 0;
     }
 `
@@ -81,7 +84,7 @@ export default function Footer() {
                     <div className="col-12 col-md-6 col-lg-3 newsletter-form">
                         <h6>S’inscrire à notre newsletter</h6>
                         <div className="d-flex">
-                            <CustomInput placeholder="votre email" />
+                            <EmailInput placeholder="votre email" />
                             <InputAppend ><MdSend /></InputAppend>
                         </div>
                     </div>
@@ -93,7 +96,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="footer-bar  bg-blue text-white">
+            <div className="footer-bar bg-blue text-white">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-3 col-lg-2  my-4">© Efisens</div>
