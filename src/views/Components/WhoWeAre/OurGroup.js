@@ -2,10 +2,8 @@ import React from 'react'
 
 import AvatarImage from '../../../assets/Images/who-we-are/ceo.jpg';
 import QuoteImage from '../../../assets/Images/who-we-are/quote.svg';
-import DiscussionImage from '../../../assets/Images/who-we-are/discuss.jpg';
+import DiscussionImage from '../../../assets/Images/who-we-are/who.png';
 import SecurityImage from '../../../assets/Images/who-we-are/security.svg';
-import { OrangeButton } from '../Elements/Buttons';
-
 
 
 export default function OurGroup() {
@@ -31,19 +29,20 @@ export default function OurGroup() {
                     </div>
                 </div>
                 <h2 className="gradient-text">Nous sommes un managed service provider (MSP) ce qui selon notre définition consiste à être un agrégateur de technologies et de talents. </h2>
-
             </div>
-            <div className="container-fluid">
-                <div className="row who-definition-container">
-                    <div className="col-lg-6 col-sm-12 who-definition-image">
-                        <img src={DiscussionImage} alt="discussion" className="foreground-img" />
-                        <img src={SecurityImage} alt="security background" className="background-img bottom-right" />
+            <div className="container definition-container">
+                <div className="row">
+                    <div className="col-lg-6 col-sm-12">
+                        <div className="definition-image-wrapper">
+                            <img src={DiscussionImage} alt="discussion" className="foreground-img" />
+                            <img src={SecurityImage} alt="security background" className="position-absolute background-img bottom-right" />
+                        </div>
                     </div>
-                    <div className="col-lg-6 col-sm-12 who-definition-text d-flex align-items-center">
-                        <div>
+                    <div className="col-lg-6 col-sm-12">
+                        <div className="definition-text">
                             <p>Notre ambition est très claire :  Décomplexer l'IT,  en proposant des solutions standardisées ou sur mesure et en co-construisant les futurs projets (cloud, infrastructure, sécurité et modern workplace) avec nos clients. </p>
                             <p>Nous combinons notre capacité d'innovation et nos expertises avec celles des plus gros  partenaires de notre écosystème, comme Microsoft et Nutanix, pour aller plus loin que la simple conception d'architectures et de services.</p>
-                            <OrangeButton className="w-100">Voir nos partenaires technologiques</OrangeButton>
+                            <button className="w-100 btn btn-custom btn-orange">Voir nos partenaires technologiques</button>
                         </div>
                     </div>
                 </div>

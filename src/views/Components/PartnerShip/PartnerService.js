@@ -3,10 +3,9 @@ import Demo from "../../../assets/Images/demo.jpg"
 import RightBottomImage from "../../../assets/Images/charts/security.svg"
 
 
-
-export default function PartnerFeatures() {
+export default function PartnerService() {
     return (
-        <div className="section partner-contact-block">
+        <div className="section partner-service-block">
             <div className="container ">
                 <h3 className="text-darkblue mx-auto">C'est au contact d'experts techniques, de leaders technologiques et de partenaires stratégiques que nous innovons ! </h3>
                 <div className="row">

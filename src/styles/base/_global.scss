@@ -16,8 +16,12 @@ body {
     }
     @media only screen and (min-width: 1400px) {
         max-width: 1300px !important;
-        // max-width: 1176px !important;
     }
+}
+
+.custom-container {
+    max-width: 1176px;
+    margin: auto;
 }
 
 .section {
@@ -204,7 +208,7 @@ a:hover {
 }
 
 .btn-custom {
-    padding: 4px 12px;
+    padding: 6px 12px;
     font-size: 16px;
     line-height: normal;
     border-radius: 6px;
@@ -214,10 +218,6 @@ a:hover {
 .btn-orange {
     color: #ffffff;
     background-color: #ff5e4d;
-    padding: 4px 12px;
-    font-size: 16px;
-    line-height: normal;
-    border-radius: 6px;
 }
 
 .btn-gray {

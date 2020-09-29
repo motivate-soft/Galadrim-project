@@ -4,7 +4,6 @@ import RightBgImage from "../../../assets/Images/home/right_bg.png"
 import styled from 'styled-components'
 import { CustomButton } from '../Elements/Buttons';
 
-const defaultColor = '#ff5e4d'
 
 const ContactButton = styled(CustomButton)`
     display: block;

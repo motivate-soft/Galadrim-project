@@ -11,7 +11,7 @@ export default function WhoBanner() {
     const gotoSection = (sectionId) => {
         history.push(`/who-we-are/#${sectionId}`)
     }
-    
+
     return (
         <div className="section who-banner">
             <img src={LeftTopImage} className='top-left' alt="Left Background" />
@@ -30,7 +30,7 @@ export default function WhoBanner() {
                         </h5>
                         <div className="d-flex who-banner-button-container justify-content-center">
                             <div className="d-flex justify-content-center">
-                                <button className="btn btn-custom gradient-btn" onClick={() => gotoSection(`history`)}>Notre histoire</button>
+                                <button className="btn btn-custom gradient-btn" onClick={() => gotoSection(`history`)}><span>Notre histoire</span></button>
                                 <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`group`)}>Notre groupe</button>
                             </div>
                             <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`approach`)}>Approche technologique</button>

@@ -1,26 +1,19 @@
 // Partnership Page
 
+[class*="col-"] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .partnership-banner {
     display: flex;
     overflow: hidden;
     min-height: 348px;
     background-color: #001a5c;
-    h2 {
-        margin: 90px auto 38px;
-    }
     h5 {
-        max-width: 575px;
+        margin-top: 0;
+        max-width: 565px;
         line-height: 1.19;
-    }
-    img.bottom-left {
-        width: 238px;
-        height: 199px;
-        transform: scaleX(-1);
-    }
-    img.bottom-right {
-        width: 294px;
-        height: 201px;
-        transform: scaleY(-1) rotate(180deg);
     }
     @include media-breakpoint-down(sm) {
         h2 {
@@ -34,9 +27,8 @@
             height: 99px;
         }
         img.bottom-right {
-            width: 197px;
+            width: 120px;
             height: 100px;
-            right: -35px;
         }
     }
     @include media-breakpoint-up(md) {
@@ -48,34 +40,36 @@
         }
         img.bottom-left {
             width: 178px;
-            height: 148px;
+            height: 149px;
         }
         img.bottom-right {
-            width: 295px;
+            width: 180px;
             height: 150px;
-            right: -50px;
         }
     }
     @include media-breakpoint-up(lg) {
         h2 {
-            margin: 90px auto 38px;
+            margin: 88px auto 30px;
         }
+    }
+    @include media-breakpoint-up(xl) {
         img.bottom-left {
-            width: 238px;
+            width: 237px;
             height: 199px;
+            bottom: -1px;
+            transform: scaleX(-1);
         }
         img.bottom-right {
+            width: 240px;
             height: 201px;
-            width: 294px;
-            right: -10px;
+            transform: scaleY(-1) rotate(180deg);
         }
     }
 }
 
-.partner-contact-block {
-    margin-bottom: 100px;
+.partner-service-block {
     h3 {
-        margin: 107px auto 28px;
+        margin: 107px auto 52px;
         max-width: 774px;
         text-align: center;
     }
@@ -167,14 +161,15 @@
 .partner-details-block {
     h5 {
         font-size: 18px;
-        margin-bottom: 12px;
+        margin: 86px auto 12px;
     }
     h1 {
         margin: 0 auto 54px;
     }
-    [class*='col-']{
-        padding-left: 12px;
-        padding-right: 12px;
+    button {
+        display: block;
+        margin: 85px auto 145px;
+        padding: 6px 25px;
     }
     .partner-card {
         .arrow-control {
@@ -213,6 +208,7 @@
                 // list-style-position: inside;
             }
             h4 {
+                margin: 0 auto 9px;
                 font-family: RobotoMono-Medium;
                 font-size: 18px;
                 text-align: center;

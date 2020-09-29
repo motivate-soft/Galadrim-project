@@ -24,7 +24,7 @@ export default function WhoWeAre() {
             <TalentsTechs />
             <TrustUs className="who-trust-block" />
             <WhoWords />
-            <FooterBanner title={footerBannerTitle} />
+            <FooterBanner color={`orange`} title={footerBannerTitle} />
         </>
     )
 }

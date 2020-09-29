@@ -14,7 +14,7 @@ export default function TrustUs(props) {
         <div className={props.className ? `section trust-block ${props.className}` : "section trust-block"}>
             <div className="container">
                 <h3 className="text-center text-darkblue mb-5">Ils nous font confiance</h3>
-                <div className="row d-flex justify-content-around mb-5">
+                <div className="row d-flex justify-content-around">
                     <div className="col-lg-2 col-sm-6 col-6 d-flex justify-content-center mb-4">
                         <Image src={LogoBPI} className="align-self-center w-100" alt="Logo BPI" maxWidth={162} />
                     </div>

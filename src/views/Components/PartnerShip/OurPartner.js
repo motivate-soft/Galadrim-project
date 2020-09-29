@@ -16,12 +16,9 @@ import ThreeCxLogo from '../../../assets/Images/Partnership/logo-3cx@3x.png';
 import DellLogo from '../../../assets/Images/Partnership/logo-dell@3x.png';
 
 import PartnerDropDownCard from './PartnerDropDownCard';
-import { OrangeButton } from '../Elements/Buttons';
 
-// const color = "#FF5E4D"
 
 const brands = [
-
     {
         id: 1,
         name: "MicroSoft",
@@ -230,7 +227,7 @@ export default function OurPartner(props) {
                         ))
                     }
                 </div>
-                <OrangeButton className="d-block px-4 mx-auto" top={85} bottom={145}>Contactez-nous</OrangeButton>
+                <button className="btn btn-custom bg-orange text-white">Contactez-nous</button>
             </div>
         </div>
     )

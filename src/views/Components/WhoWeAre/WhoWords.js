@@ -1,11 +1,13 @@
 import React from 'react'
 import AvatarImage from '../../../assets/Images/who-we-are/ceo.jpg';
 import QuoteImage from '../../../assets/Images/who-we-are/quote.svg';
+import { LeftRoundedSemiCircle } from './../Elements/Drawings';
 
 
 export default function WhoWords() {
     return (
         <div id="words" className="section who-words">
+            <LeftRoundedSemiCircle width={60} height={120} className="top-right transform-top-50" />
             <div className="container">
                 <h1 className="block-title">Quelques mots sur Efisens</h1>
                 <div className="row">
