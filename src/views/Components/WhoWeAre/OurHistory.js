@@ -21,7 +21,7 @@ const Badge = styled.span`
 
 export default function OurHistory() {
     return (
-        <div className="section who-our-history-block">
+        <div id="history" className="section who-our-history-block">
             <div className="container">
                 <div className="row">
                     <BlockTitle top={43} bottom={64}>Notre histoire</BlockTitle>

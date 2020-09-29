@@ -4,9 +4,8 @@ import { withRouter } from "react-router-dom";
 
 const ScrollHandler = ({ location }) => {
     useEffect(() => {
-        // Catch hash url /article/#section1
-        const element = document.getElementById(location.hash);
-
+        // Catch hash url /who-we-are/#group
+        const element = document.getElementById((location.hash.replace("#", "")));
         setTimeout(() => {
             window.scrollTo({
                 behavior: element ? "smooth" : "auto",

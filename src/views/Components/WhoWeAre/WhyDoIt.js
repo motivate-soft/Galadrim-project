@@ -10,7 +10,7 @@ import Demo4 from '../../../assets/Images/who-we-are/demo4.jpg';
 
 export default function WhyDoIt() {
     return (
-        <div className="section why-do-it">
+        <div id="whywedo" className="section why-do-it">
             <div className="container">
                 <div className="row">
                     <h1 className="block-title">Pourquoi nous le faisons ?</h1>

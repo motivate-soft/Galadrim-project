@@ -5,7 +5,7 @@ import QuoteImage from '../../../assets/Images/who-we-are/quote.svg';
 
 export default function WhoWords() {
     return (
-        <div className="section who-words">
+        <div id="words" className="section who-words">
             <div className="container">
                 <h1 className="block-title">Quelques mots sur Efisens</h1>
                 <div className="row">

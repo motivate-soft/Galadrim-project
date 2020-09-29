@@ -40,7 +40,7 @@ const CardTitle = styled.h4`
 
 export default function Approach() {
     return (
-        <div className="section who-approach-block">
+        <div id="approach" className="section who-approach-block">
             <RightRoundedSemiCircle color="#001a5c" className="bottom-left transform-bottom-50" />
             <div className="container">
                 <h5>Comment procédons-nous ?</h5>
@@ -49,7 +49,7 @@ export default function Approach() {
                     {
                         items.map((item, index) => (
                             <div key={index} className="col-12 col-md-12 col-lg-4 mb-4">
-                                <DGradientCard>
+                                <DGradientCard maxWidth="376">
                                     <div className="who-approach-card">
                                         <img src={item.image} alt={item.title} />
                                         <CardTitle color={item.color} top={0} bottom={34}>{item.title}</CardTitle>

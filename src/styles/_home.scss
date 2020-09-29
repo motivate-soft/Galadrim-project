@@ -49,9 +49,67 @@
 }
 
 .home-news-block {
-    h1 {
-        margin: 86px auto 42px;
+    margin: 74px auto;
+    .slider-container {
+        position: relative;
+        display: flex;
+        max-width: 1176px;
+        min-height: 194px;
+        margin: 0 auto;
+        padding-left: 26px;
+        padding-right: 26px;
+        background: url("../assets/Shapes/others/green-bottom-left-triangle.svg"),
+            url("../assets/Shapes/others/orange-square.svg");
+        background-repeat: no-repeat;
+        background-position: bottom left, top right;
+        background-size: 54px 54px, 54px 54px;
+        & > div {
+            margin: 27px 0 39px;
+            padding: 28px 105px;
+            min-height: 194px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
+            width: 100%;
+            .slick-list{
+                margin: 0 50px;
+            }
+        }
+        h2 {
+            margin: 31px auto 16px;
+        }
+        h4 {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.17;
+        }
+        .prev-arrow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            fill: $color-orange;
+            width: 14px;
+            height: 26px;
+        }
+        .next-arrow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            fill: $color-orange;
+            width: 14px;
+            height: 26px;
+        }
+        button {
+            margin-top: 32px !important;
+            display: block;
+            margin: auto;
+            padding: 5px 16px;
+            color: #ffffff;
+            background-color: $color-green;
+        }
     }
+
     .article-image-card {
         display: flex;
         justify-content: flex-end;
@@ -77,16 +135,16 @@
     .article-summary-card {
         max-width: 476px;
         padding: 0 16px;
-        h3{
+        h3 {
             margin: 0 auto 24px;
         }
     }
-    @include media-breakpoint-down(sm){
+    @include media-breakpoint-down(sm) {
         h1 {
             margin: 40px auto 42px;
         }
         .article-summary-card {
-            h3{
+            h3 {
                 margin: 30px auto 24px;
             }
         }

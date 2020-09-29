@@ -6,7 +6,7 @@ import { Circle, Square } from '../Elements/Drawings';
 
 export default function TalentsTechs() {
     return (
-        <div className="section talents-techs-block">
+        <div id="talents" className="section talents-techs-block">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">

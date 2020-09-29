@@ -27,6 +27,14 @@ export default function JobCard(props) {
                 <span className="job-location-badge"><FaMapMarkerAlt />Paris</span>
                 <span className="job-location-badge"><FaRegClock />CDI</span>
             </div>
+            <div className={`career-job-card-overlay`}>
+                <h4>Candidature spontannée</h4>
+                <p>Envoyez-nous vos candidatures !</p>
+                <div className="job-location">
+                    <span className="job-location-badge"><FaMapMarkerAlt />Paris</span>
+                    {/* <span className="job-location-badge"><FaRegClock />CDI</span> */}
+                </div>
+            </div>
         </div >
     )
 }

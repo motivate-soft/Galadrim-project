@@ -10,7 +10,7 @@ import { OrangeButton } from '../Elements/Buttons';
 
 export default function OurGroup() {
     return (
-        <div className="section who-group-block">
+        <div id="group" className="section who-group-block">
             <div className="container text-darkblue">
                 <h1 className="block-title">Notre groupe</h1>
                 <div className="hero-card">
@@ -41,7 +41,8 @@ export default function OurGroup() {
                     </div>
                     <div className="col-lg-6 col-sm-12 who-definition-text d-flex align-items-center">
                         <div>
-                            <p>Notre ambition est très claire :  Décomplexer l'IT,  en proposant des solutions standardisées ou sur mesure et en co-construisant les futurs projets (cloud, infrastructure, sécurité et modern workplace) avec nos clients. Nous combinons notre capacité d'innovation et nos expertises avec celles des plus gros  partenaires de notre écosystème, comme Microsoft et Nutanix, pour aller plus loin que la simple conception d'architectures et de services.</p>
+                            <p>Notre ambition est très claire :  Décomplexer l'IT,  en proposant des solutions standardisées ou sur mesure et en co-construisant les futurs projets (cloud, infrastructure, sécurité et modern workplace) avec nos clients. </p>
+                            <p>Nous combinons notre capacité d'innovation et nos expertises avec celles des plus gros  partenaires de notre écosystème, comme Microsoft et Nutanix, pour aller plus loin que la simple conception d'architectures et de services.</p>
                             <OrangeButton className="w-100">Voir nos partenaires technologiques</OrangeButton>
                         </div>
                     </div>

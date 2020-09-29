@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useHistory } from 'react-router-dom';
 import LogoWhite from '../Common/LogoWhite';
-import AppNavbar from '../../Layout/Navbar/AppNavbar';
 
 
 
@@ -26,11 +24,20 @@ export default function ExpertiseStickyNavbar({ color, navItem }) {
     }
 
     const scrollTop = () => {
-        window.scroll({
-            top: 0,
-            left: 0,
-            behavior: 'smooth',
-        });
+        if (window.innerWidth < 769) {
+            window.scroll({
+                top: 600,
+                left: 0,
+                behavior: 'smooth',
+            });
+        } else {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth',
+            });
+        }
+
     }
 
     useEffect(() => {

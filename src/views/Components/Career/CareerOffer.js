@@ -59,11 +59,11 @@ const jobsData = [
         title: 'Bras droit',
         category: 'Administration',
     },
-    // {
-    //     id: 12,
-    //     title: 'Bras droit',
-    //     category: 'Administration',
-    // },
+    {
+        id: 12,
+        title: 'Bras droit',
+        category: 'Administration',
+    },
 ]
 
 export default function CareerOffer() {
@@ -83,16 +83,6 @@ export default function CareerOffer() {
                             </div>
                         ))
                     }
-                    <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
-                        <div className={`career-job-card career-job-card-overlay`}>
-                            <h4>Candidature spontannée</h4>
-                            <p>Envoyez-nous vos candidatures !</p>
-                            <div className="job-location">
-                                <span className="job-location-badge"><FaMapMarkerAlt />Paris</span>
-                                {/* <span className="job-location-badge"><FaRegClock />CDI</span> */}
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -10,8 +10,6 @@ import ExpertiseFeatures from '../Components/Expertise/ExpertiseFeatures';
 import OurExpertise from '../Components/Expertise/OurExpertise';
 
 // banner 
-import BannerLogoImage from '../../assets/Images/expertise/cloud/cloud-banner-logo.svg'
-import BannerLogoMobileImage from '../../assets/Images/expertise/cloud/cloud-banner-logo.svg'
 import TitleImage from '../../assets/Images/expertise/cloud/cloud-white.svg';
 import Background1 from '../../assets/Images/expertise/cloud/cloud-background-1.svg'
 import Background2 from '../../assets/Images/expertise/cloud/cloud-background-2.svg'
@@ -60,12 +58,6 @@ const color = "green"
 
 const cloudBannerData = {
     color: "#00D2B5",
-    // bannerLogo: {
-    //     image: BannerLogoImage,
-    //     mobileImage: BannerLogoMobileImage,
-    //     width: 290,
-    //     mobileWidth: 182,
-    // },
 
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,

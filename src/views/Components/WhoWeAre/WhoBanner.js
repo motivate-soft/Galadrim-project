@@ -2,21 +2,16 @@ import React from 'react';
 
 import LeftTopImage from '../../../assets/Images/who-we-are/banner-left-background.svg';
 import RightTopImage from '../../../assets/Images/who-we-are/banner-right-background.svg';
-import { GrayButton } from '../Elements/Buttons';
-import styled from 'styled-components';
+import { useHistory } from 'react-router-dom';
 
-const CustomGrayButton = styled(GrayButton)`
-    display: flex;
-    justify-content: center;
-    max-width: 122px;
-    width: 100%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    /* padding: 4px 32px; */
-`
 
 
 export default function WhoBanner() {
+    const history = useHistory()
+    const gotoSection = (sectionId) => {
+        history.push(`/who-we-are/#${sectionId}`)
+    }
+    
     return (
         <div className="section who-banner">
             <img src={LeftTopImage} className='top-left' alt="Left Background" />
@@ -34,24 +29,20 @@ export default function WhoBanner() {
                             Nous vous proposons des technologies évolutives au fil du temps et des usages
                         </h5>
                         <div className="d-flex who-banner-button-container justify-content-center">
-                            <div className="row who-banner-button-container">
-                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
-                                    <CustomGrayButton>Histoire</CustomGrayButton>
-                                </div>
-                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
-                                    <CustomGrayButton>Groupe</CustomGrayButton>
-                                </div>
-                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
-                                    <CustomGrayButton>Approche</CustomGrayButton>
-                                </div>
-                                <div className="col-6 col-sm-6 col-md-3 d-flex justify-content-center">
-                                    <CustomGrayButton>Talents</CustomGrayButton>
-                                </div>
+                            <div className="d-flex justify-content-center">
+                                <button className="btn btn-custom gradient-btn" onClick={() => gotoSection(`history`)}>Notre histoire</button>
+                                <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`group`)}>Notre groupe</button>
                             </div>
+                            <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`approach`)}>Approche technologique</button>
+                        </div>
+                        <div className="d-flex who-banner-button-container justify-content-center">
+                            <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`whywedo`)}>Pourquoi nous le faisons</button>
+                            <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`talents`)}>Talents & Technologies</button>
+                            <button className="btn btn-custom btn-gray" onClick={() => gotoSection(`words`)}>Quelques mots sur Efisens</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }

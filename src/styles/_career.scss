@@ -52,6 +52,7 @@
 .career-offer-block {
     margin-bottom: 68px;
     .career-job-card {
+        position: relative;
         max-width: 376px;
         min-height: 162px;
         width: 100%;
@@ -103,29 +104,47 @@
                 }
             }
         }
-    }
-    .career-job-card-overlay {
-        box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
-        background-color: #ff5e4d;
-        h4 {
-            margin: 16px auto;
-            color: #ffffff !important;
-        }
-        p {
-            font-size: 16px;
-            text-align: left;
-            font-family: Gilroy-Bold;
-            color: #ffffff !important;
-        }
-        .job-location-badge {
-            color: #ffffff !important;
-            svg {
-                path {
-                    fill: #ffffff;
+        .career-job-card-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            max-width: 376px;
+            min-height: 162px;
+            opacity: 0;
+            padding: 17px 15px 28px;
+            cursor: pointer;
+            border-radius: 8px;
+            background-color: #ff5e4d;
+            transition: all ease-in-out 300ms;
+            h4 {
+                margin: 16px auto;
+                color: #ffffff !important;
+            }
+            p {
+                font-size: 16px;
+                text-align: left;
+                font-family: Gilroy-Bold;
+                color: #ffffff !important;
+            }
+            .job-location-badge {
+                color: #ffffff !important;
+                svg {
+                    path {
+                        fill: #ffffff;
+                    }
                 }
             }
         }
+        &:hover .career-job-card-overlay {
+            opacity: 1;
+        }
     }
+
     @include media-breakpoint-down(sm) {
         [class*="col-"] {
             display: flex;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import CustomLabel from '../../Elements/CustomLabel'
 import CustomInput from '../../Elements/CustomInput'
 import styled from 'styled-components'
@@ -19,9 +19,10 @@ const SubmitButton = styled(CustomButton)`
 
 export default function CloudForm(props) {
     const { color } = props
+    const formRef = useRef(null)
     return (
         <>
-            <div className="row">
+            <div ref={formRef} className="row">
                 <div className="col-lg-6  col-sm-12 mb-3">
                     <CustomLabel htmlFor="lastName">Nom</CustomLabel>
                     <CustomInput name="lastName" type="text" placeholder="Jean" />
