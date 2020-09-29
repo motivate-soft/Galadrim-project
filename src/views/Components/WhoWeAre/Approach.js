@@ -5,6 +5,7 @@ import CardImage1 from '../../../assets/Images/who-we-are/panel-techno.svg';
 import CardImage2 from '../../../assets/Images/who-we-are/team.svg';
 import CardImage3 from '../../../assets/Images/who-we-are/tool.svg';
 import { RightRoundedSemiCircle } from '../Elements/Drawings';
+import DGradientCard from '../Common/DGradientCard';
 
 
 const items = [
@@ -48,11 +49,13 @@ export default function Approach() {
                     {
                         items.map((item, index) => (
                             <div key={index} className="col-12 col-md-12 col-lg-4 mb-4">
-                                <div className="who-approach-card">
-                                    <img src={item.image} alt={item.title} />
-                                    <CardTitle color={item.color} top={0} bottom={34}>{item.title}</CardTitle>
-                                    <p>{item.text}</p>
-                                </div>
+                                <DGradientCard>
+                                    <div className="who-approach-card">
+                                        <img src={item.image} alt={item.title} />
+                                        <CardTitle color={item.color} top={0} bottom={34}>{item.title}</CardTitle>
+                                        <p>{item.text}</p>
+                                    </div>
+                                </DGradientCard>
                             </div>
                         ))
                     }
