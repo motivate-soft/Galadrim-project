@@ -8,8 +8,9 @@
     h2 {
         margin: 90px auto 38px;
     }
-    p {
+    h5 {
         max-width: 575px;
+        line-height: 1.19;
     }
     img.bottom-left {
         width: 238px;
@@ -21,12 +22,11 @@
         height: 201px;
         transform: scaleY(-1) rotate(180deg);
     }
-
     @include media-breakpoint-down(sm) {
         h2 {
             margin: 50px auto 38px;
         }
-        p {
+        h5 {
             margin-bottom: 140px;
         }
         img.bottom-left {
@@ -39,25 +39,11 @@
             right: -35px;
         }
     }
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
         h2 {
             margin: 50px auto 38px;
         }
-        p {
-            margin-bottom: 140px;
-        }
-        img.bottom-left {
-            width: 178px;
-            height: 148px;
-        }
-        img.bottom-right {
-            width: 295px;
-            height: 150px;
-            right: -50px;
-        }
-    }
-    @include media-breakpoint-up(md) {
-        p {
+        h5 {
             margin-bottom: 140px;
         }
         img.bottom-left {
@@ -116,11 +102,15 @@
             max-width: 476px;
             width: 100%;
             min-height: 304px;
-            padding: 57px 40px 40px;
-            font-size: 21px;
+            padding: 40px 40px 40px;
             border-radius: 8px;
             box-shadow: 0 20px 40px 0 rgba(41, 41, 43, 0.05), 0 2px 4px 0 rgba(41, 41, 43, 0.05);
             background-color: #ffffff;
+            p {
+                font-family: RobotoMono-Light;
+                font-size: 16px;
+                line-height: 1.19;
+            }
         }
         .bottom-right {
             max-width: 100%;
@@ -182,8 +172,11 @@
     h1 {
         margin: 0 auto 54px;
     }
+    [class*='col-']{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     .partner-card {
-        padding: 10px 50px;
         .arrow-control {
             height: 24px;
             width: 24px;
@@ -215,15 +208,15 @@
             padding: 24px;
             ul {
                 text-align: left;
+                font-family: RobotoMono-Light;
+                font-size: 18px;
                 // list-style-position: inside;
             }
             h4 {
+                font-family: RobotoMono-Medium;
                 font-size: 18px;
                 text-align: center;
             }
-        }
-        @media (max-width: 768px) {
-            padding: 10px;
         }
     }
 }

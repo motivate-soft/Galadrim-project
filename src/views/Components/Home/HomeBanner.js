@@ -23,7 +23,7 @@ export default function HomeBanner() {
             <div className="container h-100 d-flex align-content-center ">
                 <div className="row my-auto">
                     <div className="col-md-6 col-12 my-auto text-darkblue">
-                        <h1 className="banner-title">{title}</h1>
+                        <h1 className="banner-title-lg">{title}</h1>
                         <Underline className="banner-divider" />
                         <p className="banner-text">{text}</p>
                         <ContactButton>Contactez-nous</ContactButton>

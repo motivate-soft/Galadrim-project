@@ -219,7 +219,7 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-title {
+.banner-title-lg {
     font-family: "Gilroy-ExtraBold";
     text-align: left;
     line-height: 100%;
@@ -237,6 +237,27 @@ a {
     }
     @media only screen and (min-width: 1200px) {
         font-size: 64px;
+    }
+}
+
+.banner-title {
+    font-family: "Gilroy-ExtraBold";
+    text-align: left;
+    line-height: 100%;
+    white-space: pre-line;
+    @media only screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 36px;
+        margin-left: 0;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+    @media only screen and (min-width: 992px) {
+        font-size: 45px;
+    }
+    @media only screen and (min-width: 1200px) {
+        font-size: 54px;
     }
 }
 

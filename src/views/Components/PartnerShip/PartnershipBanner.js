@@ -11,7 +11,7 @@ export default function PartnershipBanner() {
             <img src={RightBottomImage} alt="Right Banner Background" className="bottom-right" />
             <div className="container">
                 <h2 className="text-white text-center d-block">Notre écosystème Efisens</h2>
-                <p className="text-white text-center d-block mx-auto">Accélérer l'innovation grâce à un écosystème de partenaires riche par sa diversité. Nous croyons en la puissance de partenariats technologiques solides. C'est pourquoi nous engageons, contribuons et soutenons si fortement notre communauté de partenaires !</p>
+                <h5 className="text-white text-center d-block mx-auto">Accélérer l'innovation grâce à un écosystème de partenaires riche par sa diversité. Nous croyons en la puissance de partenariats technologiques solides. C'est pourquoi nous engageons, contribuons et soutenons si fortement notre communauté de partenaires !</h5>
             </div>
         </div>
     )

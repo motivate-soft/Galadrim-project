@@ -37,7 +37,7 @@ export default function CareerDetailBox() {
         <div className="section career-detail-block">
             <div className="container">
                 <div className="career-container">
-                    <div className="article-block">
+                    <div className="job-description-block">
                         <div className="social-media-link">
                             <SendIconBox />
                             <LinkedinIcon className="linkedin-icon" />
@@ -51,11 +51,11 @@ export default function CareerDetailBox() {
                             ))
                         } */}
                     </div>
-                    <div className="article-block">
+                    <div className="job-description-block">
                         <h4>Qualification</h4>
                         <p>{jobDetailData.qualification}</p>
                     </div>
-                    <div className="article-block">
+                    <div className="job-description-block">
                         <h4>Processus de recrutement</h4>
                         <p>{jobDetailData.process}</p>
                     </div>

@@ -16,11 +16,15 @@ const color = '#00175f'
 export default function ContactBanner() {
     const [submitted, setSubmitted] = useState(false)
 
+    const makeNewRequest = () => {
+        setSubmitted(false)
+    }
+
     const handleSubmit = (value) => {
         setTimeout(() => {
             alert(value)
             setSubmitted(true)
-        }, 1000)
+        }, 500)
     }
 
     return (
@@ -35,13 +39,13 @@ export default function ContactBanner() {
                 <div className="row text-darkblue">
                     <div className="col-12 col-md-6">
                         <h1 className="banner-title">Contactez Efisens</h1>
-                        <Underline color={color} left={45} bottom={0} />
+                        <Underline color={color} left={61} bottom={0} />
                         <h5>Notre équipe est disponible du lundi au vendredi de 9h à 18h30.<br /> Déjà client ? Pour contacter notre support, veuillez vous connecter à votre espace client.</h5>
                         <IconButton backgroundColor="#ff5e4d" color="#ffffff"><FaLock />Accès client</IconButton>
                     </div>
                     <div className="col-12 col-md-6">
                         {
-                            submitted ? <ContactFormSuccess /> : <ContactTab onSubmit={handleSubmit} />
+                            submitted ? <ContactFormSuccess onClick={makeNewRequest} /> : <ContactTab onSubmit={handleSubmit} />
                         }
                     </div>
                 </div>

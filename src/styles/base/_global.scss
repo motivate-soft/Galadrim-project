@@ -28,6 +28,11 @@ body {
     // overflow: auto;
 }
 
+a,
+button {
+    cursor: pointer !important;
+}
+
 .bg-blue {
     background-color: $color-blue !important;
 }
@@ -224,4 +229,3 @@ a:hover {
         color: white;
     }
 }
-
