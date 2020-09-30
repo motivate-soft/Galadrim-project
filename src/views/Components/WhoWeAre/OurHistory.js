@@ -4,7 +4,7 @@ import CircleImage from '../../../assets/Images/who-we-are/blur-orange-circle.sv
 import TriangleImage from '../../../assets/Images/who-we-are/blur-gray-triangle.svg'
 import styled from "styled-components"
 import { TopFlag, BottomFlag } from '../Elements/Drawings';
-import { BlockTitle } from '../Elements/Typography';
+
 
 const colorGreen = "#00d2b5";
 const colorOrange = "#ff5e4d"

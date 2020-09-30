@@ -6,7 +6,6 @@ import TechChoices from '../Components/Expertise/TechChoices';
 import Resources from '../Components/Expertise/Resources';
 import FooterBanner from '../Components/Common/FooterBanner';
 import CloudForm from '../Components/Expertise/Forms/CloudForm';
-import ExpertiseFeatures from '../Components/Expertise/ExpertiseFeatures';
 import OurExpertise from '../Components/Expertise/OurExpertise';
 
 // banner 
@@ -16,7 +15,7 @@ import Background2 from '../../assets/Images/expertise/cloud/cloud-background-2.
 import Background3 from '../../assets/Images/expertise/cloud/cloud-background-3.svg'
 
 
-// expertiseFeatures
+// expertise feature images
 import OptimizationImage from '../../assets/Images/expertise/cloud/maximisation.svg';
 import AdaptableImage from '../../assets/Images/expertise/cloud/adaptabilit.svg';
 import ScalabilityImage from '../../assets/Images/expertise/cloud/volution.svg';
@@ -50,7 +49,8 @@ import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/moder
 import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
 import ExpertiseStickyNavbar from './../Components/Expertise/ExpertiseStickyNavbar';
-import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+import CloudFeature from './../Components/Expertise/Features/CloudFeature';
+// import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
 
 
 // const color = "#00D2B5"
@@ -281,7 +281,7 @@ export default function ExpertiseCloud() {
                 <CloudForm color={color} />
             </ExpertiseBanner >
             <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[0]} />
-            <ExpertiseFeatures color={color} items={expertiseFeature} />
+            <CloudFeature color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />

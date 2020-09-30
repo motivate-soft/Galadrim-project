@@ -25,7 +25,8 @@ const Wrapper = styled.div`
     & p{
         max-width: 100%;
         margin-bottom: 0 !important;
-        font-size: 17px;
+        font-family: RobotoMono-Light;
+        font-size: 16px;
         text-align: left !important;
         color: #001A5C !important;
     }
@@ -37,7 +38,7 @@ const Wrapper = styled.div`
             font-size: 24px;
         }
         p{
-            font-size: 14px;s
+            font-size: 14px;
         }
     }
 `
@@ -45,7 +46,7 @@ const Wrapper = styled.div`
 export default function ApproachCard(props) {
     const { color, step, title, text } = props
     return (
-        <Wrapper color={color}>
+        <Wrapper color={color} className="approach-card">
             <div className='d-flex align-items-center mb-2'>
                 <h2>0{step}•</h2>
                 <h3>{title}</h3>

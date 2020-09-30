@@ -122,30 +122,33 @@ export default function SearchArticle() {
                         }
                     </div>
                 </div>
-                <div className="article-container">
-                    <div className="row">
-                        {
-                            articles.map((article, index) => (
-                                <div key={index} className="col-12 col-md-6 col-lg-4 mb-4">
-                                    <DGradientCard
-                                        maxWidth={376}
-                                    >
-                                        <ArticleCard
-                                            key={index}
-                                            id={article.id}
-                                            title={article.title}
-                                            text={article.text}
-                                            img={article.image}
-                                            tag={article.tag}
-                                            time={article.time} />
-                                    </DGradientCard>
-                                </div>
-                            ))
-                        }
+                <div className="custom-container">
+                    <div className="article-container">
+                        <div className="row">
+                            {
+                                articles.map((article, index) => (
+                                    <div key={index} className="col-12 col-md-6 col-lg-4 mb-4">
+                                        <DGradientCard
+                                            maxWidth={376}
+                                        >
+                                            <ArticleCard
+                                                key={index}
+                                                id={article.id}
+                                                title={article.title}
+                                                text={article.text}
+                                                img={article.image}
+                                                tag={article.tag}
+                                                time={article.time} />
+                                        </DGradientCard>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
+                    <button className="btn btn-custom btn-gray">Charger plus d'articles</button>
                 </div>
-                <button className="btn btn-custom btn-gray">Charger plus d'articles</button>
             </div>
+
         </div>
     )
 }

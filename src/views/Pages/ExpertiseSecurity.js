@@ -4,19 +4,17 @@ import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
 import OurApproach from '../Components/Expertise/OurApproach';
 import Resources from '../Components/Expertise/Resources';
 import TechChoices from '../Components/Expertise/TechChoices';
-import ExpertiseFeatures from '../Components/Expertise/ExpertiseFeatures';
 import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
 // banner 
-
 import TitleImage from '../../assets/Images/expertise/security/security-white.svg';
 import Background1 from '../../assets/Images/expertise/security/security-background-1.svg'
 import Background2 from '../../assets/Images/expertise/security/security-background-2.svg'
 import Background3 from '../../assets/Images/expertise/security/security-background-3.svg'
 
 
-// expertiseFeatures
+// expertise feature images
 import OptimizationImage from '../../assets/Images/expertise/security/padlock.svg';
 import AdaptableImage from '../../assets/Images/expertise/security/encryption.svg';
 import ScalabilityImage from '../../assets/Images/expertise/security/surveillance.svg';
@@ -54,7 +52,8 @@ import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
 import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
 import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
-import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+// import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+import SecurityFeature from './../Components/Expertise/Features/SecurityFeature';
 
 
 
@@ -63,12 +62,6 @@ const color = "green"
 
 const cloudBannerData = {
     color: "#00D2B5",
-    // bannerLogo: {
-    //     image: BannerLogoImage,
-    //     mobileImage: BannerLogoMobileImage,
-    //     width: 490,
-    //     mobileWidth: 256,
-    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -89,36 +82,37 @@ const expertiseFeature = [
     {
         id: 1,
         img: OptimizationImage,
-        title: 'Optimisation',
-        subtitle: 'Rendre efficace l\'utilisation de votre IT au quotidient',
+        title: 'Protection',
+        subtitle: `Vous permettre d'être serein en protégeant votre cœur informatique ainsi que vos données tout en garantssant la protection des données utilisateurs (RGDP ready)`,
         details: [
-            "Supervision et optimisation des coût d'exploitation d'une infrastructure",
-            "Audit de performance Infrastructure",
-            "Supervision proactive de vos infrastructures",
-            "Préconisations de transition vers le cloud"
+            "Firewall / Antivirus",
+            "Réseaux virtuels et physiques",
+            "Interconnexion",
+            "Routage",
+            "WIFI"
         ]
     },
     {
         id: 2,
         img: AdaptableImage,
-        title: 'Adaptabilité',
-        subtitle: 'Rendre flexible vos technologies IT',
+        title: 'Chiffrement',
+        subtitle: `Protéger vos ressources critiques : données, identité et infrastructure quelque soit l'environnement grâce à des technologies et outils innovants.`,
         details: [
-            "Refonte d'une cartographie applicative cloud ready",
-            "Modernisation des couches OS et Firmware",
-            "Audit et optimisation du réseau",
+            "VPN",
+            "Chiffrement de données",
+            "Contrôle des applications et du réseau",
+            "Authentification/SSO",
         ]
     },
     {
         id: 3,
         img: ScalabilityImage,
-        title: 'Évolutivité',
-        subtitle: 'Améliorer votre écosystème IT en fonction de vos usages et des nouvelles technologies',
+        title: 'Surveillance',
+        subtitle: `Assurer la disponibilité et la performance de vos applications, en permanence et sans concession sur la sécurité.`,
         details: [
-            "Transformer une infrastructure vers des solutions PaaS (Platform as a Service)",
-            "Conteneurisation",
-            "Modernisation complète du système d'information",
-            "Console de management et administration mutli-cloud"
+            "Supervision & analyse prédictive",
+            "Maintenance",
+            "Gestion des incidents",
         ]
     }
 ];
@@ -297,7 +291,7 @@ export default function ExpertiseSecurity() {
                 <SecurityForm color={color} />
             </ExpertiseBanner >
             <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[2]} />
-            <ExpertiseFeatures color={color} items={expertiseFeature} featureBackground />
+            <SecurityFeature color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <SecurityMSP />

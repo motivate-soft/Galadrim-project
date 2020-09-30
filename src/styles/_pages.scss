@@ -1,4 +1,3 @@
-
 ///////////////////////////////////////////////////////////////////////////////////////
 .expertise-banner {
     display: flex;
@@ -23,9 +22,14 @@
         background-repeat: no-repeat;
         background-size: 42px 42px;
     }
-   
+    @media (max-width: 768px) {
+        .banner-form-wrapper {
+            background: none;
+            padding: 0;
+            // margin: 36px auto 0;
+        }
+    }
 }
-
 
 .banner-form {
     position: relative;
@@ -57,10 +61,6 @@
         font-size: 11px;
         color: #a4abb8;
         margin: 25px auto 0;
-    }
-
-    @media (max-width: 768px) {
-        margin: 36px auto 0;
     }
 }
 

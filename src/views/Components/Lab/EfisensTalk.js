@@ -34,8 +34,7 @@ const CustomInput = styled(BaseInput)`
     font-size: 16px;
     font-family: "Gilroy-Medium";
     color: #001a5c !important;
-    width: calc(100%
- - 50px);
+    width: calc(100% - 50px);
     height: 50px;
     margin-bottom: 8px;
     padding-left: 16px;
@@ -72,7 +71,7 @@ const InputAppend = styled.div`
 
 export default function EfisensTalk() {
     return (
-        <div className="section efisens-talk-block d-flex">
+        <div className="section efisens-talk-block">
             <TriangleBackgroundImage src={GrayTriangleBackground} alt="Triangle background" />
             <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
             <div className="container my-auto">

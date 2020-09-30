@@ -170,7 +170,6 @@
                 }
                 .link-text-wrapper {
                     h6 {
-
                         margin: auto;
                         padding: 0;
                         font-family: Gilroy-Bold;
@@ -187,9 +186,15 @@
         }
     }
     button {
+        padding: 6px 40px;
         margin-left: auto;
     }
-    @include media-breakpoint-down (sm) {
+    @include media-breakpoint-down(sm) {
+        padding: 0px 12px 0px 12px;
+        button {
+            padding: 6px 20px;
+            margin-left: auto;
+        }
         .navbar-nav {
             display: none !important;
             flex-direction: column !important;
@@ -498,16 +503,17 @@
         margin: auto;
     }
     .article-container {
-        padding: 0 24px;
-        background-image: url("../assets/Shapes/others/orange-square.svg");
+        margin-top: 5px;
+        padding: 20px 24px 0 19px;
+        background-image: url("../assets/Shapes/rounded-angle/green-rounded.svg"),
+            url("../assets/Shapes/others/orange-square.svg");
         background-repeat: no-repeat;
-        background-size: 48px 48px;
-        background-position: bottom right;
+        background-size: 38px 38px, 48px 48px;
+        background-position: top left, bottom right;
     }
     .btn-gray {
         display: block;
         margin: 24px auto 167px;
-        padding: 8px 24px;
     }
 
     @include media-breakpoint-down(sm) {
@@ -525,6 +531,8 @@
     display: flex;
     flex-direction: column;
     h4 {
+        margin: 30px auto 29px;
+        font-size: 26px;
         text-align: center;
     }
     .social-link-wrapper {
@@ -545,6 +553,9 @@
         }
     }
     @include media-breakpoint-down(sm) {
+        h4 {
+            font-size: 24px;
+        }
         .social-link-wrapper {
             svg {
                 width: 40px;
@@ -741,7 +752,7 @@
         display: block;
         margin: auto;
         // width: 290px;
-        // height: 59px;    
+        // height: 59px;
         // object-fit: contain;
     }
     .efilab-sm-title {

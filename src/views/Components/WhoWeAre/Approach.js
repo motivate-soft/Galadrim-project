@@ -5,7 +5,6 @@ import CardImage1 from '../../../assets/Images/who-we-are/panel-techno.svg';
 import CardImage2 from '../../../assets/Images/who-we-are/team.svg';
 import CardImage3 from '../../../assets/Images/who-we-are/tool.svg';
 import { RightRoundedSemiCircle } from '../Elements/Drawings';
-import DGradientCard from '../Common/DGradientCard';
 
 
 const items = [

@@ -4,7 +4,6 @@ import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
 import OurApproach from '../Components/Expertise/OurApproach';
 import Resources from '../Components/Expertise/Resources';
 import TechChoices from '../Components/Expertise/TechChoices';
-import ExpertiseFeatures from '../Components/Expertise/ExpertiseFeatures';
 import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
@@ -16,7 +15,7 @@ import Background2 from '../../assets/Images/expertise/modern-workplace/modern-w
 import Background3 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-3.svg'
 
 
-// expertiseFeatures
+// expertise feature images
 import ProductivityImage from '../../assets/Images/expertise/modern-workplace/productivity.svg';
 import MobilityImage from '../../assets/Images/expertise/modern-workplace/mobility.svg';
 import CollaborationImage from '../../assets/Images/expertise/modern-workplace/collaboration.svg';
@@ -54,7 +53,8 @@ import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
 import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
 import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
-import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+// import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+import WorkplaceFeature from './../Components/Expertise/Features/WorkplaceFeature';
 
 // const color = "#001A5C"
 const color = "darkblue"
@@ -62,12 +62,6 @@ const color = "darkblue"
 
 const cloudBannerData = {
     color: "#001A5C",
-    // bannerLogo: {
-    //     image: BannerLogoImage,
-    //     mobileImage: BannerLogoMobileImage,
-    //     width: 967,
-    //     mobileWidth: 182,
-    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -306,7 +300,7 @@ export default function ExpertiseWorkplace() {
                 <WorkplaceForm color={color} />
             </ExpertiseBanner >
             <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[1]} />
-            <ExpertiseFeatures color={color} items={expertiseFeature} />
+            <WorkplaceFeature color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />

@@ -21,7 +21,16 @@ body {
 
 .custom-container {
     max-width: 1176px;
+    width: 100%;
     margin: auto;
+}
+.row {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+[class*="col-"] {
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .section {
@@ -224,6 +233,7 @@ a:hover {
     color: #001f5f;
     background-color: #ffffff;
     border: 2px solid #a5abb7;
+    padding: 5px 28px;
     &:hover {
         background: #a4abb8;
         color: white;

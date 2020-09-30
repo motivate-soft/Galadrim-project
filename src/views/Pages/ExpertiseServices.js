@@ -1,22 +1,21 @@
 import React from 'react'
 
+// components
 import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
 import OurApproach from '../Components/Expertise/OurApproach';
 import Resources from '../Components/Expertise/Resources';
+import ServiceFeature from './../Components/Expertise/Features/ServiceFeature';
 import TechChoices from '../Components/Expertise/TechChoices';
-import ExpertiseFeatures from '../Components/Expertise/ExpertiseFeatures';
 import OurExpertise from '../Components/Expertise/OurExpertise';
 import FooterBanner from '../Components/Common/FooterBanner';
 
-// banner 
-
+// banner images
 import TitleImage from '../../assets/Images/expertise/managed-services/managed-services-white.svg';
 import Background1 from '../../assets/Images/expertise/managed-services/managed-services-background-1.svg'
 import Background2 from '../../assets/Images/expertise/managed-services/managed-services-background-2.svg'
 import Background3 from '../../assets/Images/expertise/managed-services/managed-services-background-3.svg'
 
-
-// expertiseFeatures
+// expertise feature images
 import ManagementImage from '../../assets/Images/expertise/managed-services/management.svg';
 import MaintenanceImage from '../../assets/Images/expertise/managed-services/maintenance.svg';
 import OutilsImage from '../../assets/Images/expertise/managed-services/outils.svg';
@@ -51,19 +50,13 @@ import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
 import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
 import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-services-white.svg'
 import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
-import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
+// import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
 
 // const color = "#FF5E4D"
 const color = "orange"
 
 const cloudBannerData = {
     color: "#FF5E4D",
-    // bannerLogo: {
-    //     image: BannerLogoImage,
-    //     mobileImage: BannerLogoMobileImage,
-    //     width: 926,
-    //     mobileWidth: 210,
-    // },
     bannerTitleImage: TitleImage,
     bannerBackgroundImage1: Background1,
     bannerBackgroundImage2: Background2,
@@ -280,7 +273,7 @@ export default function ExpertiseServices() {
                 <ServiceForm color={color} />
             </ExpertiseBanner >
             <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[3]} />
-            <ExpertiseFeatures color={color} items={expertiseFeature} />
+            <ServiceFeature color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <Resources color={color} articles={articleData} />

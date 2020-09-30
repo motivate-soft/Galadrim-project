@@ -81,20 +81,94 @@
     }
 }
 
+.expertise-feature-card {
+    display: flex;
+    flex-direction: column;
+    // max-width: 376px;
+    margin: 0 auto;
+    min-height: 397px;
+    width: 100%;
+    padding: 19px 14px 20px;
+    background-color: #ffffff;
+    border-radius: 13px;
+    img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+    }
+    h4 {
+        margin: 10px auto 16px;
+        font-family: Gilroy-Bold;
+        font-size: 24px;
+        line-height: 1;
+    }
+    h5 {
+        margin: 0 auto 8px !important;
+        font-family: Gilroy-Bold;
+        font-size: 16px;
+        line-height: 1;
+    }
+    li {
+        list-style-position: inside;
+        font-family: "RobotoMono-Light";
+        font-size: 12px;
+        line-height: 1.57;
+        text-align: center;
+        color: #001a5c;
+    }
+}
 ///////////////////////////////////////////////////////////////////////////////////////////////
-.expertise-features {
+.expertise-feature {
     .block-title {
         margin-top: 78px;
         margin-bottom: 77px;
-        @media (max-width: 768px) {
-            margin-top: 69px;
-            margin-bottom: 36px;
-        }
     }
     .features-wrapper {
         position: relative;
         display: flex;
         flex-direction: column;
+    }
+    .cloud-card-box,
+    .workplace-card-box {
+        z-index: 110;
+        max-width: 380px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        background: white;
+        background-clip: padding-box;
+        border-radius: 16px;
+        transition: margin ease 300ms, box-shadow ease 300ms;
+        &:hover {
+            cursor: pointer;
+            margin-top: -18px;
+            background-color: #ffffff;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+        }
+        &:hover:before {
+            z-index: -1;
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: -3px;
+
+            border-radius: inherit;
+            background: -webkit-gradient(to top right, #00d5b4, #ff5c4d, #001b5d);
+            background: linear-gradient(to top right, #00d5b4, #ff5c4d, #001b5d);
+        }
+        .expertise-feature-card {
+            h4 {
+                margin: 10px auto 32px !important;
+            }
+            h5 {
+                margin: 0 auto 40px !important;
+            }
+        }
     }
     .security-rgpd-background {
         background-image: url("../assets/Images/expertise/security/rgpd-ready.svg");
@@ -102,83 +176,78 @@
         background-repeat: no-repeat;
         background-size: 118px 108px;
     }
+    @media (max-width: 768px) {
+        .block-title {
+            margin-top: 69px;
+            margin-bottom: 36px;
+        }
+        .cloud-card-box,
+        .workplace-card-box {
+            &:hover {
+                margin-top: 0;
+            }
+        }
+        .security-rgpd-background {
+        }
+    }
 }
 
 .expertise-approach {
     .block-title {
         margin: 70px auto 30px;
-        @media (max-width: 768px) {
-            margin-top: 69px;
-            margin-bottom: 36px;
-        }
     }
     .block-subtitle {
         margin: 0 auto 30px;
         max-width: 576px;
-        @media (max-width: 768px) {
-            margin-top: 69px;
-            margin-bottom: 36px;
-        }
     }
     .approach-container {
         position: relative;
-        max-width: 1000px;
+        max-width: 1025px;
+        width: 100%;
         margin: 0 auto;
-        .approach-card:nth-child(1) {
-            div:nth-child(2) {
-                display: block;
-                @media (max-width: 768px) {
-                    display: none;
-                }
-            }
+    }
+    @include media-breakpoint-down(sm) {
+        .block-title {
+            margin-top: 69px;
+            margin-bottom: 36px;
         }
-        .approach-card:nth-child(2) {
-            display: none;
+        .block-subtitle {
+            margin-top: 69px;
+            margin-bottom: 36px;
         }
-        .approach-card:nth-child(3) {
-            div:nth-child(2) {
-                display: none;
-                @media (max-width: 768px) {
-                    display: block;
-                }
-            }
-        }
-        .align-self-center {
-            display: block;
-        }
-        @media screen and (max-width: 767px) {
-            .approach-card:nth-child(2) {
-                display: block;
-            }
-            .align-self-center {
+        .approach-container {
+            padding: 15px 15px 0 15px;
+            .lg-layout {
                 display: none;
             }
+            .sm-layout {
+                display: flex;
+            }
+            // .row:nth-child(1) {
+            //     display: none;
+            // }
+            // .row:nth-child(2){
+            //     display: flex;
+            // }
         }
     }
-    // .orange-top-left-square-background {
-    //     position: absolute;
-    //     background-image: url('../assets/Shapes/others/orange-square.svg') no-repeat;
-    //     background-size: cover;
-    //     left: 0;
-    //     top: 0;
-    // }
-    // .green-top-left-square-background {
-    //     position: absolute;
-    //     background-image: url('../assets/Shapes/others/green-square.svg') no-repeat;
-    //     background-size: cover;
-    //     left: 0;
-    //     top: 0;
-    // }
-    // .blue-top-left-square-background {
-    //     position: absolute;
-    //     background-image: url('../assets/Shapes/others/orange-square.svg') no-repeat;
-    //     background-size: cover;
-    //     left: 0;
-    //     top: 0;
-    // }
-    // .green-mini-background {
-
-    // }
+    @include media-breakpoint-up(md) {
+        .approach-container {
+            padding: 25px 26px 0 23px;
+            .lg-layout {
+                display: flex;
+            }
+            .sm-layout {
+                display: none;
+            }
+            // .row:nth-child(1) {
+            //     display: flex;
+            // }
+            // .row:nth-child(2){
+            //     display: none;
+            // }
+        }
+    }
 }
 
 .expertise-tech-block {

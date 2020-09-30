@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 export const BaseInput = styled.input`
-    &:hover{
-        box-shadow: none;
+    &:focus{
         outline: none!important;
         box-shadow: none !important;
     }

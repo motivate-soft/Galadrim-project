@@ -11,7 +11,7 @@ import WhoWords from '../Components/WhoWeAre/WhoWords';
 import FooterBanner from './../Components/Common/FooterBanner';
 
 
-const footerBannerTitle = "Votre partenaire technologique ... avec vous et pour longtemps "
+const footerBannerTitle = "Votre partenaire technologique ... avec vous et pour longtemps"
 export default function WhoWeAre() {
     return (
         <>

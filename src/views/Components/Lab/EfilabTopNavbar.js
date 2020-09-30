@@ -5,8 +5,7 @@ import ManagedService from '../../../assets/Images/efilab/managed-service.svg'
 import Security from '../../../assets/Images/efilab/security.svg'
 import ProductGuide from '../../../assets/Images/efilab/product-guide.svg'
 import { Link, useHistory } from 'react-router-dom';
-import { IconButton } from '../Elements/Buttons';
-import styled from 'styled-components';
+
 
 const categories = [
     {
@@ -46,11 +45,6 @@ const categories = [
     },
 ]
 
-const CustomIconButton = styled(IconButton)`
-    padding: 4px 40px;
-    background-color: #ff5e4d;
-    color: #ffffff;
-`
 
 export default function EfilabTopNavbar() {
     const history = useHistory()
@@ -60,7 +54,7 @@ export default function EfilabTopNavbar() {
             <div className="navbar-nav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/who-we-are">Tous les articles</Link>
+                        <Link className="nav-link" to="/efilab">Tous les articles</Link>
                     </li>
                     {
                         categories.map((item, index) => (
@@ -78,7 +72,7 @@ export default function EfilabTopNavbar() {
                     }
                 </ul>
             </div>
-            <CustomIconButton>Efisens.fr</CustomIconButton>
+            <button className="btn btn-custom btn-orange">Efisens.fr</button>
         </nav>
     )
 }

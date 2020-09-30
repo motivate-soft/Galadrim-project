@@ -4,6 +4,7 @@ import RightBottomImage from '../../../assets/Images/who-we-are/vert.svg'
 import { GrayButton } from '../Elements/Buttons';
 import { Circle, Square } from '../Elements/Drawings';
 
+
 export default function TalentsTechs() {
     return (
         <div id="talents" className="section talents-techs-block">
