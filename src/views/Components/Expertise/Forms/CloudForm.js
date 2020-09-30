@@ -9,7 +9,8 @@ const defaultColor = '#FF5E4D'
 
 const SubmitButton = styled(CustomButton)`
     display: block;
-    width: 229px;
+    max-width: 229px;
+    width: 100%;
     margin: 28px auto;
     padding-top: 5px;
     padding-bottom: 5px;
