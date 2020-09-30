@@ -16,7 +16,7 @@ const Section = styled.div`
     @media (max-width: 768px){
         height: 760px;
         background-position: left bottom, right bottom, right bottom;
-        background-size: 0 0, 295px 247px, 0 0;
+        background-size: 0 0, 240px 225px, 0 0;
     }
 `
 

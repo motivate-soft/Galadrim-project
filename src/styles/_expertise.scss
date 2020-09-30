@@ -179,7 +179,7 @@
     @media (max-width: 768px) {
         .block-title {
             margin-top: 69px;
-            margin-bottom: 36px;
+            margin-bottom: 150px;
         }
         .cloud-card-box,
         .workplace-card-box {
@@ -188,6 +188,7 @@
             }
         }
         .security-rgpd-background {
+            background-position: 100% 120px;
         }
     }
 }
