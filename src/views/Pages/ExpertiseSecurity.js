@@ -292,7 +292,7 @@ export default function ExpertiseSecurity() {
             </ExpertiseBanner >
             <ExpertiseStickyNavbar color={color} navItem={fixedNavItems[2]} />
             <SecurityFeature color={color} items={expertiseFeature} />
-            <OurApproach color={color} {...approachData} />
+            <OurApproach color={color} {...approachData} isSecurityPage/>
             <TechChoices color={color} logos={techChoicesLogos} />
             <SecurityMSP />
             <Resources color={color} leftMini={OrangeMiniImage} rightMini={GreenMiniImage} articles={articleData} />

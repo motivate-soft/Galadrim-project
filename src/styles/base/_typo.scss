@@ -262,6 +262,20 @@ a {
     }
 }
 
+.underline {
+    width: 32px;
+    height: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -51px;
+    background-color: $color-darkblue;
+    @media only screen and (max-width: 768px) {
+        margin: 0 auto;
+        width: 15px;
+        height: 3px;
+    }
+}
+
 .text-primary {
     font-family: Gilroy-Bold;
     font-size: 18px;
@@ -274,11 +288,13 @@ a {
 }
 
 .banner-text {
+    text-align: left;
     font-family: Gilroy-Bold;
     font-size: 18px;
     line-height: 1.17;
     color: #001a5c;
     @media screen and (max-width: 768px) {
+        text-align: center;
         font-size: 16px;
         margin-left: auto;
         margin-right: auto;
@@ -316,6 +332,7 @@ a {
     font-family: "Gilroy-ExtraBold";
     @media only screen and (max-width: 768px) {
         font-size: 24px;
+        font-family: "Gilroy-Bold";
     }
     @media only screen and (min-width: 768px) {
         font-size: 30px;
@@ -337,6 +354,7 @@ a {
     font-family: "Gilroy-ExtraBold";
     @media only screen and (max-width: 768px) {
         font-size: 24px;
+        font-family: "Gilroy-Bold";
     }
     @media only screen and (min-width: 768px) {
         font-size: 30px;

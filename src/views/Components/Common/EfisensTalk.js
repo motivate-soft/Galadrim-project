@@ -75,15 +75,15 @@ export default function EfisensTalk() {
             <TriangleBackgroundImage src={GrayTriangleBackground} alt="Triangle background" />
             <LeftRoundedSemiCircle color="#00D2B5" className="position-absolute top-right transform-top-50" />
             <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
-            <div className="container my-auto">
-                <div className="efisens-talk-form-container">
+            <div className="container">
+                <div className="custom-container">
                     <img src={OrangeSquare} alt="Left Square" className="left-top" />
                     <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
-                    <div className="efisens-talk-form">
+                    <div className="bg-white">
                         <div className="row text-darkblue">
                             <div className="col-12 col-md-12 col-lg-6 col-12">
                                 <h2>Efisens Talks</h2>
-                                <Underline mobileWidth={15} mobileHeight={3} />
+                                <div className="underline" />
                                 <p className="text-primary">Nos experts partagent régulièrement leur savoir faire et leur expérience. Apprenez, lisez et servez -vous !</p>
                             </div>
                             <div className="col-12 col-md-12 col-lg-5 offset-lg-1">
@@ -96,6 +96,7 @@ export default function EfisensTalk() {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

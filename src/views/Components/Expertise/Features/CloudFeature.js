@@ -1,10 +1,13 @@
 import React from 'react'
+import GreenMiniImage from '../../../../assets/Shapes/drawings/green-mini.svg'
 
 
 export default function CloudFeature(props) {
     const { color, items } = props
+
     return (
-        <div className='section expertise-feature'>
+        <div className='section expertise-feature cloud-mini-background'>
+            <img src={GreenMiniImage} alt="green mini" className="bottom-left transform-bottom-50" />
             <div className="container">
                 <div className="custom-container">
                     <div className="features-wrapper">

@@ -1,11 +1,12 @@
 import React from 'react'
 
+import GreenMiniImage from '../../../assets/Shapes/drawings//green-mini.svg'
+import OrangeMiniImage from '../../../assets/Shapes/drawings//orange-mini.svg'
 import ArticleImage from "../../../assets/Images/demo.jpg"
+
 import ArticleCard from './ArticleCard';
 import VGradientCard from './VGradientCard';
 import { RightRoundedSemiCircle } from '../Elements/Drawings'
-import { OrangeButton } from '../Elements/Buttons';
-import styled from 'styled-components';
 
 
 const articles = [
@@ -43,50 +44,43 @@ const articles = [
     },
 ]
 
-const ArticleButton = styled(OrangeButton)`
-    padding: 4px 45px;
-    margin-left: auto;
-    margin-right: auto;
-    @media (max-width: 768px){
-        margin-top: 0 !important;
-    }
-`
 
 export default function EfisensLab(props) {
     return (
         <div className="section home-articles-block">
-            <RightRoundedSemiCircle className="position-absolute bottom-left transform-bottom-50" />
+            <RightRoundedSemiCircle className="bottom-left transform-bottom-50" />
             <div className="container text-center text-darkblue">
                 <h1 className="block-title">Efisens Lab</h1>
-                <p className="text-primary mx-auto">Restez à l'écoute du marché IT à l'aide de nos articles les plus récents en matière d'expérience digitale, de nos études de cas et de nos conseils pratiques.</p>
             </div>
             <div className="container">
-                {/* <img src={OrangeDotsGrid} className='position-absolute bottom-left' alt='orange grid dots' />
-                <img src={GreenDotsGrid} className='position-absolute top-right' alt='green grid dots' /> */}
-                <div className="articles-container ">
-                    <div className="row">
-                        {
-                            articles.map((article, index) => (
-                                <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
-                                    <VGradientCard
-                                        maxWidth={325}
-                                    >
-                                        <ArticleCard
-                                            key={index}
-                                            id={article.id}
-                                            title={article.title}
-                                            text={article.text}
-                                            img={article.image}
-                                            tag={article.tag}
-                                            time={article.time} />
-                                    </VGradientCard>
-                                </div>
-                            ))
-                        }
+                <div className="custom-container">
+                    <img src={OrangeMiniImage} className='bottom-left' alt='orange mini' />
+                    <img src={GreenMiniImage} className='top-right' alt='green mini' />
+                    <div className="articles-container ">
+                        <div className="row">
+                            {
+                                articles.map((article, index) => (
+                                    <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
+                                        <VGradientCard
+                                            maxWidth={325}
+                                        >
+                                            <ArticleCard
+                                                key={index}
+                                                id={article.id}
+                                                title={article.title}
+                                                text={article.text}
+                                                img={article.image}
+                                                tag={article.tag}
+                                                time={article.time} />
+                                        </VGradientCard>
+                                    </div>
+                                ))
+                            }
+                        </div>
                     </div>
                 </div>
+                <button className="btn btn-custom btn-orange">Vois tous les articles</button>
             </div>
-            <ArticleButton top={32} bottom={84}>Vois tous les articles</ArticleButton>
         </div>
     )
 

@@ -46,23 +46,20 @@ const items = [
 export default function Expertise() {
     return (
         <div className="section home-expertise-block">
-            <RightRoundedSemiCircle className="position-absolute bottom-left transform-bottom-50" color={"#001b5d"} />
+            <RightRoundedSemiCircle className="bottom-left transform-bottom-50" color={"#001b5d"} />
             <div className="container">
-                <div className="text-darkblue text-center w-75 mx-auto d-flex flex-column">
-                    <h1 className="block-title">Nos expertises</h1>
-                    <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
-                </div>
-                <div className="features-block">
-                    <img src={BlueDotsGrid} alt="blue grid dots" className="position-absolute top-left" />
-                    <img src={GreenDotsGrid} alt="green grid dots" className="position-absolute bottom-right" />
-                    <img src={OrangeRounded} alt="orange rounded" className="position-absolute top-right" />
+                <h1 className="block-title">Nos expertises</h1>
+                <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
+
+                <div className="custom-container">
+                    <img src={BlueDotsGrid} alt="blue mini" className="top-left" />
+                    <img src={GreenDotsGrid} alt="green mini" className="bottom-right" />
+                    <img src={OrangeRounded} alt="orange rounded" className="top-right" />
                     <div className="row">
                         {
                             items.map((item, index) => (
                                 <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
-                                    <DGradientCard
-                                    // maxWidth={300}
-                                    >
+                                    <DGradientCard maxWidth={276} >
                                         <ExpertiseCard
                                             id={item.id}
                                             active={item.active}

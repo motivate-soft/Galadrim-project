@@ -58,13 +58,13 @@ const OrangeCircle = styled.img`
 `
 
 export default function OurApproach(props) {
-    const { color, title, subtitle, approaches, bottomCircleImage, bottomMiniImage } = props
-
+    const { color, title, subtitle, approaches, bottomCircleImage, bottomMiniImage, isSecurityPage } = props
+    const subtitleClass = isSecurityPage !== undefined ? 'expertise-approach-subtitle' : ''
     return (
         <div className="section expertise-approach">
+            <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title}</h1>
+            <p className={color ? `block-subtitle text-${color} ${subtitleClass}` : `block-subtitle text-green ${subtitleClass}`}>{subtitle}</p>
             <div className="container">
-                <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>{title}</h1>
-                <p className={color ? `block-subtitle text-${color}` : `block-subtitle text-green`}>{subtitle}</p>
                 <div className="approach-container">
                     <TopSquare className={color ? `bg-${color}` : `bg-green`} />
                     <BottomMini src={bottomMiniImage} />
