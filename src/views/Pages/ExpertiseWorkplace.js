@@ -21,9 +21,9 @@ import MobilityImage from '../../assets/Images/expertise/modern-workplace/mobili
 import CollaborationImage from '../../assets/Images/expertise/modern-workplace/collaboration.svg';
 
 // approaches
-// import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
+import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
 import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-// import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
 import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
 // import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
@@ -303,8 +303,8 @@ export default function ExpertiseWorkplace() {
             <WorkplaceFeature color={color} items={expertiseFeature} />
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
-            <Resources color={color} articles={articleData} />
-            <OurExpertise color={color} col={4} data={expertiseData} />
+            <Resources color={color} leftMini={GreenMiniImage} rightMini={BlueMiniImage} articles={articleData} />
+            <OurExpertise color={color} leftMini={BlueMiniImage} rightMini={OrangeMiniImage} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )

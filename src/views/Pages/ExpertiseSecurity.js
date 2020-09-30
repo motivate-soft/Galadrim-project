@@ -21,8 +21,8 @@ import ScalabilityImage from '../../assets/Images/expertise/security/surveillanc
 
 // approaches
 import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-// import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-// import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
+import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
 import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
 // import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
 
@@ -295,8 +295,8 @@ export default function ExpertiseSecurity() {
             <OurApproach color={color} {...approachData} />
             <TechChoices color={color} logos={techChoicesLogos} />
             <SecurityMSP />
-            <Resources color={color} articles={articleData} />
-            <OurExpertise color={color} data={expertiseData} />
+            <Resources color={color} leftMini={OrangeMiniImage} rightMini={GreenMiniImage} articles={articleData} />
+            <OurExpertise color={color} leftMini={BlueMiniImage} rightMini={GreenMiniImage} data={expertiseData} />
             <FooterBanner color={color} title={footerBannerTitle} />
         </>
     )

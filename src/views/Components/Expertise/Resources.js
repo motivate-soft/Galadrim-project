@@ -1,23 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
 import VGradientCard from '../Common/VGradientCard';
 import ArticleCard from '../Common/ArticleCard';
-import { BlockTitle } from './../Elements/Typography';
-import { CustomButton } from '../Elements/Buttons';
 import { RightRoundedSemiCircle } from '../Elements/Drawings';
 
-const ResourceButton = styled(CustomButton)`
-    display: block;
-    color: #ffffff;
-    margin: 37px auto 75px;
-    padding: 5px 45px;
-    @media (max-width: 768px){
-        margin: 0 auto 54px;
-    }
-`
 
 export default function Resources(props) {
-    const { color, articles } = props
+    const { color, rightMini, leftMini, articles } = props
 
     return (
         <div className="section expertise-resources-block">
@@ -25,6 +13,8 @@ export default function Resources(props) {
             <div className="container">
                 <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Ressources associées</h1>
                 <div className="articles-container">
+                    <img src={rightMini} alt="right mini" className="top-right" />
+                    <img src={leftMini} alt="left mini" className="bottom-left" />
                     <div className="row">
                         {
                             articles.map((article, index) => (
@@ -45,7 +35,7 @@ export default function Resources(props) {
                     </div>
                 </div>
             </div>
-            <ResourceButton className={color ? `bg-${color}` : 'bg-green'}>Voir tous les articles</ResourceButton>
+            <button className={color ? `btn btn-custom btn-${color}` : 'btn btn-custom btn-green'}>Voir tous les articles</button>
         </div>
     )
 }
