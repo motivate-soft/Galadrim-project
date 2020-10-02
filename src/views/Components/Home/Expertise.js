@@ -4,8 +4,8 @@ import Cloud from '../../../assets/Images/home/cloud.svg'
 import Workspace from '../../../assets/Images/home/modern-workplace.svg'
 import Security from '../../../assets/Images/home/security.svg'
 import ServiceManage from '../../../assets/Images/home/managed-service.svg'
-import BlueDotsGrid from "../../../assets/Shapes/drawings/blue-mini.svg"
-import GreenDotsGrid from "../../../assets/Shapes/drawings/green-mini.svg"
+import BlueMini from "../../../assets/Shapes/drawings/blue-mini.svg"
+import GreenMini from "../../../assets/Shapes/drawings/green-mini.svg"
 import OrangeRounded from "../../../assets/Shapes/rounded-angle/orange-rounded@3x.png"
 import ExpertiseCard from '../Common/ExpertiseCard';
 import DGradientCard from '../Common/DGradientCard';
@@ -47,30 +47,28 @@ export default function Expertise() {
     return (
         <div className="section home-expertise-block">
             <RightRoundedSemiCircle className="bottom-left transform-bottom-50" color={"#001b5d"} />
-            <div className="container">
-                <h1 className="block-title">Nos expertises</h1>
-                <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
+            <h1 className="block-title">Nos expertises</h1>
+            <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
 
-                <div className="custom-container">
-                    <img src={BlueDotsGrid} alt="blue mini" className="top-left" />
-                    <img src={GreenDotsGrid} alt="green mini" className="bottom-right" />
-                    <img src={OrangeRounded} alt="orange rounded" className="top-right" />
-                    <div className="row">
-                        {
-                            items.map((item, index) => (
-                                <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
-                                    <DGradientCard maxWidth={276} >
-                                        <ExpertiseCard
-                                            id={item.id}
-                                            active={item.active}
-                                            img={item.img}
-                                            title={item.title}
-                                            text={item.text} />
-                                    </DGradientCard>
-                                </div>
-                            ))
-                        }
-                    </div>
+            <div className="container">
+                <img src={BlueMini} alt="blue mini" className="top-left" />
+                <img src={GreenMini} alt="green mini" className="bottom-right" />
+                <img src={OrangeRounded} alt="orange rounded" className="top-right" />
+                <div className="row">
+                    {
+                        items.map((item, index) => (
+                            <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
+                                <DGradientCard maxWidth={276} >
+                                    <ExpertiseCard
+                                        id={item.id}
+                                        active={item.active}
+                                        img={item.img}
+                                        title={item.title}
+                                        text={item.text} />
+                                </DGradientCard>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div >

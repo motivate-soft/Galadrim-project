@@ -42,22 +42,20 @@ export default function Approach() {
         <div id="approach" className="section who-approach-block">
             <RightRoundedSemiCircle color="#001a5c" className="bottom-left transform-bottom-50" />
             <div className="container">
-                <div className="custom-container">
-                    <h5>Comment procédons-nous ?</h5>
-                    <h1 className="block-title">Nous basons notre approche technologique sur 3 Piliers </h1>
-                    <div className="row">
-                        {
-                            items.map((item, index) => (
-                                <div key={index} className="col-12 col-md-12 col-lg-4 mb-4">
-                                    <div className="who-approach-card">
-                                        <img src={item.image} alt={item.title} />
-                                        <CardTitle color={item.color} top={0} bottom={34}>{item.title}</CardTitle>
-                                        <p>{item.text}</p>
-                                    </div>
+                <h5>Comment procédons-nous ?</h5>
+                <h1 className="block-title">Nous basons notre approche technologique sur 3 Piliers </h1>
+                <div className="row">
+                    {
+                        items.map((item, index) => (
+                            <div key={index} className="col-12 col-md-12 col-lg-4 mb-4">
+                                <div className="who-approach-card">
+                                    <img src={item.image} alt={item.title} />
+                                    <CardTitle color={item.color} top={0} bottom={34}>{item.title}</CardTitle>
+                                    <p>{item.text}</p>
                                 </div>
-                            ))
-                        }
-                    </div>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div>

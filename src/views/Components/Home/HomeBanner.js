@@ -8,9 +8,9 @@ const text = "Co-construire votre écosystème IT avec des solutions accessibles
 export default function HomeBanner() {
     return (
         <div className="section home-banner">
-            <div className="container h-100 d-flex align-content-center ">
+            <div className="container h-100 d-flex">
                 <div className="row my-auto">
-                    <div className="col-md-6 col-12 my-auto text-darkblue">
+                    <div className="col-md-6 col-12">
                         <h1 className="banner-title-lg">{title}</h1>
                         <div className="underline" />
                         <p className="banner-text">{text}</p>

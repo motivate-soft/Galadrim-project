@@ -43,27 +43,25 @@ export default function ExpertiseFeatures(props) {
     return (
         <div className='section expertise-features'>
             <div className="container">
-                <div className="custom-container">
-                    <div className={`${featureBackground ? "features-wrapper security-rgpd-background" : "features-wrapper"}`}>
-                        <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Notre Expertise</h1>
-                        <div className="row">
-                            {
-                                items.map((item, index) => (
-                                    <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
-                                        <FeatureCard>
-                                            <img className="mx-auto" src={item.img} alt={item.title} />
-                                            <h4 className={`text-${color ? color : `green`} text-center`}>{item.title}</h4>
-                                            <h5 className="text-darkblue text-center mx-auto">{item.subtitle}</h5>
-                                            {
-                                                item.details.map((text, idx) => (
-                                                    <li key={idx}>{text}</li>
-                                                ))
-                                            }
-                                        </FeatureCard>
-                                    </div>
-                                ))
-                            }
-                        </div>
+                <div className={`${featureBackground ? "features-wrapper security-rgpd-background" : "features-wrapper"}`}>
+                    <h1 className={color ? `block-title text-${color}` : `block-title text-green`}>Notre Expertise</h1>
+                    <div className="row">
+                        {
+                            items.map((item, index) => (
+                                <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                                    <FeatureCard>
+                                        <img className="mx-auto" src={item.img} alt={item.title} />
+                                        <h4 className={`text-${color ? color : `green`} text-center`}>{item.title}</h4>
+                                        <h5 className="text-darkblue text-center mx-auto">{item.subtitle}</h5>
+                                        {
+                                            item.details.map((text, idx) => (
+                                                <li key={idx}>{text}</li>
+                                            ))
+                                        }
+                                    </FeatureCard>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

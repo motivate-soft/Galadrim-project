@@ -76,27 +76,24 @@ export default function EfisensTalk() {
             <LeftRoundedSemiCircle color="#00D2B5" className="position-absolute top-right transform-top-50" />
             <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
             <div className="container">
-                <div className="custom-container">
-                    <img src={OrangeSquare} alt="Left Square" className="left-top" />
-                    <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
-                    <div className="bg-white">
-                        <div className="row text-darkblue">
-                            <div className="col-12 col-md-12 col-lg-6 col-12">
-                                <h2>Efisens Talks</h2>
-                                <div className="underline" />
-                                <p className="text-primary">Nos experts partagent régulièrement leur savoir faire et leur expérience. Apprenez, lisez et servez -vous !</p>
+                <img src={OrangeSquare} alt="Left Square" className="left-top" />
+                <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
+                <div className="bg-white">
+                    <div className="row text-darkblue">
+                        <div className="col-12 col-md-12 col-lg-6 col-12">
+                            <h2>Efisens Talks</h2>
+                            <div className="underline" />
+                            <p className="text-primary">Nos experts partagent régulièrement leur savoir faire et leur expérience. Apprenez, lisez et servez -vous !</p>
+                        </div>
+                        <div className="col-12 col-md-12 col-lg-5 offset-lg-1">
+                            <h6 className="text-green mt-0 mb-2 heading-sm text-uppercase">S’inscrire à notre newsletter</h6>
+                            <div className="d-flex">
+                                <CustomInput placeholder="votre email" />
+                                <InputAppend ><MdSend /></InputAppend>
                             </div>
-                            <div className="col-12 col-md-12 col-lg-5 offset-lg-1">
-                                <h6 className="text-green mt-0 mb-2 heading-sm text-uppercase">S’inscrire à notre newsletter</h6>
-                                <div className="d-flex">
-                                    <CustomInput placeholder="votre email" />
-                                    <InputAppend ><MdSend /></InputAppend>
-                                </div>
-                                <p className="text-xxs text-lightgray my-0">En renseignant votre adresse email, vous accepter de recevoir nos derniers articles de blog par courrier électronique et vous prenez connaissances de notre politique de protection des données personnelles. Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant ici.</p>
-                            </div>
+                            <p className="text-xxs text-lightgray my-0">En renseignant votre adresse email, vous accepter de recevoir nos derniers articles de blog par courrier électronique et vous prenez connaissances de notre politique de protection des données personnelles. Vous pouvez vous désinscrire à tout moment à l'aide des liens de désinscription ou en nous contactant ici.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

@@ -11,26 +11,25 @@ body {
 
 .container {
     position: relative;
-    @media only screen and (min-width: 1200px) {
+
+    .row {
+        margin-right: -12px;
+        margin-left: -12px;
+    }
+    [class*="col-"] {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    @include media-breakpoint-up(md) {
+        padding: 0;
+    }
+    @include media-breakpoint-up(xl) {
         max-width: 1176px !important;
     }
-    @media only screen and (min-width: 1400px) {
-        max-width: 1300px !important;
-    }
-}
-
-.custom-container {
-    max-width: 1176px;
-    width: 100%;
-    margin: auto;
-}
-.row {
-    margin-right: -12px;
-    margin-left: -12px;
-}
-[class*="col-"] {
-    padding-left: 12px;
-    padding-right: 12px;
 }
 
 .section {
@@ -46,7 +45,7 @@ button {
     cursor: pointer !important;
 }
 
-.bg-white{
+.bg-white {
     background-color: #ffffff !important;
 }
 

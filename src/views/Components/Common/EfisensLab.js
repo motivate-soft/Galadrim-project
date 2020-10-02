@@ -53,30 +53,28 @@ export default function EfisensLab(props) {
                 <h1 className="block-title">Efisens Lab</h1>
             </div>
             <div className="container">
-                <div className="custom-container">
+                <div className="articles-container">
                     <img src={OrangeMiniImage} className='bottom-left' alt='orange mini' />
                     <img src={GreenMiniImage} className='top-right' alt='green mini' />
-                    <div className="articles-container ">
-                        <div className="row">
-                            {
-                                articles.map((article, index) => (
-                                    <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
-                                        <VGradientCard
-                                            maxWidth={325}
-                                        >
-                                            <ArticleCard
-                                                key={index}
-                                                id={article.id}
-                                                title={article.title}
-                                                text={article.text}
-                                                img={article.image}
-                                                tag={article.tag}
-                                                time={article.time} />
-                                        </VGradientCard>
-                                    </div>
-                                ))
-                            }
-                        </div>
+                    <div className="row">
+                        {
+                            articles.map((article, index) => (
+                                <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
+                                    <VGradientCard
+                                        maxWidth={325}
+                                    >
+                                        <ArticleCard
+                                            key={index}
+                                            id={article.id}
+                                            title={article.title}
+                                            text={article.text}
+                                            img={article.image}
+                                            tag={article.tag}
+                                            time={article.time} />
+                                    </VGradientCard>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
                 <button className="btn btn-custom btn-orange">Vois tous les articles</button>
