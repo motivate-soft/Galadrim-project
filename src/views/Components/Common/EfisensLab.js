@@ -52,8 +52,8 @@ export default function EfisensLab(props) {
             <div className="container text-center text-darkblue">
                 <h1 className="block-title">Efisens Lab</h1>
             </div>
-            <div className="container">
-                <div className="articles-container">
+            <div className="articles-container">
+                <div className="container">
                     <img src={OrangeMiniImage} className='bottom-left' alt='orange mini' />
                     <img src={GreenMiniImage} className='top-right' alt='green mini' />
                     <div className="row">
@@ -61,7 +61,7 @@ export default function EfisensLab(props) {
                             articles.map((article, index) => (
                                 <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
                                     <VGradientCard
-                                        maxWidth={325}
+                                        // maxWidth={276}
                                     >
                                         <ArticleCard
                                             key={index}
@@ -77,8 +77,8 @@ export default function EfisensLab(props) {
                         }
                     </div>
                 </div>
-                <button className="btn btn-custom btn-orange">Vois tous les articles</button>
             </div>
+            <button className="btn btn-custom btn-orange">Vois tous les articles</button>
         </div>
     )
 

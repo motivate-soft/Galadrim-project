@@ -6,29 +6,8 @@ import GreenTriangle from "../../../assets/Shapes/others/green-top-left-triangle
 import GrayTriangleBackground from "../../../assets/Images/home/gray-background.png";
 // import IconSend from "../../../assets/Icons/send@3x.png"
 import { MdSend } from "react-icons/md"
-import { LeftRoundedSemiCircle } from '../Elements/Drawings';
 import { BaseInput } from './../Elements/CustomInput';
 
-
-const TriangleBackgroundImage = styled.img`
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 394px;
-`
-
-export const Underline = styled.div`
-    width: 32px;
-    height: 7px;
-    margin-left: -32px;
-    background-color: #001b5d;
-    @media (max-width: 768px){
-        width: 15px;
-        height: 3px;
-        margin-left: -15px;
-    }
-`
 
 const CustomInput = styled(BaseInput)`
     font-size: 16px;
@@ -72,14 +51,14 @@ const InputAppend = styled.div`
 export default function EfisensTalk() {
     return (
         <div className="section home-efisens-talk-block">
-            <TriangleBackgroundImage src={GrayTriangleBackground} alt="Triangle background" />
-            <LeftRoundedSemiCircle color="#00D2B5" className="position-absolute top-right transform-top-50" />
-            <LeftRoundedSemiCircle color="#FF5E4D" className="position-absolute bottom-right transform-bottom-50" />
-            <div className="container">
-                <img src={OrangeSquare} alt="Left Square" className="left-top" />
-                <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
-                <div className="bg-white">
-                    <div className="row text-darkblue">
+            <img src={GrayTriangleBackground} alt="gray background" className="top-left gray-background" />
+            <div className="left-rounded-semi-circle bg-green top-right transform-top-50" />
+            <div className="left-rounded-semi-circle bg-orange bottom-right transform-bottom-50" />
+            <div className="efisens-talk-form">
+                <div className="container">
+                    <img src={OrangeSquare} alt="Left Square" className="left-top" />
+                    <img src={GreenTriangle} alt="Right Triangle" className="right-bottom" />
+                    <div className="row text-darkblue bg-white">
                         <div className="col-12 col-md-12 col-lg-6 col-12">
                             <h2>Efisens Talks</h2>
                             <div className="underline" />

@@ -1,59 +1,59 @@
 import React from 'react'
 
-import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
-import OurApproach from '../Components/Expertise/OurApproach';
-import Resources from '../Components/Expertise/Resources';
-import TechChoices from '../Components/Expertise/TechChoices';
-import OurExpertise from '../Components/Expertise/OurExpertise';
-import FooterBanner from '../Components/Common/FooterBanner';
+import ExpertiseBanner from '../../Components/Expertise/ExpertiseBanner'
+import OurApproach from '../../Components/Expertise/OurApproach';
+import Resources from '../../Components/Expertise/Resources';
+import TechChoices from '../../Components/Expertise/TechChoices';
+import OurExpertise from '../../Components/Expertise/OurExpertise';
+import FooterBanner from '../../Components/Common/FooterBanner';
 
 // banner 
-import TitleImage from '../../assets/Images/expertise/security/security-white.svg';
-import Background1 from '../../assets/Images/expertise/security/security-background-1.svg'
-import Background2 from '../../assets/Images/expertise/security/security-background-2.svg'
-import Background3 from '../../assets/Images/expertise/security/security-background-3.svg'
+import TitleImage from '../../../assets/Images/expertise/security/security-white.svg';
+import Background1 from '../../../assets/Images/expertise/security/security-background-1.svg'
+import Background2 from '../../../assets/Images/expertise/security/security-background-2.svg'
+import Background3 from '../../../assets/Images/expertise/security/security-background-3.svg'
 
 
 // expertise feature images
-import OptimizationImage from '../../assets/Images/expertise/security/padlock.svg';
-import AdaptableImage from '../../assets/Images/expertise/security/encryption.svg';
-import ScalabilityImage from '../../assets/Images/expertise/security/surveillance.svg';
+import OptimizationImage from '../../../assets/Images/expertise/security/padlock.svg';
+import AdaptableImage from '../../../assets/Images/expertise/security/encryption.svg';
+import ScalabilityImage from '../../../assets/Images/expertise/security/surveillance.svg';
 
 // approaches
-import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
-import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
-// import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
+import GreenMiniImage from '../../../assets/Shapes/drawings/green-mini.svg';
+import BlueMiniImage from '../../../assets/Shapes/drawings/blue-mini.svg';
+import OrangeMiniImage from '../../../assets/Shapes/drawings/orange-mini.svg';
+import OrangeCircleImage from '../../../assets/Shapes/others/orange-circle.svg'
+// import BlueCircleImage from '../../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
-import MicrosoftLogo from '../../assets/Images/expertise/security/logo-microsoft@3x.png';
-import CiscoLogo from '../../assets/Images/expertise/security/logo-cisco@3x.png';
-import SentinelLogo from '../../assets/Images/expertise/security/logo-sentinel@3x.jpg';
-import FortinetLogo from '../../assets/Images/expertise/security/logo-fortinet@3x.png';
-import JuniperLogo from '../../assets/Images/expertise/security/logo-juniper@3x.png';
-import SonicLogo from '../../assets/Images/expertise/security/logo-sonic@3x.png';
-import RuckusLogo from '../../assets/Images/expertise/security/logo-ruckus@3x.png';
+import MicrosoftLogo from '../../../assets/Images/expertise/security/logo-microsoft@3x.png';
+import CiscoLogo from '../../../assets/Images/expertise/security/logo-cisco@3x.png';
+import SentinelLogo from '../../../assets/Images/expertise/security/logo-sentinel@3x.jpg';
+import FortinetLogo from '../../../assets/Images/expertise/security/logo-fortinet@3x.png';
+import JuniperLogo from '../../../assets/Images/expertise/security/logo-juniper@3x.png';
+import SonicLogo from '../../../assets/Images/expertise/security/logo-sonic@3x.png';
+import RuckusLogo from '../../../assets/Images/expertise/security/logo-ruckus@3x.png';
 
 
 // OurExpertise
-import Cloud from '../../assets/Images/home/cloud.svg'
-import Workplace from '../../assets/Images/home/modern-workplace.svg'
-// import Security from '../../assets/Images/home/security.svg'
-import ManagedService from '../../assets/Images/home/managed-service.svg'
+import Cloud from '../../../assets/Images/home/cloud.svg'
+import Workplace from '../../../assets/Images/home/modern-workplace.svg'
+// import Security from '../../../assets/Images/home/security.svg'
+import ManagedService from '../../../assets/Images/home/managed-service.svg'
 
-import ArticleImage from "../../assets/Images/demo.jpg"
-import SecurityForm from '../Components/Expertise/Forms/SecurityForm';
-import SecurityMSP from '../Components/Expertise/SecurityMSP';
+import ArticleImage from '../../../assets/Images/demo.jpg'
+import SecurityForm from '../../Components/Expertise/Forms/SecurityForm';
+import SecurityMSP from '../../Components/Expertise/SecurityMSP';
 
 // Fixed Navbar
-import ExpertiseStickyNavbar from '../Components/Expertise/ExpertiseStickyNavbar';
-import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
-import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
-import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
-import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseStickyNavbar from '../../Components/Expertise/ExpertiseStickyNavbar';
+import CloudWhite from '../../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../../assets/Images/expertise/security/security-white.svg'
 // import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
-import SecurityFeature from './../Components/Expertise/Features/SecurityFeature';
+import SecurityFeature from '../../Components/Expertise/Features/SecurityFeature';
 
 
 

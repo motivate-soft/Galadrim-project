@@ -49,28 +49,30 @@ export default function Expertise() {
             <RightRoundedSemiCircle className="bottom-left transform-bottom-50" color={"#001b5d"} />
             <h1 className="block-title">Nos expertises</h1>
             <p className="block-subtitle">Nous agrégeons les meilleures technologies IT pour qu’elles puissent vous être bénéfiques au quotidien. </p>
-
-            <div className="container">
-                <img src={BlueMini} alt="blue mini" className="top-left" />
-                <img src={GreenMini} alt="green mini" className="bottom-right" />
-                <img src={OrangeRounded} alt="orange rounded" className="top-right" />
-                <div className="row">
-                    {
-                        items.map((item, index) => (
-                            <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
-                                <DGradientCard maxWidth={276} >
-                                    <ExpertiseCard
-                                        id={item.id}
-                                        active={item.active}
-                                        img={item.img}
-                                        title={item.title}
-                                        text={item.text} />
-                                </DGradientCard>
-                            </div>
-                        ))
-                    }
+            <div className="expertise-container">
+                <div className="container">
+                    <img src={BlueMini} alt="blue mini" className="top-left" />
+                    <img src={GreenMini} alt="green mini" className="bottom-right" />
+                    <img src={OrangeRounded} alt="orange rounded" className="top-right" />
+                    <div className="row">
+                        {
+                            items.map((item, index) => (
+                                <div key={index} className="col-12 col-md-6 col-lg-3 mb-4">
+                                    <DGradientCard maxWidth={276} >
+                                        <ExpertiseCard
+                                            id={item.id}
+                                            active={item.active}
+                                            img={item.img}
+                                            title={item.title}
+                                            text={item.text} />
+                                    </DGradientCard>
+                                </div>
+                            ))
+                        }
+                    </div>
                 </div>
             </div>
+
         </div >
     );
 }

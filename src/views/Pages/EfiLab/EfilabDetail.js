@@ -1,15 +1,15 @@
 import React from 'react'
 
-import ArticleImage from "../../assets/Images/efilab/article1.jpg"
-import UserAvatar from "../../assets/Images/efilab/user.jpg"
-import ArticleSummaryBox from './../Components/Lab/ArticleSummaryBox';
-import ArticleDetailBox from '../Components/Lab/ArticleDetailBox';
-import EfisensTalk from "../Components/Lab/EfisensTalk";
-import Follow from '../Components/Lab/Follow';
+import ArticleImage from "../../../assets/Images/efilab/article1.jpg"
+import UserAvatar from "../../../assets/Images/efilab/user.jpg"
+import ArticleSummaryBox from '../../Components/Lab/ArticleSummaryBox';
+import ArticleDetailBox from '../../Components/Lab/ArticleDetailBox';
+import EfisensTalk from "../../Components/Lab/EfisensTalk";
+import Follow from '../../Components/Lab/Follow';
 
-import FooterBanner from '../Components/Common/FooterBanner';
-import EfilabStickyNav from '../Components/Lab/EfilabStickyNav';
-import EfilabTopNavbar from './../Components/Lab/EfilabTopNavbar';
+import FooterBanner from '../../Components/Common/FooterBanner';
+import EfilabStickyNav from '../../Components/Lab/EfilabStickyNav';
+import EfilabTopNavbar from '../../Components/Lab/EfilabTopNavbar';
 
 const article = {
     id: 1,

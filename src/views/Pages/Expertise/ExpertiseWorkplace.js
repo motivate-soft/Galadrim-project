@@ -1,60 +1,60 @@
 import React from 'react'
 
-import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
-import OurApproach from '../Components/Expertise/OurApproach';
-import Resources from '../Components/Expertise/Resources';
-import TechChoices from '../Components/Expertise/TechChoices';
-import OurExpertise from '../Components/Expertise/OurExpertise';
-import FooterBanner from '../Components/Common/FooterBanner';
+import ExpertiseBanner from '../../Components/Expertise/ExpertiseBanner'
+import OurApproach from '../../Components/Expertise/OurApproach';
+import Resources from '../../Components/Expertise/Resources';
+import TechChoices from '../../Components/Expertise/TechChoices';
+import OurExpertise from '../../Components/Expertise/OurExpertise';
+import FooterBanner from '../../Components/Common/FooterBanner';
 
 // banner 
 
-import TitleImage from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg';
-import Background1 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-1.svg'
-import Background2 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-2.svg'
-import Background3 from '../../assets/Images/expertise/modern-workplace/modern-workplace-background-3.svg'
+import TitleImage from '../../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg';
+import Background1 from '../../../assets/Images/expertise/modern-workplace/modern-workplace-background-1.svg'
+import Background2 from '../../../assets/Images/expertise/modern-workplace/modern-workplace-background-2.svg'
+import Background3 from '../../../assets/Images/expertise/modern-workplace/modern-workplace-background-3.svg'
 
 
 // expertise feature images
-import ProductivityImage from '../../assets/Images/expertise/modern-workplace/productivity.svg';
-import MobilityImage from '../../assets/Images/expertise/modern-workplace/mobility.svg';
-import CollaborationImage from '../../assets/Images/expertise/modern-workplace/collaboration.svg';
+import ProductivityImage from '../../../assets/Images/expertise/modern-workplace/productivity.svg';
+import MobilityImage from '../../../assets/Images/expertise/modern-workplace/mobility.svg';
+import CollaborationImage from '../../../assets/Images/expertise/modern-workplace/collaboration.svg';
 
 // approaches
-import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
-import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
-// import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
+import GreenMiniImage from '../../../assets/Shapes/drawings/green-mini.svg';
+import BlueMiniImage from '../../../assets/Shapes/drawings/blue-mini.svg';
+import OrangeMiniImage from '../../../assets/Shapes/drawings/orange-mini.svg';
+import OrangeCircleImage from '../../../assets/Shapes/others/orange-circle.svg'
+// import BlueCircleImage from '../../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
-import MicrosoftImage from '../../assets/Images/expertise/modern-workplace/microsoft@3x.png';
-import MicrosoftTeamsImage from '../../assets/Images/expertise/modern-workplace/microsoft-teams@3x.png';
-import CXImage from '../../assets/Images/expertise/modern-workplace/3-cx-logo-svg@3x.png';
-import ColtImage from '../../assets/Images/expertise/modern-workplace/colt-logo-svg@3x.png';
-import DellImage from '../../assets/Images/expertise/modern-workplace/dell-logo@3x.png';
-import HpImage from '../../assets/Images/expertise/modern-workplace/hp-logo@3x.png';
-import OrangeImage from '../../assets/Images/expertise/modern-workplace/orange-logo@3x.png';
-import PolyImage from '../../assets/Images/expertise/modern-workplace/poly-logo@3x.png';
-import SfrImage from '../../assets/Images/expertise/modern-workplace/sfr-logo@3x.png';
+import MicrosoftImage from '../../../assets/Images/expertise/modern-workplace/microsoft@3x.png';
+import MicrosoftTeamsImage from '../../../assets/Images/expertise/modern-workplace/microsoft-teams@3x.png';
+import CXImage from '../../../assets/Images/expertise/modern-workplace/3-cx-logo-svg@3x.png';
+import ColtImage from '../../../assets/Images/expertise/modern-workplace/colt-logo-svg@3x.png';
+import DellImage from '../../../assets/Images/expertise/modern-workplace/dell-logo@3x.png';
+import HpImage from '../../../assets/Images/expertise/modern-workplace/hp-logo@3x.png';
+import OrangeImage from '../../../assets/Images/expertise/modern-workplace/orange-logo@3x.png';
+import PolyImage from '../../../assets/Images/expertise/modern-workplace/poly-logo@3x.png';
+import SfrImage from '../../../assets/Images/expertise/modern-workplace/sfr-logo@3x.png';
 
 // OurExpertise
-import Cloud from '../../assets/Images/home/cloud.svg'
-// import Workplace from '../../assets/Images/home/modern-workplace.svg'
-import Security from '../../assets/Images/home/security.svg'
-import ManagedService from '../../assets/Images/home/managed-service.svg'
+import Cloud from '../../../assets/Images/home/cloud.svg'
+// import Workplace from '../../../assets/Images/home/modern-workplace.svg'
+import Security from '../../../assets/Images/home/security.svg'
+import ManagedService from '../../../assets/Images/home/managed-service.svg'
 
-import ArticleImage from "../../assets/Images/demo.jpg"
-import WorkplaceForm from '../Components/Expertise/Forms/WorkplaceForm';
+import ArticleImage from '../../../assets/Images/demo.jpg'
+import WorkplaceForm from '../../Components/Expertise/Forms/WorkplaceForm';
 
 // Fixed Navbar
-import ExpertiseStickyNavbar from '../Components/Expertise/ExpertiseStickyNavbar';
-import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
-import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
-import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
-import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseStickyNavbar from '../../Components/Expertise/ExpertiseStickyNavbar';
+import CloudWhite from '../../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../../assets/Images/expertise/security/security-white.svg'
 // import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
-import WorkplaceFeature from './../Components/Expertise/Features/WorkplaceFeature';
+import WorkplaceFeature from '../../Components/Expertise/Features/WorkplaceFeature';
 
 // const color = "#001A5C"
 const color = "darkblue"

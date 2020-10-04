@@ -12,10 +12,8 @@ export default function App() {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <Switch>
-          <DefaultLayout />
-          {/* <Route path="/" render={props => <DefaultLayout {...props} />} /> */}
-        </Switch>
+        <DefaultLayout />
+        {/* <Route path="/" render={props => <DefaultLayout {...props} />} /> */}
       </BrowserRouter>
     </React.Fragment>
   )

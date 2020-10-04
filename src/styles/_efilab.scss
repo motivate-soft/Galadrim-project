@@ -669,13 +669,14 @@
             }
         }
         .keywords-block {
-            display: block;
+            display: flex;
             margin: 39px auto 30px;
-            justify-content: space-around;
+            justify-content: flex-start;
+            width: 100%;
             .keyword {
                 margin-right: 19px;
                 width: 76px;
-                height: 24px;
+                padding: 4px;
                 border-radius: 4px;
                 background: rgba(105, 111, 135, 0.1);
                 color: #696f87;

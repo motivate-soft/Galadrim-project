@@ -66,9 +66,9 @@ export default function ArticleDetailBox(props) {
                     <div className="keywords-block">
                         {
                             keywords.map((item, index) => (
-                                <div key={index} className="btn btn-custom keyword">
+                                <button key={index} className="btn btn-custom keyword">
                                     {item}
-                                </div>))
+                                </button>))
                         }
                     </div>
                     <Author id={user.id} name={user.name} avatar={user.avatar} pubDate={date} />

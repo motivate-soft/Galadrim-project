@@ -1,56 +1,56 @@
 import React from 'react'
 
-import ExpertiseBanner from '../Components/Expertise/ExpertiseBanner'
-import OurApproach from '../Components/Expertise/OurApproach';
-import TechChoices from '../Components/Expertise/TechChoices';
-import Resources from '../Components/Expertise/Resources';
-import FooterBanner from '../Components/Common/FooterBanner';
-import CloudForm from '../Components/Expertise/Forms/CloudForm';
-import OurExpertise from '../Components/Expertise/OurExpertise';
+import ExpertiseBanner from '../../Components/Expertise/ExpertiseBanner'
+import OurApproach from '../../Components/Expertise/OurApproach';
+import TechChoices from '../../Components/Expertise/TechChoices';
+import Resources from '../../Components/Expertise/Resources';
+import FooterBanner from '../../Components/Common/FooterBanner';
+import CloudForm from '../../Components/Expertise/Forms/CloudForm';
+import OurExpertise from '../../Components/Expertise/OurExpertise';
 
 // banner 
-import TitleImage from '../../assets/Images/expertise/cloud/cloud-white.svg';
-import Background1 from '../../assets/Images/expertise/cloud/cloud-background-1.svg'
-import Background2 from '../../assets/Images/expertise/cloud/cloud-background-2.svg'
-import Background3 from '../../assets/Images/expertise/cloud/cloud-background-3.svg'
+import TitleImage from '../../../assets/Images/expertise/cloud/cloud-white.svg';
+import Background1 from '../../../assets/Images/expertise/cloud/cloud-background-1.svg'
+import Background2 from '../../../assets/Images/expertise/cloud/cloud-background-2.svg'
+import Background3 from '../../../assets/Images/expertise/cloud/cloud-background-3.svg'
 
 
 // expertise feature images
-import OptimizationImage from '../../assets/Images/expertise/cloud/maximisation.svg';
-import AdaptableImage from '../../assets/Images/expertise/cloud/adaptabilit.svg';
-import ScalabilityImage from '../../assets/Images/expertise/cloud/volution.svg';
+import OptimizationImage from '../../../assets/Images/expertise/cloud/maximisation.svg';
+import AdaptableImage from '../../../assets/Images/expertise/cloud/adaptabilit.svg';
+import ScalabilityImage from '../../../assets/Images/expertise/cloud/volution.svg';
 
 // approaches
-import GreenMiniImage from '../../assets/Shapes/drawings/green-mini.svg';
-import BlueMiniImage from '../../assets/Shapes/drawings/blue-mini.svg';
-import OrangeMiniImage from '../../assets/Shapes/drawings/orange-mini.svg';
+import GreenMiniImage from '../../../assets/Shapes/drawings/green-mini.svg';
+import BlueMiniImage from '../../../assets/Shapes/drawings/blue-mini.svg';
+import OrangeMiniImage from '../../../assets/Shapes/drawings/orange-mini.svg';
 
-import OrangeCircleImage from '../../assets/Shapes/others/orange-circle.svg'
-// import BlueCircleImage from '../../assets/Shapes/others/blue-circle.svg'
+import OrangeCircleImage from '../../../assets/Shapes/others/orange-circle.svg'
+// import BlueCircleImage from '../../../assets/Shapes/others/blue-circle.svg'
 
 // TechChoices
-import MicrosoftImage from '../../assets/Images/expertise/cloud/microsoft@3x.png';
-import AzureImage from '../../assets/Images/expertise/cloud/microsoft-azure-logo.png';
-import NutanixImage from '../../assets/Images/expertise/cloud/nutanix.png';
-import AwsImage from '../../assets/Images/expertise/cloud/amazon-web-services-logo@3x.png';
-import VmwareImage from '../../assets/Images/expertise/cloud/v-mware-logo.png';
-import EquinixImage from '../../assets/Images/expertise/cloud/equinix-logo-1200-x-627.png';
+import MicrosoftImage from '../../../assets/Images/expertise/cloud/microsoft@3x.png';
+import AzureImage from '../../../assets/Images/expertise/cloud/microsoft-azure-logo.png';
+import NutanixImage from '../../../assets/Images/expertise/cloud/nutanix.png';
+import AwsImage from '../../../assets/Images/expertise/cloud/amazon-web-services-logo@3x.png';
+import VmwareImage from '../../../assets/Images/expertise/cloud/v-mware-logo.png';
+import EquinixImage from '../../../assets/Images/expertise/cloud/equinix-logo-1200-x-627.png';
 
 // OurExpertise
-// import Cloud from '../../assets/Images/home/cloud.svg'
-import Workplace from '../../assets/Images/home/modern-workplace.svg'
-import Security from '../../assets/Images/home/security.svg'
-import ManagedService from '../../assets/Images/home/managed-service.svg'
+// import Cloud from '../../../assets/Images/home/cloud.svg'
+import Workplace from '../../../assets/Images/home/modern-workplace.svg'
+import Security from '../../../assets/Images/home/security.svg'
+import ManagedService from '../../../assets/Images/home/managed-service.svg'
 
-import ArticleImage from "../../assets/Images/demo.jpg"
+import ArticleImage from '../../../assets/Images/demo.jpg'
 
 // Fixed Navbar
-import CloudWhite from '../../assets/Images/expertise/cloud/cloud-white.svg'
-import WorkplaceWhite from '../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
-import ManagedServiceWhite from '../../assets/Images/expertise/managed-services/managed-service.svg'
-import SecurityWhite from '../../assets/Images/expertise/security/security-white.svg'
-import ExpertiseStickyNavbar from './../Components/Expertise/ExpertiseStickyNavbar';
-import CloudFeature from './../Components/Expertise/Features/CloudFeature';
+import CloudWhite from '../../../assets/Images/expertise/cloud/cloud-white.svg'
+import WorkplaceWhite from '../../../assets/Images/expertise/modern-workplace/modern-workplace-white.svg'
+import ManagedServiceWhite from '../../../assets/Images/expertise/managed-services/managed-service.svg'
+import SecurityWhite from '../../../assets/Images/expertise/security/security-white.svg'
+import ExpertiseStickyNavbar from '../../Components/Expertise/ExpertiseStickyNavbar';
+import CloudFeature from '../../Components/Expertise/Features/CloudFeature';
 // import ExpertiseStickyTopNavbar from '../Components/Expertise/ExpertiseStickyTopNavbar';
 
 const theme = {

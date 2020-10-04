@@ -13,11 +13,6 @@ export default function EfisensShop() {
                     <img src={HomeGroup} alt="HomeGroup" className="fg-img" />
                 </div>
             </div>
-
-            {/* <div className="shop-background">
-                    <img src={BackGroup} alt="BackGroup" className="w-100 mx-auto my-auto bg-img" />
-                    <img src={HomeGroup} alt="HomeGroup" className="fg-img" />
-                </div> */}
         </div>
     )
 }

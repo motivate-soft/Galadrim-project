@@ -35,8 +35,8 @@ export default function HomeNews() {
     };
     return (
         <div className="section home-news-block">
-            <div className="container">
-                <div className="slider-container">
+            <div className="slider-container">
+                <div className="container">
                     <div>
                         <h2 className="block-title-sm text-darkblue">Efisens Actu</h2>
                         <Slider {...settings}>
@@ -56,9 +56,7 @@ export default function HomeNews() {
                         <Link to="/efilab/1"><button className="btn btn-custom">En savoir plus</button></Link>
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
 }
