@@ -208,7 +208,7 @@
     .block-subtitle {
         margin: 0 auto 30px;
     }
-    .expertise-approach-subtitle{
+    .expertise-approach-subtitle {
         max-width: 576px;
     }
     .approach-container {
@@ -318,15 +318,24 @@
     }
     .articles-container {
         position: relative;
-        margin-top: 0;
-        padding: 22px 34px 15px 20px;
-        .bottom-left {
-            width: 111px;
-            height: 135px;
-        }
-        .top-right {
-            width: 111px;
-            height: 135px;
+        margin: 0 auto;
+        padding: 22px 34px 0;
+        max-width: max-content;
+        .container {
+            position: relative;
+            padding: 0;
+            .bottom-left {
+                bottom: 0;
+                left: -20px;
+                width: 111px;
+                height: 135px;
+            }
+            .top-right {
+                top: -22px;
+                right: -34px;
+                width: 111px;
+                height: 135px;
+            }
         }
     }
     button {
@@ -340,16 +349,23 @@
             margin: 50px auto 36px;
         }
         .articles-container {
-            padding-top: 22px;
-            padding-left: 22px;
-            padding-right: 22px;
-            padding-bottom: 0;
-            .bottom-left {
-                top: 0 !important;
-            }
-            .top-right {
-                top: unset;
-                bottom: 0 !important;
+            .container {
+                .bottom-left {
+                    top: -21px;
+                    left: -21px;
+                    width: 111px;
+                    height: 135px;
+                }
+                .top-right {
+                    top: unset;
+                    bottom: 0;
+                    right: -21px;
+                    width: 111px;
+                    height: 135px;
+                }
+                .articles-container {
+                    position: relative;
+                }
             }
         }
     }
