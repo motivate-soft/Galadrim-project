@@ -36,12 +36,6 @@ npm install
 npm start
 ```
 
-## Author
-
-👤 **Robert Popescu Octavian**
-
-* Github: [@robert-upwork](https://github.com/robert-upwork)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
